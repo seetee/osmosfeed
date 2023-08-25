@@ -324,6 +324,643 @@
           "imageUrl": "https://www.zyxware.com/sites/default/files/styles/og_image/public/2022-12/SDGs.png?itok=7hh_IOKB"
         }
       ]
+    },
+    {
+      "title": "as days pass by",
+      "feedUrl": "https://www.kryogenix.org/days/feed",
+      "siteUrl": "https://www.kryogenix.org/days/",
+      "articles": [
+        {
+          "id": "tag:www.kryogenix.org,2023-08-06:/days/2023/08/06/numeric-pangrams/",
+          "author": "sil",
+          "description": "A few days ago I had an interesting maths thought which I dropped on Mastodon:\nToday’s interesting maths problem to think about: what is the largest total from a correct maths equation which uses any number of +*- symbols, one =, and the digits from 0-9 once each?\nFor example, if we’re doing it for digits 0-4, then 40-12=3 isn’t valid (answer is wrong), 1+3=4 isn’t valid (correct but doesn’t use 0 or 2), 12/4+0=3 is good, and 4*3+0=12 is better (because 12 is higher than 3).\nIs there an interesting way to solve this which isn’t “have a computer check all possibilities”?\n\n\nDisappointingly, I couldn’t think of an interesting way to solve it which wasn’t “have a computer check all the possibilities”, so I had a computer check all the possibilities.\nI’m not publishing the script, because it’s not very good; in particular, I’m sure this is the sort of thing that someone could make run in a few seconds if they were clever. I wasn’t feeling clever, so I brute-forced it and just left it to run for a few hours.\nThese are numeric pangrams, I suppose you might call them. A pangram is a sentence which uses all the letters in the alphabet at least once: there are a bunch of famous English examples, starting with “The quick brown fox jumps over a lazy dog” and getting less and less comprehensible as they get shorter. Vexing quizzes show up a lot. Anyway, after I thought up the term “numeric pangrams” I checked to see if anybody else had already done so and of course Greg Ross at Futility Closet did sixteen years ago. His examples are the digits from 1-9, though (his biggest example is 4 × 1963 = 7852), and my 0-9 suggestion allows for much larger total values.\nAnyway, the best equations I could come up with which use all the digits from 0-9 were:\n42 × 8 × 91 = 30576\n46 × 715 = 32890\n4 × 9127 = 36508\n63 × 927 = 58401\n7 × 9403 = 65821\nThis is the sort of thing that Henry Dudeney would have cleverly done by hand. Python is the way forward, of course.",
+          "link": "https://www.kryogenix.org/days/2023/08/06/numeric-pangrams/",
+          "publishedOn": "2023-08-06T13:11:00.000Z",
+          "wordCount": 732,
+          "title": "Numeric Pangrams",
+          "imageUrl": "https://www.kryogenix.org/days/2023/08/06/numeric-pangrams/index.html.og_image.png"
+        }
+      ]
+    },
+    {
+      "title": "Articles on Smashing Magazine — For Web Designers And Developers",
+      "feedUrl": "https://www.smashingmagazine.com/feed/",
+      "siteUrl": "https://www.smashingmagazine.com/",
+      "articles": [
+        {
+          "id": "https://smashingmagazine.com/2023/08/improving-double-diamond-design-process/",
+          "author": "hello@smashingmagazine.com (Andy Budd)",
+          "description": "The so-called “Double Diamond” is a great way of visualizing an ideal design process — but it’s just not the way most companies deliver new projects or services. Andy Budd proposes a new “Double Diamond” idea that better aligns with the way work actually gets done and highlights the place where design has the most leverage.",
+          "link": "https://smashingmagazine.com/2023/08/improving-double-diamond-design-process/",
+          "publishedOn": "2023-08-25T11:00:00.000Z",
+          "wordCount": 5940,
+          "title": "Improving The Double Diamond Design Process",
+          "enclosure": {
+            "url": "http://files.smashing.media/articles/improving-double-diamond-design-process/improving-double-diamond-design-process.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://files.smashing.media/articles/improving-double-diamond-design-process/improving-double-diamond-design-process.jpg"
+        },
+        {
+          "id": "https://smashingmagazine.com/2023/08/interesting-ways-use-css-shadows/",
+          "author": "hello@smashingmagazine.com (Preethi Sam)",
+          "description": "We often think of shadows in CSS as something to reach for when we want to add depth to a design. But shadows can be used for more than depth. Let’s experiment with different shadows — two CSS properties and a filter — to make interesting hover effects, different text styles, and even casting shadows on other shadows.",
+          "link": "https://smashingmagazine.com/2023/08/interesting-ways-use-css-shadows/",
+          "publishedOn": "2023-08-23T15:00:00.000Z",
+          "wordCount": 4489,
+          "title": "A Few Interesting Ways To Use CSS Shadows For More Than Depth",
+          "enclosure": {
+            "url": "http://files.smashing.media/articles/interesting-ways-use-css-shadows/interesting-ways-use-css-shadows.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://files.smashing.media/articles/interesting-ways-use-css-shadows/interesting-ways-use-css-shadows.jpg"
+        },
+        {
+          "id": "https://smashingmagazine.com/2023/08/better-context-menus-safe-triangles/",
+          "author": "hello@smashingmagazine.com (Costa Alexoglou)",
+          "description": "Discover how to improve the user experience of nested menus and tackle a minor yet common issue with them when the user’s pointer leaves the menu item for a moment, and the nested menu goes away, requiring the user to re-hover and try again. A well-known concept called the “safe triangle” solves this problem.",
+          "link": "https://smashingmagazine.com/2023/08/better-context-menus-safe-triangles/",
+          "publishedOn": "2023-08-21T08:00:00.000Z",
+          "wordCount": 4640,
+          "title": "Better Context Menus With Safe Triangles",
+          "enclosure": {
+            "url": "http://files.smashing.media/articles/better-context-menus-safe-triangles/better-context-menus-safe-triangles.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://files.smashing.media/articles/better-context-menus-safe-triangles/better-context-menus-safe-triangles.jpg"
+        },
+        {
+          "id": "https://smashingmagazine.com/2023/08/methods-improving-drupal-largest-contentful-paint-core-web-vital/",
+          "author": "hello@smashingmagazine.com (Mike Herchel)",
+          "description": "The background image used in the hero component, which is slow to load, is a very common problem with any component that uses a large image file as a background image. In this article, Mike Herchel walks you through how to tackle this common performance issue using modern techniques.",
+          "link": "https://smashingmagazine.com/2023/08/methods-improving-drupal-largest-contentful-paint-core-web-vital/",
+          "publishedOn": "2023-08-15T10:00:00.000Z",
+          "wordCount": 4439,
+          "title": "Modern Methods For Improving Drupal’s Largest Contentful Paint Core Web Vital",
+          "enclosure": {
+            "url": "http://files.smashing.media/articles/methods-improving-drupal-largest-contentful-paint-core-web-vital/methods-improving-drupal-largest-contentful-paint-core-web-vital.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://files.smashing.media/articles/methods-improving-drupal-largest-contentful-paint-core-web-vital/methods-improving-drupal-largest-contentful-paint-core-web-vital.jpg"
+        },
+        {
+          "id": "https://smashingmagazine.com/2023/08/knip-automated-tool-find-unused-files-exports-dependencies/",
+          "author": "hello@smashingmagazine.com (Lars Kappert)",
+          "description": "Most of the projects have at least a few unused files, exports, and dependencies lying around, often because it’s difficult knowing when one thing relies on another and scary removing something you’re not sure is in use. Lars Kappert shares a tool he’s been working on that offers a solution.",
+          "link": "https://smashingmagazine.com/2023/08/knip-automated-tool-find-unused-files-exports-dependencies/",
+          "publishedOn": "2023-08-14T10:00:00.000Z",
+          "wordCount": 4742,
+          "title": "Knip: An Automated Tool For Finding Unused Files, Exports, And Dependencies",
+          "enclosure": {
+            "url": "http://files.smashing.media/articles/knip-automated-tool-find-unused-files-exports-dependencies/knip-automated-tool-find-unused-files-exports-dependencies.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://files.smashing.media/articles/knip-automated-tool-find-unused-files-exports-dependencies/knip-automated-tool-find-unused-files-exports-dependencies.jpg"
+        },
+        {
+          "id": "https://smashingmagazine.com/2023/08/designing-accessible-text-over-images-part2/",
+          "author": "hello@smashingmagazine.com (Hannah Milan)",
+          "description": "In part 2 of the series, Hannah Milan reviews various accessible text over images techniques for designing your content, including framing the image, soft-colored gradients technique, text styles and text position, solid color shapes, and use of colored backgrounds.",
+          "link": "https://smashingmagazine.com/2023/08/designing-accessible-text-over-images-part2/",
+          "publishedOn": "2023-08-11T13:00:00.000Z",
+          "wordCount": 5193,
+          "title": "Designing Accessible Text Over Images: Best Practices, Techniques And Resources (Part 2)",
+          "enclosure": {
+            "url": "http://files.smashing.media/articles/designing-accessible-text-over-images-part2/designing-accessible-text-over-images-part2.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://files.smashing.media/articles/designing-accessible-text-over-images-part2/designing-accessible-text-over-images-part2.jpg"
+        },
+        {
+          "id": "https://smashingmagazine.com/2023/08/running-page-speed-test-monitoring-versus-measuring/",
+          "author": "hello@smashingmagazine.com (Geoff Graham)",
+          "description": "What does your performance “stack” look like? There are all kinds of tools available for measuring page speed, but what data and assumptions do they use to measure performance? And speaking of *measuring* performance, there’s quite a difference between that and *monitoring* performance. Let’s dig in!",
+          "link": "https://smashingmagazine.com/2023/08/running-page-speed-test-monitoring-versus-measuring/",
+          "publishedOn": "2023-08-10T08:00:00.000Z",
+          "wordCount": 4415,
+          "title": "Running A Page Speed Test: Monitoring vs. Measuring",
+          "enclosure": {
+            "url": "http://files.smashing.media/articles/running-page-speed-test-monitoring-versus-measuring/running-page-speed-test-monitoring-versus-measuring.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://files.smashing.media/articles/running-page-speed-test-monitoring-versus-measuring/running-page-speed-test-monitoring-versus-measuring.jpg"
+        },
+        {
+          "id": "https://smashingmagazine.com/2023/08/friction-feature-machine-learning-algorithms/",
+          "author": "hello@smashingmagazine.com (Maximillian Piras)",
+          "description": "Friction often has a negative connotation in user experience design, but it actually has many benefits. Its best-known use case is mitigating unintended consequences in high-risk scenarios, yet it has a new place in the age of artificial intelligence. Adding strategic friction to interfaces can lead to profound efficiency gains in machine learning algorithms.",
+          "link": "https://smashingmagazine.com/2023/08/friction-feature-machine-learning-algorithms/",
+          "publishedOn": "2023-08-07T14:00:00.000Z",
+          "wordCount": 6413,
+          "title": "Using Friction As A Feature In Machine Learning Algorithms",
+          "enclosure": {
+            "url": "http://files.smashing.media/articles/friction-feature-machine-learning-algorithms/friction-feature-machine-learning-algorithms.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://files.smashing.media/articles/friction-feature-machine-learning-algorithms/friction-feature-machine-learning-algorithms.jpg"
+        },
+        {
+          "id": "https://smashingmagazine.com/2023/08/designing-accessible-text-over-images-part1/",
+          "author": "hello@smashingmagazine.com (Hannah Milan)",
+          "description": "In this two-part series of articles, Hannah Milan covers the best practices when using various accessible text over images techniques for designing your web and mobile app content.",
+          "link": "https://smashingmagazine.com/2023/08/designing-accessible-text-over-images-part1/",
+          "publishedOn": "2023-08-04T08:00:00.000Z",
+          "wordCount": 4979,
+          "title": "Designing Accessible Text Over Images: Best Practices, Techniques, And Resources (Part 1)",
+          "enclosure": {
+            "url": "http://files.smashing.media/articles/designing-accessible-text-over-images-part1/designing-accessible-text-over-images-part1.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://files.smashing.media/articles/designing-accessible-text-over-images-part1/designing-accessible-text-over-images-part1.jpg"
+        },
+        {
+          "id": "https://smashingmagazine.com/2023/08/optimize-performance-serve-global-audience/",
+          "author": "hello@smashingmagazine.com (Liran Cohen)",
+          "description": "Liran Cohen and the team at Bookaway, a travel booking service, dramatically improved their site’s performance by auditing Core Web Vitals. In this article, Liran shares his team’s process for auditing and monitoring Web Vitals and the effort it took to dramatically improve Bookaway’s performance — and the benefits that came with it.",
+          "link": "https://smashingmagazine.com/2023/08/optimize-performance-serve-global-audience/",
+          "publishedOn": "2023-08-03T10:00:00.000Z",
+          "wordCount": 6174,
+          "title": "How We Optimized Performance To Serve A Global Audience",
+          "enclosure": {
+            "url": "http://files.smashing.media/articles/optimize-performance-serve-global-audience/optimize-performance-serve-global-audience.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://files.smashing.media/articles/optimize-performance-serve-global-audience/optimize-performance-serve-global-audience.jpg"
+        },
+        {
+          "id": "https://smashingmagazine.com/2023/08/smashing-podcast-episode-64/",
+          "author": "hello@smashingmagazine.com (Drew McLellan)",
+          "description": "We’re talking about headless content management systems. What are they, and how do they differ from more traditional systems? Drew McLellan talks to Alvin Bryan to find out.",
+          "link": "https://smashingmagazine.com/2023/08/smashing-podcast-episode-64/",
+          "publishedOn": "2023-08-01T18:00:00.000Z",
+          "wordCount": 8212,
+          "title": "Smashing Podcast Episode 64 With Alvin Bryan: What Is A Headless CMS?",
+          "enclosure": {
+            "url": "http://files.smashing.media/articles/smashing-podcast-episode-64/smashing-podcast-episode-64.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "http://files.smashing.media/articles/smashing-podcast-episode-64/smashing-podcast-episode-64.png"
+        },
+        {
+          "id": "https://smashingmagazine.com/2023/08/css-accessibility-inclusion-user-choice/",
+          "author": "hello@smashingmagazine.com (Carie Fisher)",
+          "description": "In this article, Carie Fisher outlines which CSS media features are available for detecting user preferences and how they are used to design and build more inclusive user experiences.",
+          "link": "https://smashingmagazine.com/2023/08/css-accessibility-inclusion-user-choice/",
+          "publishedOn": "2023-08-01T11:00:00.000Z",
+          "wordCount": 5933,
+          "title": "CSS And Accessibility: Inclusion Through User Choice",
+          "enclosure": {
+            "url": "http://files.smashing.media/articles/css-accessibility-inclusion-user-choice/css-accessibility-inclusion-user-choice.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://files.smashing.media/articles/css-accessibility-inclusion-user-choice/css-accessibility-inclusion-user-choice.jpg"
+        },
+        {
+          "id": "https://smashingmagazine.com/2023/07/desktop-wallpaper-calendars-august-2023/",
+          "author": "hello@smashingmagazine.com (Cosima Mielke)",
+          "description": "New month, new wallpapers! In this post, you’ll find unique and inspiring wallpapers for August 2023. Created with love by the community for the community, they come in versions with and without a calendar. Enjoy!",
+          "link": "https://smashingmagazine.com/2023/07/desktop-wallpaper-calendars-august-2023/",
+          "publishedOn": "2023-07-31T09:50:00.000Z",
+          "wordCount": 5252,
+          "title": "Living In The Moment (August 2023 Wallpapers Edition)",
+          "enclosure": {
+            "url": "http://files.smashing.media/articles/desktop-wallpaper-calendars-august-2023/aug-23-summer-day-preview-opt.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "http://files.smashing.media/articles/desktop-wallpaper-calendars-august-2023/aug-23-summer-day-preview-opt.png"
+        },
+        {
+          "id": "https://smashingmagazine.com/2023/07/define-array-colors-css/",
+          "author": "hello@smashingmagazine.com (Temani Afif)",
+          "description": "Join Temani Afif on experiment with modern CSS features to create an array of colors. The goal is to define a comma-separated list of colors and iterate through them using an index.",
+          "link": "https://smashingmagazine.com/2023/07/define-array-colors-css/",
+          "publishedOn": "2023-07-28T10:00:00.000Z",
+          "wordCount": 4701,
+          "title": "How To Define An Array Of Colors With CSS",
+          "enclosure": {
+            "url": "http://files.smashing.media/articles/define-array-colors-css/define-array-colors-css.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://files.smashing.media/articles/define-array-colors-css/define-array-colors-css.jpg"
+        },
+        {
+          "id": "https://smashingmagazine.com/2023/07/artificial-intelligence-machine-learning-summarize-chat-conversations/",
+          "author": "hello@smashingmagazine.com (Joas Pambou)",
+          "description": "In this article, we’ll explore how to build a chat summarizer using the Cohere API and deploy it as a web application using Gradio.[ Cohere](https://cohere.com/) is an AI platform that provides state-of-the-art natural language processing models for a variety of tasks, including summarization. We’ll cover the steps involved in training the summarizer using sample chat conversations, interacting with the Cohere API to generate summaries, and creating a user-friendly interface using [Gradio](https://www.gradio.app/).",
+          "link": "https://smashingmagazine.com/2023/07/artificial-intelligence-machine-learning-summarize-chat-conversations/",
+          "publishedOn": "2023-07-27T15:00:00.000Z",
+          "wordCount": 4071,
+          "title": "How To Use Artificial Intelligence And Machine Learning To Summarize Chat Conversations",
+          "enclosure": {
+            "url": "http://files.smashing.media/articles/artificial-intelligence-machine-learning-summarize-chat-conversations/artificial-intelligence-machine-learning-summarize-chat-conversations.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://files.smashing.media/articles/artificial-intelligence-machine-learning-summarize-chat-conversations/artificial-intelligence-machine-learning-summarize-chat-conversations.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Life of a Developer",
+      "feedUrl": "http://www.thelins.se/johan/blog/feed/",
+      "siteUrl": "http://www.thelins.se/johan/blog",
+      "articles": [
+        {
+          "id": "http://www.thelins.se/johan/blog/?p=1439",
+          "author": "Johan Thelin",
+          "description": "As the first week of work and school comes to an end, I realized that this 100 days to offload is harder than predicted. I partly blame that I got the traditional going-back-to-work cold, but I guess I also have less time to spend on fun stuff like writing. This week has been about cleaning … Continue reading First Week of Work and School",
+          "link": "http://www.thelins.se/johan/blog/2023/08/first-week-of-work-and-school/",
+          "publishedOn": "2023-08-25T08:52:01.000Z",
+          "wordCount": 921,
+          "title": "First Week of Work and School",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.thelins.se/johan/blog/?p=1430",
+          "author": "Johan Thelin",
+          "description": "I’ve been using the PineTime with the InfiniTime firmware and GadgetBridge for quite a while now. I’ve had some battery issues with my first one so now I’ve ordered a bunch. The upside with that is that the kids now get a cool smartwatch each when going to school – and I didn’t have to … Continue reading PineTime ftw!",
+          "link": "http://www.thelins.se/johan/blog/2023/08/pinetime-ftw/",
+          "publishedOn": "2023-08-21T15:14:25.000Z",
+          "wordCount": 774,
+          "title": "PineTime ftw!",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.thelins.se/johan/blog/?p=1424",
+          "author": "Johan Thelin",
+          "description": "It’s weekend time, so I thought I’d write about a lighter theme, so why not music. This week I’ve been listening to the following albums. As you can tell, it’s still vacation (last week) so not much coding music, but music that requires a bit more attention. Still, I enjoy them all. This post is … Continue reading Weekend topic: Music",
+          "link": "http://www.thelins.se/johan/blog/2023/08/weekend-topic-music/",
+          "publishedOn": "2023-08-19T07:51:05.000Z",
+          "wordCount": 733,
+          "title": "Weekend topic: Music",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.thelins.se/johan/blog/?p=1421",
+          "author": "Johan Thelin",
+          "description": "I’ve thought a bit about learning a skill. How to progress. What the next steps are. This is probably because I’ve moved away from what I thought I used to be, career wise, to something else, and now I’m trying to determine what I will do when I grow up. The only way to learn … Continue reading The What, How and Why",
+          "link": "http://www.thelins.se/johan/blog/2023/08/the-what-how-and-why/",
+          "publishedOn": "2023-08-18T07:22:41.000Z",
+          "wordCount": 1291,
+          "title": "The What, How and Why",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.thelins.se/johan/blog/?p=1417",
+          "author": "Johan Thelin",
+          "description": "The feeling of this summer is one of catching up. Last summer was intense due to changes in the family followed by decease and death, leaving with me as a full time single parent. To my great joy, I’ve met someone who is special to me, so this summer has been about getting our families … Continue reading A summer of catching up",
+          "link": "http://www.thelins.se/johan/blog/2023/08/a-summer-of-catching-up/",
+          "publishedOn": "2023-08-17T13:59:49.000Z",
+          "wordCount": 910,
+          "title": "A summer of catching up",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.thelins.se/johan/blog/?p=1415",
+          "author": "Johan Thelin",
+          "description": "So, I’ve been procrastinating instead of jumping into the 100 Days To Offload bandwagon. This is something I’ve contemplated for a long time, so it is a bit ironic that I failed to get started. The idea is to just write, and that is what I intend to do from now on. Hopefully the 100 … Continue reading 100 Days to Offload – take off",
+          "link": "http://www.thelins.se/johan/blog/2023/08/100-days-to-offload-take-off/",
+          "publishedOn": "2023-08-16T14:30:17.000Z",
+          "wordCount": 885,
+          "title": "100 Days to Offload – take off",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": null,
+      "feedUrl": "https://www.helahisingen.se/feed/",
+      "siteUrl": "https://www.helahisingen.se",
+      "articles": [
+        {
+          "id": "https://www.helahisingen.se/?p=15788",
+          "author": "Markus Hankins",
+          "description": "Måndagen 21 augusti byttes skyltarna ut på MediaMarkt i Bäckebol. Nu står det Power i...",
+          "link": "https://www.helahisingen.se/ersatter-mediamarkt-hisingens-nya-eljatte-power-har-oppnat-mer-prisaggessiva/",
+          "publishedOn": "2023-08-24T03:00:00.000Z",
+          "wordCount": 1758,
+          "title": "Ersätter MediaMarkt: Hisingens nya eljätte Power har öppnat – ”mer prisaggessiva”",
+          "imageUrl": "https://usercontent.one/wp/www.helahisingen.se/wp-content/uploads/2023/08/Collage-Copy-2-–-kopia-1.png"
+        },
+        {
+          "id": "https://www.helahisingen.se/?p=15790",
+          "author": "Markus Hankins",
+          "description": "Det skulle bli Göteborgs stads ”stora” gåva till göteborgarna inför 400-årsfirandet av staden i Frihamnen....",
+          "link": "https://www.helahisingen.se/superbadet-skulle-bli-fin-present-till-goteborgarna-men-blev-sommarens-superfiasko-i-frihamnen/",
+          "publishedOn": "2023-08-23T08:34:54.000Z",
+          "wordCount": 1771,
+          "title": "”Superbadet” skulle bli fin present till göteborgarna – men blev sommarens superfiasko i Frihamnen",
+          "imageUrl": "https://usercontent.one/wp/www.helahisingen.se/wp-content/uploads/2023/08/Collage-Copy-2-–-kopia.png"
+        },
+        {
+          "id": "https://www.helahisingen.se/?p=15774",
+          "author": "Markus Hankins",
+          "description": "Här byggs läktarna som ska slå alla tiders publikrekord för fotbollen i Torslanda. 23 augusti...",
+          "link": "https://www.helahisingen.se/har-byggs-arenan-som-kommer-sla-alla-tiders-publikrekord-for-fotboll-i-torslanda/",
+          "publishedOn": "2023-08-21T11:08:01.000Z",
+          "wordCount": 2301,
+          "title": "Här byggs arenan som kommer slå alla tiders publikrekord för fotboll i Torslanda",
+          "imageUrl": "https://usercontent.one/wp/www.helahisingen.se/wp-content/uploads/2023/08/1-scaled.jpeg"
+        },
+        {
+          "id": "https://www.helahisingen.se/?p=15765",
+          "author": "Markus Hankins",
+          "description": "När Göteborg ska visas upp på den nationella scenen är det vanligt att Göteborgs Hamn...",
+          "link": "https://www.helahisingen.se/aftonbladets-kupp-mot-goteborg-bildsatte-400-arsfirandet-med-raffinaderi-pa-hisingen/",
+          "publishedOn": "2023-08-18T11:12:23.000Z",
+          "wordCount": 1709,
+          "title": "Aftonbladets kupp mot Göteborg – bildsatte 400-årsfirandet med raffinaderi på Hisingen",
+          "imageUrl": "https://usercontent.one/wp/www.helahisingen.se/wp-content/uploads/2023/08/Skärmavbild-2023-08-18-kl.-10.29.49-1.png"
+        },
+        {
+          "id": "https://www.helahisingen.se/?p=15754",
+          "author": "Markus Hankins",
+          "description": "Chalmers planerar för en jätteutbyggnad omkring sitt campus på Lindholmen. Tanken är att bygga in...",
+          "link": "https://www.helahisingen.se/sa-planerar-chalmers-en-jatte-expansion-pa-hisingen-bostader-butiker-garage/",
+          "publishedOn": "2023-08-18T08:10:28.000Z",
+          "wordCount": 1883,
+          "title": "Så planerar Chalmers en jätte-expansion på Hisingen: *Bostäder *Butiker *Garage",
+          "imageUrl": "https://usercontent.one/wp/www.helahisingen.se/wp-content/uploads/2023/08/Namnlös-1.png"
+        },
+        {
+          "id": "https://www.helahisingen.se/?p=15704",
+          "author": "Markus Hankins",
+          "description": "Har du beställt kläder online som inte passade och blev liggande i byrålådan? Har du...",
+          "link": "https://www.helahisingen.se/ovantade-draget-fran-backebol-bjuder-in-till-kladbytardagar-5-plagg-per-besokare/",
+          "publishedOn": "2023-07-27T08:56:55.000Z",
+          "wordCount": 1816,
+          "title": "Oväntade draget från Bäckebol – bjuder in till ”Klädbytardagar”: 5 plagg per besökare",
+          "imageUrl": "https://usercontent.one/wp/www.helahisingen.se/wp-content/uploads/2023/07/Collage-Copy-2-–-kopia-kopiera-1.png"
+        }
+      ]
+    },
+    {
+      "title": "JW.ORG Newsroom",
+      "feedUrl": "https://www.jw.org/en/news/rss/FullNewsRSS/feed.xml",
+      "siteUrl": "https://www.jw.org/en/news/rss/FullNewsRSS/feed.xml",
+      "articles": [
+        {
+          "id": "afc7547fb68a9339613e60022ddb13a7",
+          "author": null,
+          "description": "In this update, a Governing Body member shares an encouraging interview with Negede Teklemariam.",
+          "link": "https://www.jw.org/en/news/region/global/2023-Governing-Body-Update-6/",
+          "publishedOn": "2023-08-25T00:00:00.000Z",
+          "wordCount": 725,
+          "title": "NEWS RELEASES | 2023 Governing Body Update #6",
+          "imageUrl": "https://assetsnffrgf-a.akamaihd.net/assets/m/702023018/univ/art/702023018_univ_sqr_lg.jpg"
+        },
+        {
+          "id": "cf5415d0c10249cdb8b14dac800085a9",
+          "author": null,
+          "description": "",
+          "link": "https://www.jw.org/en/news/region/global/The-Four-Gospels-Released-in-the-Aukan-Language/",
+          "publishedOn": "2023-08-23T00:00:00.000Z",
+          "wordCount": 839,
+          "title": "NEWS RELEASES | The Four Gospels Released in the Aukan Language",
+          "imageUrl": "https://assetsnffrgf-a.akamaihd.net/assets/m/702023109/univ/art/702023109_univ_sqr_lg.jpg"
+        },
+        {
+          "id": "14aec8b8818deae61e5ab5ce0cb08f0e",
+          "author": null,
+          "description": "",
+          "link": "https://www.jw.org/en/news/region/russia/I-Am-Only-Growing-Stronger/",
+          "publishedOn": "2023-08-23T00:00:00.000Z",
+          "wordCount": 904,
+          "title": "NEWS RELEASES | “I Am Only Growing Stronger”",
+          "imageUrl": "https://assetsnffrgf-a.akamaihd.net/assets/m/702023130/univ/art/702023130_univ_sqr_lg.jpg"
+        },
+        {
+          "id": "003aabed038e241bf353752a94b99635",
+          "author": null,
+          "description": "",
+          "link": "https://www.jw.org/en/news/region/dominican-republic/Dominican-Republic-Branch-Office-Opens-New-Visitors-Center/",
+          "publishedOn": "2023-08-22T00:00:00.000Z",
+          "wordCount": 877,
+          "title": "Dominican Republic Branch Office Opens New Visitors’ Center",
+          "imageUrl": "https://assetsnffrgf-a.akamaihd.net/assets/m/702023238/univ/art/702023238_univ_sqr_lg.jpg"
+        },
+        {
+          "id": "0a9f26e540a8a32bc8087b97a2630376",
+          "author": null,
+          "description": "",
+          "link": "https://www.jw.org/en/news/region/mozambique/Book-of-Matthew-Released-in-Phimbi/",
+          "publishedOn": "2023-08-18T00:00:00.000Z",
+          "wordCount": 856,
+          "title": "NEWS RELEASES | Book of Matthew Released in Phimbi",
+          "imageUrl": "https://assetsnffrgf-a.akamaihd.net/assets/m/702023199/univ/art/702023199_univ_sqr_lg.jpg"
+        },
+        {
+          "id": "3681257a8ccae4ba2fd8402fdeab488d",
+          "author": null,
+          "description": "",
+          "link": "https://www.jw.org/en/news/region/france/Public-Witnessing-at-International-Tall-Ship-Festival-in-Rouen-France/",
+          "publishedOn": "2023-08-18T00:00:00.000Z",
+          "wordCount": 887,
+          "title": "NEWS RELEASES | Public Witnessing at International Tall Ship Festival in Rouen, France",
+          "imageUrl": "https://assetsnffrgf-a.akamaihd.net/assets/m/702023209/univ/art/702023209_univ_sqr_lg.jpg"
+        },
+        {
+          "id": "6727bcf15e421c6435009899421e8539",
+          "author": null,
+          "description": "",
+          "link": "https://www.jw.org/en/news/region/russia/We-Are-All-United/",
+          "publishedOn": "2023-08-16T00:00:00.000Z",
+          "wordCount": 987,
+          "title": "NEWS RELEASES | “We Are All United”",
+          "imageUrl": "https://assetsnffrgf-a.akamaihd.net/assets/m/702023165/univ/art/702023165_univ_sqr_lg.jpg"
+        },
+        {
+          "id": "6000efdc7e6a2833b3432b7b04f6c683",
+          "author": null,
+          "description": "",
+          "link": "https://www.jw.org/en/news/region/united-states/Wildfires-Devastate-Parts-of-the-Hawaiian-Islands-USA/",
+          "publishedOn": "2023-08-11T00:00:00.000Z",
+          "wordCount": 829,
+          "title": "NEWS RELEASES | Wildfires Devastate Parts of the Hawaiian Islands, U.S.A.",
+          "imageUrl": "https://assetsnffrgf-a.akamaihd.net/assets/m/702023246/univ/art/702023246_univ_sqr_lg.jpg"
+        },
+        {
+          "id": "d572730d45004abd3804304b958592de",
+          "author": null,
+          "description": "",
+          "link": "https://www.jw.org/en/news/region/russia/Determined-to-Remain-Joyful-Despite-Persecution/",
+          "publishedOn": "2023-08-10T00:00:00.000Z",
+          "wordCount": 1649,
+          "title": "NEWS RELEASES | Determined to Remain Joyful Despite Persecution",
+          "imageUrl": "https://assetsnffrgf-a.akamaihd.net/assets/m/702023064/univ/art/702023064_univ_sqr_lg.jpg"
+        },
+        {
+          "id": "57d2a468e00bc2fd5120d24bca371e71",
+          "author": null,
+          "description": "",
+          "link": "https://www.jw.org/en/news/region/nigeria/New-Theocratic-School-Facilities-Open-in-Nigeria/",
+          "publishedOn": "2023-08-09T00:00:00.000Z",
+          "wordCount": 877,
+          "title": "NEWS RELEASES | New Theocratic School Facilities Open in Nigeria",
+          "imageUrl": "https://assetsnffrgf-a.akamaihd.net/assets/m/702023189/univ/art/702023189_univ_sqr_lg.jpg"
+        },
+        {
+          "id": "5f128141caf296c0f30487475592efe9",
+          "author": null,
+          "description": "",
+          "link": "https://www.jw.org/en/news/region/ethiopia/Book-of-Matthew-Released-in-Sidama-and-Wolaita/",
+          "publishedOn": "2023-08-08T00:00:00.000Z",
+          "wordCount": 1079,
+          "title": "NEWS RELEASES | Book of Matthew Released in Sidama and Wolaita",
+          "imageUrl": "https://assetsnffrgf-a.akamaihd.net/assets/m/702023176/univ/art/702023176_univ_sqr_lg.jpg"
+        },
+        {
+          "id": "215c65bdc2642ced180ff1d592029a61",
+          "author": null,
+          "description": "",
+          "link": "https://www.jw.org/en/news/region/south-korea/Renovations-Completed-at-Korea-Bethel/",
+          "publishedOn": "2023-08-07T00:00:00.000Z",
+          "wordCount": 885,
+          "title": "NEWS RELEASES | Renovations Completed at Korea Bethel",
+          "imageUrl": "https://assetsnffrgf-a.akamaihd.net/assets/m/702023223/univ/art/702023223_univ_sqr_lg.jpg"
+        },
+        {
+          "id": "853737c4fd5061ace741f9dbc01fd7d8",
+          "author": null,
+          "description": "",
+          "link": "https://www.jw.org/en/news/region/philippines/Super-Typhoon-Doksuri-Strikes-the-Philippines/",
+          "publishedOn": "2023-08-07T00:00:00.000Z",
+          "wordCount": 782,
+          "title": "NEWS RELEASES | Super Typhoon Doksuri Strikes the Philippines",
+          "imageUrl": "https://assetsnffrgf-a.akamaihd.net/assets/m/702023236/univ/art/702023236_univ_sqr_lg.jpg"
+        },
+        {
+          "id": "016484083f83e3197b63c9167d39823a",
+          "author": null,
+          "description": "",
+          "link": "https://www.jw.org/en/news/region/italy/Extreme-Weather-Strikes-Northern-Italy-and-Island-of-Sicily/",
+          "publishedOn": "2023-08-04T00:00:00.000Z",
+          "wordCount": 921,
+          "title": "NEWS RELEASES | Extreme Weather Strikes Northern Italy and Island of Sicily",
+          "imageUrl": "https://assetsnffrgf-a.akamaihd.net/assets/m/702023237/univ/art/702023237_univ_sqr_lg.jpg"
+        },
+        {
+          "id": "0d319231b843bfd3dc75000e2c9ea930",
+          "author": null,
+          "description": "",
+          "link": "https://www.jw.org/en/news/region/angola/The-New-World-Translation-Is-Released-in-Nyaneka/",
+          "publishedOn": "2023-08-04T00:00:00.000Z",
+          "wordCount": 955,
+          "title": "NEWS RELEASES | The New World Translation Is Released in Nyaneka",
+          "imageUrl": "https://assetsnffrgf-a.akamaihd.net/assets/m/702023068/univ/art/702023068_univ_sqr_lg.jpg"
+        },
+        {
+          "id": "063f630d93c3c4366a10123ade580f68",
+          "author": null,
+          "description": "",
+          "link": "https://www.jw.org/en/news/region/sudan/Spiritual-Provisions-Sustain-Brothers-and-Sisters-Fleeing-Violence-in-Sudan/",
+          "publishedOn": "2023-08-03T00:00:00.000Z",
+          "wordCount": 1191,
+          "title": "NEWS RELEASES | Spiritual Provisions Sustain Brothers and Sisters Fleeing Violence in Sudan",
+          "imageUrl": "https://assetsnffrgf-a.akamaihd.net/assets/m/702023191/univ/art/702023191_univ_sqr_lg.jpg"
+        }
+      ]
+    },
+    {
+      "title": "all posts",
+      "feedUrl": "https://www.drupal.org/section-blog/all/feed",
+      "siteUrl": "https://www.drupal.org/section-blog/all/feed",
+      "articles": [
+        {
+          "id": "3382980 at https://www.drupal.org",
+          "author": "Imre Gmelig Meijling",
+          "description": "The Drupal Business Survey invites business leaders worldwide to share their insights and metrics on the Drupal business ecosystem. Relevant topics to many digital service providers include business development, community, marketing, and human capital. The results of this survey are analyzed and aggregated into a comprehensive report and presented at DrupalCon Europe, the yearly Drupal summit. Participants can support anonymously.\nThe Drupal Business Survey is about sharing business insights between Drupal service providers worldwide. Drupal’s open source ecosystem thrives by a collaborative community of tens of thousands of professionals worldwide, working together on the popular digital experience platform. Drupal has an Open Web objective, allowing anyone to work with the web or contrib…",
+          "link": "https://www.drupal.org/association/blog/digital-service-providers-share-market-insights-in-the-2023-drupal-business-survey",
+          "publishedOn": "2023-08-24T19:00:00.000Z",
+          "wordCount": 970,
+          "title": "Digital service providers share market insights in the 2023 Drupal Business Survey",
+          "imageUrl": null
+        },
+        {
+          "id": "3382523 at https://www.drupal.org",
+          "author": "alexmoreno",
+          "description": "August is traditionally a month when many in the northern hemisphere go on a much needed holiday from the heat and enjoy a well-deserved break from work.\nHowever, this will not stop our Pitch-burgh contest winners, who were incredibly excited about starting the work and demonstrating how an open source competition like this can deliver cost-effective benefits for the Drupal project.\nFor the boring part, most or all of the agreements are in place (with some still being signed this second week of August), and the initial grants are starting to arrive in the awardee’s bank accounts. As previously mentioned, this is a first for the Drupal Association, and it has taken some time to figure out important things regarding contracts and how money is moved. In the end, we want to make sure none of u…",
+          "link": "https://www.drupal.org/association/blog/drupalcon-pitchburgh-updates-08-2023",
+          "publishedOn": "2023-08-22T11:06:22.000Z",
+          "wordCount": 1288,
+          "title": "DrupalCon Pitch-burgh Updates (08.2023)",
+          "imageUrl": null
+        },
+        {
+          "id": "3380989 at https://www.drupal.org",
+          "author": "Drupal Association",
+          "description": "The Drupal project has announced that Drupal 7 will officially reach its End of Life on 5 January 2025. This date marks the 14-year anniversary since Drupal 7 was released on 5 January 2011. This will be the final extension of support for Drupal 7, meaning that after this date, if your site still runs on Drupal 7 it may become more susceptible to security vulnerabilities if no action is taken. Thus, it is recommended to migrate your site as soon as possible.\nIn order to assist Drupal 7 site owners in migrating their sites, we have established a resource center and encourages all site owners, support teams, and contractors to visit the site to learn about transition options. We’re here to support you in your Drupal 7 site migration!\nThe Drupal Association is working to get the word out to D…",
+          "link": "https://www.drupal.org/association/blog/drupal-7-end-of-life-officially-announced-for-5-january-2025",
+          "publishedOn": "2023-08-14T10:36:46.000Z",
+          "wordCount": 827,
+          "title": "Drupal 7 End of Life Officially Announced for 5 January 2025",
+          "imageUrl": null
+        },
+        {
+          "id": "3379140 at https://www.drupal.org",
+          "author": "Drupal Association",
+          "description": "The Discover Drupal program aims to professionally and economically empower people from historically marginalized communities through careers in Drupal. This 12-18 month initiative provides training, mentorship, and hands-on experience. Through the support of Drupal mentors and strategic partnerships, this year's cohort was a huge success, further developing the skills and talent of our graduates.   \nOver the past 12 months, Discover Drupal students dedicated their time and effort to this extensive program. They completed their respective comprehensive training program, DrupalEasy or Evolving Web, regularly met with their mentors, participated in weekly office hours with Ryan Price and monthly professional development workshops led by Drupal Community members. Students also attended Drupal…",
+          "link": "https://www.drupal.org/association/blog/rediscovering-discover-drupal",
+          "publishedOn": "2023-08-03T20:01:30.000Z",
+          "wordCount": 922,
+          "title": "ReDiscovering Discover Drupal",
+          "imageUrl": null
+        },
+        {
+          "id": "3378389 at https://www.drupal.org",
+          "author": "quietone",
+          "description": "Bug Smash Initiative 3-year update\nThe Bug Smash community initiative started in May 2020 with the goal of reducing the number of open bugs against Drupal core.\nFollowing advice from Gábor Hojtsy that 'an initiative should have an exit strategy', the initiative's definition of done was a 5% reduction in bugs in Drupal core.\nOver the past three years, we've smashed this goal and passed our definition of done with a 27% reduction in bugs! \nPriority\nInitial - 2020-04-21\nGoal\n% Diff\nRecent - 2023-05-09\nActual Reduction\n% Diff\nMinor\n338\n300\n-11%\n311\n-27\n-8%\nNormal\n6205\n6000\n-3%\n4397\n-1808\n-29%\nMajor\n1113\n1000\n-10%\n896\n-217\n-20%\nCritical\n57\n50\n-12%\n47\n-10\n-18%\nTotal\n7713\n7350\n-5%\n5651\n-2062\n-27%\nNext steps\nSo the question is - where to next for the initiative? We've discussed this in our fortnig…",
+          "link": "https://www.drupal.org/about/core/blog/bug-smash-initiative-3-year-update",
+          "publishedOn": "2023-08-01T07:37:23.000Z",
+          "wordCount": 761,
+          "title": "Bug Smash Initiative 3-year update",
+          "imageUrl": null
+        },
+        {
+          "id": "3378348 at https://www.drupal.org",
+          "author": "quietone",
+          "description": "The Technical Working Group (TWG) is announcing two coding standards changes for final discussion. Feedback will be reviewed at the meeting scheduled for 16 August.\nIssues for discussion\nAllow omitting @var for strictly typed class properties\nUpdate CSS coding standards to include PostCSS and Drupal 10\nThe Coding Standards project page outlines the process for changing Drupal coding standards.\nJoin the team working on Coding Standards\nJoin #coding-standards in Drupal Slack to meet and work with others on improving the Drupal coding standards. We work on improving our standards as well as implementing them in the core software.",
+          "link": "https://www.drupal.org/about/core/blog/coding-standards-proposals-for-final-discussion-on-16-august",
+          "publishedOn": "2023-07-31T23:07:38.000Z",
+          "wordCount": 430,
+          "title": "Coding standards proposals for final discussion on 16 August",
+          "imageUrl": null
+        },
+        {
+          "id": "3377536 at https://www.drupal.org",
+          "author": "hestenet",
+          "description": "Drupal's contribution credit system plays an important role in fostering contribution. It is crucial that we protect the integrity of that system.\nBecause contribution credit can impact an organization's marketplace position, there is a financial incentive for contribution. This is by design, and helps promote sustainable contribution in Drupal. Unfortunately, whenever a financial incentive is created, there is a risk that some organizations will try to game the system by making superficial contributions in bulk, or using automation or AI to try and boost contribution numbers.\nThis gaming behavior undermines the true goal of the credit system, which is to grow meaningful and authentic contributions to the Drupal project and community.\nWhat steps are we taking?\nTo help discourage the tempta…",
+          "link": "https://www.drupal.org/drupalorg/blog/ensuring-a-fair-drupal-contribution-credit-system",
+          "publishedOn": "2023-07-27T17:15:20.000Z",
+          "wordCount": 1003,
+          "title": "Ensuring a Fair Drupal Contribution Credit System",
+          "imageUrl": null
+        },
+        {
+          "id": "3377536 at https://www.drupal.org",
+          "author": "hestenet",
+          "description": "Drupal's contribution credit system plays an important role in fostering contribution. It is crucial that we protect the integrity of that system.\nBecause contribution credit can impact an organization's marketplace position, there is a financial incentive for contribution. This is by design, and helps promote sustainable contribution in Drupal. Unfortunately, whenever a financial incentive is created, there is a risk that some organizations will try to game the system by making superficial contributions in bulk, or using automation or AI to try and boost contribution numbers.\nThis gaming behavior undermines the true goal of the credit system, which is to grow meaningful and authentic contributions to the Drupal project and community.\nWhat steps are we taking?\nTo help discourage the tempta…",
+          "link": "https://www.drupal.org/drupalorg/blog/ensuring-a-fair-drupal-contribution-credit-system",
+          "publishedOn": "2023-07-27T17:15:20.000Z",
+          "wordCount": 1003,
+          "title": "Ensuring a Fair Drupal Contribution Credit System",
+          "imageUrl": null
+        }
+      ]
     }
   ],
   "cliVersion": "1.15.1"
