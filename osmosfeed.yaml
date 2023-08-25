@@ -5,13 +5,19 @@
 
 cacheUrl: https://seetee.github.io/osmosfeed/cache.json
 sources:
+  # Software 
   - href: https://github.com/osmoscraft/osmosfeed/releases.atom # Get new feature announcement via this feed
   - href: https://inkscape.org/news/feed/
   - href: https://www.scribus.net/feed/
   - href: https://www.drupal.org/planet/rss.xml
-  - href: https://www.kryogenix.org/days/feed
-  - href: https://www.smashingmagazine.com/feed/
-  - href: http://www.thelins.se/johan/blog/feed/
-  - href: https://www.helahisingen.se/feed/
-  - href: https://www.jw.org/en/news/rss/FullNewsRSS/feed.xml
   - href: https://www.drupal.org/section-blog/all/feed
+  # Personal blogs
+  - href: https://www.kryogenix.org/days/feed
+  - href: http://www.thelins.se/johan/blog/feed/
+  # Nyhetskällor
+  - href: https://www.smashingmagazine.com/feed/
+  - href: https://www.helahisingen.se/feed/
+  - href: https://developer.mozilla.org/en-US/blog/rss.xml 
+  # Driftsstatus
+  - href: https://status.mangadex.org/history.rss
+  - href: https://www.driftbloggen.se/feed/
