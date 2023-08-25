@@ -7,545 +7,324 @@
       "articles": []
     },
     {
-      "title": "CSS-Tricks",
-      "feedUrl": "https://css-tricks.com/feed/",
-      "siteUrl": "https://css-tricks.com",
-      "articles": [
-        {
-          "id": "https://css-tricks.com/?p=357985",
-          "author": "Chris Coyier",
-          "description": "I think if you’re a DevOps person in any capacity, the utility of Docker is very clear. Your things run in containers that are identical everywhere. Assuming Docker is working/running, the code will execute in a reliably consistent way whether …",
-          "link": "https://css-tricks.com/dock-life-using-docker-for-all-the-things/",
-          "publishedOn": "2021-12-01T21:11:53.000Z",
-          "wordCount": 628,
-          "title": "Dock Life: Using Docker for All The Things!"
-        },
-        {
-          "id": "https://css-tricks.com/?p=357344",
-          "author": "George Francis",
-          "description": "In nature, no two things are ever the same. Life is imperfect, unpredictable, and beautiful. We can walk through the same forest every day and see differently colored leaves. We can look up at the clouds every minute and watch …",
-          "link": "https://css-tricks.com/embrace-the-unpredictable/",
-          "publishedOn": "2021-12-01T15:47:46.000Z",
-          "wordCount": 726,
-          "title": "Embrace the Unpredictable"
-        },
-        {
-          "id": "https://css-tricks.com/?p=356146",
-          "author": "Amelia Wattenberger",
-          "description": "What is one thing people can do to make their website better?\n Exactly what you want to build!\nAsk yourself:\nWhat drew you to development in the beginning?\nIs there an experimental API that you’ve been wanting to try out?\n…",
-          "link": "https://css-tricks.com/exactly-what-you-want/",
-          "publishedOn": "2021-12-01T15:46:29.000Z",
-          "wordCount": 491,
-          "title": "Exactly What You Want"
-        },
-        {
-          "id": "https://css-tricks.com/?p=357109",
-          "author": "Chris Coyier",
-          "description": "I was playing this game on Apple Arcade the other day called wurdweb. It’s a fun little game! Little touches like the little shape dudes that walk around the screen (but otherwise don’t do anything) give it a lot …",
-          "link": "https://css-tricks.com/diagonal-stripes-wipe-animation/",
-          "publishedOn": "2021-11-30T17:26:35.000Z",
-          "wordCount": 946,
-          "title": "Diagonal Stripes Wipe Animation"
-        },
-        {
-          "id": "https://css-tricks.com/?p=357728",
-          "author": "Tobias Günther",
-          "description": "This article is part of our “Advanced Git” series. Be sure to follow us on Twitter or sign up for our newsletter to hear about future articles!\nThe “Reflog” is one of Git’s lesser-known features—but one that can be extremely …",
-          "link": "https://css-tricks.com/using-the-reflog-to-restore-lost-commits/",
-          "publishedOn": "2021-11-30T15:53:27.000Z",
-          "wordCount": 2431,
-          "title": "Using the Reflog to Restore Lost Commits"
-        },
-        {
-          "id": "https://css-tricks.com/?p=357679",
-          "author": "Chris Coyier",
-          "description": "(This is a sponsored post.)\nCloudinary (the media hosting and optimization service) has a brand new version (v3) of its WordPress plugin that has really nailed it. First, a high-level look at the biggest things this plugin does:\nIt \n…",
-          "link": "https://css-tricks.com/a-look-at-the-cloudinary-wordpress-plugin/",
-          "publishedOn": "2021-11-30T15:23:00.000Z",
-          "wordCount": 1256,
-          "title": "A Look at the Cloudinary WordPress Plugin"
-        },
-        {
-          "id": "https://css-tricks.com/?p=357565",
-          "author": "Geoff Graham",
-          "description": "Apple Music has this “Spatial Audio” feature where the direction of the music in your headphones is based on the location of the device. It’s tough to explain just how neat it is. But that’s not what I’m here to …",
-          "link": "https://css-tricks.com/recreating-the-apple-music-hits-playlist-animation-in-css/",
-          "publishedOn": "2021-11-29T16:38:49.000Z",
-          "wordCount": 1516,
-          "title": "Recreating the Apple Music Hits Playlist Animation in CSS"
-        },
-        {
-          "id": "https://css-tricks.com/?p=357976",
-          "author": "Chris Coyier",
-          "description": "This is a neat idea for a research project. The big map is fun, but the research had some tidbits in it worth looking at.\nThe average favicon network request takes 130ms, at least from our speedy cloud instance.\n…",
-          "link": "https://css-tricks.com/we-analyzed-425909-favicons/",
-          "publishedOn": "2021-11-29T16:38:07.000Z",
-          "wordCount": 483,
-          "title": "We Analyzed 425,909 Favicons"
-        },
-        {
-          "id": "https://css-tricks.com/?p=357271",
-          "author": "Chris Coyier",
-          "description": "I’ve got some blind spots in CSS-related performance things. One example is the will-change property. It’s a good name. You’re telling the browser some particular property (or the scroll-position or content) uh, will, change:\n.el {\n  will-change: opacity;\n\n…",
-          "link": "https://css-tricks.com/when-is-it-right-to-reach-for-contain-and-will-change-in-css/",
-          "publishedOn": "2021-11-26T20:43:05.000Z",
-          "wordCount": 2084,
-          "title": "When is it “Right” to Reach for  contain and will-change in CSS?"
-        },
-        {
-          "id": "https://css-tricks.com/?p=357239",
-          "author": "Neale Van Fleet",
-          "description": "I love little touches that make a website feel like more than just a static document. What if web content wouldn’t just “appear” when a page loaded, but instead popped, slid, faded, or spun into place? It might be a …",
-          "link": "https://css-tricks.com/a-handy-little-system-for-animated-entrances-in-css/",
-          "publishedOn": "2021-11-26T16:12:33.000Z",
-          "wordCount": 2444,
-          "title": "A Handy Little System for Animated Entrances in CSS"
-        },
-        {
-          "id": "https://css-tricks.com/?p=357294",
-          "author": "George Francis",
-          "description": "The browser has long been a medium for art and design. From Lynn Fisher’s joyful A Single Div creations to Diana Smith’s staggeringly detailed CSS paintings, wildly creative, highly skilled developers have — over the years — continuously pushed …",
-          "link": "https://css-tricks.com/creating-generative-patterns-with-the-css-paint-api/",
-          "publishedOn": "2021-11-24T15:49:08.000Z",
-          "wordCount": 5674,
-          "title": "Creating Generative Patterns with The CSS Paint API"
-        },
-        {
-          "id": "https://css-tricks.com/?p=357412",
-          "author": "Chris Coyier",
-          "description": "Tyler Sticka digs in here in the best possible way: by making a test page and literally measuring performance. Maybe 1,000 icons is a little bit of an edge case, but hey, 250 rows of data with four icons in …",
-          "link": "https://css-tricks.com/which-svg-technique-performs-best-for-way-too-many-icons/",
-          "publishedOn": "2021-11-23T19:21:28.000Z",
-          "wordCount": 461,
-          "title": "Which SVG technique performs best for way too many icons?"
-        },
-        {
-          "id": "https://css-tricks.com/?p=356977",
-          "author": "Alaa Abd El-Rahim",
-          "description": "Many business websites need a multilingual setup. As with anything development-related, implementing one in an easy, efficient, and maintainable way is desirable. Designing and developing to be ready for multiple languages, whether it happens right at launch or is expected …",
-          "link": "https://css-tricks.com/control-layout-in-a-multi-directional-website/",
-          "publishedOn": "2021-11-23T16:06:44.000Z",
-          "wordCount": 4908,
-          "title": "Control Layout in a Multi-Directional Website"
-        },
-        {
-          "id": "https://css-tricks.com/?p=357149",
-          "author": "Chris Coyier",
-          "description": "Inspired by Eva PenzeyMoog’s new book, Jeremy highlights the widespread user tracking situation in this industry:\nThere was a line that really stood out to me: \nThe idea that it’s alright to do whatever unethical thing is currently the \n…",
-          "link": "https://css-tricks.com/on-user-tracking-and-industry-standards-on-privacy/",
-          "publishedOn": "2021-11-22T21:00:50.000Z",
-          "wordCount": 2662,
-          "title": "On User Tracking and Industry Standards on Privacy"
-        },
-        {
-          "id": "https://css-tricks.com/?p=357046",
-          "author": "Chris Coyier",
-          "description": "A reader wrote to me the other day asking about this bit of CSS they came across in Wikipedia’s Common.css:\n.mw-collapsible-leftside-toggle .mw-collapsible-toggle {\n  /* @noflip */\n  float: left;\n  /* @noflip */\n  text-align: left;\n}\nWhat’s that @noflip business? That’s …",
-          "link": "https://css-tricks.com/css-decorations/",
-          "publishedOn": "2021-11-22T18:48:00.000Z",
-          "wordCount": 1090,
-          "title": "CSS “decorations”"
-        }
-      ]
+      "title": "News feed",
+      "feedUrl": "https://inkscape.org/news/feed/",
+      "siteUrl": "https://inkscape.org/news/",
+      "articles": []
     },
     {
-      "title": "Articles on Smashing Magazine — For Web Designers And Developers",
-      "feedUrl": "https://www.smashingmagazine.com/feed/",
-      "siteUrl": "https://www.smashingmagazine.com/",
-      "articles": [
-        {
-          "id": "https://smashingmagazine.com/2021/11/smashing-podcast-episode-44/",
-          "author": "hello@smashingmagazine.com (Drew McLellan)",
-          "description": "In this episode, we’re asking if changes to best practises over the last year have negatively impacted the web. Is it all downhill from here? Drew McLellan talks to expert Chris Ferdinandi to find out.",
-          "link": "https://smashingmagazine.com/2021/11/smashing-podcast-episode-44/",
-          "publishedOn": "2021-11-30T14:00:00.000Z",
-          "wordCount": 8722,
-          "title": "Smashing Podcast Episode 44 With Chris Ferdinandi: Is The Web Dead?",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/fa0481fb-1555-40f1-94c2-014b5553f45f/smashing-podcast-episode-44.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/11/desktop-wallpaper-calendars-december-2021/",
-          "author": "hello@smashingmagazine.com (Cosima Mielke)",
-          "description": "Let’s welcome December with some new wallpapers! Designed by artists and designers from across the globe, they are available with and without a calendar for the month. Enjoy!",
-          "link": "https://smashingmagazine.com/2021/11/desktop-wallpaper-calendars-december-2021/",
-          "publishedOn": "2021-11-30T09:45:00.000Z",
-          "wordCount": 2814,
-          "title": "It’s That Time Of The Year (December 2021 Desktop Wallpapers Edition)",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/9b96c8c2-9305-4a64-aa40-cf22662ea698/dec-21-winter-holidays-preview-opt.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/11/3d-css-flippy-snaps-react-greensock/",
-          "author": "hello@smashingmagazine.com (Jhey Tompkins)",
-          "description": "One of Jhey’s main mantras is to make learning fun.  In this article, he shows you ways to level up your skills by bringing your ideas to life, and not forgetting that [you can be playful with code](https://www.smashingmagazine.com/2020/11/playfulness-code-supercharge-fun-learning/). With that mindset, every idea is bound to become an opportunity to try something new.",
-          "link": "https://smashingmagazine.com/2021/11/3d-css-flippy-snaps-react-greensock/",
-          "publishedOn": "2021-11-29T12:30:00.000Z",
-          "wordCount": 3237,
-          "title": "3D CSS Flippy Snaps With React And GreenSock",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a865f227-d5a1-4a63-a889-288a84fa2bce/3d-css-flippy-snaps-react-greensock.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/11/maintain-large-nextjs-application/",
-          "author": "hello@smashingmagazine.com (Nirmalya Ghosh)",
-          "description": "In this article, Nirmalya discusses some of the complex problems that he faced while building and maintaining large Next.js applications. He always explains how these problems can be solved by using various tools.",
-          "link": "https://smashingmagazine.com/2021/11/maintain-large-nextjs-application/",
-          "publishedOn": "2021-11-26T12:30:00.000Z",
-          "wordCount": 2622,
-          "title": "How To Maintain A Large Next.js Application",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d36d3a50-0f3f-402e-9ceb-8164b41065bc/maintain-large-nextjs-application.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/11/showcase-lovely-little-websites/",
-          "author": "hello@smashingmagazine.com (Cosima Mielke)",
-          "description": "Instead of spending your coffee break scrolling through your social feeds, how about a lovely little website instead? We came across some fantastic ones that are just too good not to be shared. But be warned, your break might take a bit longer than intended.",
-          "link": "https://smashingmagazine.com/2021/11/showcase-lovely-little-websites/",
-          "publishedOn": "2021-11-24T12:00:00.000Z",
-          "wordCount": 4228,
-          "title": "A Showcase Of Lovely Little Websites",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/5a0a3a89-ba5a-40a8-af80-f8db0554af37/radiooooo-opt.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/11/dyslexia-friendly-mode-website/",
-          "author": "hello@smashingmagazine.com (John C Barstow)",
-          "description": "With a little CSS, we can adapt our web designs to be more accommodating for people with dyslexia. In this article, we’ll explore those techniques by adding a dyslexia-friendly mode to an existing design.",
-          "link": "https://smashingmagazine.com/2021/11/dyslexia-friendly-mode-website/",
-          "publishedOn": "2021-11-23T10:00:00.000Z",
-          "wordCount": 2745,
-          "title": "Adding A Dyslexia-Friendly Mode To A Website",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/e1fb4e46-6f0a-4631-a04c-d42376eddc82/dyslexia-friendly-mode-website.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/11/smashingconf-workshops-winter-2021/",
-          "author": "hello@smashingmagazine.com (Iris Lješnjanin)",
-          "description": "What’s the state of CSS, Vue.js and Next.js? What are new, smart interface design patterns we could use? Let’s figure it out. With our [online workshops on UX, front-end and design](https://smashingconf.com/online-workshops).",
-          "link": "https://smashingmagazine.com/2021/11/smashingconf-workshops-winter-2021/",
-          "publishedOn": "2021-11-22T16:00:00.000Z",
-          "wordCount": 1013,
-          "title": "Smashing Workshops: Winter 2021",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d2659d54-48e0-40d0-9fea-07c199eee87d/sanfran-2022.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/11/improving-performance-wix-websites-case-study/",
-          "author": "hello@smashingmagazine.com (Dan Shappir)",
-          "description": "Implementing a performance culture is very important. In this article, Dan Shappir shares which actions and processes the Wix team put in place in order to achieve dramatic improvements in the performance of websites built and hosted on their platform.",
-          "link": "https://smashingmagazine.com/2021/11/improving-performance-wix-websites-case-study/",
-          "publishedOn": "2021-11-22T10:30:00.000Z",
-          "wordCount": 4743,
-          "title": "Improving The Performance Of Wix Websites (Case Study)",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/253b5a80-a208-4057-95b0-60762c922d07/improving-performance-wix-websites-case-study.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/11/nextjs-wildcard-subdomains/",
-          "author": "hello@smashingmagazine.com (Sam Poder)",
-          "description": "Hosting with a wildcard subdomain enables your users to visit your site on any subdomain of your domain (*.example.com), and as you can imagine, we can use this to create unique user experiences which we’ll be exploring in this article through a Next.js lens.",
-          "link": "https://smashingmagazine.com/2021/11/nextjs-wildcard-subdomains/",
-          "publishedOn": "2021-11-19T10:30:00.000Z",
-          "wordCount": 2192,
-          "title": "Next.js Wildcard Subdomains",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/2b24747b-6f11-4588-a119-16eaf38bc933/nextjs-wildcard-subdomains.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/11/guide-modern-css-colors/",
-          "author": "hello@smashingmagazine.com (Michelle Barker)",
-          "description": "In this article, we’ll take a look at the best ways to handle colors in CSS today, some tips for using them in a design system, and what we can expect from our colors in the not-too-distant future.",
-          "link": "https://smashingmagazine.com/2021/11/guide-modern-css-colors/",
-          "publishedOn": "2021-11-17T16:00:00.000Z",
-          "wordCount": 3472,
-          "title": "A Guide To Modern CSS Colors With RGB, HSL, HWB, LAB And LCH",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/b424cd2e-1e44-4ca2-8506-4e45a5bdb570/guide-modern-css-colors.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/11/touch-design-pre-release/",
-          "author": "hello@smashingmagazine.com (Vitaly Friedman)",
-          "description": "Meet “Touch Design for Mobile Interfaces”, our brand-new guide on designing for mobile with proven, universal, human-centric standards. 400 pages. Shipping starting in early January.",
-          "link": "https://smashingmagazine.com/2021/11/touch-design-pre-release/",
-          "publishedOn": "2021-11-16T16:00:00.000Z",
-          "wordCount": 2170,
-          "title": "Meet Touch Design For Mobile Interfaces, A New Smashing Book By Steven Hoober",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/b41ae541-7618-44f2-81cd-cc681c64d0d0/touch-design-for-mobile-interfaces-header.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/11/powerful-terminal-commandline-tools-modern-web-development/",
-          "author": "hello@smashingmagazine.com (Louis Lazaris)",
-          "description": "What’s your favorite command-line tool? In this post, Louis Lazaris shares a collection of relevant command-line apps and utilities that he has personally come across in the past few years. If there’s a useful one that hasn’t been mentioned and one you use regularly, please do share it in the comments.",
-          "link": "https://smashingmagazine.com/2021/11/powerful-terminal-commandline-tools-modern-web-development/",
-          "publishedOn": "2021-11-15T13:00:00.000Z",
-          "wordCount": 2123,
-          "title": "Powerful Terminal And Command-Line (CLI) Tools For Modern Web Development",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a2d3081a-5a36-4763-9b94-13bf7d1cb5d6/powerful-terminal-commandline-tools-modern-web-development.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/11/useful-react-hooks/",
-          "author": "hello@smashingmagazine.com (Ifeanyi Dike)",
-          "description": "The React team introduced several hooks in React 16.8 which you can use from third-party providers in your application, or even create your own custom hook. In this tutorial, we’ll take a look at some of the most useful hooks in React and how to use them.",
-          "link": "https://smashingmagazine.com/2021/11/useful-react-hooks/",
-          "publishedOn": "2021-11-12T10:00:00.000Z",
-          "wordCount": 10255,
-          "title": "Useful React Hooks That You Can Use In Your Projects",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/ad5f8d5b-6da6-4441-a6f7-466c79e7fb0d/useful-react-hooks.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/11/dashboard-design-research-decluttering-data-viz/",
-          "author": "hello@smashingmagazine.com (Adam Fard)",
-          "description": "Dribbbleshots just might be the hotbed of questionable dashboards. Striking visuals, little context, and no research: all recipes for mediocrity. Mediocrity won’t do. We’ll pursue greatness. And in that pursuit, we’ll cover research, decluttering, and data visualization.",
-          "link": "https://smashingmagazine.com/2021/11/dashboard-design-research-decluttering-data-viz/",
-          "publishedOn": "2021-11-11T14:00:00.000Z",
-          "wordCount": 4289,
-          "title": "From Good To Great In Dashboard Design: Research, Decluttering And Data Viz",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/835f0cba-e214-437a-a025-e69ba7691997/dashboard-design-research-decluttering-data-viz.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/11/localizing-your-nextjs-app/",
-          "author": "hello@smashingmagazine.com (Átila Fassina)",
-          "description": "Internationalized routing is not exactly a new feature on Next.js. In this article, we are not only checking what we get from this feature, but also how to leverage such functionalities to achieve the best user experience and a smooth developer experience as well.",
-          "link": "https://smashingmagazine.com/2021/11/localizing-your-nextjs-app/",
-          "publishedOn": "2021-11-09T13:00:00.000Z",
-          "wordCount": 1902,
-          "title": "Localizing Your Next.js App",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/12e7620f-0e7b-4b95-a1b6-cd2f25ccac52/localizing-your-nextjs-app.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/11/transforming-optimizing-images-videos-wordpress-website/",
-          "author": "hello@smashingmagazine.com (Leonardo Losoviz)",
-          "description": "In this article, Leonardo Losoviz explains how Cloudinary’s integration can be used with WordPress to produce and deliver optimal digital experiences.",
-          "link": "https://smashingmagazine.com/2021/11/transforming-optimizing-images-videos-wordpress-website/",
-          "publishedOn": "2021-11-09T09:30:00.000Z",
-          "wordCount": 2425,
-          "title": "Automatically Transforming And Optimizing Images And Videos On Your WordPress Website",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/8aaa9d52-375d-4e64-bdaa-151ef40a3f3c/transforming-optimizing-images-videos-wordpress-website.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/11/hydrogen-react-framework-dynamic-contextual-personalized-ecommerce/",
-          "author": "hello@smashingmagazine.com (Ilya Grigorik)",
-          "description": "A great commerce experience is not a Lighthouse score or a set of Core Web Vitals figures (although both are important inputs), but it’s also a trilemma that carefully balances competing needs of delivering a great customer experience, dynamic storefront capabilities and long-term business objectives.",
-          "link": "https://smashingmagazine.com/2021/11/hydrogen-react-framework-dynamic-contextual-personalized-ecommerce/",
-          "publishedOn": "2021-11-08T14:30:00.000Z",
-          "wordCount": 1527,
-          "title": "Meet Hydrogen: A React Framework For Dynamic, Contextual And Personalized E-Commerce",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/ee33395f-684a-40e5-bf72-56d9e9e4d975/hydrogen-react-framework-dynamic-contextual-personalized-ecommerce.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/11/concept-testing-part-of-product-design/",
-          "author": "hello@smashingmagazine.com (Victor Yocco)",
-          "description": "Concept testing ideas before moving into a detailed design is good UX practice. In this article, Victor Yocco presents details on how and when to engage in concept testing, as well as case studies providing details on the insights gained in two very different settings.",
-          "link": "https://smashingmagazine.com/2021/11/concept-testing-part-of-product-design/",
-          "publishedOn": "2021-11-05T11:00:00.000Z",
-          "wordCount": 6182,
-          "title": "The Value Of Concept Testing As Part Of Product Design",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/ca39dbc3-101c-4973-9dce-debb1ab283ff/concept-testing-part-of-product-design.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/11/smashing-podcast-episode-43/",
-          "author": "hello@smashingmagazine.com (Drew McLellan)",
-          "description": "In this episode, we’re talking about Astro. Will this modern static site builder launch you into the stratosphere? Drew McLellan talks to developer Matthew Phillips to find out.",
-          "link": "https://smashingmagazine.com/2021/11/smashing-podcast-episode-43/",
-          "publishedOn": "2021-11-04T18:00:00.000Z",
-          "wordCount": 5848,
-          "title": "Smashing Podcast Episode 43 With Matthew Phillips: What Is Astro?",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/475de692-46fc-4058-af10-3736770698d5/smashing-podcast-episode-43.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/11/graphql-frontend-react-apollo/",
-          "author": "hello@smashingmagazine.com (David Atanda)",
-          "description": "Within the last decade, technologies like GraphQL have changed how we build web apps and how they communicate with each other. GraphQL provides certain benefits over REST APIs — let’s find out what they are.",
-          "link": "https://smashingmagazine.com/2021/11/graphql-frontend-react-apollo/",
-          "publishedOn": "2021-11-04T11:30:00.000Z",
-          "wordCount": 3382,
-          "title": "GraphQL On The Front-End (React And Apollo)",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/bb584488-c16f-4409-a992-993ce92d4b51/graphql-frontend-react-apollo.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/11/deep-dive-into-serverless-ui-typescript/",
-          "author": "hello@smashingmagazine.com (Ikeh Akinyemi)",
-          "description": "Serverless UI is simply a free, open-source command-line utility for quickly building and deploying serverless applications on the AWS platform. In this article, we will learn and cover everything needed on using Serverless UI to deploy our projects or serverless applications to cloud services providers.",
-          "link": "https://smashingmagazine.com/2021/11/deep-dive-into-serverless-ui-typescript/",
-          "publishedOn": "2021-11-03T11:30:00.000Z",
-          "wordCount": 3605,
-          "title": "A Deep Dive Into Serverless UI With TypeScript",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/aff46dfe-164d-4bf7-8e14-057470001b41/deep-dive-into-serverless-ui-typescript.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        }
-      ]
+      "title": "Scribus",
+      "feedUrl": "https://www.scribus.net/feed/",
+      "siteUrl": "https://www.scribus.net",
+      "articles": []
     },
     {
-      "title": "freeCodeCamp.org",
-      "feedUrl": "https://www.freecodecamp.org/news/rss/",
-      "siteUrl": "https://www.freecodecamp.org/news",
+      "title": "Drupal.org aggregator",
+      "feedUrl": "https://www.drupal.org/planet/rss.xml",
+      "siteUrl": "https://www.drupal.org/planet",
       "articles": [
         {
-          "id": "61a5f9680c0c7407b2b3e607",
+          "id": "https://www.droptica.com/blog/how-prepare-drupal-7-end-life-and-what-do-next/?utm_source=rss&amp;utm_medium=rss&amp;utm_content=rss?utm_source=rss&utm_medium=rss&utm_content=rss",
           "author": null,
-          "description": "In general, a headphone jack and a pair of headphones improve the sound from your PC. You'll be able to hear things more clearly, without disturbing other around you.  But sometimes, setting them up is difficult. Or they might stop working entirely. This could be due to outdated drivers, or",
-          "link": "https://www.freecodecamp.org/news/headphone-jack-not-working-in-windows-10-how-to-fix-headphones-on-pc/",
-          "publishedOn": "2021-12-01T09:49:48.000Z",
-          "wordCount": 743,
-          "title": "Headphone Jack Not Working in Windows 10 - How to Fix Headphones on PC"
+          "description": "The world of technology is constantly evolving - striving to create new solutions and improve the old ones. Consequently, the life cycle of any software sooner or later reaches its inevitable end. Such a fate awaits the distinguished and still popular Drupal 7 with the end of its official support by the developers. This is the perfect moment to recall the novelties it brought in relation to the previous versions and shed some light on what's next.\nGeneral information about Drupal 7 \nReleased on 5 January 2011, Drupal 7 was the successor to Drupal 6, obviously. It brought many awaited and, above all, necessary changes. Learn about some of the most important ones.\nThe concept of entity was introduced, known from many other solutions. Hereafter, entities can be anything – from a user profile …",
+          "link": "https://www.droptica.com/blog/how-prepare-drupal-7-end-life-and-what-do-next/?utm_source=rss&amp;utm_medium=rss&amp;utm_content=rss?utm_source=rss&utm_medium=rss&utm_content=rss",
+          "publishedOn": "2023-08-25T11:43:17.000Z",
+          "wordCount": 3014,
+          "title": "Droptica: How to Prepare for Drupal 7 End of Life and What to do Next",
+          "imageUrl": "https://www.droptica.com/sites/droptica.com/files/media/image/ENG%20SM%20How%20to%20Prepare%20for%20Drupal%207%20End%20of%20Life%20and%20What%20to%20Do%20Next%20%20.png"
         },
         {
-          "id": "61783ffa33422e07df364d2c",
+          "id": "https://www.drupal.org/association/blog/digital-service-providers-share-market-insights-in-the-2023-drupal-business-survey",
           "author": null,
-          "description": "For six years in a row, Rust has been voted the most loved programming language by Stack Overflow. So if you're ready to learn this popular programming language, this course will introduce you to Rust so you can start using it in your projects. You will be working entirely within",
-          "link": "https://www.freecodecamp.org/news/rust-in-replit/",
-          "publishedOn": "2021-11-30T14:35:18.000Z",
-          "wordCount": 5418,
-          "title": "Learn Rust Programming Course – Interactive Rust Language Tutorial on Repl.it"
+          "description": "The Drupal Business Survey invites business leaders worldwide to share their insights and metrics on the Drupal business ecosystem. Relevant topics to many digital service providers include business development, community, marketing, and human capital. The results of this survey are analyzed and aggregated into a comprehensive report and presented at DrupalCon Europe, the yearly Drupal summit. Participants can support anonymously.\nThe Drupal Business Survey is about sharing business insights between Drupal service providers worldwide. Drupal’s open source ecosystem thrives by a collaborative community of tens of thousands of professionals worldwide, working together on the popular digital experience platform. Drupal has an Open Web objective, allowing anyone to work with the web or contrib…",
+          "link": "https://www.drupal.org/association/blog/digital-service-providers-share-market-insights-in-the-2023-drupal-business-survey",
+          "publishedOn": "2023-08-24T19:00:00.000Z",
+          "wordCount": 970,
+          "title": "Drupal Association blog: Digital service providers share market insights in the 2023 Drupal Business Survey",
+          "imageUrl": null
         },
         {
-          "id": "61a0f98125888a07c3e1bfbc",
+          "id": "https://www.droptica.com/blog/drupal-bigpipe-using-lazy-builders-2023/?utm_source=rss&amp;utm_medium=rss&amp;utm_content=rss?utm_source=rss&utm_medium=rss&utm_content=rss",
           "author": null,
-          "description": "Everyone should learn three skills that can help them make money in their life. This means that you won't have to rely on one skill to make money, and it gives you a chance to make a side income, too. The value you can add at your job or to",
-          "link": "https://www.freecodecamp.org/news/5-valuable-skills-developers-should-learn/",
-          "publishedOn": "2021-11-30T01:12:15.000Z",
-          "wordCount": 1098,
-          "title": "5 Valuable Skills Developers Should Learn in 2022"
+          "description": "Site speed is crucial, particularly nowadays, when modern websites are more dynamic and interactive. The traditional approach of serving pages is notably inefficient in this context. Numerous techniques exist to achieve optimal performance, and one such method is the BigPipe technique, originally developed at Facebook. The good news is that the BigPipe module, which incorporates the same functionality, has been integrated into Drupal 8 core since version 8.1.\nHow does Drupal BigPipe work?\nThe general idea of the BigPipe technique is to decompose web pages into small chunks called pagelets and pipeline them through several execution stages inside web servers and browsers. \nAt a high level, BigPipe sends an HTML response in chunks:\nOne chunk: everything until just before  - this contains Big…",
+          "link": "https://www.droptica.com/blog/drupal-bigpipe-using-lazy-builders-2023/?utm_source=rss&amp;utm_medium=rss&amp;utm_content=rss?utm_source=rss&utm_medium=rss&utm_content=rss",
+          "publishedOn": "2023-08-24T13:51:33.000Z",
+          "wordCount": 2461,
+          "title": "Droptica: Drupal BigPipe Module. Using Lazy Builders 2023",
+          "imageUrl": "https://www.droptica.com/sites/droptica.com/files/media/image/ENG%20SM%20Drupal%20BigPipe.%20Using%20Lazy%20Builders%202023.png"
         },
         {
-          "id": "61a39f3025888a07c3e1cf08",
+          "id": "https://fivejars.com/blog/implementing-automated-testing-codeception",
           "author": null,
-          "description": "How you train for your career is one of the most consequential decisions you'll ever make. But it's hard to narrow down your options for a career in software development or IT. Medicine is easy: pick a medical school and apply. But programming?  Will what you learn in a four",
-          "link": "https://www.freecodecamp.org/news/types-of-software-development-training/",
-          "publishedOn": "2021-11-29T21:06:01.000Z",
-          "wordCount": 2285,
-          "title": "Types of Software Development Training – A Data Analysis of IT Career Training Tool Efficacy"
+          "description": "We're excited to share our experience implementing automated testing into our legacy site, where it has helped improve functionality and user experience through automated testing.",
+          "link": "https://fivejars.com/blog/implementing-automated-testing-codeception",
+          "publishedOn": "2023-08-23T14:24:01.000Z",
+          "wordCount": 2689,
+          "title": "Five Jars: Implementing Automated Testing with Codeception",
+          "imageUrl": "https://fivejars.com/sites/default/files/styles/seo/public/2023-08/0_teaser_3.jpg?itok=JWRr4ThH"
         },
         {
-          "id": "60c08938d3126007592d56f5",
+          "id": "https://www.thedroptimes.com/33796/revisiting-drupal-modules-yesteryears",
           "author": null,
-          "description": "Many software applications need to exchange data between a client and server.  For a long time, XML was the preferred data format when it came to information exchange between the two points. Then in early 2000, JSON was introduced as an alternate data format for information exchange. In this article,",
-          "link": "https://www.freecodecamp.org/news/what-is-json-a-json-file-example/",
-          "publishedOn": "2021-11-29T19:16:16.000Z",
-          "wordCount": 1544,
-          "title": "JSON for Beginners – JavaScript Object Notation Explained in Plain English"
+          "description": "Revisit the past with a 16-year-old ancient Drupal forum discussion. As we rediscover these hidden gems from the past, it's a reminder that the digital landscape is ever-changing. What was innovative in 2007 may not be cutting-edge in 2023, but the principles of adaptability and innovation remain constant.",
+          "link": "https://www.thedroptimes.com/33796/revisiting-drupal-modules-yesteryears",
+          "publishedOn": "2023-08-23T10:30:52.000Z",
+          "wordCount": 1138,
+          "title": "The Drop Times: Revisiting the Drupal Modules of Yesteryears",
+          "imageUrl": "https://www.thedroptimes.com/sites/thedroptimes.com/files/styles/facebook/public/2023-08/hadija-9cgmkmzyhh0-unsplash.jpg?h=d1cb525d&itok=my1pFCH3"
         },
         {
-          "id": "61a0dae325888a07c3e1bee6",
+          "id": "https://www.lnwebworks.com/Insight/drupal-10-upgrade",
           "author": null,
-          "description": "These 7 tricks and tips will take you from 50% to 90% accuracy for your image recognition models in literally minutes. So, you have gathered a dataset, built a neural network, and trained your model. But despite the hours (and sometimes days) of work you've invested to create the model,",
-          "link": "https://www.freecodecamp.org/news/improve-image-recognition-model-accuracy-with-these-hacks/",
-          "publishedOn": "2021-11-29T17:09:30.000Z",
-          "wordCount": 1153,
-          "title": "How to Improve the Accuracy of Your Image Recognition Models"
+          "description": "The digital world is a swift river, and staying current is of utmost importance. The advent of Drupal 10 marks a substantial leap towards improved performance, security, and user experience. As a pioneer in 360 Drupal services, LN Webworks is proud to offer seamless Drupal upgrade Services. \n Let’s navigate the intricacies of Drupal 10's core attributes, the advantages of embracing this upgrade, and how LN Webworks stands as your steadfast partner for a successful migration.",
+          "link": "https://www.lnwebworks.com/Insight/drupal-10-upgrade",
+          "publishedOn": "2023-08-23T06:54:47.000Z",
+          "wordCount": 1555,
+          "title": "LN Webworks: Drupal 10 is LIVE: Upgrade to The Latest Version with LN Webworks Today!",
+          "imageUrl": "https://www.lnwebworks.com/sites/default/files/2023-08/Drupal%2010%20is%20LIVE_%20Upgrade%20to%20The%20Latest%20Version%20with%20Us%20Today%21.jpg"
         },
         {
-          "id": "61a3882925888a07c3e1ce6d",
+          "id": "https://www.thedroptimes.com/33817/exploring-twin-cities-drupalcamp-2023-hub-drupal-innovation-and-collaboration",
           "author": null,
-          "description": "When you're programming, you'll often need to switch between data types.  The ability to convert one data type to another gives you great flexibility when working with information.  There are different built-in ways to convert, or cast, types in the Python programming language.  In this article, you'll learn how to",
-          "link": "https://www.freecodecamp.org/news/python-convert-string-to-int-how-to-cast-a-string-in-python/",
-          "publishedOn": "2021-11-29T16:47:01.000Z",
-          "wordCount": 1030,
-          "title": "Python Convert String to Int – How to Cast a String in Python"
+          "description": "Discover the Twin Cities DrupalCamp 2023, a two-day event showcasing an array of engaging sessions and peer discussions. This article delves into the highlights of the camp, its featured speakers, and the diverse spectrum of sponsors that contribute to its success.",
+          "link": "https://www.thedroptimes.com/33817/exploring-twin-cities-drupalcamp-2023-hub-drupal-innovation-and-collaboration",
+          "publishedOn": "2023-08-23T05:32:41.000Z",
+          "wordCount": 942,
+          "title": "The Drop Times: Exploring Twin Cities DrupalCamp 2023: A Hub of Drupal Innovation and Collaboration",
+          "imageUrl": "https://www.thedroptimes.com/sites/thedroptimes.com/files/styles/facebook/public/2023-08/twc.jpg?h=ddc58dd3&itok=NBVscSuI"
         },
         {
-          "id": "61924f5811d3cb08287a6648",
+          "id": "https://salsa.digital/insights/european-unions-cyber-resilience-act-and-how-it-affects-open-source?utm_source=drupalplanet",
           "author": null,
-          "description": "On January 10, Class Central is launching two new bootcamps that are free, remote, and open to all.  You’ll complete freeCodeCamp’s JavaScript or Responsive Web Design certification, with weekly live streams, projects, and a friendly group of learners worldwide. Free Bootcamp Based on the freeCodeCamp CurriculumHi everyone, I’",
-          "link": "https://www.freecodecamp.org/news/new-free-bootcamps-based-on-freecodecamp-learn-javascript-webdev-with-weekly-live-streams/",
-          "publishedOn": "2021-11-29T15:55:00.000Z",
-          "wordCount": 1395,
-          "title": "New Free Bootcamps Based on freeCodeCamp – Learn JavaScript &amp; Web Development with Weekly Live Streams"
+          "description": "What is the Cyber Resilience Act? The Cyber Resilience Act is proposed legislation that will make it mandatory for hardware and software producers to: Ensure that their products meet minimum security standards before they’re released  Keep their products’ security up-to-date after release (e.g. monitoring security threats and releasing security updates) The Act also aims to make it easy for users to compare the security features of different products. The end goal: to make digital products more secure, to protect citizens and businesses.  View the draft Act in multiple languages What effects will it have on software development? A factsheet about the Act outlines the manufacturer’s obligations.",
+          "link": "https://salsa.digital/insights/european-unions-cyber-resilience-act-and-how-it-affects-open-source?utm_source=drupalplanet",
+          "publishedOn": "2023-08-23T05:04:01.000Z",
+          "wordCount": 10667,
+          "title": "Salsa Digital: The European Union’s Cyber Resilience Act and how it affects open source",
+          "imageUrl": "https://api.salsadigital.com.au/sites/default/files/2023-08/332-The-European-Union%E2%80%99s-Cyber-Resilience-Act-thumbnail.png"
         },
         {
-          "id": "6140e027852f4307d372d933",
+          "id": "https://www.freelock.com/blog/john-locke/2023-08/rate-limiting-aggressive-bot-nginx",
           "author": null,
-          "description": "NoSQL Databases can sometimes seem confusing and overwhelming, partly because of their flexibility. This is why we have put together a 3-hour video course to help you understand exactly what a NoSQL Database is, as well as the different types available to you.  By the end of this course, you",
-          "link": "https://www.freecodecamp.org/news/learn-nosql-in-3-hours/",
-          "publishedOn": "2021-11-29T15:47:00.000Z",
-          "wordCount": 765,
-          "title": "Learn About NoSQL Databases in This 3-hour Course"
+          "description": "Rate Limiting an aggressive bot in Nginx\n\nJohn Locke\n\nTue, 08/22/2023 - 10:58\n\n            \n\n  \n  \n            \n  \nHigh load isn't necessarily an emergency, but it may be a heads-up before a site noticeably slows down. Sometimes there are weird spikes that just go away, but sometimes this is an indication of a Denial of Service.\nRate Limiting\nNGinx has rate limiting that can be used to handle cases where a slow URL is targeted. Today one of our sites had high load alerts. Here's how I handled it:\n\n      \nRead more about Rate Limiting an aggressive bot in Nginx\nAdd new comment",
+          "link": "https://www.freelock.com/blog/john-locke/2023-08/rate-limiting-aggressive-bot-nginx",
+          "publishedOn": "2023-08-22T17:58:05.000Z",
+          "wordCount": 3736,
+          "title": "Freelock Blog: Rate Limiting an aggressive bot in Nginx",
+          "imageUrl": "https://www.freelock.com/sites/default/files/2023-08/image7.png"
         },
         {
-          "id": "61a4b12225888a07c3e1d240",
+          "id": "https://rachelnorfolk.me/2023/let-me-tell-you-peasants-me",
           "author": null,
-          "description": "Spell check in Microsoft Word and other Word Processing apps is a powerful feature. With spell check, you don’t have to worry too about making small grammatical and typographical errors, because the program will point them out for you in real-time as you type.  But sometimes, the spell check",
-          "link": "https://www.freecodecamp.org/news/spell-check-not-working-in-word-fixed-on-windows-10-pc/",
-          "publishedOn": "2021-11-29T14:53:48.000Z",
-          "wordCount": 741,
-          "title": "Spell Check Not Working in Word [Fixed on Windows 10 PC]"
+          "description": "Let me tell you that for peasants like me\n\n            \n  \n\n      \n            \nSome years ago, after a DrupalCon in the US, I received a direct message. It was kind of shocking and has been on my mind on and off ever since...\n\n      \nRachel\n\nTue, 08/22/2023 - 18:53\n\n\n\n      \nTags\nDrupal\nOpenSource\n\n\nRead more about Let me tell you that for peasants like me\nLog in with GitHub, LinkedIn, or Google to post comments",
+          "link": "https://rachelnorfolk.me/2023/let-me-tell-you-peasants-me",
+          "publishedOn": "2023-08-22T17:53:31.000Z",
+          "wordCount": 1048,
+          "title": "rachel_norfolk: Let me tell you that for peasants like me",
+          "imageUrl": "https://rachelnorfolk.me/sites/default/files/styles/twitter_card/public/2023-08/Screenshot%202023-08-22%20at%2019.25.17.png.jpg?itok=4IGJBXW1"
+        },
+        {
+          "id": "https://chromatichq.com/insights/drupal-7-eol-podcast-episode-11/",
+          "author": null,
+          "description": "Chris is back from sabbatical! Mark and Chris outline a series of processes to help determine which modules are most at risk so that you can take action accordingly. Use our linked PDF to audit your Drupal 7 sites.",
+          "link": "https://chromatichq.com/insights/drupal-7-eol-podcast-episode-11/",
+          "publishedOn": "2023-08-22T16:29:01.000Z",
+          "wordCount": 627,
+          "title": "Chromatic: Drupal 7 End-of-Life Ep 11: Adopt Your Important Drupal 7 Modules Now!",
+          "imageUrl": "https://res.cloudinary.com/dg2jvufku/image/upload/c_fit,co_rgb:d3d3cb,h_430,l_text:fonts%3AEllenLuff-LarkenBlack-y5laz3.otf_70_center:Drupal%207%20End-of-Life%20Ep%2011%3A%20Adopt%20Your%20Important%20Drupal%207%20Modules%20Now!,w_1000/fl_layer_apply/chromatic-base-background-image_pmnse4.png"
+        },
+        {
+          "id": "https://mglaman.dev/blog/how-do-theme-template-overrides-drupal-work?utm_source=Drupal+Planet&utm_medium=feed&utm_campaign=drupal",
+          "author": null,
+          "description": "In Drupal, with themes, you can override default template output by copying, pasting, and customizing those templates. It works, but how? I thought I always knew how this worked. But I realized I didn't when I dove into supporting Drupal 7 themes with Retrofit.\nI know Drupal builds the theme registry and theme hook suggestions. In doing so, it scans templates, and part of that process includes scanning the active theme for template and theme hook template implementations. But when reading the \\Drupal\\Core\\Theme\\Registry code, I was coming up blank.",
+          "link": "https://mglaman.dev/blog/how-do-theme-template-overrides-drupal-work?utm_source=Drupal+Planet&utm_medium=feed&utm_campaign=drupal",
+          "publishedOn": "2023-08-22T13:18:47.000Z",
+          "wordCount": 799,
+          "title": "Matt Glaman: How do theme template overrides in Drupal work?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.drupal.org/association/blog/drupalcon-pitchburgh-updates-08-2023",
+          "author": null,
+          "description": "August is traditionally a month when many in the northern hemisphere go on a much needed holiday from the heat and enjoy a well-deserved break from work.\nHowever, this will not stop our Pitch-burgh contest winners, who were incredibly excited about starting the work and demonstrating how an open source competition like this can deliver cost-effective benefits for the Drupal project.\nFor the boring part, most or all of the agreements are in place (with some still being signed this second week of August), and the initial grants are starting to arrive in the awardee’s bank accounts. As previously mentioned, this is a first for the Drupal Association, and it has taken some time to figure out important things regarding contracts and how money is moved. In the end, we want to make sure none of u…",
+          "link": "https://www.drupal.org/association/blog/drupalcon-pitchburgh-updates-08-2023",
+          "publishedOn": "2023-08-22T11:06:22.000Z",
+          "wordCount": 1288,
+          "title": "Drupal Association blog: DrupalCon Pitch-burgh Updates (08.2023)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.specbee.com/blogs/15-drupal-jargons-decoded",
+          "author": null,
+          "description": "Imagine this: you’re interested in cars - their mechanisms, designs, and all things cars. You want to pursue a career in modifying cars, but when you step into the garage you don’t know squat about the tools. Before you can even get started,  one of the first things you’ll need to do is learn what those tools are and how to use them!\nSimilarly, you’ve stepped into the world of Drupal, all set to curate stunning websites and reap the benefits of its immense power. But hold up - what’s up with all the jargon in Drupal? Don’t you worry, my fellow adventurer,  we’ve got your back!\nJoin us as we decode the Drupal-speak and have you talking the Drupal talk and walking the Drupal walk. Below, you'll find a rundown of 15 essential Drupal terms, each explained in plain English. Prepare to grasp the…",
+          "link": "https://www.specbee.com/blogs/15-drupal-jargons-decoded",
+          "publishedOn": "2023-08-22T10:20:05.000Z",
+          "wordCount": null,
+          "title": "Specbee: 15 Drupal Jargons Decoded",
+          "imageUrl": null
+        },
+        {
+          "id": "https://sacstudio.libsyn.com/talking-drupal-412-lando-episode-ii",
+          "author": null,
+          "description": "Today we are talking about Lando, the release cycle, and Lando 4.0 with our guest Aaron Feledy.\n For show notes visit: www.talkingDrupal.com/412\n  Topics \n About Aaron\n What is Lando\n Best type of development for Lando\n Listener Q: Stephen - I Recently switched to ddev for Mutagen, will Lando support that in the future\n Release schedule\n Development process\n Favorite features\n When is 4.0 and what is in it\n Best reasons to choose Lando\n Adoption rate of Lando\n Listener Q: Stephen - Nic switched from Lando to DDEV, why and what features would he like to see in Lando to go back\n Listener Q: Matthieu - I use Lando and I am trying to convince coworkers to use it as well, any advice\n   Resources \n Lando\n Roadmap\n Lando Docs\n   Guests \nAaron Feledy lando.dev - Arrow\n  Hosts \nNic Laflin - nLighte…",
+          "link": "https://sacstudio.libsyn.com/talking-drupal-412-lando-episode-ii",
+          "publishedOn": "2023-08-21T18:00:00.000Z",
+          "wordCount": 902,
+          "title": "Talking Drupal: Talking Drupal #412 - Lando Episode II",
+          "imageUrl": null
+        },
+        {
+          "id": "https://dev.acquia.com/tutorial/effortless-google-tag-setup-drupal",
+          "author": null,
+          "description": "Being able to know what your users are doing on your website is a critical component of maintaining and running your Drupal website.  For years, site maintainers have relied on Google Analytics to gather that information and with the recent launch of GA4 it's important to make sure your site is setup for success.  The Acquia Drupal Acceleration Team (DAT) has worked closely to upgrade the Google Tag module as part of the GA4 transition and it is better than ever.  Leveraging the latest GTag script and supporting GTM all from within the same module eliminates confusion for developers and maintainers.  During this tutorial we will step you through installing the new Google Tag module\n \n  Add/Enable the Google Tag module \n  \n    \nAdd the Module\nDepending on how your Drupal site is setup, there are different ways to add the module to your",
+          "link": "https://dev.acquia.com/tutorial/effortless-google-tag-setup-drupal",
+          "publishedOn": "2023-08-21T15:54:16.000Z",
+          "wordCount": 2971,
+          "title": "Acquia Developer Portal Blog: Effortless Google Tag Setup for Drupal",
+          "imageUrl": "https://dev.acquia.com/sites/default/files/images/2023-08/Dev%20Portal%20Thumbnail%20Resources%20-%20Editable.png"
+        },
+        {
+          "id": "https://www.thedroptimes.com/interview/33738/drupalcamp-colorado-nurturing-collaboration-and-growth",
+          "author": null,
+          "description": "Join us for an insightful journey with the DrupalCamp Colorado organizing team, as they share their stories, aspirations, and the drive behind fostering an inclusive and innovative community.",
+          "link": "https://www.thedroptimes.com/interview/33738/drupalcamp-colorado-nurturing-collaboration-and-growth",
+          "publishedOn": "2023-08-21T13:57:20.000Z",
+          "wordCount": 2333,
+          "title": "The Drop Times: DrupalCamp Colorado: Nurturing Collaboration and Growth",
+          "imageUrl": "https://www.thedroptimes.com/sites/thedroptimes.com/files/styles/facebook/public/2023-08/nurturing_collaboration_and_growth_0.png?h=6136ce94&itok=QU_Op1B-"
+        },
+        {
+          "id": "https://www.thedroptimes.com/newsletter/small-steps-lead-success",
+          "author": null,
+          "description": "Dear Drupal Enthusiasts,\nAs a newcomer in the world of tech journalism, every day, I face challenges, new lessons, and small steps that make the journey as significant as the destination.\nThe struggles are new every day, but at the end of the day, the small strides I make become the building blocks of my progress. Looking across, we find people everywhere face their challenges. Even in the Drupal community, these small struggles are the stepping stones leading individuals to conquer immense, significant challenges.\nWe seldom appreciate individual stories of determination, growth, and perseverance that pave the way to triumph. The personal journey one undertakes to reap success is equally relevant—a fact often overlooked.\nSo, let's embrace each small step and every challenge, knowing that t…",
+          "link": "https://www.thedroptimes.com/newsletter/small-steps-lead-success",
+          "publishedOn": "2023-08-21T07:28:38.000Z",
+          "wordCount": 1670,
+          "title": "The Drop Times: Small Steps Lead to Success",
+          "imageUrl": "https://www.thedroptimes.com/sites/thedroptimes.com/files/2023-08/man-wooden-cubes-table-management-marketing-concepts.jpg"
+        },
+        {
+          "id": "https://www.hashbangcode.com/article/drupal-10-adding-custom-permissions-groups",
+          "author": null,
+          "description": "The Group module in Drupal is a powerful way of collecting together users and content under a single entity. These arbitrary collections of entities in a Drupal site can be used for editor teams within your site or company subscriptions where users can manage themselves, or anything that requires groups of users to be created.\nDuring a recent project that used the Group module I found myself digging deeper into the Groups permissions system in order to achieve certain tasks. This is a similar permission system to that already created in Drupal, with the exception that the permission always forms a link between a Group and a user, and an optional additional entity. Permissions being local to the group is useful if you want to create groups of users that had access to pages and other entitiies that are kept within the group.\nGroup permissions are by no means simple though, and the different layers that exist within the permissions systems can make it difficult to see what is preventing access to a particular entity. This situation is complicated by the fact that much of the documentation and third party modules are built around Group version 2, with the current release of Group being version 3. For example, there is a documentation page on extending Groups access control, but as this is only for Groups version 2.0 it doesn't help with the latest version of Groups.\nIn this article I will look at how to create and use permissions within the Group module to grant users certain permissions if they are members of groups. Each example will get more complex as we go through the article and I will show how to use the permission within the site to control access.\n\n      \nRead more",
+          "link": "https://www.hashbangcode.com/article/drupal-10-adding-custom-permissions-groups",
+          "publishedOn": "2023-08-20T17:29:49.000Z",
+          "wordCount": 6188,
+          "title": "#! code: Drupal 10: Adding Custom Permissions To Groups",
+          "imageUrl": "https://www.hashbangcode.com/sites/default/files/styles/header_image/public/header-image/drupal_10_adding_custom_permissions_to_groups.png?h=b72fba26&itok=T1E1unEx"
+        },
+        {
+          "id": "https://evolvingweb.com/blog/how-convert-regular-components-single-directory-components?utm_source=feed",
+          "author": null,
+          "description": "Contribution Day was one of the best parts of DrupalCon Pittsburgh 2023. The Evolving Web team got involved in several different initiatives and my colleague Robert and I decided to work on the initiative for converting Olivero components into Single Directory Components (SDC). Olivero is Drupal's default front-end theme and boasts out-of-the-box accessibility. We chose to work on the SDC initiative because it promises to make Drupal easier for front-end developers and to lower the barrier of entry to those who are new to Drupal. I’d love to walk you through what we did so that you too can learn how to convert regular components into SDC. \nFor further additional information, you can watch the full recording of the DrupalCon Pittsburg session on Single Directory Components in Core by Mike H…",
+          "link": "https://evolvingweb.com/blog/how-convert-regular-components-single-directory-components?utm_source=feed",
+          "publishedOn": "2023-08-18T14:37:37.000Z",
+          "wordCount": 3240,
+          "title": "Evolving Web: How to Convert Regular Components into Single Directory Components",
+          "imageUrl": "https://evolvingweb.com/sites/default/files/styles/ewsite8_social_image/public/2023-08/SDC-banner_0.jpg?itok=B_DCA0oA"
+        },
+        {
+          "id": "https://roose.digital/en/blog/drupal/how-i-upgraded-my-site-drupal-9-drupal-10",
+          "author": null,
+          "description": "Every Drupal website is different so every upgrade will be different. The steps I detail in this blog are very specific but might give you a direction when you get stuck upgrading a Drupal website from version 9 to 10.",
+          "link": "https://roose.digital/en/blog/drupal/how-i-upgraded-my-site-drupal-9-drupal-10",
+          "publishedOn": "2023-08-18T14:04:01.000Z",
+          "wordCount": 1452,
+          "title": "roose.digital: How I upgraded my site from Drupal 9 to Drupal 10",
+          "imageUrl": "https://roose.digital/sites/default/files/styles/social/public/images/social/upgrade-9-10.png?itok=j7UO7nhW"
+        },
+        {
+          "id": "https://roose.digital/en/blog/drupal/can-you-use-drupal-build-website-reddit-without-knowing-how-code",
+          "author": null,
+          "description": "In this blogpost I’ll try to build a Drupal website which has Reddit-like functionality, without writing any PHP code.",
+          "link": "https://roose.digital/en/blog/drupal/can-you-use-drupal-build-website-reddit-without-knowing-how-code",
+          "publishedOn": "2023-08-18T14:04:01.000Z",
+          "wordCount": 2386,
+          "title": "roose.digital: Can you use Drupal to build a website like Reddit without knowing how to code?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://roose.digital/en/blog/drupal/what-every-drupal-website-should-have-start",
+          "author": null,
+          "description": "When you install Drupal it comes with some core modules, but overall the functionality is lacking in terms of what every Drupal website should have. This blog post fills that gap.",
+          "link": "https://roose.digital/en/blog/drupal/what-every-drupal-website-should-have-start",
+          "publishedOn": "2023-08-18T14:04:01.000Z",
+          "wordCount": 2602,
+          "title": "roose.digital: What every Drupal website should have from the start",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.agiledrop.com/blog/top-drupal-blog-posts-july-2023",
+          "author": null,
+          "description": "READ MORE",
+          "link": "https://www.agiledrop.com/blog/top-drupal-blog-posts-july-2023",
+          "publishedOn": "2023-08-18T08:14:17.000Z",
+          "wordCount": 1534,
+          "title": "Agiledrop.com Blog: Top Drupal blog posts from July 2023",
+          "imageUrl": "https://www.agiledrop.com/sites/default/files/styles/blog_big_teaser/public/2023-08/top_drupal_bp_from_july_2023_cover-3_0.png?itok=_zSssV3p"
+        },
+        {
+          "id": "https://www.morpht.com/blog/economic-upside-drupal",
+          "author": null,
+          "description": "Web teams and marketing professionals recognise open-source and proprietary content management system trade-offs. During economic downturns, the Total Cost of Ownership of Drupal offers flexibility, allowing businesses to be more agile with their web strategy.",
+          "link": "https://www.morpht.com/blog/economic-upside-drupal",
+          "publishedOn": "2023-08-18T03:24:01.000Z",
+          "wordCount": 1479,
+          "title": "Morpht: The Economic Upside of Drupal",
+          "imageUrl": "https://www.morpht.com/sites/default/files/styles/full_wide_lg/public/2023-08/iStock-1419025741.jpg?itok=ElPRXNK_"
+        },
+        {
+          "id": "https://www.gizra.com/content/upgrading-drupal9-to-drupal10/",
+          "author": null,
+          "description": "I have had quite a journey upgrading one of our client’s sites from Drupal 9 to Drupal 10. Needless to say, a few hours\nwere used up just searching how to resolve different issues which I encountered. So I have put together this little\nguide to hopefully help you avoid the same headache.",
+          "link": "https://www.gizra.com/content/upgrading-drupal9-to-drupal10/",
+          "publishedOn": "2023-08-18T00:00:00.000Z",
+          "wordCount": 1332,
+          "title": "Gizra.com: Upgrading Drupal 9 to Drupal 10",
+          "imageUrl": "https://www.gizra.com/content/upgrading-drupal9-to-drupal10/thumb.jpg"
+        },
+        {
+          "id": "https://www.palantir.net/blog/charting-future-practice-proactive-roadmapping",
+          "author": null,
+          "description": "How strategic planning enhances Drupal site maintenance\nThe world of Drupal site maintenance can be monotonous—think module upgrades—but it’s often punctuated by unexpected twists and turns like security updates and bug fixes. As Drupal developers supporting client sites long-term, we can find ourselves in these two extreme environments of repetitive and reactive work.\nStrategic road-mapping with clients can greatly improve this situation, transforming the traditional reactive model into a forward-thinking, proactive one. With Palantir’s Drupal Continuous Delivery Portfolio (CDP), we wanted to create an environment where we could promote sustainable growth and enduring client relationships, perfect for carrying out proactive roadmapping together, as well as fostering team members’ learning…",
+          "link": "https://www.palantir.net/blog/charting-future-practice-proactive-roadmapping",
+          "publishedOn": "2023-08-17T12:00:00.000Z",
+          "wordCount": 1078,
+          "title": "Palantir: Charting the Future: The Practice of Proactive Roadmapping",
+          "imageUrl": "https://www.palantir.net/files/styles/large/public/hero/2023-08/CDP-roadmap.png?itok=aUVAzCML"
+        },
+        {
+          "id": "https://www.lnwebworks.com/Insight/wordpress-to-drupal-migration-process",
+          "author": null,
+          "description": "In the vast landscape of content management systems, one platform shines with unparalleled potential – Drupal. While WordPress enjoys popularity, acknowledged for its versatility, it's vital to recognize that Drupal emerges as the superior choice for certain scenarios. In fact, there are compelling reasons for migrating from WordPress to Drupal. While this transition may not be seamless due to inherent differences, the journey can be initiated with relative ease, facilitating substantial content migration to Drupal. \nIn this blog, we explore Drupal migration as the optimal solution and how this transformation can be accomplished in A-B-C steps.",
+          "link": "https://www.lnwebworks.com/Insight/wordpress-to-drupal-migration-process",
+          "publishedOn": "2023-08-17T09:28:52.000Z",
+          "wordCount": 1451,
+          "title": "LN Webworks: WordPress to Drupal: Understanding the Migration Process and Reasons",
+          "imageUrl": "https://www.lnwebworks.com/sites/default/files/2023-08/WordPress%20to%20Drupal%20Process%20and%20Reasons.jpg"
+        },
+        {
+          "id": "https://www.zyxware.com/article/6564/4-must-have-drupal-modules-for-public-sector-websites",
+          "author": null,
+          "description": "This article discusses 4 Drupal modules useful for implementing standard features required by public sector websites.",
+          "link": "https://www.zyxware.com/article/6564/4-must-have-drupal-modules-for-public-sector-websites",
+          "publishedOn": "2023-08-17T08:44:01.000Z",
+          "wordCount": 2803,
+          "title": "Zyxware Technologies: 4 Must-Have Drupal Modules for Public Sector Websites",
+          "imageUrl": "https://www.zyxware.com/sites/default/files/styles/og_image/public/2023-04/public-sector-website.jpeg?itok=fGh0QkUp"
+        },
+        {
+          "id": "https://www.zyxware.com/article/6561/celebrating-drupals-new-recognition-as-a-digital-public-good",
+          "author": null,
+          "description": "Drupal Earns Digital Public Good Status: Recognized by the UN for Helping Achieve Sustainable Development Goals. Drupal's recognition as a Digital Public Good by the DPGA is a significant achievement that invites more governments and non-profit organisations to explore the benefits of using Drupal.",
+          "link": "https://www.zyxware.com/article/6561/celebrating-drupals-new-recognition-as-a-digital-public-good",
+          "publishedOn": "2023-08-17T08:44:01.000Z",
+          "wordCount": 2793,
+          "title": "Zyxware Technologies: Celebrating Drupal's New Recognition as a Digital Public Good",
+          "imageUrl": "https://www.zyxware.com/sites/default/files/styles/og_image/public/2022-12/SDGs.png?itok=7hh_IOKB"
         }
       ]
     }
   ],
-  "cliVersion": "1.11.3"
+  "cliVersion": "1.15.1"
 }
