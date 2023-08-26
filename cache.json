@@ -403,110 +403,6 @@
       ]
     },
     {
-      "title": "as days pass by",
-      "feedUrl": "https://www.kryogenix.org/days/feed",
-      "siteUrl": "https://www.kryogenix.org/days/",
-      "articles": [
-        {
-          "id": "tag:www.kryogenix.org,2023-08-06:/days/2023/08/06/numeric-pangrams/",
-          "author": "sil",
-          "description": "A few days ago I had an interesting maths thought which I dropped on Mastodon:\nToday’s interesting maths problem to think about: what is the largest total from a correct maths equation which uses any number of +*- symbols, one =, and the digits from 0-9 once each?\nFor example, if we’re doing it for digits 0-4, then 40-12=3 isn’t valid (answer is wrong), 1+3=4 isn’t valid (correct but doesn’t use 0 or 2), 12/4+0=3 is good, and 4*3+0=12 is better (because 12 is higher than 3).\nIs there an interesting way to solve this which isn’t “have a computer check all possibilities”?\n\n\nDisappointingly, I couldn’t think of an interesting way to solve it which wasn’t “have a computer check all the possibilities”, so I had a computer check all the possibilities.\nI’m not publishing the script, because it’s not very good; in particular, I’m sure this is the sort of thing that someone could make run in a few seconds if they were clever. I wasn’t feeling clever, so I brute-forced it and just left it to run for a few hours.\nThese are numeric pangrams, I suppose you might call them. A pangram is a sentence which uses all the letters in the alphabet at least once: there are a bunch of famous English examples, starting with “The quick brown fox jumps over a lazy dog” and getting less and less comprehensible as they get shorter. Vexing quizzes show up a lot. Anyway, after I thought up the term “numeric pangrams” I checked to see if anybody else had already done so and of course Greg Ross at Futility Closet did sixteen years ago. His examples are the digits from 1-9, though (his biggest example is 4 × 1963 = 7852), and my 0-9 suggestion allows for much larger total values.\nAnyway, the best equations I could come up with which use all the digits from 0-9 were:\n42 × 8 × 91 = 30576\n46 × 715 = 32890\n4 × 9127 = 36508\n63 × 927 = 58401\n7 × 9403 = 65821\nThis is the sort of thing that Henry Dudeney would have cleverly done by hand. Python is the way forward, of course.",
-          "link": "https://www.kryogenix.org/days/2023/08/06/numeric-pangrams/",
-          "publishedOn": "2023-08-06T13:11:00.000Z",
-          "wordCount": 732,
-          "title": "Numeric Pangrams",
-          "imageUrl": "https://www.kryogenix.org/days/2023/08/06/numeric-pangrams/index.html.og_image.png"
-        }
-      ]
-    },
-    {
-      "title": "Life of a Developer",
-      "feedUrl": "http://www.thelins.se/johan/blog/feed/",
-      "siteUrl": "http://www.thelins.se/johan/blog",
-      "articles": [
-        {
-          "id": "http://www.thelins.se/johan/blog/?p=1447",
-          "author": "Johan Thelin",
-          "description": "As it’s weekend, it is time for something more light hearted. This is how my son and I packed his Lego when going to the summer house. A yellow head staring you down from inside the yellow car!",
-          "link": "http://www.thelins.se/johan/blog/2023/08/the-lego-head/",
-          "publishedOn": "2023-08-26T06:09:36.000Z",
-          "wordCount": 681,
-          "title": "The Lego Head",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.thelins.se/johan/blog/?p=1444",
-          "author": "Johan Thelin",
-          "description": "As promised, here comes a post about living with my first fully electric car. In March I received my MG5. So, let’s get the range question out of the way. My last car was a fairly lean diesel (a BMW E61 with the 2.0L diesel) and my personal record was 1350km on one tank of … Continue reading Driving Electric",
-          "link": "http://www.thelins.se/johan/blog/2023/08/driving-electric/",
-          "publishedOn": "2023-08-25T18:16:18.000Z",
-          "wordCount": 1273,
-          "title": "Driving Electric",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.thelins.se/johan/blog/?p=1439",
-          "author": "Johan Thelin",
-          "description": "As the first week of work and school comes to an end, I realized that this 100 days to offload is harder than predicted. I partly blame that I got the traditional going-back-to-work cold, but I guess I also have less time to spend on fun stuff like writing. This week has been about cleaning … Continue reading First Week of Work and School",
-          "link": "http://www.thelins.se/johan/blog/2023/08/first-week-of-work-and-school/",
-          "publishedOn": "2023-08-25T08:52:01.000Z",
-          "wordCount": 921,
-          "title": "First Week of Work and School",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.thelins.se/johan/blog/?p=1430",
-          "author": "Johan Thelin",
-          "description": "I’ve been using the PineTime with the InfiniTime firmware and GadgetBridge for quite a while now. I’ve had some battery issues with my first one so now I’ve ordered a bunch. The upside with that is that the kids now get a cool smartwatch each when going to school – and I didn’t have to … Continue reading PineTime ftw!",
-          "link": "http://www.thelins.se/johan/blog/2023/08/pinetime-ftw/",
-          "publishedOn": "2023-08-21T15:14:25.000Z",
-          "wordCount": 774,
-          "title": "PineTime ftw!",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.thelins.se/johan/blog/?p=1424",
-          "author": "Johan Thelin",
-          "description": "It’s weekend time, so I thought I’d write about a lighter theme, so why not music. This week I’ve been listening to the following albums. As you can tell, it’s still vacation (last week) so not much coding music, but music that requires a bit more attention. Still, I enjoy them all. This post is … Continue reading Weekend topic: Music",
-          "link": "http://www.thelins.se/johan/blog/2023/08/weekend-topic-music/",
-          "publishedOn": "2023-08-19T07:51:05.000Z",
-          "wordCount": 733,
-          "title": "Weekend topic: Music",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.thelins.se/johan/blog/?p=1421",
-          "author": "Johan Thelin",
-          "description": "I’ve thought a bit about learning a skill. How to progress. What the next steps are. This is probably because I’ve moved away from what I thought I used to be, career wise, to something else, and now I’m trying to determine what I will do when I grow up. The only way to learn … Continue reading The What, How and Why",
-          "link": "http://www.thelins.se/johan/blog/2023/08/the-what-how-and-why/",
-          "publishedOn": "2023-08-18T07:22:41.000Z",
-          "wordCount": 1291,
-          "title": "The What, How and Why",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.thelins.se/johan/blog/?p=1417",
-          "author": "Johan Thelin",
-          "description": "The feeling of this summer is one of catching up. Last summer was intense due to changes in the family followed by decease and death, leaving with me as a full time single parent. To my great joy, I’ve met someone who is special to me, so this summer has been about getting our families … Continue reading A summer of catching up",
-          "link": "http://www.thelins.se/johan/blog/2023/08/a-summer-of-catching-up/",
-          "publishedOn": "2023-08-17T13:59:49.000Z",
-          "wordCount": 910,
-          "title": "A summer of catching up",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.thelins.se/johan/blog/?p=1415",
-          "author": "Johan Thelin",
-          "description": "So, I’ve been procrastinating instead of jumping into the 100 Days To Offload bandwagon. This is something I’ve contemplated for a long time, so it is a bit ironic that I failed to get started. The idea is to just write, and that is what I intend to do from now on. Hopefully the 100 … Continue reading 100 Days to Offload – take off",
-          "link": "http://www.thelins.se/johan/blog/2023/08/100-days-to-offload-take-off/",
-          "publishedOn": "2023-08-16T14:30:17.000Z",
-          "wordCount": 885,
-          "title": "100 Days to Offload – take off",
-          "imageUrl": null
-        }
-      ]
-    },
-    {
       "title": "Articles on Smashing Magazine — For Web Designers And Developers",
       "feedUrl": "https://www.smashingmagazine.com/feed/",
       "siteUrl": "https://www.smashingmagazine.com/",
@@ -720,6 +616,147 @@
             "type": "image/jpg"
           },
           "imageUrl": "http://files.smashing.media/articles/define-array-colors-css/define-array-colors-css.jpg"
+        }
+      ]
+    },
+    {
+      "title": "MDN Blog",
+      "feedUrl": "https://developer.mozilla.org/en-US/blog/rss.xml",
+      "siteUrl": "https://developer.mozilla.org/en-US/blog/",
+      "articles": [
+        {
+          "id": "https://developer.mozilla.org/en-US/blog/announcing-mdn-front-end-developer-curriculum/",
+          "author": null,
+          "description": "MDN has created a curriculum for aspiring front-end developers to build a rewarding and successful career. Take a look at the curriculum, who it's for, and the research it's based on.",
+          "link": "https://developer.mozilla.org/en-US/blog/announcing-mdn-front-end-developer-curriculum/",
+          "publishedOn": "2023-08-14T00:00:00.000Z",
+          "wordCount": 2287,
+          "title": "Announcing the MDN front-end developer curriculum",
+          "enclosure": {
+            "url": "https://developer.mozilla.org/en-US/blog/announcing-mdn-front-end-developer-curriculum/mandala.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://developer.mozilla.org/en-US/blog/announcing-mdn-front-end-developer-curriculum/mandala.png"
+        },
+        {
+          "id": "https://developer.mozilla.org/en-US/blog/custom-easing-in-css-with-linear/",
+          "author": null,
+          "description": "The new CSS linear() timing function enables custom easing in animations. Explore how linear() works compared with other timing functions used for easing, with practical examples.",
+          "link": "https://developer.mozilla.org/en-US/blog/custom-easing-in-css-with-linear/",
+          "publishedOn": "2023-08-01T00:00:00.000Z",
+          "wordCount": 10743,
+          "title": "Creating custom easing effects in CSS animations using the linear() function",
+          "enclosure": {
+            "url": "https://developer.mozilla.org/en-US/blog/custom-easing-in-css-with-linear/linear-easing-featured.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "https://developer.mozilla.org/en-US/blog/custom-easing-in-css-with-linear/linear-easing-featured.png"
+        }
+      ]
+    },
+    {
+      "title": "as days pass by",
+      "feedUrl": "https://www.kryogenix.org/days/feed",
+      "siteUrl": "https://www.kryogenix.org/days/",
+      "articles": [
+        {
+          "id": "tag:www.kryogenix.org,2023-08-06:/days/2023/08/06/numeric-pangrams/",
+          "author": "sil",
+          "description": "A few days ago I had an interesting maths thought which I dropped on Mastodon:\nToday’s interesting maths problem to think about: what is the largest total from a correct maths equation which uses any number of +*- symbols, one =, and the digits from 0-9 once each?\nFor example, if we’re doing it for digits 0-4, then 40-12=3 isn’t valid (answer is wrong), 1+3=4 isn’t valid (correct but doesn’t use 0 or 2), 12/4+0=3 is good, and 4*3+0=12 is better (because 12 is higher than 3).\nIs there an interesting way to solve this which isn’t “have a computer check all possibilities”?\n\n\nDisappointingly, I couldn’t think of an interesting way to solve it which wasn’t “have a computer check all the possibilities”, so I had a computer check all the possibilities.\nI’m not publishing the script, because it’s not very good; in particular, I’m sure this is the sort of thing that someone could make run in a few seconds if they were clever. I wasn’t feeling clever, so I brute-forced it and just left it to run for a few hours.\nThese are numeric pangrams, I suppose you might call them. A pangram is a sentence which uses all the letters in the alphabet at least once: there are a bunch of famous English examples, starting with “The quick brown fox jumps over a lazy dog” and getting less and less comprehensible as they get shorter. Vexing quizzes show up a lot. Anyway, after I thought up the term “numeric pangrams” I checked to see if anybody else had already done so and of course Greg Ross at Futility Closet did sixteen years ago. His examples are the digits from 1-9, though (his biggest example is 4 × 1963 = 7852), and my 0-9 suggestion allows for much larger total values.\nAnyway, the best equations I could come up with which use all the digits from 0-9 were:\n42 × 8 × 91 = 30576\n46 × 715 = 32890\n4 × 9127 = 36508\n63 × 927 = 58401\n7 × 9403 = 65821\nThis is the sort of thing that Henry Dudeney would have cleverly done by hand. Python is the way forward, of course.",
+          "link": "https://www.kryogenix.org/days/2023/08/06/numeric-pangrams/",
+          "publishedOn": "2023-08-06T13:11:00.000Z",
+          "wordCount": 732,
+          "title": "Numeric Pangrams",
+          "imageUrl": "https://www.kryogenix.org/days/2023/08/06/numeric-pangrams/index.html.og_image.png"
+        }
+      ]
+    },
+    {
+      "title": "Life of a Developer",
+      "feedUrl": "http://www.thelins.se/johan/blog/feed/",
+      "siteUrl": "http://www.thelins.se/johan/blog",
+      "articles": [
+        {
+          "id": "http://www.thelins.se/johan/blog/?p=1447",
+          "author": "Johan Thelin",
+          "description": "As it’s weekend, it is time for something more light hearted. This is how my son and I packed his Lego when going to the summer house. A yellow head staring you down from inside the yellow car!",
+          "link": "http://www.thelins.se/johan/blog/2023/08/the-lego-head/",
+          "publishedOn": "2023-08-26T06:09:36.000Z",
+          "wordCount": 681,
+          "title": "The Lego Head",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.thelins.se/johan/blog/?p=1444",
+          "author": "Johan Thelin",
+          "description": "As promised, here comes a post about living with my first fully electric car. In March I received my MG5. So, let’s get the range question out of the way. My last car was a fairly lean diesel (a BMW E61 with the 2.0L diesel) and my personal record was 1350km on one tank of … Continue reading Driving Electric",
+          "link": "http://www.thelins.se/johan/blog/2023/08/driving-electric/",
+          "publishedOn": "2023-08-25T18:16:18.000Z",
+          "wordCount": 1273,
+          "title": "Driving Electric",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.thelins.se/johan/blog/?p=1439",
+          "author": "Johan Thelin",
+          "description": "As the first week of work and school comes to an end, I realized that this 100 days to offload is harder than predicted. I partly blame that I got the traditional going-back-to-work cold, but I guess I also have less time to spend on fun stuff like writing. This week has been about cleaning … Continue reading First Week of Work and School",
+          "link": "http://www.thelins.se/johan/blog/2023/08/first-week-of-work-and-school/",
+          "publishedOn": "2023-08-25T08:52:01.000Z",
+          "wordCount": 921,
+          "title": "First Week of Work and School",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.thelins.se/johan/blog/?p=1430",
+          "author": "Johan Thelin",
+          "description": "I’ve been using the PineTime with the InfiniTime firmware and GadgetBridge for quite a while now. I’ve had some battery issues with my first one so now I’ve ordered a bunch. The upside with that is that the kids now get a cool smartwatch each when going to school – and I didn’t have to … Continue reading PineTime ftw!",
+          "link": "http://www.thelins.se/johan/blog/2023/08/pinetime-ftw/",
+          "publishedOn": "2023-08-21T15:14:25.000Z",
+          "wordCount": 774,
+          "title": "PineTime ftw!",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.thelins.se/johan/blog/?p=1424",
+          "author": "Johan Thelin",
+          "description": "It’s weekend time, so I thought I’d write about a lighter theme, so why not music. This week I’ve been listening to the following albums. As you can tell, it’s still vacation (last week) so not much coding music, but music that requires a bit more attention. Still, I enjoy them all. This post is … Continue reading Weekend topic: Music",
+          "link": "http://www.thelins.se/johan/blog/2023/08/weekend-topic-music/",
+          "publishedOn": "2023-08-19T07:51:05.000Z",
+          "wordCount": 733,
+          "title": "Weekend topic: Music",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.thelins.se/johan/blog/?p=1421",
+          "author": "Johan Thelin",
+          "description": "I’ve thought a bit about learning a skill. How to progress. What the next steps are. This is probably because I’ve moved away from what I thought I used to be, career wise, to something else, and now I’m trying to determine what I will do when I grow up. The only way to learn … Continue reading The What, How and Why",
+          "link": "http://www.thelins.se/johan/blog/2023/08/the-what-how-and-why/",
+          "publishedOn": "2023-08-18T07:22:41.000Z",
+          "wordCount": 1291,
+          "title": "The What, How and Why",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.thelins.se/johan/blog/?p=1417",
+          "author": "Johan Thelin",
+          "description": "The feeling of this summer is one of catching up. Last summer was intense due to changes in the family followed by decease and death, leaving with me as a full time single parent. To my great joy, I’ve met someone who is special to me, so this summer has been about getting our families … Continue reading A summer of catching up",
+          "link": "http://www.thelins.se/johan/blog/2023/08/a-summer-of-catching-up/",
+          "publishedOn": "2023-08-17T13:59:49.000Z",
+          "wordCount": 910,
+          "title": "A summer of catching up",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.thelins.se/johan/blog/?p=1415",
+          "author": "Johan Thelin",
+          "description": "So, I’ve been procrastinating instead of jumping into the 100 Days To Offload bandwagon. This is something I’ve contemplated for a long time, so it is a bit ironic that I failed to get started. The idea is to just write, and that is what I intend to do from now on. Hopefully the 100 … Continue reading 100 Days to Offload – take off",
+          "link": "http://www.thelins.se/johan/blog/2023/08/100-days-to-offload-take-off/",
+          "publishedOn": "2023-08-16T14:30:17.000Z",
+          "wordCount": 885,
+          "title": "100 Days to Offload – take off",
+          "imageUrl": null
         }
       ]
     },
@@ -1406,6 +1443,96 @@
       "feedUrl": "http://www.gp.se/?rss",
       "siteUrl": "http://www.gp.se/",
       "articles": [
+        {
+          "id": "http://www.gp.se/livsstil/världens-gång/wanloos-grundkurs-hur-du-flyttar-från-göteborg-1.108281432",
+          "author": null,
+          "description": "Lär dig alla knepen: Glenn, Andra lång (och Bollebygd!)",
+          "link": "http://www.gp.se/livsstil/v%C3%A4rldens-g%C3%A5ng/wanloos-grundkurs-hur-du-flyttar-fr%C3%A5n-g%C3%B6teborg-1.108281432",
+          "publishedOn": "2023-08-26T16:23:02.000Z",
+          "wordCount": 7391,
+          "title": "Wanloos grundkurs: hur du flyttar från Göteborg",
+          "imageUrl": "https://www.gp.se/image/policy:1.108281406:1693066644/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a"
+        },
+        {
+          "id": "http://www.gp.se/nyheter/världen/elden-hotar-stad-fler-evakueras-i-kanada-1.108281390",
+          "author": null,
+          "description": "Kraftiga vindar och stigande temperaturer som blåst nytt liv i förödande skogsbränder tvingar fram nya evakueringar i norra Kanada.",
+          "link": "http://www.gp.se/nyheter/v%C3%A4rlden/elden-hotar-stad-fler-evakueras-i-kanada-1.108281390",
+          "publishedOn": "2023-08-26T16:16:58.000Z",
+          "wordCount": 5074,
+          "title": "Elden hotar stad – fler evakueras i Kanada",
+          "imageUrl": "https://www.gp.se/image/policy:1.108281383:1693066645/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a"
+        },
+        {
+          "id": "http://www.gp.se/sport/031-fotboll/hattrick-av-nathalie-johansson-när-vimmerby-slog-boren-1.108280628",
+          "author": null,
+          "description": "Nathalie Johansson stod för ett hattrick när Vimmerby besegrade Boren på bortaplan i division 2 nordöstra Götaland dam i fotboll med 5-1 (2-0). Övriga mål för bortalaget gjordes av Shams Imad Tarabeih och Frida Pöder, enda målskytt för Boren blev Linnea Andersson.",
+          "link": "http://www.gp.se/sport/031-fotboll/hattrick-av-nathalie-johansson-n%C3%A4r-vimmerby-slog-boren-1.108280628",
+          "publishedOn": "2023-08-26T16:10:43.000Z",
+          "wordCount": 5035,
+          "title": "Hattrick av Nathalie Johansson när Vimmerby slog Boren",
+          "imageUrl": "https://www.gp.se/polopoly_fs/3.200.1688553675!/images/se.gp/fallback-og-image.png"
+        },
+        {
+          "id": "http://www.gp.se/sport/031-fotboll/gothenb-celtic-bröt-gambian-mix-segersvit-1.108280581",
+          "author": null,
+          "description": "Efter tio segrar i rad i division 7 Göteborg A herr i fotboll för Gambian Mix så tog vinstsviten slut borta mot Gothenb Celtic. Matchen på lördagen på Heden slutade 2-2 (0-1).",
+          "link": "http://www.gp.se/sport/031-fotboll/gothenb-celtic-br%C3%B6t-gambian-mix-segersvit-1.108280581",
+          "publishedOn": "2023-08-26T16:10:30.000Z",
+          "wordCount": 5019,
+          "title": "Gothenb Celtic bröt Gambian Mix segersvit",
+          "imageUrl": "https://www.gp.se/polopoly_fs/3.200.1688553675!/images/se.gp/fallback-og-image.png"
+        },
+        {
+          "id": "http://www.gp.se/sport/031-fotboll/efter-fyra-förluster-i-rad-äntligen-är-sviten-bruten-för-nordvärmland-1.108280477",
+          "author": null,
+          "description": "Matchen mellan Stenungsund och Nordvärmland på Bästkustställningar Arena slutade 0-1 (0-1). Ett skönt trendbrott för Nordvärmland. Laget hade före lördagens bortamatch fyra förluster i rad i division 2 norra Götaland herr i fotboll.",
+          "link": "http://www.gp.se/sport/031-fotboll/efter-fyra-f%C3%B6rluster-i-rad-%C3%A4ntligen-%C3%A4r-sviten-bruten-f%C3%B6r-nordv%C3%A4rmland-1.108280477",
+          "publishedOn": "2023-08-26T16:10:07.000Z",
+          "wordCount": 5042,
+          "title": "Efter fyra förluster i rad – äntligen är sviten bruten för Nordvärmland",
+          "imageUrl": "https://www.gp.se/polopoly_fs/3.200.1688553675!/images/se.gp/fallback-og-image.png"
+        },
+        {
+          "id": "http://www.gp.se/sport/fulham-bröt-arsenals-segersvit-trots-tio-man-1.108278988",
+          "author": null,
+          "description": "Trots 2–1-ledning, med ett par minuter kvar, och en man mer på plan tappade Arsenal poäng i Londonderbyt mot Fulham. Därmed åkte Arsenal på sitt första poängtapp för säsongen.",
+          "link": "http://www.gp.se/sport/fulham-br%C3%B6t-arsenals-segersvit-trots-tio-man-1.108278988",
+          "publishedOn": "2023-08-26T16:01:49.000Z",
+          "wordCount": 5113,
+          "title": "Fulham bröt Arsenals segersvit – trots tio man",
+          "imageUrl": "https://www.gp.se/image/policy:1.108278979:1693065737/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a"
+        },
+        {
+          "id": "http://www.gp.se/sport/031-fotboll/onsala-avgjorde-i-andra-halvlek-mot-södra-sandby-1.108278550",
+          "author": null,
+          "description": "Onsala vann bortamatchen i division 1 södra dam mot Södra Sandby på lördagen. Matchen slutade 0-4 (0-0) efter att Onsala avgjort matchen i andra halvlek.",
+          "link": "http://www.gp.se/sport/031-fotboll/onsala-avgjorde-i-andra-halvlek-mot-s%C3%B6dra-sandby-1.108278550",
+          "publishedOn": "2023-08-26T15:59:15.000Z",
+          "wordCount": 5019,
+          "title": "Onsala avgjorde i andra halvlek mot Södra Sandby",
+          "imageUrl": "https://www.gp.se/polopoly_fs/3.200.1688553675!/images/se.gp/fallback-og-image.png"
+        },
+        {
+          "id": "http://www.gp.se/sport/031-fotboll/lunds-bk-avgjorde-i-första-halvlek-mot-vänersborg-1.108278428",
+          "author": null,
+          "description": "Lördagens matchen mellan Vänersborg och Lunds BK i Ettan södra herr i fotboll avgjordes redan i första halvleken. Bortalaget Lunds BK ledde med 2-0 i paus, och resultatet stod sig matchen ut.",
+          "link": "http://www.gp.se/sport/031-fotboll/lunds-bk-avgjorde-i-f%C3%B6rsta-halvlek-mot-v%C3%A4nersborg-1.108278428",
+          "publishedOn": "2023-08-26T15:59:07.000Z",
+          "wordCount": 5024,
+          "title": "Lunds BK avgjorde i första halvlek mot Vänersborg",
+          "imageUrl": "https://www.gp.se/polopoly_fs/3.200.1688553675!/images/se.gp/fallback-og-image.png"
+        },
+        {
+          "id": "http://www.gp.se/sport/031-fotboll/två-mål-för-alibek-aliev-när-fc-trollhättan-besegrade-tvååker-1.108278443",
+          "author": null,
+          "description": "FC Trollhättan vann mötet med Tvååker borta med 3-0 (1-0) på lördagen i Ettan södra herr i fotboll.",
+          "link": "http://www.gp.se/sport/031-fotboll/tv%C3%A5-m%C3%A5l-f%C3%B6r-alibek-aliev-n%C3%A4r-fc-trollh%C3%A4ttan-besegrade-tv%C3%A5%C3%A5ker-1.108278443",
+          "publishedOn": "2023-08-26T15:59:07.000Z",
+          "wordCount": 5017,
+          "title": "Två mål för Alibek Aliev när FC Trollhättan besegrade Tvååker",
+          "imageUrl": "https://www.gp.se/polopoly_fs/3.200.1688553675!/images/se.gp/fallback-og-image.png"
+        },
         {
           "id": "http://www.gp.se/sport/031-fotboll/yonathan-getachew-och-hampus-stoltz-matchvinnare-borta-mot-åtvidaberg-1.108277873",
           "author": null,
@@ -2395,43 +2522,6 @@
           "wordCount": 5043,
           "title": "Onsala spelar hemma mot Västra Frölunda på Rydets IP i dag",
           "imageUrl": "https://www.gp.se/polopoly_fs/3.200.1688553675!/images/se.gp/fallback-og-image.png"
-        }
-      ]
-    },
-    {
-      "title": "MDN Blog",
-      "feedUrl": "https://developer.mozilla.org/en-US/blog/rss.xml",
-      "siteUrl": "https://developer.mozilla.org/en-US/blog/",
-      "articles": [
-        {
-          "id": "https://developer.mozilla.org/en-US/blog/announcing-mdn-front-end-developer-curriculum/",
-          "author": null,
-          "description": "MDN has created a curriculum for aspiring front-end developers to build a rewarding and successful career. Take a look at the curriculum, who it's for, and the research it's based on.",
-          "link": "https://developer.mozilla.org/en-US/blog/announcing-mdn-front-end-developer-curriculum/",
-          "publishedOn": "2023-08-14T00:00:00.000Z",
-          "wordCount": 2287,
-          "title": "Announcing the MDN front-end developer curriculum",
-          "enclosure": {
-            "url": "https://developer.mozilla.org/en-US/blog/announcing-mdn-front-end-developer-curriculum/mandala.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://developer.mozilla.org/en-US/blog/announcing-mdn-front-end-developer-curriculum/mandala.png"
-        },
-        {
-          "id": "https://developer.mozilla.org/en-US/blog/custom-easing-in-css-with-linear/",
-          "author": null,
-          "description": "The new CSS linear() timing function enables custom easing in animations. Explore how linear() works compared with other timing functions used for easing, with practical examples.",
-          "link": "https://developer.mozilla.org/en-US/blog/custom-easing-in-css-with-linear/",
-          "publishedOn": "2023-08-01T00:00:00.000Z",
-          "wordCount": 10743,
-          "title": "Creating custom easing effects in CSS animations using the linear() function",
-          "enclosure": {
-            "url": "https://developer.mozilla.org/en-US/blog/custom-easing-in-css-with-linear/linear-easing-featured.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "https://developer.mozilla.org/en-US/blog/custom-easing-in-css-with-linear/linear-easing-featured.png"
         }
       ]
     },
