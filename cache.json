@@ -24,6 +24,36 @@
       "siteUrl": "https://www.drupal.org/planet",
       "articles": [
         {
+          "id": "https://consensus.enterprises/blog/aegir5-roadmap-update/",
+          "author": null,
+          "description": "The Road(map) so far Back in June, we submitted a Pitch-burgh pitch to seek funding to finally get Aegir 5 fully off the ground.\nPrior to that, we had been working to build a roadmap to push our prototype implementation up to feature parity and an initial release for broader community participation. In parallel to that, we’d been publishing this series of posts with the goal of culminating in a roadmap and action plan.",
+          "link": "https://consensus.enterprises/blog/aegir5-roadmap-update/",
+          "publishedOn": "2023-10-03T12:00:00.000Z",
+          "wordCount": 846,
+          "title": "Consensus Enterprises: Aegir5 Roadmap Update: Planning & Estimation",
+          "imageUrl": "https://consensus.enterprises//images/blog/banners/aegir-logo-banner.svg"
+        },
+        {
+          "id": "https://www.lnwebworks.com/Insight/drupal-solutions-for-higher-education-websites",
+          "author": null,
+          "description": "While pursuing higher education is known for its challenges, have you ever considered the intricacies of managing a higher education institution? The massive volume of files, student records, databases, and other elements can quickly spiral into disarray.",
+          "link": "https://www.lnwebworks.com/Insight/drupal-solutions-for-higher-education-websites",
+          "publishedOn": "2023-10-03T10:50:49.000Z",
+          "wordCount": 1310,
+          "title": "LN Webworks: Why Do Higher Education Websites Prefer Drupal as Their CMS?",
+          "imageUrl": "https://www.lnwebworks.com/sites/default/files/2023-10/Why%20Do%20Higher%20Education%20Websites%20Prefer%20Drupal%20as%20Their%20CMS.jpg"
+        },
+        {
+          "id": "https://www.specbee.com/blogs/basics-and-beyond-css-units",
+          "author": null,
+          "description": "In the world of web design, there was a need for a common language that could help designers and developers speak the same styling dialect. This is where CSS units, came into play. CSS units are like the measuring tape when you’re building a house, ingredients in a recipe for web design.\nCSS units are crucial for specifying the size of elements on a web page. Whether you want to set the width of a div, the height of an image, or the font size of text, CSS units allow you to express these dimensions precisely. In this article, we'll go over some of the most commonly used CSS units, typography, and some new CSS viewport units.\n\n\t\n\t\t\t\n    \nDecoding CSS Units\nWe use PX, PT, EM, REM, %, VW, VH, VMIN, and VMAX as CSS units. CSS units can be classified into two categories: Absolute and Relative u…",
+          "link": "https://www.specbee.com/blogs/basics-and-beyond-css-units",
+          "publishedOn": "2023-10-03T09:24:28.000Z",
+          "wordCount": null,
+          "title": "Specbee: The Basics and Beyond of CSS Units",
+          "imageUrl": null
+        },
+        {
           "id": "https://sacstudio.libsyn.com/talking-drupal-418-inclusive-hiring-practices",
           "author": null,
           "description": "Today we are talking about Inclusive Hiring Practices, Disability Employment Awareness Month, and tips to improve your hiring practices with our guest Donna Bungard. We’ll also cover Organigrams as our module of the week.\n For show notes visit: www.talkingDrupal.com/418\n  Topics \n When is National Disability Awareness Month\n What is the definition of Inclusive in this context\n Why are inclusive hiring practices important\n Have organizations been doing well with this\n What is disclosure and how can it impact people\n What can organizations do to be more inclusive\n What tools can be used to improve hiring practices\n Whose responsibility is it to address issues\n Any closing thoughts\n   Resources \nNational Disability Employment Awareness Month Snow shovel cartoon Curb-cut effect\n Race after tec…",
@@ -1432,26 +1462,6 @@
           "wordCount": 959,
           "title": "Drupal Association blog: Board Election 2023 Candidate: Ashraf Abed",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.thedroptimes.com/newsletter/embracing-continuous-learning",
-          "author": null,
-          "description": "I believe that every day has a valuable lesson to offer. Whether it was a chance encounter with a stranger on my daily commute or a setback at work, I approached each day with curiosity and an open heart. I feel that life's most valuable lessons often emerge from the most unexpected places, and the willingness to learn from every experience has turned my everyday life into a continuous journey of growth and self-discovery.\nJust like my everyday experiences contribute to my personal development, the Drupal community's shared insights and experiences shape the community's ongoing success, embodying the spirit of continuous learning and progress.\nLet us look into last week's stories by The Drop Times.\nLast week, we published an interview with Sibu Stephen, a User Interface Consultant at Digit…",
-          "link": "https://www.thedroptimes.com/newsletter/embracing-continuous-learning",
-          "publishedOn": "2023-09-04T10:03:17.000Z",
-          "wordCount": 1101,
-          "title": "The Drop Times: Embracing Continuous Learning",
-          "imageUrl": "https://www.thedroptimes.com/sites/thedroptimes.com/files/2023-09/thought-catalog-pernnigmonu-unsplash_0.jpg"
-        },
-        {
-          "id": "https://www.hashbangcode.com/article/drupal-10-adding-third-party-settings-drupal-configuration-entities",
-          "author": null,
-          "description": "Drupal's modular system allows for all kinds of additions to be added to your site through plugins, entities and configuration.\nThanks to Drupal's modular configuration system you can also inject custom configuration into existing configuration entities. This allows you to extend the functionality of an existing entity and ensure that any customisation are saved in the system configuration. Any configuration entity can be augmented without changing the existing configuration schema of the entity, which might cause knock on effects to other modules.\nIf you have spent time with Drupal configuration then you might have seen the addition of a third_party_settings block to your configuration. A good example of this is with the core Shortcut module and the third party settings it adds to the installed themes when the site is installed using the standard install profile. The Claro theme, for example, will have the following configuration out of the box.\nthird_party_settings:\n  shortcut:\n    module_link: true\n\nThis allows the Shortcut module to detect if it should show a link on the page when this theme is present on the page. The configuration for this setting then doesn't have to live in a separate configuration entity (which would be exported into a separate file); it can just live with the configuration for the theme and be loaded as part of the theme configuration.\nIn this article I will look at how to use additional settings to add custom configuration items to an existing configuration entity. I'll also cover a couple of use cases for this technique.\n\n      \nRead more",
-          "link": "https://www.hashbangcode.com/article/drupal-10-adding-third-party-settings-drupal-configuration-entities",
-          "publishedOn": "2023-09-03T18:05:22.000Z",
-          "wordCount": 2851,
-          "title": "#! code: Drupal 10: Adding Third Party Settings To Drupal Configuration Entities",
-          "imageUrl": "https://www.hashbangcode.com/sites/default/files/styles/header_image/public/header-image/drupal_10_adding_third_party_settings_to_drupal_configuration_entities.png?h=b72fba26&itok=mYz7sopV"
         }
       ]
     },
@@ -1617,6 +1627,21 @@
       "feedUrl": "https://www.smashingmagazine.com/feed/",
       "siteUrl": "https://www.smashingmagazine.com/",
       "articles": [
+        {
+          "id": "https://smashingmagazine.com/2023/10/waterbear-building-free-platform-documentaries-part2/",
+          "author": "hello@smashingmagazine.com (Adrian Bece)",
+          "description": "In this second article of a two-part series, Adrian shares insights about building WaterBear — his first project as a lead developer — discussing the challenges his team encountered while building it and various accessibility and performance improvements they’ve made. You’ll get a peek at the inner workings of a team striving to find its groove to systematize the work.",
+          "link": "https://smashingmagazine.com/2023/10/waterbear-building-free-platform-documentaries-part2/",
+          "publishedOn": "2023-10-02T18:00:00.000Z",
+          "wordCount": 6112,
+          "title": "WaterBear: Building A Free Platform For Impactful Documentaries (Part 2)",
+          "enclosure": {
+            "url": "http://smashing-files.ams3.digitaloceanspaces.com/articles/waterbear-building-free-platform-documentaries-part2/waterbear-building-free-platform-impactful-documentaries.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://smashing-files.ams3.digitaloceanspaces.com/articles/waterbear-building-free-platform-documentaries-part2/waterbear-building-free-platform-impactful-documentaries.jpg"
+        },
         {
           "id": "https://smashingmagazine.com/2023/09/desktop-wallpaper-calendars-october-2023/",
           "author": "hello@smashingmagazine.com (Cosima Mielke)",
@@ -2201,16 +2226,6 @@
           "wordCount": 483,
           "title": "Truth.",
           "imageUrl": "https://64.media.tumblr.com/a50ac248771bcc4cf44f47cdbb779ebc/9ac52f00e172d11a-46/s1280x1920/8465238c74ea0c07a86f67a71174ad2c8ed3177a.jpg"
-        },
-        {
-          "id": "https://rythian.tumblr.com/post/727483903120637952",
-          "author": null,
-          "description": "ktechnicolour:\n\n\nAn old WIP I found and decided to finish. there’s a blaring mistake with it, but I liked it other than that so thought id finish it.\n\nAwesome.",
-          "link": "https://rythian.tumblr.com/post/727483903120637952",
-          "publishedOn": "2023-09-03T23:11:53.000Z",
-          "wordCount": 571,
-          "title": "Awesome.",
-          "imageUrl": "https://64.media.tumblr.com/053066d4db54b0d8444487168e544605/fb0a8f32518c36d6-34/s1280x1920/53bcacf23ccfef8183b6013b5938fcf5922cdfa9.png"
         }
       ]
     },
@@ -2356,6 +2371,106 @@
       "feedUrl": "https://nyhetersto.se/feed/",
       "siteUrl": "https://nyhetersto.se/",
       "articles": [
+        {
+          "id": "https://nyhetersto.se/?p=6912708",
+          "author": "Redaktionen - NYHETERsto",
+          "description": "På tisdagskvällen kom många rapporter om dåligt tryck eller inget vatten alls i kranen hos abonnenter till kommunalt vatten eller via samfällighetsföreningar i Ödsmål. Läckan lokaliserades, mycket tack vare er läsares rapporter. Via sociala medier ställde vi frågan i samarbete med kommunens driftjour om vilka områden som var berörda och Ni läsare var snabba med...\nInlägget Vattenläcka i Ödsmål dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
+          "link": "https://nyhetersto.se/2023/10/03/vattenlacka-i-odsmal-2/",
+          "publishedOn": "2023-10-03T19:27:58.000Z",
+          "wordCount": 4405,
+          "title": "Vattenläcka i Ödsmål",
+          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2021/07/vattenglas.jpg"
+        },
+        {
+          "id": "https://nyhetersto.se/?p=6912686",
+          "author": "Redaktionen - NYHETERsto",
+          "description": "På tisdagskvällen är det dåligt tryck eller inget vatten alls i kranar med kommunalt vatten. Kommunen felsöker. Det verkar vara ett större område som berörs i och runt Ödsmål. Om du har vatten i kranen uppmanas du att tappa upp vatten för behov. Vid en eventuellt läcka kommer vattnet antagligen att stängas av.\nInlägget VATTEN – Ödsmål dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
+          "link": "https://nyhetersto.se/2023/10/03/vatten-odsmal/",
+          "publishedOn": "2023-10-03T17:34:12.000Z",
+          "wordCount": 4384,
+          "title": "VATTEN – Ödsmål",
+          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2021/01/vatten-grav.jpg"
+        },
+        {
+          "id": "https://nyhetersto.se/?p=6912675",
+          "author": "Redaktionen - NYHETERsto",
+          "description": "Strax efter klockan 19 drabbades delar av Stenungsund av ett större strömavbrott som berörde som mest 2 800 abonnenter i bland annat Kyrkenorum – Kristinedal – Hallerna – Strandnorum – Stora Höga. Omkoppling och felsökning pågår. Redan vid 19:25 har många fått strömmen tillbaka och för en del kommer och går strömmen. Vid klockan 20:00...\nInlägget STRÖMAVBROTT – Stenungsund dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
+          "link": "https://nyhetersto.se/2023/10/03/stromavbrott-stenungsund-3/",
+          "publishedOn": "2023-10-03T17:17:59.000Z",
+          "wordCount": 4409,
+          "title": "STRÖMAVBROTT – Stenungsund",
+          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2017/10/strmavbrott.jpg"
+        },
+        {
+          "id": "https://nyhetersto.se/?p=6912646",
+          "author": "Redaktionen - NYHETERsto",
+          "description": "Dagens underhållsarbete på vattenverket på Orust är klart och man går därför ut med en kokrekommendation av kommunalt dricksvatten till VA abonnenter berörda områden. De områden som berörs är i Henån (väster om ån mitt i samhället), Ellös, Stocken, Gullholmen/Härmanö, Tuvesvik, Lavön, Hälleviksstrand, Nösund, Tvet, Tegneby, Edhulltshall/Barrevik, Käringön och Mollösund. Man uppmanas att kokar allt...\nInlägget Kokrekommendation efter underhållsarbete på vattenverket dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
+          "link": "https://nyhetersto.se/2023/10/03/kokrekommendation-efter-dagens-underhallsarbete-pa-vattenverket/",
+          "publishedOn": "2023-10-03T14:12:25.000Z",
+          "wordCount": 4460,
+          "title": "Kokrekommendation efter underhållsarbete på vattenverket",
+          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2017/09/vatten-koka2.jpg"
+        },
+        {
+          "id": "https://nyhetersto.se/?p=6912637",
+          "author": "Redaktionen - NYHETERsto",
+          "description": "I mitten av juli tillkallades polis till Systembolaget i Stenungsund där en man i 35-årsåldern var påverkad, högljudd och bar dessutom kniv. Mannen åtalas nu vid Uddevalla tingsrätt. Mannen åtalas för grovt brott mot knivlagen. Åklagaren anser att brottet bör bedömas som grovt då mannen vid tidpunkten för gärningen befunnit sig på en plats där...\nInlägget Åtal: Påverkad, högljudd och bar kniv på Systembolaget dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
+          "link": "https://nyhetersto.se/2023/10/03/atal-paverkad-hogljudd-och-bar-kniv-pa-systembolaget/",
+          "publishedOn": "2023-10-03T13:56:41.000Z",
+          "wordCount": 4429,
+          "title": "Åtal: Påverkad, högljudd och bar kniv på Systembolaget",
+          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2023/03/systembolaget-sprit-alkohol.jpg"
+        },
+        {
+          "id": "https://nyhetersto.se/?p=6912626",
+          "author": "Redaktionen - NYHETERsto",
+          "description": "Nu står det klart att Statens haverikommission kommer utreda skredet vid E6 Stenungsundsmotet. Ett skred inträffade under natten den 23 september 2023 vid E6 utanför Stenungsund. Händelsen ledde till omfattande skador på infrastruktur och i miljön. Bl.a. rasade stora delar av vägbanan på E6. Ingen blev allvarligt skadad. En omfattande räddningsinsats genomfördes för att säkra...\nInlägget Statens haverikommission utreder skredet vid E6 dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
+          "link": "https://nyhetersto.se/2023/10/03/statens-haverikommission-utreder-skredet-vid-e6/",
+          "publishedOn": "2023-10-03T13:43:31.000Z",
+          "wordCount": 4442,
+          "title": "Statens haverikommission utreder skredet vid E6",
+          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2023/09/DJI_0610.jpg"
+        },
+        {
+          "id": "https://nyhetersto.se/?p=6912573",
+          "author": "Redaktionen - NYHETERsto",
+          "description": "På tisdagsförmiddagen inträffade en trafikolycka på Almöbron. På väg upp mot Tjörnbron har en bil fått motorproblem och stod med varningsblinkers. I väntan på bärgare kör föraren till en annan personbil in i det stillastående fordonet. Inga kända personskador. Bilarna bärgades från platsen. En anmälan kommer göras i efterhand av berörda parter.\nInlägget Trafikolycka på Almöbron dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
+          "link": "https://nyhetersto.se/2023/10/03/trafikolycka-pa-almobron-2/",
+          "publishedOn": "2023-10-03T09:23:16.000Z",
+          "wordCount": 4381,
+          "title": "Trafikolycka på Almöbron",
+          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2023/10/20231003_t.jpg"
+        },
+        {
+          "id": "https://nyhetersto.se/?p=6912549",
+          "author": "Redaktionen - NYHETERsto",
+          "description": "På måndagskvällen kontrollerade polisen en man i 30-årsåldern med en cykel, en cykel som visade sig vara stulen. Det var vid klockan 21-tiden på måndagskvällen som polisen kontrollerade en man med en cykel utanför ICA Stenungshallen på Uppegårdsvägen. Mannen har en cykel som polisen misstänkte var stulen. Vid kontroll visade det sig att så var...\nInlägget Man med stulen stulen cykel misstänks för häleri dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
+          "link": "https://nyhetersto.se/2023/10/03/man-med-stulen-stulen-cykel-misstanks-for-haleri/",
+          "publishedOn": "2023-10-03T07:24:42.000Z",
+          "wordCount": 4430,
+          "title": "Man med stulen stulen cykel misstänks för häleri",
+          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2021/10/20211018_kniv.jpg"
+        },
+        {
+          "id": "https://nyhetersto.se/?p=6912547",
+          "author": "Redaktionen - NYHETERsto",
+          "description": "På måndagseftermiddagen fick polisen samtal om ungdomar som kastade sten från gångbron på fordon över länsväg 169 vid Häggvall. Det var vid klockan 14:35 på eftermiddagen som polisen fick samtal från förare av en flakbil om ungdomar som kastade sten från gångbron över länsväg 169 i höjd med Häggvall. Polis åker till platsen, men då...\nInlägget Stenkastning från gångbro dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
+          "link": "https://nyhetersto.se/2023/10/03/stenkastning-fran-gangbro-2/",
+          "publishedOn": "2023-10-03T07:19:50.000Z",
+          "wordCount": 4416,
+          "title": "Stenkastning från gångbro",
+          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2021/05/20210502_101116.jpg"
+        },
+        {
+          "id": "https://nyhetersto.se/?p=6912542",
+          "author": "Redaktionen - NYHETERsto",
+          "description": "På måndagseftermiddagen kontrollerades två mopeder och dess förare i centrala Stenungsund. Båda misstänks vara trimmade och togs i beslag för en teknisk undersökning. Det var vid klockan 16:40 på eftermiddagen som en civil polispatrull låg efter två mopeder som framfördes i högre hastighet än de 45 km/h som är tillåtet. Vid Circle K på Göteborgsvägen...\nInlägget Misstänkt trimmade mopeder i beslag dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
+          "link": "https://nyhetersto.se/2023/10/03/misstankt-trimmade-mopeder-i-beslag/",
+          "publishedOn": "2023-10-03T07:12:34.000Z",
+          "wordCount": 4426,
+          "title": "Misstänkt trimmade mopeder i beslag",
+          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2021/10/polis-lov.jpg"
+        },
         {
           "id": "https://nyhetersto.se/?p=6912380",
           "author": "Redaktionen - NYHETERsto",
@@ -3735,56 +3850,6 @@
           "wordCount": 4505,
           "title": "Trafikolycka på Varekilsvägen",
           "imageUrl": "https://nyhetersto.se/wp-content/uploads/2023/09/STO_6679.jpg"
-        },
-        {
-          "id": "https://nyhetersto.se/?p=6905954",
-          "author": "Redaktionen - NYHETERsto",
-          "description": "På måndagen upptäckte en bilägare vars bil varit parkerad på Varvsvägen i Henån att någon sågat av avgasröret och slutit katalysatorn. Händelsen ska ha skett någon gång under helgen. Det handlar om en bil av märket Renault som någon sågat av avgasröret på och sedan stulit katalysatorn. Dessa brott brukar gå i vågor och ofta...\nInlägget Katalysatorstöld stöld i Henån dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
-          "link": "https://nyhetersto.se/2023/09/04/katalysatorstold-stold-i-henan/",
-          "publishedOn": "2023-09-04T10:21:37.000Z",
-          "wordCount": 4557,
-          "title": "Katalysatorstöld stöld i Henån",
-          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2023/03/polisen-anmalan.jpg"
-        },
-        {
-          "id": "https://nyhetersto.se/?p=6905809",
-          "author": "Redaktionen - NYHETERsto",
-          "description": "Vid klockan 04:30 larmades räddningstjänsten till Stora Högamotet i Stenungsund där en skåpbil börjat brinna under färd. Lastbilen stod på motet i rondellen mot Stenungsund. Den lastbilsregistrerade skåpbilen var på väg från Norge och söderut när den av okänd anledning började brinna under färd. Inga personskador. Räddningstjänsten fick stänga av av vägen från motorvägen och...\nInlägget Skåpbil började brinna under färd – Helt övertänd dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
-          "link": "https://nyhetersto.se/2023/09/04/skapbil-borjade-brinna-under-fard-helt-overtand/",
-          "publishedOn": "2023-09-04T03:11:54.000Z",
-          "wordCount": 4696,
-          "title": "Skåpbil började brinna under färd – Helt övertänd",
-          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2023/09/mini_STO_6638.jpg"
-        },
-        {
-          "id": "https://nyhetersto.se/?p=6905652",
-          "author": "Redaktionen - NYHETERsto",
-          "description": "På söndagskvällen fick ICA Nära Höviksnäs påhälsning av tjuvar. Tre personer har på något sätt lyckats ta sig in på laget och fått med sig en stor del varor. Händelsen inträffade vid 18-tiden på söndagen. Enligt butiken handlar det om tre män och en kvinna som lyckats ta sig in på lagret och i sopsäck...\nInlägget ICA-Butik fick påhälsning av tjuvar på lagret dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
-          "link": "https://nyhetersto.se/2023/09/03/ica-butik-fick-pahalsning-av-tjuvar-pa-lagret/",
-          "publishedOn": "2023-09-03T19:16:18.000Z",
-          "wordCount": 4549,
-          "title": "ICA-Butik fick påhälsning av tjuvar på lagret",
-          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2022/04/polisbil1.jpg"
-        },
-        {
-          "id": "https://nyhetersto.se/?p=6905616",
-          "author": "Redaktionen - NYHETERsto",
-          "description": "I 14 år har Lions klubb i Stenungsund bedrivit loppis i anrika Lagunhuset i Stenungsund. Nu ska huset rivas och huset är tomt. Loppisen har fått nya butikslokaler i ett anrikt affärshus med lång historia på samma gata. Lions klubb i Stenungsund har bedrivit loppis med försäljning av begagnade saker i gamla Lagunhuset på Strandvägen...\nInlägget Lagunhuset ska rivas – Hit flyttar loppisen dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
-          "link": "https://nyhetersto.se/2023/09/03/lagunhuset-ska-rivas-hit-flyttar-loppisen/",
-          "publishedOn": "2023-09-03T17:02:02.000Z",
-          "wordCount": 4626,
-          "title": "Lagunhuset ska rivas – Hit flyttar loppisen",
-          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2023/09/20230903_163218.jpg"
-        },
-        {
-          "id": "https://nyhetersto.se/?p=6905554",
-          "author": "Redaktionen - NYHETERsto",
-          "description": "Även på söndagen har ICA problem med kortbetalning i sina butiker samt Apoteket Hjärtat. Det är även problem att logga in på ICA-Banken samt bankens Swish. ICA Uppger att problemet är sporadiskt och alla butiker berörs inte. Felsökning pågår. Lördagens problem uppstod i samband med en större uppdatering av bankens system. Vid 13-tiden på lördagen...\nInlägget Nya tekniska problem för ICA dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
-          "link": "https://nyhetersto.se/2023/09/03/nya-tekniska-problem-for-ica/",
-          "publishedOn": "2023-09-03T12:31:44.000Z",
-          "wordCount": 4513,
-          "title": "Nya tekniska problem för ICA",
-          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2023/09/icabanken.jpg"
         }
       ]
     },
@@ -3793,6 +3858,206 @@
       "feedUrl": "https://api.sr.se/rss/channel?id=104",
       "siteUrl": "https://sverigesradio.se/default.aspx?programid=104",
       "articles": [
+        {
+          "id": "https://sverigesradio.se/artikel/8465441",
+          "author": null,
+          "description": "1-0.Det blev resultatet när Gais mötte Öster under tisdagskvällen.Julius Lindberg petade in bollen i nätmaskorna.",
+          "link": "https://sverigesradio.se/artikel/8465441",
+          "publishedOn": "2023-10-03T20:23:00.000Z",
+          "wordCount": 655,
+          "title": "Gais besegrade Öster – har hopp om Allsvenskan",
+          "imageUrl": "https://static-cdn.sr.se/images/104/9d2f9bd3-9b97-4a15-b46e-34fd5975bdb5.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8465378",
+          "author": null,
+          "description": "15 timmar i förskolan - är det tillräckligt för barn som får småsyskon?Har kommunen råd att utöka tiden?Politikerna i Göteborg är oense.",
+          "link": "https://sverigesradio.se/artikel/8465378",
+          "publishedOn": "2023-10-03T19:00:00.000Z",
+          "wordCount": 673,
+          "title": "Förskoletricket skapar debatt – frågan ska upp i fullmäktige",
+          "imageUrl": "https://static-cdn.sr.se/images/104/33512913-f68b-421f-bf8d-ece1b410658f.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8465103",
+          "author": null,
+          "description": "Den första januari kan ett besök på akuten kosta 400 kronor i Västra Götalandsregionen.100 kronor mer än idag.Det är ett av flera förslag på höjda patientavgifter som strategiska hälso- och sjukvårdsnämnden ska besluta om.",
+          "link": "https://sverigesradio.se/artikel/8465103",
+          "publishedOn": "2023-10-03T16:35:00.000Z",
+          "wordCount": 738,
+          "title": "Avgiften på akuten kan höjas – så att färre ska komma dit",
+          "imageUrl": "https://static-cdn.sr.se/images/104/6f44789a-0f05-445b-aba8-632b91749d12.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8465058",
+          "author": null,
+          "description": "Norumsån i Stenungsunds kommun riskerar att svämma över efter raset på E6. Det skulle få negativa konsekvenser för intilliggande fastigheter och industrier. Men Stenungsunds kommun har en plan.",
+          "link": "https://sverigesradio.se/artikel/8465058",
+          "publishedOn": "2023-10-03T16:31:00.000Z",
+          "wordCount": 690,
+          "title": "Vattnet i Norumsån leds om med pumpar – efter raset på E6",
+          "imageUrl": "https://static-cdn.sr.se/images/104/661d0572-7459-4cd4-94b4-1ee87ea5b42c.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8464959",
+          "author": null,
+          "description": "Antalet timmar man kan lämna baren på förskolan på varierar.I Göteborg har barn till föräldralediga bara rätt till 15 timmar.Ingrid Pramling Samuelsson, professor i pedagogik förklarar varför hon tycker att det är för lite.",
+          "link": "https://sverigesradio.se/artikel/8464959",
+          "publishedOn": "2023-10-03T15:30:00.000Z",
+          "wordCount": 697,
+          "title": "Professorns förskolekritik: 15 timmar alldeles för lite",
+          "imageUrl": "https://static-cdn.sr.se/images/104/7fac53de-1cc2-4cf5-a31b-70d7f3f14874.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8464873",
+          "author": null,
+          "description": "En man i 30-årsåldern har häktats i sin frånvaro misstänkt för dödsmisshandeln i Bergsjön.Mannen är en högt uppsatt gängmedlem i Göteborg enligt GP.Sedan tidigare är en annan man i 25-årsåldern häktad med samma misstanke.",
+          "link": "https://sverigesradio.se/artikel/8464873",
+          "publishedOn": "2023-10-03T14:26:00.000Z",
+          "wordCount": 692,
+          "title": "Gängtopp häktad misstänkt för dödsmisshandel i Bergsjön",
+          "imageUrl": "https://static-cdn.sr.se/images/104/a33de540-214c-4e0a-ad59-9710d7672f3c.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8465123",
+          "author": null,
+          "description": "Haverikommissionen kommer att utreda skredet på E6 i Stenungsund.Det bekräftar myndigheten för P4 Göteborg på tisdagen.Jenny Ferm på Haverikommissionen berättar vad de ska göra nu.",
+          "link": "https://sverigesradio.se/artikel/8465123",
+          "publishedOn": "2023-10-03T13:29:00.000Z",
+          "wordCount": 675,
+          "title": "Klart: Haverikommissionen utreder raset på E6",
+          "imageUrl": "https://static-cdn.sr.se/images/104/9962f373-6a7f-423d-8a22-58535f0326c8.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8465093",
+          "author": null,
+          "description": "Nu går det att köpa både julmust och lussebullar i matbutiker i Göteborg.Trots att oktober knappt börjat.Det är tydligen var kunderna vill... berättar butiksanställde Ilham Askraba.",
+          "link": "https://sverigesradio.se/artikel/8465093",
+          "publishedOn": "2023-10-03T13:20:00.000Z",
+          "wordCount": 698,
+          "title": "Julmust och lussebullar till salu – i oktober",
+          "imageUrl": "https://static-cdn.sr.se/images/104/bffbf523-544d-4ede-aaa1-a18ac51f5de8.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8465028",
+          "author": null,
+          "description": "Det har gått skytteltrafik med schaktmassor från petrokemiföretaget Borealis tomt till industriområdet där E6 kollapsade.Men företaget som ansvarar för bygget på tomten har ingen aning om hur schaktmassorna sedan hanterats.P4-kanalerna har tidigare kunnat avslöja att Hammar företagspark ska ha överskridit sitt tillstånd för att lägga upp schaktmassor med flera tusen ton.",
+          "link": "https://sverigesradio.se/artikel/8465028",
+          "publishedOn": "2023-10-03T12:23:00.000Z",
+          "wordCount": 681,
+          "title": "Byggbolag bekräftar: Schaktmassor tippades vid E6",
+          "imageUrl": "https://static-cdn.sr.se/images/104/0d5b68cd-40f3-411c-8f2d-ffcda454d2c3.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8464976",
+          "author": null,
+          "description": "En bojkott av Instagram.Det är vad som väntar för Hanna Tyberg om Meta inför en månadsavgift.Nu tycker Göteborgarna till om förslaget om att ta betalt för populära appar.",
+          "link": "https://sverigesradio.se/artikel/8464976",
+          "publishedOn": "2023-10-03T12:16:00.000Z",
+          "wordCount": 691,
+          "title": "Instagram vill ta betalt – då bojkottar användarna",
+          "imageUrl": "https://static-cdn.sr.se/images/104/ba562b48-9206-4509-939b-1a3c23d91849.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8464769",
+          "author": null,
+          "description": "Göteborg stad skärper nu kontrollen av de föräldrar som använder det så kallade förskoletricket.Förskoletricket innebär att föräldrar skriver in sig på högskolekurser för att deras barn ska få fler timmar i förskolan.Tove Berg, chef på placeringsenheten på Göteborgs förskolor berättar hur de ska kontrollera och stoppa fusket.",
+          "link": "https://sverigesradio.se/artikel/8464769",
+          "publishedOn": "2023-10-03T10:51:00.000Z",
+          "wordCount": 702,
+          "title": "Skärpt kontroll: Så ska förvaltningen stoppa förskoletricket",
+          "imageUrl": "https://static-cdn.sr.se/images/104/32c237ec-8be9-45c0-aec0-19fb443cdb8a.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8464784",
+          "author": null,
+          "description": "En man har dött efter ett lägenhetsbråk i Alingsås. Bråket ägde rum förra veckan och efter flera dagar på sjukhus avled mannen av sina skador. Två personer är nu häktade misstänkta för mord.",
+          "link": "https://sverigesradio.se/artikel/8464784",
+          "publishedOn": "2023-10-03T09:25:00.000Z",
+          "wordCount": 667,
+          "title": "Man död efter lägenhetsbråk – två misstänks för mord",
+          "imageUrl": "https://static-cdn.sr.se/images/104/04c5565e-4c70-4719-b81f-f8eff774b787.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8464709",
+          "author": null,
+          "description": "Liseberg har utnämnts till Europas bästa nöjespark.Det var under den årliga branschmässan IAAPA Expo Europe i Wien som Liseberg fick utnämningen. Under samma mässa fick nöjesparken fler prestigefyllda priser.",
+          "link": "https://sverigesradio.se/artikel/8464709",
+          "publishedOn": "2023-10-03T08:54:00.000Z",
+          "wordCount": 668,
+          "title": "Liseberg prisas: Utnämns till Europas bästa nöjespark",
+          "imageUrl": "https://static-cdn.sr.se/images/104/ad6e59d7-586f-498d-ba6f-1a759d1643c6.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8464628",
+          "author": null,
+          "description": "Humorgruppen JLC från Göteborg är mäktigast på sociala medier i Sverige.De knuffar ner familjen Lundell från förstaplatsen i årets maktbarometer.Maktbarometern tas fram varje år av Medieakademin.",
+          "link": "https://sverigesradio.se/artikel/8464628",
+          "publishedOn": "2023-10-03T08:15:00.000Z",
+          "wordCount": 672,
+          "title": "JLC mäktigast i Sverige på sociala medier",
+          "imageUrl": "https://static-cdn.sr.se/images/104/e8018ff0-faae-4f54-8955-53d21e635827.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8464568",
+          "author": null,
+          "description": "All tung trafik norrut rekommenderas att köra via E45 istället för E6.Men en olycka på E45 kan ställa till det ordentligt i trafiken.Nu säger Bengt Olsson på Trafikverket att sänkt hastighet på E45 skulle kunna vara ett alternativ.",
+          "link": "https://sverigesradio.se/artikel/8464568",
+          "publishedOn": "2023-10-03T06:40:00.000Z",
+          "wordCount": 716,
+          "title": "Efter raset på E6: Trafikverket kan sänka hastigheten på E45",
+          "imageUrl": "https://static-cdn.sr.se/images/104/ba43c269-b631-4052-afa8-98c7d1c3bb2d.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8464553",
+          "author": null,
+          "description": "En tankbil körde in i ett vägräcke på E45.Vägen, som är ersättningsväg till E6, fick också stängas av.Trafikverkets prognos är att avfarten där tankbilen blev stående blir avstängd i flera timmar.",
+          "link": "https://sverigesradio.se/artikel/8464553",
+          "publishedOn": "2023-10-03T05:43:00.000Z",
+          "wordCount": 673,
+          "title": "Trafikkaos: Avstängda E6 ersättningsväg stängdes av",
+          "imageUrl": "https://static-cdn.sr.se/images/104/5b6d9fca-4028-4e26-a91b-cbb0bf33b9e6.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8464533",
+          "author": null,
+          "description": "Instagram och Facebook kan införa en månadsavgift.Det är ägarbolaget Meta som överväger avgiften, rapporterar Wall Street Journal.Men den skulle inte gälla för alla användare.",
+          "link": "https://sverigesradio.se/artikel/8464533",
+          "publishedOn": "2023-10-03T05:16:00.000Z",
+          "wordCount": 666,
+          "title": "Instagram och Facebook vill införa månadsavgift",
+          "imageUrl": "https://static-cdn.sr.se/images/104/5b46c47d-6474-4a81-a8ac-d321943ce6c6.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8464523",
+          "author": null,
+          "description": "Konkurserna fortsätter att öka i hela landet.I september noterades den högsta konkurssiffran på över 20 år, enligt Creditsafe.Västra Götaland har den tuffaste utvecklingen av alla storstadsregioner.",
+          "link": "https://sverigesradio.se/artikel/8464523",
+          "publishedOn": "2023-10-03T04:57:00.000Z",
+          "wordCount": 658,
+          "title": "Konkurserna rusar i Västsverige",
+          "imageUrl": "https://static-cdn.sr.se/images/104/2a72bb7a-d4c6-44e6-80ad-dde0da6098e1.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8464282",
+          "author": null,
+          "description": "Under tisdagen väntas 17 millimeter regn falla över rasområdet i Stenungsund.Det väntas påverka arbetet på plats.Närliggande Norumsån riskerar sedan tidigare att svämma över och nu har Stenungsunds kommun en beredskap.",
+          "link": "https://sverigesradio.se/artikel/8464282",
+          "publishedOn": "2023-10-03T04:33:00.000Z",
+          "wordCount": 674,
+          "title": "Regn över rasområdet väntas påverka arbetet",
+          "imageUrl": "https://static-cdn.sr.se/images/104/37d357ca-2091-4f5b-b8b6-aea8971505fe.png"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8464430",
+          "author": null,
+          "description": "”Jag känner mig som en bov”.Så säger den anonyma mamman ”Natalie” om att hon låtsas plugga för att hennes son ska få fler timmar på förskolan.Hon berättar om varför hon ändå använder det så kallade ”förskoletricket” – som Göteborgs-Posten var först med att rapportera om.",
+          "link": "https://sverigesradio.se/artikel/8464430",
+          "publishedOn": "2023-10-03T03:30:00.000Z",
+          "wordCount": 688,
+          "title": "Mamman Natalie låtsaspluggar för fler timmar i förskola",
+          "imageUrl": "https://static-cdn.sr.se/images/104/a5fa83a6-6568-4cea-b776-e6d60af07935.jpeg"
+        },
         {
           "id": "https://sverigesradio.se/artikel/8464104",
           "author": null,
@@ -8462,126 +8727,6 @@
           "wordCount": 714,
           "title": "Världens starkaste chili lades i skolmaten – elever spydde",
           "imageUrl": "https://static-cdn.sr.se/images/104/01068f3e-e453-4ed3-b72d-efdf4e7c17c7.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8437867",
-          "author": null,
-          "description": "Polisen i region väst jobbar för mycket övertid.De senaste åren har kostnaden för övertiden fördubblats.Nu berättar Mattias Jönsson på Polisförbundet varför siffrorna oroar honom.",
-          "link": "https://sverigesradio.se/artikel/8437867",
-          "publishedOn": "2023-09-04T12:14:00.000Z",
-          "wordCount": 679,
-          "title": "Fackets oro: Polisens övertidskostnad har dubblerats",
-          "imageUrl": "https://static-cdn.sr.se/images/104/2eb70a76-8f88-4f87-a2d9-2314e1917b08.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8437777",
-          "author": null,
-          "description": "Nu ska faxen sluta användas hos myndigheter, regioner och kommuner.Den ska ersättas av SDK – säker digital kommunikation.Tore Johnson, digitaliseringskoordinator vid Västra götalandsregionen, berättar om fördelarna.",
-          "link": "https://sverigesradio.se/artikel/8437777",
-          "publishedOn": "2023-09-04T09:53:00.000Z",
-          "wordCount": 674,
-          "title": "Faxen skrotas – gör plats för säkrare system",
-          "imageUrl": "https://static-cdn.sr.se/images/104/e7696c87-3c06-410f-a15a-076a3762d8a9.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8437680",
-          "author": null,
-          "description": "Försäljningen för Volvo Cars ökar. Det uppger företaget i ett pressmeddelande. Men ökningen gäller inte alla marknader.",
-          "link": "https://sverigesradio.se/artikel/8437680",
-          "publishedOn": "2023-09-04T08:53:00.000Z",
-          "wordCount": 643,
-          "title": "Volvo Cars försäljning ökar",
-          "imageUrl": "https://static-cdn.sr.se/images/104/f2450557-f704-4f81-b55f-95f9294a6b67.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8437572",
-          "author": null,
-          "description": "Snart kommer det bli enklare att upptäcka demenssjukdomen Alzheimers.Det ska nämligen gå att testa sig för sjukdomen på vårdcentralen istället för bara på en specialistmottagning.Nu berättar Kaj Blennow, professor och överläkare vid Sahlgrenska universitetssjukhus, om hur det kan påverka de som kan få sjukdomen.",
-          "link": "https://sverigesradio.se/artikel/8437572",
-          "publishedOn": "2023-09-04T08:23:00.000Z",
-          "wordCount": 695,
-          "title": "Alzheimers ska upptäckas enklare – på vårdcentralen",
-          "imageUrl": "https://static-cdn.sr.se/images/104/e79e98ce-3948-43b2-9960-0a18b6ccc5a2.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8437586",
-          "author": null,
-          "description": "Ett fel på rälsen har uppstått vid Linnéplatsen i Göteborg.Flera spårvagnslinjer läggs därför just nu om.",
-          "link": "https://sverigesradio.se/artikel/8437586",
-          "publishedOn": "2023-09-04T07:43:00.000Z",
-          "wordCount": 645,
-          "title": "Fel på rälsen – spårvagnslinjer läggs om",
-          "imageUrl": "https://static-cdn.sr.se/images/104/7f1c8059-2560-4cd0-94e0-be97e5a0a5ec.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8437497",
-          "author": null,
-          "description": "Höstlovsledigt?Nej, höstlovsjobb.Nu erbjuder Göteborgs stad ett tusental jobb under höstlovet för Göteborgs gymnasieungdomar.",
-          "link": "https://sverigesradio.se/artikel/8437497",
-          "publishedOn": "2023-09-04T05:43:00.000Z",
-          "wordCount": 649,
-          "title": "Lovjobb väntar för tusentals skolungdomar",
-          "imageUrl": "https://static-cdn.sr.se/images/104/54335da8-a107-410c-9d2f-8505ab096533.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8436341",
-          "author": null,
-          "description": "Personer som är utsatta för hedersvåld i Sverige riskerar att få sin anonymitet röjd.Efter en lagändring.Sundus Taki har öppnat upp ett boende för hedersutsatta kvinnor och berättar om hur lagen påverkar dem.",
-          "link": "https://sverigesradio.se/artikel/8436341",
-          "publishedOn": "2023-09-04T03:28:00.000Z",
-          "wordCount": 686,
-          "title": "Hederslarmet: Gömda kvinnor kan hittas efter lagändring",
-          "imageUrl": "https://static-cdn.sr.se/images/104/1de4c6b0-9214-4d0d-9298-324392eea70c.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8437365",
-          "author": null,
-          "description": "IFK Göteborg hade ledningen med 2-0 men fick nöja sig med 2-2 mot Malmö FF.På förhand ett bra resultat för Blåvitt – men kändes ändå som ett poängtapp givet ledningen som laget hade.”Det krävs mycket fysiskt arbete för att göra det vi gjorde i första halvleken, vi orkade inte riktigt”, sa IFK:s Gustav Svensson.",
-          "link": "https://sverigesradio.se/artikel/8437365",
-          "publishedOn": "2023-09-03T18:17:00.000Z",
-          "wordCount": 707,
-          "title": "IFK nära ny vinst – men orkade inte stå emot Malmö FF",
-          "imageUrl": "https://static-cdn.sr.se/images/104/b6615db6-461d-47b3-9daf-a7ce4b9df310.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8437253",
-          "author": null,
-          "description": "Nu satsar regionala cancercentrum tillsammans med Sveriges regioner på att locka flera till cancerscreening.Det är för få som deltar i screeningprogram för att upptäcka cancer i tidigt stadie.”Tidig screening kan rädda liv”, säger Elin Ljungqvist.",
-          "link": "https://sverigesradio.se/artikel/8437253",
-          "publishedOn": "2023-09-03T16:52:00.000Z",
-          "wordCount": 694,
-          "title": "Regionerna storsatsar – fler ska upptäcka cancern i tid",
-          "imageUrl": "https://static-cdn.sr.se/images/104/af88fcf9-c616-49ed-bb26-215c4a2c8597.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8437358",
-          "author": null,
-          "description": "De fyra män som greps vid en poliskontroll på E45 utanför Trollhättan tidigare i veckan har nu alla häktats.De är misstänkta för förberedelse till grov allmänfarlig ödeläggelse och grovt brott mot lagen om brandfarliga och explosiva varor.Alla fyra förnekar brott.",
-          "link": "https://sverigesradio.se/artikel/8437358",
-          "publishedOn": "2023-09-03T16:37:00.000Z",
-          "wordCount": 691,
-          "title": "Fyra häktade – stoppades med explosiva föremål på E45",
-          "imageUrl": "https://static-cdn.sr.se/images/104/17506705-a60e-4358-86e2-c5d6c35ab9b1.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8437345",
-          "author": null,
-          "description": "Häcken förlorade mot Degerfors med 0-1 under söndagen.Förlusten innebär att Häcken tappade mark i toppstriden.”Nu är det landslagsuppehåll, vi får ladda batterierna ”, sa lagkaptenen Samuel Gustafsson.",
-          "link": "https://sverigesradio.se/artikel/8437345",
-          "publishedOn": "2023-09-03T15:38:00.000Z",
-          "wordCount": 659,
-          "title": "Häcken förlorade – och tappar i toppstriden",
-          "imageUrl": "https://static-cdn.sr.se/images/104/71429a6c-95f3-4c37-9e04-18d0c23d9014.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8437279",
-          "author": null,
-          "description": "Söndag förmiddag gick startskottet i Slottsskogen i Göteborg.Tusenvis av löpare skulle var och en ta sig igenom 4,2 mil i Göteborgsvarvet Marathon.Men för arrangören är det själva starten som är det svåraste.",
-          "link": "https://sverigesradio.se/artikel/8437279",
-          "publishedOn": "2023-09-03T13:49:00.000Z",
-          "wordCount": 684,
-          "title": "Så många sprang maraton – projektledaren: ”Jättehärlig mix”",
-          "imageUrl": "https://static-cdn.sr.se/images/104/13ad8d96-4d74-47d2-b60e-45c6ce20ef76.png"
         }
       ]
     },
@@ -8590,6 +8735,196 @@
       "feedUrl": "https://api.sr.se/api/rss/program/83",
       "siteUrl": "https://sverigesradio.se/default.aspx?programid=83",
       "articles": [
+        {
+          "id": "https://sverigesradio.se/artikel/8465458",
+          "author": null,
+          "description": "<ul><li><p>Den republikanske talmannen i representanthuset, Kevin McCarthy - förlorade en förtroendeomröstning och tvingas bort från sin post.</p></li><li><p>”Det är följden av en öppen och sårig intern strid inom det Republikanska partiet. Resultatet är ett historiskt misslyckande för McCarthy och ett historiskt misslyckande för Partiet ”, säger Ginna Lindberg, Ekots korrespondent i Washington.</p></li><li><p>Den tidigare talmannen röstades bort med siffrorna 216 mot 210.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8465458",
+          "publishedOn": "2023-10-03T21:48:00.000Z",
+          "wordCount": 640,
+          "title": "Talmannen petades: ”Sårigt och infekterat”",
+          "imageUrl": "https://static-cdn.sr.se/images/83/c8c12cdc-bc6c-454f-9e54-da3f229bdb6e.gif"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8464081",
+          "author": null,
+          "description": "<ul><li><p>Sedan det blev straffbart för fyra år sedan att hyra ut sin hyresrätt om man gör det utan tillstånd och samtidigt tar ut för mycket hyra, så har bara fyra fall lett till åtal.</p></li><li><p>Polisen prioriterar inte brotten, menar flera kommunala bostadsbolag som Ekot har pratat med.</p></li><li><p>”Det är ju den typen av brottslighet som tyvärr i rådande utredningsläge kanske prioriteras lite lägre”, säger Urban Olsson, handläggare i polisregion Mitt.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8464081",
+          "publishedOn": "2023-10-03T21:18:00.000Z",
+          "wordCount": 684,
+          "title": "Bara fyra åtal om olagliga andrahandsuthyrningar på fyra år",
+          "imageUrl": "https://static-cdn.sr.se/images/83/6aaef904-d33a-4308-8daa-f0bf9bec1cc5.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8465453",
+          "author": null,
+          "description": "<ul><li><p>Representanthuset i USA har röstat för att avsätta den republikanske talmannen Kevin McCarthy, rapporterar amerikanska medier.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8465453",
+          "publishedOn": "2023-10-03T20:53:00.000Z",
+          "wordCount": 619,
+          "title": "Talmannen McCarthy röstas bort från USA:s representanthus",
+          "imageUrl": "https://static-cdn.sr.se/images/83/e9fcf486-2802-4438-bf15-de930044bcf8.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8465433",
+          "author": null,
+          "description": "<ul><li><p>En debatt om Kevin McCarthys framtid har pågått under tisdagskvällen svensk tid i representanthuset.</p></li><li><p>Det första gången i USA:s historia som en talman i representanthuset röstas bort.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8465433",
+          "publishedOn": "2023-10-03T20:51:00.000Z",
+          "wordCount": 616,
+          "title": "McCarthy avsätts som talman – en historisk händelse",
+          "imageUrl": "https://static-cdn.sr.se/images/83/d0bf8497-d6b5-4295-9df9-488003c7abe3.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8465442",
+          "author": null,
+          "description": "<ul><li><p>I och med att Air France-KLM köper delar av SAS lämnar bolaget Star Alliance för flygalliansen Skyteam. Hur det kommer att påverka SAS resenärer är fortfarande inte klart.</p></li><li><p>Bland annat är Eurobonus kopplat till Star Alliance, som SAS nu lämnar. Affären kan också påverka flyglinjer framför allt i Sverige och Norge.</p></li><li><p>Hör flygjournalist och analytiker Jan Ohlsson om hur affären påverkar SAS resenärer.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8465442",
+          "publishedOn": "2023-10-03T20:47:00.000Z",
+          "wordCount": 652,
+          "title": "Så påverkas resenärerna: ”Kommer finnas förlorare”",
+          "imageUrl": "https://static-cdn.sr.se/images/83/a64ae266-e9c5-4404-b05a-da0aac5ba611.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8465440",
+          "author": null,
+          "description": "<ul><li><p>Beskedet att flygbolaget SAS får nya storägare välkomnas av Svensk Pilotförening.</p></li><li><p>Ordförande Wilhelm Tersmeden menar att de ser fram emot ett aktivt ägarskap där företaget utvecklas med de anställda. Något han menar att det varit brist på.</p></li><li><p>”Vi är lite härdade när det kommer till oro, det har varit väldigt turbulent för oss de senaste åren. Det är lite för tidigt att uttala sig om vad som blir de fulla effekterna av det här men så som det presenterats i dag är jag hoppfull för det kommer en ljusare framtid för SAS”.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8465440",
+          "publishedOn": "2023-10-03T20:35:00.000Z",
+          "wordCount": 695,
+          "title": "Pilotfacket välkomnar nya ägare: ”Varit väldigt turbulent”",
+          "imageUrl": "https://static-cdn.sr.se/images/83/d59b035e-7a7d-448b-9f71-8159ae8f8ef2.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8465408",
+          "author": null,
+          "description": "<ul><li><p>Beskedet från SAS blev något av en kalldusch för småsparare.</p></li><li><p>”För SAS som bolag är det såklart glädjande, för personalen och alla resenärer i och med att det räddar bolaget men för de befintliga aktieägarna är det tråkigt eftersom deras investeringar går om intet”, säger Sverre Linton på Aktiespararna.</p></li><li><p>Linton menar samtidigt att beskedet troligtvis inte kommer som en överraskning för de som investerat i bolaget.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8465408",
+          "publishedOn": "2023-10-03T19:42:00.000Z",
+          "wordCount": 665,
+          "title": "Aktiespararna: SAS-affären blir en kalldusch för småsparare",
+          "imageUrl": "https://static-cdn.sr.se/images/83/ce01b4b6-54eb-42e1-a14f-3d8db72ad27c.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8465417",
+          "author": null,
+          "description": "<ul><li><p>Minst 20 personer har omkommit i en bussolycka i Venedig uppger en borgmästare till tidningen La Republica.</p></li><li><p>Bussen föll från en bro ner på ett tågspår och minst ett 40-tal personer skadades i olyckan.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8465417",
+          "publishedOn": "2023-10-03T19:28:00.000Z",
+          "wordCount": 640,
+          "title": "Minst 21 döda i bussolycka i Venedig: ”Apokalyptiska scener”",
+          "imageUrl": "https://static-cdn.sr.se/images/83/648e4127-0347-4664-a6ea-5a8a7ca20bf5.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8465414",
+          "author": null,
+          "description": "<ul><li><p>En buss har kört av vägen i Mestre, utanför Venedig i Italien. Minst 20 personer uppges vara döda och flera skadade, enligt Reuters.</p></li><li><p>Bussen körde av en bro och föll omkring 15 meter och ska sedan ha fattat eld.</p></li><li><p>”Apokalyptiska scener” enligt borgmästare.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8465414",
+          "publishedOn": "2023-10-03T19:23:00.000Z",
+          "wordCount": 609,
+          "title": "Flera personer döda efter busskrasch i Italien",
+          "imageUrl": "https://static-cdn.sr.se/images/83/46341e21-7754-4256-913c-f35964c1a929.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8465396",
+          "author": null,
+          "description": "<ul><li><p>Regeringens förslag om en ny kameraoffensiv, där fler kameror ska sättas upp och polisen ha möjlighet att identifiera personer med artificiell intelligens riskerar att inte vara tillräckligt träffsäker.</p></li><li><p>I USA där liknande teknik redan används har oskyldiga pekats ut. Om den svenska regeringens förslag blir träffsäkert, tror Sven Carlsson, Sveriges Radios teknikreporter, beror på hur man väljer att utforma det. </p></li><li><p>”Det finns skillnad att dra mellan att göra det här i realtid på allmän plats på alla som passerar en kamera, vilket är ganska stort intrång i allas integritet, och att i efterhand säga att 'i det här vill vi titta specifik på de här personerna och vilka de kan tänkas vara.'”</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8465396",
+          "publishedOn": "2023-10-03T19:10:00.000Z",
+          "wordCount": 708,
+          "title": "Oskyldiga riskeras att pekas ut med ny kameraoffensiv",
+          "imageUrl": "https://static-cdn.sr.se/images/83/43cfca2a-3dc8-46e5-a899-43676d60aa09.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8465380",
+          "author": null,
+          "description": "<ul><li><p>Flera EU-länder vidtar nu åtgärder för att försöka förhindra att asylsökande tar sig in länderna, Tjeckien och Polen har idag beslutat att man inför tillfälliga gränskontroller mot det gemensamma grannlandet Slovakien.</p></li><li><p>Gränskontrollerna kommer pågå i tio dagar inledningsvis men kan komma att förlängas och målet är inte minst att stoppa de människosmugglare som för asylsökande över gränserna.</p></li><li><p>Som Ekot rapporterat tidigare har även Tyskland beslutat att införa hårdare kontroller av gränserna mot Polen och Tjeckien, asylfrågan är just nu den största inrikespolitiska frågan även i Tyskland. </p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8465380",
+          "publishedOn": "2023-10-03T17:55:00.000Z",
+          "wordCount": 695,
+          "title": "Inför gränskontroller för att stoppa asylsökande från Slovakien",
+          "imageUrl": "https://static-cdn.sr.se/images/83/da1bb16c-c9a3-4d55-9081-1f31ee7e29da.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8465336",
+          "author": null,
+          "description": "<ul><li><p>Ett konsortium med bland andra fransk-nederländska flygbolaget Air France-KLM, den danska staten och investmentbolagen Castlelake och Lind Invest går in som nya storägare i SAS, meddelar flygbolaget i ett pressmeddelande.</p></li><li><p>Bolaget beskriver det som en ”viktig milstolpe” i sin rekonstruktionsprocess, som man kallar för ”SAS Forward”. SAS kommer också lämna börsen.</p></li><li><p>De tidigare största ägarna i SAS var svenska respektive danska staten.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8465336",
+          "publishedOn": "2023-10-03T16:15:00.000Z",
+          "wordCount": 691,
+          "title": "Åström om SAS-krisen: ”Många miljarder som går upp i rök”",
+          "imageUrl": "https://static-cdn.sr.se/images/83/c49d5fa1-59b3-48cb-abfc-7db1cd895cbf.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8465312",
+          "author": null,
+          "description": "<ul><li><p>Den före detta kosovoserbiske politikern, som enligt egen utsago planerade och genomförde en attack mot polisstyrkor i byn Banjska i norra Kosovo, har gripits av serbisk polis.</p></li><li><p>Åklagare i Belgrad har beslutat att ex-politikern ska hållas i polisens förvar i 48 timmar medan utredningen mot honom fortsätter.</p></li><li><p>Kosovos regering säger att man kommer begära expolitikern utlämamnd till Kosovo.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8465312",
+          "publishedOn": "2023-10-03T16:11:00.000Z",
+          "wordCount": 661,
+          "title": "Expolitiker gripen för attacken i norra Kosovo",
+          "imageUrl": "https://static-cdn.sr.se/images/83/ac5845b4-849f-4d66-8bfc-5c6982b60cf9.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8465310",
+          "author": null,
+          "description": "<ul><li><p>Ett konsortium med fransk-nederländska flygbolaget Air France-KLM, den danska staten och investmentbolagen Castlelake och Lind Invest går in som nya storägare i SAS.</p></li><li><p>Bolaget beskriver det som en ”viktig milstolpe” i sin rekonstruktionsprocess, som man kallar för ”SAS Forward”.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8465310",
+          "publishedOn": "2023-10-03T16:00:00.000Z",
+          "wordCount": 622,
+          "title": "SAS avnoteras från börsen – aktieägarna får inget",
+          "imageUrl": "https://static-cdn.sr.se/images/83/85220c14-a019-440f-a21b-f2d0f8fa1722.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8465300",
+          "author": null,
+          "description": "<ul><li><p>Det var budskapet från den tidigare biträdande amerikanska försvarsministern Ian Brzezinski i samband ett pågående besöket i Sverige.</p></li><li><p>Enligt Brzezinski har Sverige som försvarsnation ett strategiskt viktigt läge längs Östersjön och kommer att bidra med mycket inom Nato som ny natomedlem när det sker.</p></li><li><p>”Om man tittar på vad USA har gjort på senare tid, så är det ju inte så som ett land agerar som håller på att dra sig tillbaka”, säger han till Ekot.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8465300",
+          "publishedOn": "2023-10-03T15:55:00.000Z",
+          "wordCount": 680,
+          "title": "Tidigare toppolitiker: ”USA kommer inte överge Europa”",
+          "imageUrl": "https://static-cdn.sr.se/images/83/9ec838e6-dfff-4b89-a40a-59d2018913dc.png"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8465078",
+          "author": null,
+          "description": "<ul><li><p>Socialdemokraterna föreslår att en tillfällig bankskatt införs under 2024.</p></li><li><p>Det är bankernas räntenetto, alltså skillnaden mellan in- och utlåningsräntan, som S vill beskatta med 10 miljarder nästa år.</p></li><li><p>De extra pengarna i statskassan vill S använda till sänkta skatter i vanliga inkomstlägen, ett extra barnbidrag under januari, samt en höjning av underhållsstödet med 500 kr under nästa års första sex månader.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8465078",
+          "publishedOn": "2023-10-03T15:48:00.000Z",
+          "wordCount": 666,
+          "title": "S föreslår tillfällig bankskatt: ”Gjort enorma övervinster”",
+          "imageUrl": "https://static-cdn.sr.se/images/83/501a535c-4be9-4efb-b541-310bb9ed87a0.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8465234",
+          "author": null,
+          "description": "<ul><li><p>På tisdagen tilldelades Pierre Agostini, Ferenc Krausz och Anne L’Huillier Nobelpriset i fysik för sitt arbete med elektroner i blixtbelysning.</p></li><li><p>Göran Johansson, ledamot av Nobelkommittén i fysik och professor i tillämpad kvantfysik, berättar om trions viktiga forskning.</p></li><li><p>”Den forskning som de här Nobelpristagarna har genomfört har gett oss möjligheten att komma ner på så korta tidsskalor att vi kan se hur elektronerna rör sig”, säger han.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8465234",
+          "publishedOn": "2023-10-03T14:53:00.000Z",
+          "wordCount": 684,
+          "title": "Experten: Extremt viktigt att förstå hur elektroner rör sig",
+          "imageUrl": "https://static-cdn.sr.se/images/83/ef1a3a15-9be4-4bb1-81d7-bf35f5ca19c4.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8465273",
+          "author": null,
+          "description": "<ul><li><p>Polisen larmades runt halv fem-tiden på tisdagen till köpcentret Mobilia i Malmö, där en person uppges ha skjutits i anslutning till en butik.</p></li><li><p>Personen har förts till sjukhus med ambulans, och uppges vara allvarligt skadad.</p></li><li><p>”Nu handlar det om utredningsarbete för polisens del och i en annan del att eftersöka den eller dem gärningspersonerna som ligger bakom,” säger polisens presstalesperson Rickard Lundqvist.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8465273",
+          "publishedOn": "2023-10-03T14:50:00.000Z",
+          "wordCount": 646,
+          "title": "Man allvarligt skadad efter skjutning i Malmögalleria",
+          "imageUrl": "https://static-cdn.sr.se/images/83/fcc8e567-1416-49ac-b2b5-aa6116d06bc7.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8465206",
+          "author": null,
+          "description": "<ul><li><p>Den 14-årige pojken försvann från ett familjehem i Nyköping i slutet på juli. I augusti hittades han död i ett grönområde utanför Upplands Bro i norra Stockholm.</p></li><li><p>Under måndagen greps en 25-årig man och under tisdagen anhölls han misstänkt för mord på pojken, bekräftar åklagare Hanna Cardell för P3 Krim.</p></li><li><p>Sedan tidigare sitter en 15-årig pojke häktad misstänkt för medhjälp till mord.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8465206",
+          "publishedOn": "2023-10-03T14:42:00.000Z",
+          "wordCount": 649,
+          "title": "25-årig man anhållen misstänkt för mord på 14-åring",
+          "imageUrl": "https://static-cdn.sr.se/images/83/cbccf0d0-228e-4dc7-8627-b7f023773abd.jpg"
+        },
         {
           "id": "https://sverigesradio.se/artikel/8464467",
           "author": null,
@@ -14359,156 +14694,6 @@
           "wordCount": 634,
           "title": "Analys: Jobbskatteavdraget hjärtefråga för M",
           "imageUrl": "https://static-cdn.sr.se/images/83/208aca85-4a7c-4796-bb26-a86aca69c0ee.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8437821",
-          "author": null,
-          "description": "<ul><li><p>Skador som orsakas av invasiva arter kostar varje år tusentals miljarder kronor per år, och arbetet med att bekämpa dem går alldeles för långsamt, enligt den interparlamentariska plattformen IPBES.</p></li><li><p>Skadorna världen över handlar exempelvis om smittspridning samt utslagna skördar och kostar 4 600 miljarder kronor årligen, enligt rapporten.</p></li><li><p>”En del av de här arterna är också sjukdomar som kan drabba både gröda, skog och fiske och det är därför det är så viktigt att hålla dem borta”, säger Naturvårdsverkets chef för artenheten, Maria Widemo</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8437821",
-          "publishedOn": "2023-09-04T12:02:00.000Z",
-          "wordCount": 724,
-          "title": "Notan för artinvasion: Tusentals miljarder per år",
-          "imageUrl": "https://static-cdn.sr.se/images/83/919ea8c0-f8ff-4cb7-9b0e-8e77624b4b4a.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8437825",
-          "author": null,
-          "description": "<ul><li><p>I helgen har det regnat kraftigt i Västmanland och flera fick bevittna översvämningar och komplikationer.</p></li><li><p>Ekots reporter Tobias Sandblad var på plats och rapporterade om vattenkaoset.</p></li><li><p>”Åkrar och fält fulla med spannmål som borde skördas”, säger Daniel Filipsson på Västtärna gård som har två tredjedelar av sin skörd under vatten.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8437825",
-          "publishedOn": "2023-09-04T10:54:00.000Z",
-          "wordCount": 644,
-          "title": "Gårdsdägaren efter översvämningarna: ”Känns inte bra”",
-          "imageUrl": "https://static-cdn.sr.se/images/83/02170d07-f501-4014-932a-f97a0deeb412.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8437809",
-          "author": null,
-          "description": "<ul><li><p>Efter att ett 40-tal medlemmar i Botkyrka i slutet på förra veckan valde att lämna Socialdemokraterna, kommenterar nu partidistriktets ordförande Åsa Westlund händelseutvecklingen.</p></li><li><p>Hon säger att det är en sårig personkonflikt där det saknas två parter som kan komma överens.</p></li><li><p> På frågan om hon har förståelse för den oro en del av medlemmarna som lämnat partiet har uttryckt kring det nya S-styret i kommunen, svarar Åsa Westlund att hon inte hade det och att det inte är aktuellt för ABF att öppnade de fritidsgårdar som tidigare stängdes. </p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8437809",
-          "publishedOn": "2023-09-04T10:40:00.000Z",
-          "wordCount": 694,
-          "title": "Westlund (S) om Botkyrka: ”Förstår inte de påståendena”",
-          "imageUrl": "https://static-cdn.sr.se/images/83/8e484b00-c5a5-43bb-bad5-14c8b37539d8.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8433510",
-          "author": null,
-          "description": "<ul><li><p>Antalet IT-attacker mot svenska företag och organisationer har ökat kraftigt sedan Rysslands fullskaliga invasion av Ukraina – det visar nya siffror som Ekot fått ta del av från IT-säkerhetsföretaget Truesec.</p></li><li><p>Antalet attacker som företaget avvärjt åt sina kunder har hittills i år ökat med nära 70% jämfört med hela fjolåret.</p></li><li><p>I juli i år var attackerna mer än dubbelt så många som en medelmånad före Rysslands invasion av Ukraina.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8433510",
-          "publishedOn": "2023-09-04T10:07:00.000Z",
-          "wordCount": 700,
-          "title": "Efter krigets start – dubbelt så många IT-attacker mot Sverige",
-          "imageUrl": "https://static-cdn.sr.se/images/83/f251fa79-cf70-448d-9f6b-fc15e03504a7.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8437758",
-          "author": null,
-          "description": "<ul><li><p>Miljöpartiets partistyrelse vill behålla den nuvarande modellen med delat ledarskap och två språkrör. </p></li><li><p>Det uppger partistyrelsens ordförande Marcus Friberg för nyhetsbyrån TT.</p></li><li><p>I vanliga fall yttrar sig inte partistyrelsen redan nu i frågor som ska tas upp på Miljöpartiets kongress, som hålls i november. Men nästa vecka ska en rådgivande omröstning bland ombuden hållas där frågan i princip avgörs.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8437758",
-          "publishedOn": "2023-09-04T09:36:00.000Z",
-          "wordCount": 638,
-          "title": "MP vill behålla två språkrör",
-          "imageUrl": "https://static-cdn.sr.se/images/83/1b9be0d1-d67a-4189-88e3-06e8b76dae8d.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8437752",
-          "author": null,
-          "description": "<ul><li><p>En svensk EU-tjänsteman har suttit fängslad i Iran i över 500 dagar. Utrikesdepartementet jobbar ”mycket intensivt med fallet”, uppger departementets presstjänst.</p></li><li><p>Svensken greps i april förra året, i samband med en resa till Iran. Irans underrättelsedepartement meddelade senare att han misstänks för spioneri. Enligt New York Times handlar det om en person som arbetar för EU:s diplomatkår.</p></li><li><p>Utrikesdepartementet har tidigare bekräftat att en svensk sitter fängslad i Iran, men är fortsatt tystlåtet om fallet.</p><p>Rättelse: I en tidigare version uppgav vi att det var en svensk EU-diplomat. Rätt är att det handlade om en svensk EU-tjänsteman. Rättelsen gjordes den 4 september.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8437752",
-          "publishedOn": "2023-09-04T09:32:00.000Z",
-          "wordCount": 680,
-          "title": "Uppgifter: Svensk EU-tjänsteman fängslad i Iran",
-          "imageUrl": "https://static-cdn.sr.se/images/83/276024a9-46f0-4d82-939f-407c914ff946.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8437720",
-          "author": null,
-          "description": "<ul><li><p>Skatteverket förslår att det varje år görs en nationell lägesbild över vilka som bor och verkar i Sverige – i stället för en ny folkräkning.</p></li><li><p>Man ska samla information från de register som finns i dag och slå samman uppgifter från olika myndigheter.</p></li><li><p>”Så att vi kan beskriva företeelser och saker som är förknippat med risker, som människohandel eller svartarbete”, säger Peter Sävje, avdelningschef för folkbokföringen på Skatteverket.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8437720",
-          "publishedOn": "2023-09-04T09:20:00.000Z",
-          "wordCount": 661,
-          "title": "Skatteverket: Skrota folkräkningen för lägesbild varje år",
-          "imageUrl": "https://static-cdn.sr.se/images/83/64b13453-a4ee-4e7a-9489-ff1d39caf717.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8437409",
-          "author": null,
-          "description": "<ul><li><p>Ukrainas försvarsminister Oleksij Reznikov byts ut av president Zelenskyj. </p></li><li><p>I sitt kvällstal säger Zelenskyj att efter 550 dagar av krig behöver försvarsdepartementet nya infallsvinklar och andra sätt att samverka både med militären och resten av samhället. </p></li><li><p>Zelenskyj ber ukrainska parlamentet att istället för Reznikov godkänna Rustem Umerov som ny försvarsminister. </p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8437409",
-          "publishedOn": "2023-09-03T19:22:00.000Z",
-          "wordCount": 676,
-          "title": "Ukrainas försvarsminister sparkas – ”Har haft nio liv”",
-          "imageUrl": "https://static-cdn.sr.se/images/83/bb3db528-b76d-4c75-b7f8-84f07eb29fdc.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8437398",
-          "author": null,
-          "description": "<ul><li><p>I Taiwan har nu omkring 7 000 människor evakuerats undan tyfonen Haikui. Butiker har stängts och flyg ställts in.</p></li><li><p>Enligt myndigheterna har över 40 människor skadats till följd av tyfonen.</p></li><li><p>I Haikui, som redan dragit med sig stora mängder regn, har vindar på nära 43 meter i sekunden uppmätts. </p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8437398",
-          "publishedOn": "2023-09-03T18:28:00.000Z",
-          "wordCount": 646,
-          "title": "Tyfonen Haikui slår hårt mot Taiwan – 7 000 evakuerade",
-          "imageUrl": "https://static-cdn.sr.se/images/83/32bd37bf-db6f-4245-aab0-0cfd24fe56a7.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8437395",
-          "author": null,
-          "description": "<ul><li><p>Israels premiärminister Benjamin Netanyahu vill att de eritreanska migranter som var inblandade i gårdagens våldsamma sammandrabbning i Tel Aviv omedelbart ska deporteras.</p></li><li><p>Över 160 personer skadades i konfrontationerna mellan anhängare till den eritreanska regimen och oppositionella landsmän, på 30-årsdagen av regimens tillträdande i Eritrea.</p></li><li><p>Israel överväger att deportera 1 000 eritreaner, enligt premiärministern.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8437395",
-          "publishedOn": "2023-09-03T18:24:00.000Z",
-          "wordCount": 661,
-          "title": "1 000 eritreaner kan deporteras efter våldet i Tel Aviv",
-          "imageUrl": "https://static-cdn.sr.se/images/83/09cba43a-4c82-4bd1-a4e6-e86f5340044e.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8434474",
-          "author": null,
-          "description": "<ul><li><p>Nio av tio invånare i ett samhälle på Grönlands östkust har hälsovådliga halter av PFAS-ämnen i kroppen visar en studie från Århus Universitet.</p></li><li><p>PFAS finns i allt från skidvalla och muffinsformar till möbeltyger och brandskum och kan ge allvarliga hälsoproblem.</p></li><li><p>Under hösten kommer den grönländska regeringen att besluta om man ska låta testa hela befolkningen eller inte, något som många politiker nu vill.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8434474",
-          "publishedOn": "2023-09-03T15:13:00.000Z",
-          "wordCount": 652,
-          "title": "Alarmerande PFAS-halter hos befolkning på Grönland",
-          "imageUrl": "https://static-cdn.sr.se/images/83/6a4882d0-6c4d-4433-bbd9-3ff328dcd293.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8437311",
-          "author": null,
-          "description": "<ul><li><p>Salwan Momika och Salwan Najem, som gjort sig kända för koranbränningar, höll idag en sammankomst i Malmö där de brände flera kopior av koranen.</p></li><li><p>Det blev stökigt och sammankomsten avbröts på grund av våldsamt upplopp, som ledde till att polisen grep två personer misstänkta för våldsamt upplopp alternativt blåljussabotage, och omhändertog ett tiotal för störning av den allmänna ordningen. </p></li><li><p>Fatima som var på torget blev upprörd av koranbränningarna, men tycker att det var fel att det blev våldsamt. </p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8437311",
-          "publishedOn": "2023-09-03T14:47:00.000Z",
-          "wordCount": 681,
-          "title": "Koranbränning avbröts efter våldsamheter – tre gripna",
-          "imageUrl": "https://static-cdn.sr.se/images/83/ad37c2f1-3079-449a-84cc-4921144abc41.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8437291",
-          "author": null,
-          "description": "<ul><li><p>Ryssland säger sig ha attackerat en bränsledepå i staden Reni i Ukraina – precis på gränsen till Rumänien. </p></li><li><p>Bara floden Donau skiljer staden från Rumänien. Ukraina uppger att det var civil industri som besköts</p></li><li><p>Rumänien har fördömt attacken samtidigt konstaterar man att den aldrig utgjorde något direkt militärt hot på rumänsk mark eller vatten.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8437291",
-          "publishedOn": "2023-09-03T14:07:00.000Z",
-          "wordCount": 640,
-          "title": "Rysk attack nära rumänska gränsen",
-          "imageUrl": "https://static-cdn.sr.se/images/83/8b5a52bf-b18f-4675-b5a0-a705d47dfb33.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8437272",
-          "author": null,
-          "description": "<ul><li><p>Hör det senaste efter morgonens brand i ett flerfamiljshus i centrala Norrköping där 150 personer fick evakueras. En man och en kvinna är gripna misstänkta för allmänfarlig ödeläggelse och brott mot lagen om brandfarliga och explosiva varor.</p></li><li><p>Medverkande på presskonferensen: Frida Braf, chef lokalpolisområde Norrköping; Per Nisser, regional räddningsledare, Räddningstjänsten Östra Götaland; Tony Georgson, tjänsteperson i beredskap, Norrköpings kommun.</p></li><li><p>Samtliga av de åtta personer som fördes till sjukhus med lindriga skador har fått lämna. Ett 30-tal förhör har hållits och två av de personer som hörts har anhållits.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8437272",
-          "publishedOn": "2023-09-03T13:08:00.000Z",
-          "wordCount": 663,
-          "title": "Det senaste om misstänkta detonationen i Norrköping",
-          "imageUrl": "https://static-cdn.sr.se/images/83/ede9a4df-02ab-4663-9a6a-fd7843b161e8.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8436597",
-          "author": null,
-          "description": "<ul><li><p>En av Sveriges största samiska organisationer anser att regeringen inte tar samiska frågor på allvar.</p></li><li><p>Det är Svenska samernas riksförbund, SSR, som bett om ett möte med kultur- och sameminister Parisa Liljestrand som har tackat nej och meddelat att hon inte har tid resten av året.</p></li><li><p>Jenny Wik Karlsson är verksamhetschef på SSR och hon tycker att det känns som att samarbetet går bakåt.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8436597",
-          "publishedOn": "2023-09-03T12:54:00.000Z",
-          "wordCount": 664,
-          "title": "Kritiken: Sameministern struntar i samiska frågor",
-          "imageUrl": "https://static-cdn.sr.se/images/83/1a2bf444-4aff-407d-a54f-350db84b261a.jpg"
         }
       ]
     },
@@ -14517,6 +14702,96 @@
       "feedUrl": "https://www.gp.se/nyheter/g%C3%B6teborg?rss",
       "siteUrl": "http://www.gp.se/nyheter/göteborg",
       "articles": [
+        {
+          "id": "http://www.gp.se/nyheter/göteborg/spårvagnstrafik-till-angered-rullar-igen-1.111677438",
+          "author": null,
+          "description": "Under kvällen gick ingen spårvagnstrafik mellan Gamlestads torg och Angered. Västtrafik befarade att stoppen kunde bli långvarigt, men inom en timme kunde trafiken rulla som vanligt igen.",
+          "link": "http://www.gp.se/nyheter/g%C3%B6teborg/sp%C3%A5rvagnstrafik-till-angered-rullar-igen-1.111677438",
+          "publishedOn": "2023-10-03T19:25:54.000Z",
+          "wordCount": 7083,
+          "title": "Spårvagnstrafik till Angered rullar igen",
+          "imageUrl": "https://www.gp.se/polopoly_fs/3.200.1693910471!/images/se.gp/fallback-og-image.png"
+        },
+        {
+          "id": "http://www.gp.se/nyheter/göteborg/securitaschef-rakar-av-håret-på-anställda-i-göteborg-1.111240167",
+          "author": null,
+          "description": "Ska ha använts som bestraffning vid försovning, enligt intern chattgrupp.",
+          "link": "http://www.gp.se/nyheter/g%C3%B6teborg/securitaschef-rakar-av-h%C3%A5ret-p%C3%A5-anst%C3%A4llda-i-g%C3%B6teborg-1.111240167",
+          "publishedOn": "2023-10-03T19:02:06.000Z",
+          "wordCount": 6909,
+          "title": "Securitaschef rakade av håret på anställda i Göteborg",
+          "imageUrl": "https://www.gp.se/image/policy:1.100560940:1696362674/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a"
+        },
+        {
+          "id": "http://www.gp.se/nyheter/göteborg/föräldrar-hoppar-in-i-skolan-för-att-stävja-kaos-1.111670353",
+          "author": null,
+          "description": "”Vi kommer fortsätta tills det blir en hållbar situation”",
+          "link": "http://www.gp.se/nyheter/g%C3%B6teborg/f%C3%B6r%C3%A4ldrar-hoppar-in-i-skolan-f%C3%B6r-att-st%C3%A4vja-kaos-1.111670353",
+          "publishedOn": "2023-10-03T17:34:48.000Z",
+          "wordCount": 6877,
+          "title": "Kaos i klassrummet – då hjälper föräldrarna till",
+          "imageUrl": "https://www.gp.se/image/policy:1.111670326:1696354508/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a"
+        },
+        {
+          "id": "http://www.gp.se/nyheter/göteborg/flicka-och-pappa-påkörda-bilisten-smet-1.111661695",
+          "author": null,
+          "description": "Flickan fördes till sjukhus med ambulans.",
+          "link": "http://www.gp.se/nyheter/g%C3%B6teborg/flicka-och-pappa-p%C3%A5k%C3%B6rda-bilisten-smet-1.111661695",
+          "publishedOn": "2023-10-03T15:40:42.000Z",
+          "wordCount": 7157,
+          "title": "Flicka och pappa påkörda – bilisten smet",
+          "imageUrl": "https://www.gp.se/polopoly_fs/3.200.1693910471!/images/se.gp/fallback-og-image.png"
+        },
+        {
+          "id": "http://www.gp.se/nyheter/göteborg/kidnappade-man-i-tre-dygn-krävde-mamman-på-pengar-1.111511985",
+          "author": null,
+          "description": "Anhöriga fick film på skenavrättningen i skogen • Kunde räddas efter tre dygn.",
+          "link": "http://www.gp.se/nyheter/g%C3%B6teborg/kidnappade-man-i-tre-dygn-kr%C3%A4vde-mamman-p%C3%A5-pengar-1.111511985",
+          "publishedOn": "2023-10-03T11:04:48.000Z",
+          "wordCount": 6868,
+          "title": "Kidnappade man i tre dygn – krävde mamma på pengar",
+          "imageUrl": "https://www.gp.se/image/policy:1.104378483:1696331103/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a"
+        },
+        {
+          "id": "http://www.gp.se/nyheter/göteborg/gängkriminell-häktad-efter-mordet-på-adil-dini-20-1.111611799",
+          "author": null,
+          "description": "Ledande i Bergsjönätverket häktad i sin frånvaro • Var med när yngre falangen tog över makten.",
+          "link": "http://www.gp.se/nyheter/g%C3%B6teborg/g%C3%A4ngkriminell-h%C3%A4ktad-efter-mordet-p%C3%A5-adil-dini-20-1.111611799",
+          "publishedOn": "2023-10-03T09:53:05.000Z",
+          "wordCount": 6890,
+          "title": "Bröder misstänks för mordet på Adil Dini i Bergsjön",
+          "imageUrl": "https://www.gp.se/image/policy:1.111611793:1696349757/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a"
+        },
+        {
+          "id": "http://www.gp.se/nyheter/göteborg/liseberg-utnämnt-till-europas-bästa-nöjespark-1.111601301",
+          "author": null,
+          "description": "Nöjesparkens vd: ”Jag är väldigt stolt”.",
+          "link": "http://www.gp.se/nyheter/g%C3%B6teborg/liseberg-utn%C3%A4mnt-till-europas-b%C3%A4sta-n%C3%B6jespark-1.111601301",
+          "publishedOn": "2023-10-03T08:18:24.000Z",
+          "wordCount": 8079,
+          "title": "Liseberg prisas som Europas bästa nöjespark",
+          "imageUrl": "https://www.gp.se/image/policy:1.102017906:1696329222/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a"
+        },
+        {
+          "id": "http://www.gp.se/nyheter/göteborg/efterlyst-man-gjorde-våldsamt-motstånd-1.111570445",
+          "author": null,
+          "description": "En man i 25-årsåldern ska ha blivit misshandlad av en man i 35-årsåldern under måndagskvällen. När polisen skulle hämta den misstänkta visade det sig att han var efterlyst.",
+          "link": "http://www.gp.se/nyheter/g%C3%B6teborg/efterlyst-man-gjorde-v%C3%A5ldsamt-motst%C3%A5nd-1.111570445",
+          "publishedOn": "2023-10-03T05:49:22.000Z",
+          "wordCount": 7168,
+          "title": "Efterlyst man gjorde våldsamt motstånd",
+          "imageUrl": "https://www.gp.se/polopoly_fs/3.200.1693910471!/images/se.gp/fallback-og-image.png"
+        },
+        {
+          "id": "http://www.gp.se/nyheter/göteborg/tjuv-slog-till-mot-restaurang-1.111559261",
+          "author": null,
+          "description": "Erkände för polisen direkt.",
+          "link": "http://www.gp.se/nyheter/g%C3%B6teborg/tjuv-slog-till-mot-restaurang-1.111559261",
+          "publishedOn": "2023-10-03T01:53:55.000Z",
+          "wordCount": 7168,
+          "title": "Tjuv slog till mot restaurang",
+          "imageUrl": "https://www.gp.se/polopoly_fs/3.200.1693910471!/images/se.gp/fallback-og-image.png"
+        },
         {
           "id": "http://www.gp.se/nyheter/göteborg/knarkgömman-i-majorna-ett-låst-lönnfack-i-bil-1.111499583",
           "author": null,
@@ -17126,56 +17401,6 @@
           "wordCount": 6828,
           "title": "Efter nya beskedet – så säger Västlänken-profilerna",
           "imageUrl": "https://www.gp.se/image/policy:1.108977721:1693834340/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a"
-        },
-        {
-          "id": "http://www.gp.se/nyheter/göteborg/tidigare-maken-attackerade-exfrun-med-kniv-efter-hennes-dejt-1.108777258",
-          "author": null,
-          "description": "Den tidigare maken besökte kvinnans arbetsplats beväpnad.",
-          "link": "http://www.gp.se/nyheter/g%C3%B6teborg/tidigare-maken-attackerade-exfrun-med-kniv-efter-hennes-dejt-1.108777258",
-          "publishedOn": "2023-09-04T07:38:29.000Z",
-          "wordCount": 6853,
-          "title": "Attackerade exfrun med kniv efter hennes dejt",
-          "imageUrl": "https://www.gp.se/image/policy:1.40534620:1693813122/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a"
-        },
-        {
-          "id": "http://www.gp.se/nyheter/göteborg/spårvagnslinjer-drogs-om-efter-rälsbrott-1.108959142",
-          "author": null,
-          "description": "Problem i spårvagnstrafiken på måndagen.",
-          "link": "http://www.gp.se/nyheter/g%C3%B6teborg/sp%C3%A5rvagnslinjer-drogs-om-efter-r%C3%A4lsbrott-1.108959142",
-          "publishedOn": "2023-09-04T07:15:40.000Z",
-          "wordCount": 7000,
-          "title": "Skada på rälsen – flera linjer drogs om",
-          "imageUrl": "https://www.gp.se/polopoly_fs/3.200.1693563068!/images/se.gp/fallback-og-image.png"
-        },
-        {
-          "id": "http://www.gp.se/nyheter/göteborg/man-rånad-vid-korsvägen-1.108952545",
-          "author": null,
-          "description": "Ingen misstänkt gripen.",
-          "link": "http://www.gp.se/nyheter/g%C3%B6teborg/man-r%C3%A5nad-vid-korsv%C3%A4gen-1.108952545",
-          "publishedOn": "2023-09-04T05:51:38.000Z",
-          "wordCount": 7027,
-          "title": "Man rånad vid Korsvägen",
-          "imageUrl": "https://www.gp.se/polopoly_fs/3.200.1693563068!/images/se.gp/fallback-og-image.png"
-        },
-        {
-          "id": "http://www.gp.se/nyheter/göteborg/krossade-ruta-och-kastade-in-fyrverkeri-på-skola-1.108537978",
-          "author": null,
-          "description": "Tonåringar firade födelsedag med skadegörelse: ”Var roligt i en halvminut”.",
-          "link": "http://www.gp.se/nyheter/g%C3%B6teborg/krossade-ruta-och-kastade-in-fyrverkeri-p%C3%A5-skola-1.108537978",
-          "publishedOn": "2023-09-03T19:05:08.000Z",
-          "wordCount": 6828,
-          "title": "Krossade ruta och kastade in fyrverkeri på skola",
-          "imageUrl": "https://www.gp.se/image/policy:1.108537968:1693767922/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a"
-        },
-        {
-          "id": "http://www.gp.se/nyheter/göteborg/deras-hemväg-har-varit-avstängd-i-tre-veckor-1.108769133",
-          "author": null,
-          "description": "Rasade under ovädret Hans: ”Hade det hänt i Hovås så hade det varit lagat nu”.",
-          "link": "http://www.gp.se/nyheter/g%C3%B6teborg/deras-hemv%C3%A4g-har-varit-avst%C3%A4ngd-i-tre-veckor-1.108769133",
-          "publishedOn": "2023-09-03T17:20:04.000Z",
-          "wordCount": 6863,
-          "title": "Deras hemväg har varit avstängd – i tre veckor",
-          "imageUrl": "https://www.gp.se/image/policy:1.108769119:1693761617/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a"
         }
       ]
     },
@@ -17184,6 +17409,16 @@
       "feedUrl": "https://noyb.eu/en/rss",
       "siteUrl": "https://noyb.eu/en",
       "articles": [
+        {
+          "id": "1349 at https://noyb.eu",
+          "author": "mickey",
+          "description": "Meta (Facebook / Instagram) to move to a \"Pay for your Rights\" approach\n\n                    In order to bypass the GDPR, Meta apparently plans to move to a \"Pay for your Rights\" approach",
+          "link": "https://noyb.eu/en/meta-facebook-instagram-move-pay-your-rights-approach",
+          "publishedOn": "2023-10-03T07:42:31.000Z",
+          "wordCount": 1194,
+          "title": "Meta (Facebook / Instagram) to move to a \"Pay for your Rights\" approach",
+          "imageUrl": "https://noyb.eu/sites/default/files/styles/facebook/public/2023-10/basic_meta_6.png?h=6bd78a16&itok=V0aLoA_e"
+        },
         {
           "id": "1348 at https://noyb.eu",
           "author": "ms",
@@ -17270,16 +17505,6 @@
           "wordCount": 7908,
           "title": "Ny komet i sikte",
           "imageUrl": "https://www.popularastronomi.se/wp-content/uploads/2023/09/6min-RGB-C2023_P1_Nishimura.jpg"
-        },
-        {
-          "id": "https://www.popularastronomi.se/?p=29836",
-          "author": "Malin Sandström",
-          "description": "Kanadensiska forskare har hittat mikrober som kan skapa syre, hundratals meter ner i gamla grundvattenreservoarer. Kring mikroberna hade komplexa ekosystem av andra, syrekrävande mikrober vuxit upp. Många planeter och månar i vårt system har djupa, frusna vattenreservoarer – kanske kan bakteriekolonier växa även där?   Finns det inget ljus, bildas inget syre. Det enkla resonemanget har […]\nThe post Mikrober kan skapa “mörkt syre”, hundratals meter under jord first appeared on Populär Astronomi.\nInlägget Mikrober kan skapa “mörkt syre”, hundratals meter under jord dök först upp på Populär Astronomi.",
-          "link": "https://www.popularastronomi.se/2023/09/mikrober-kan-skapa-morkt-syre-hundratals-meter-under-jord/",
-          "publishedOn": "2023-09-04T06:02:17.000Z",
-          "wordCount": 8129,
-          "title": "Mikrober kan skapa “mörkt syre”, hundratals meter under jord",
-          "imageUrl": "https://www.popularastronomi.se/wp-content/uploads/2023/09/Enceladus_NASA_JPL_SpaceScienceInstitute-1-scaled-e1693768077186.jpeg"
         }
       ]
     },
@@ -17373,16 +17598,6 @@
           "publishedOn": "2023-09-13T07:06:25.000Z",
           "wordCount": 878,
           "title": "Underhåll VPS-plattform / Maintenance VPS platform",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.driftbloggen.se/?p=13081",
-          "author": "Loopia",
-          "description": "Onsdagen den 6 September utförs underhåll av .se- och .nu-domäner mellan 21:00-02:00. Medan underhållet pågår kan inga ändringar eller beställningar av .se och .nu genomföras. Beställningar som inkommer under tidsperioden registreras så fort underhållet avslutats. On Wednesday, September 6 there will be a maintenance window for .se and .nu domains between 21:00-02:00. No changes or [...]\nLäs mer... from Underhåll .se och .nu-domäner / Maintenance .se and .nu domains",
-          "link": "https://www.driftbloggen.se/underhall-se-och-nu-domaner-maintenance-se-and-nu-domains-142/",
-          "publishedOn": "2023-09-04T05:00:37.000Z",
-          "wordCount": 929,
-          "title": "Underhåll .se och .nu-domäner / Maintenance .se and .nu domains",
           "imageUrl": null
         }
       ]
