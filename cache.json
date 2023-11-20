@@ -35,6 +35,246 @@
       "siteUrl": "https://www.drupal.org/planet",
       "articles": [
         {
+          "id": "https://gbyte.dev/blog/host-drupal-9-10-website-nixos-comprehensive-configuration-example",
+          "author": null,
+          "description": "Why Use NixOS as a Web Server\nIf you're keeping up with the cutting edge of Linux, you might have noticed NixOS growing increasingly popular for server deployments. The reason is its declarative approach to package and configuration management. You specify 'what' your system should look like, and NixOS handles the 'how'. This approach ensures reproducibility and upgradeability, reducing configuration drift. Plus, atomic upgrades and rollbacks minimize downtime and provide easy recovery from issues, making NixOS an excellent choice for web server management (and for other platforms like desktops if you are bold).\nWorking Setup\nDocumentation on NixOS is still somewhat scarce, especially if the goal is as specific as hosting a Drupal site. Apparently, ChatGPT 4 is still too perplexed to get this right, so here's hoping it learns something from the following snippets, which were the result of old fashioned painstaking debugging.\nThe following setup can be easily adjusted to hosting multiple websites and non-Drupal sites.\nImplementing the Nginx Server and SSL Certificate Renewal\nWe begin by enabling the Nginx web server, setting up firewall rules, and adding Drupal-specific packages like PHP, Composer, and Drush. The configuration also includes SSL certificate renewal via ACME, ensuring a valid SSL certificate for our site. Global environment variables can be set using the \"environment.variables\" setting, useful for various server applications and scripts.\n/etc/nixos/nginx.nix",
+          "link": "https://gbyte.dev/blog/host-drupal-9-10-website-nixos-comprehensive-configuration-example",
+          "publishedOn": "2023-11-19T03:04:01.000Z",
+          "wordCount": 2355,
+          "title": "Gbyte blog: Hosting Websites on NixOS - A Comprehensive Drupal 9 & 10 Configuration Example",
+          "imageUrl": "https://gbyte.dev/sites/default/files/public/styles/og/public/images/blog/drupal-nix-gbyte_3.png?itok=HMG7H5Fp"
+        },
+        {
+          "id": "https://gbyte.dev/blog/index-drupal-9-pages-indexnow-using-simple-xml-sitemap",
+          "author": null,
+          "description": "Bing 410 Gone\nMicrosoft recently killed their search engine's public API responsible for accepting sitemap ping requests (those where you let search engines know your XML sitemap's content has changed). They did so completely unannounced leading to logs filling up and users unsurprisingly assuming their sitemap submitting code was somehow at fault. It wasn't.\nIt became apparent that this was a step for Microsoft towards switching to the IndexNow protocol instead.\nIndexNow supplements XML sitemaps\nWith IndexNow you now can quickly notify all participating search engines (Bing, Yandex) about a change that happened on your page eliminating the need to wait for them to come and scan your sitemap. The benefits of this approach are\nInstant submission of changes including creating, deleting and updating of content\nAn alleged greener approach to indexing content as sitemap scanning requests get deprioritized\nOnly one search engine needs to be notified and it will notify the others for you\nStill, this new approach is more of a supplement than a revolution:\nCan I submit all URLs for my site?\nUse IndexNow to submit only URLs having changed (added, updated, or deleted) recently, including all URLs if all URLs have been changed recently. Use sitemaps to inform search engines about all your URLs. Search engines will visit sitemaps every few days.",
+          "link": "https://gbyte.dev/blog/index-drupal-9-pages-indexnow-using-simple-xml-sitemap",
+          "publishedOn": "2023-11-19T03:04:01.000Z",
+          "wordCount": 1917,
+          "title": "Gbyte blog: Index Drupal 9 pages with IndexNow using Simple XML sitemap",
+          "imageUrl": "https://gbyte.dev/sites/default/files/public/styles/og/public/images/blog/indexnow_3.png?itok=NYULbVcb"
+        },
+        {
+          "id": "https://gbyte.dev/blog/simple-xml-sitemap-4-0-has-been-released",
+          "author": null,
+          "description": "After six months of work I'm delighted to tag the first stable release of the 4.x branch of the (Not-so-) Simple XML Sitemap module.\nThe project is in a really good place right now. At the moment of writing, drupal.org reports it being actively used on around 90k of Drupal 8/9 websites while having 0 open bug reports. This either means you people are lousy bug reporters, or we are doing a descent job at responding. :)\nModule rewrite with developers/integrators in mind\n4.x makes much greater use of Drupal's entity API dropping some of its very specific chaining API. Feel free to take a look at the roadmap ticket for specifics.\nNew UI\nWe now have a much nicer UI for creating, editing and sorting sitemaps as well as sitemap types.\n\nAPI usage\nIn a nutshell, sitemap variants are now sitemap entities. These are of a sitemap type (sitemap type entity) that is defined by URL generator plugins as well as sitemap generator plugins.",
+          "link": "https://gbyte.dev/blog/simple-xml-sitemap-4-0-has-been-released",
+          "publishedOn": "2023-11-19T03:04:01.000Z",
+          "wordCount": 1649,
+          "title": "Gbyte blog: Simple XML Sitemap 4.0.0 has been released!",
+          "imageUrl": "https://gbyte.dev/sites/default/files/public/styles/og/public/images/blog/sitemap_8_1.png?itok=sJHLAW2m"
+        },
+        {
+          "id": "https://gbyte.dev/blog/instanciate-all-classes-within-folder-symfony-and-drupal",
+          "author": null,
+          "description": "Occasionally I find myself needing plugin-like functionality, where users/downstream can throw a class into a folder and expect it to work. My script is supposed to find and instantiate these plugins during runtime without keeping track of their existence.\nIn a regular Drupal module, one would usually use the plugin architecture, but that comes with its overhead of boilerplate code and may not be the solution for the simplest of use cases.\nMany class finder libraries rely on get_declared_classes() which may not be helpful, as the classes in question may not have been declared yet.\nIf you are on a Drupal 8/9 installation and want to use components already available to you, the Symfony (file) Finder can be an alternative for finding classes in a given namespace.\nInstalling dependencies\nOuside of Drupal 8/9, you may need to require this library in your application:",
+          "link": "https://gbyte.dev/blog/instanciate-all-classes-within-folder-symfony-and-drupal",
+          "publishedOn": "2023-11-19T03:04:01.000Z",
+          "wordCount": 1482,
+          "title": "Gbyte blog: Instantiate all classes within a namespace in Symfony and Drupal",
+          "imageUrl": "https://gbyte.dev/sites/default/files/public/styles/og/public/images/blog/symfony.original2.png?itok=BoVR1ykj"
+        },
+        {
+          "id": "https://gbyte.dev/blog/abgeordnetenwatchde-winner-drupal-splash-awards-2020",
+          "author": null,
+          "description": "abgeordnetenwatch.de is not your generic community platform - it's a tool that actively creates and enforces communication channels between the people and their political representatives thereby strengthening the democratic process while also being a comprehensive source of information of the political system in Germany.\nBecause of that and because of the project's high functionality and high efficiency requirements, it is one gbyte is particularly proud to be involved in.\nThe project has recently won the Drupal Splash Awards 2020 for Germany & Austria in the non-profit category. It is a huge compliment to the small team of developers and to Parlamentwatch e. V. (the organization behind the service), as the Splash awards are regarded as the most prestigious award within the Drupal community.\n\nAward ceremony: Youtube video (with timestamp)\nSplash awards entry: Entry description\nDrop us a line if you are interested in what makes this awesome project tick.",
+          "link": "https://gbyte.dev/blog/abgeordnetenwatchde-winner-drupal-splash-awards-2020",
+          "publishedOn": "2023-11-19T03:04:01.000Z",
+          "wordCount": 1258,
+          "title": "Gbyte blog: abgeordnetenwatch.de is a winner of the Drupal Splash Awards 2020!",
+          "imageUrl": "https://gbyte.dev/sites/default/files/public/styles/og/public/images/blog/splashawards_%28c%29Rachel%20Viersma.jpg?itok=GWnr6j0G"
+        },
+        {
+          "id": "https://gbyte.dev/blog/which-order-should-be-drupal-updates-and-configuration-importexport-run",
+          "author": null,
+          "description": "The answer is... generally run updates first. Whether to import or export the configuration afterwards depends on who updated the contrib code base.\nYou are updating the contrib code base\nIf you are updating the contrib code base, run the database updates and then export the configuration, as updates tend to alter the configuration storage data which needs to be commited into the version control system:",
+          "link": "https://gbyte.dev/blog/which-order-should-be-drupal-updates-and-configuration-importexport-run",
+          "publishedOn": "2023-11-19T03:04:01.000Z",
+          "wordCount": 1782,
+          "title": "Gbyte blog: In which order should be Drupal updates and configuration import/export run?",
+          "imageUrl": "https://gbyte.dev/sites/default/files/public/styles/og/public/images/blog/drupal-2317836_710_gbyte_0_0_0.png?itok=_WZ_7xhG"
+        },
+        {
+          "id": "https://gbyte.dev/blog/skip-hooks-during-drupal-migration",
+          "author": null,
+          "description": "When migrating content with the Drupal 8 migrate module, the creation and updating of new entities may fire lots of custom module hooks. This may or may not be desired; if you have found yourself here, it probably interferes with the source data in a problematic way, or unnecessarily slows down the migration process.\nThe cleanest way I found to stop specific hooks for specific migrations, is to add a dummy/meta field to the migration and check for its value in the hook.\nInclude a dummy field in the migration\nIn the process section of the migration, add a field with a name that will not interfere with any field name of the target entity:",
+          "link": "https://gbyte.dev/blog/skip-hooks-during-drupal-migration",
+          "publishedOn": "2023-11-19T03:04:01.000Z",
+          "wordCount": 1461,
+          "title": "Gbyte blog: Skip hooks during a Drupal 8 & 9 migration",
+          "imageUrl": "https://gbyte.dev/sites/default/files/public/styles/og/public/images/blog/drupal-2317836_710_gbyte_0_0.png?itok=7UHIDKx2"
+        },
+        {
+          "id": "https://gbyte.dev/blog/simple-xml-sitemap-3-1-released-with-major-new-features",
+          "author": null,
+          "description": "This is a technical description of the 3.x branch of the module. For the newer 4.x branch, see this article.\nSimple XML sitemap 3.1 has been released\nThe third major version of simple_sitemap has been long in the making bringing a more reliable generation process, a significantly more versatile API and many new functionalities. The first minor ugrade of the 3.x branch comes with views support and human readable sitemaps.\nMajor new features in 3.1\nViews and views arguments support\nIncluding view display URLs in the sitemap has been possible through adding these URLs as custom links in the UI (or via the API).\nView variations created by view arguments however are tedious to include as one would have to include every version of the URL.\nThe integration of the simple_sitemap_views inside simple_sitemap 3.x makes it easily doable via the UI.\nThanks to @WalkingDexter for his tremendous work on this submodule!\n \n\nHuman-readable sitemaps with XSL stylesheets\nBefore:",
+          "link": "https://gbyte.dev/blog/simple-xml-sitemap-3-1-released-with-major-new-features",
+          "publishedOn": "2023-11-19T03:04:01.000Z",
+          "wordCount": 1560,
+          "title": "Gbyte blog: Simple XML Sitemap 3.1 released with major new features",
+          "imageUrl": "https://gbyte.dev/sites/default/files/public/styles/og/public/images/blog/sitemap_8_0_0_0_0.png?itok=41S3qYbq"
+        },
+        {
+          "id": "https://gbyte.dev/blog/why-use-simple-xml-sitemap-3-0-release-candidate",
+          "author": null,
+          "description": "This is a technical description of the 3.x branch of the module. For the newer 4.x branch, see this article.\nSimple XML sitemap 3.0 has been released\nThe third major version of simple_sitemap has been seven months in the making. The module has been rewritten from the ground up and now features a more reliable generation process, a significantly more versatile API and many new functionalities.\nMajor new features\nAbility to create any type of sitemap via plugins\nThe 8.x-3.x release allows not only to customize the URL generation through URL generator plugins as 2.x did, but also creating custom sitemap types that mix and match a sitemap generator along with several URL generators to create any type of sitemap.\nThis 3-plugin system coupled with the new concept of sitemap variants makes it possible to run several types of sitemaps on a single Drupal instance. Now e.g a Google news sitemap can coexist with your hreflang sitemap.\nA sitemap variant can but does not need to be coupled to entity types/bundles. When creating a sitemap generator, one can define where the content source is located and what to do with it upon sitemap generation/deletion.\nAbility to create sitemap variants of various sitemap types via the UI\nIn 3.x links form a specific entity bundle can be indexed in a specific sitemap variant with its own URL. This means, that apart from /sitemap.xml, there can be e.g",
+          "link": "https://gbyte.dev/blog/why-use-simple-xml-sitemap-3-0-release-candidate",
+          "publishedOn": "2023-11-19T03:04:01.000Z",
+          "wordCount": 2086,
+          "title": "Gbyte blog: Why you should be using Simple XML sitemap > 3.0",
+          "imageUrl": "https://gbyte.dev/sites/default/files/public/styles/og/public/images/blog/sitemap_8_0_0_0.png?itok=uoiA0k4T"
+        },
+        {
+          "id": "https://gbyte.dev/blog/get-image-url-from-media-field-twig",
+          "author": null,
+          "description": "Apparently there are still pretty common Drupal 8 theming tasks that cannot be accomplished with the great twig_tweak module. This by the way was me giving a plug to a great little module, which makes half of all your theme preprocess hooks unnecessary.\nUpdate: Apparently there is a module like twig_tweak but with the ability to do the above. It is called bamboo_twig and its documentation can be found here - thanks to Luckhardt Labs for mentioning it. Mind you I have not tested it yet. There is a rather interesting issue in its queue about the lack of collaboration between the two module maintainers.\nIf you would like to get the URL from an image that is trapped inside of a media entity however, you can either extract it using the aforementioned preprocess function like so:",
+          "link": "https://gbyte.dev/blog/get-image-url-from-media-field-twig",
+          "publishedOn": "2023-11-19T03:04:01.000Z",
+          "wordCount": 1791,
+          "title": "Gbyte blog: Get image URL from media field in twig",
+          "imageUrl": "https://gbyte.dev/sites/default/files/public/styles/og/public/images/blog/drupal8.png?itok=V1S9HkoI"
+        },
+        {
+          "id": "https://gbyte.dev/blog/clone-entity-data-into-existing-entities-drupal-8",
+          "author": null,
+          "description": "Creating a duplicate of an entity\nCreating a duplicate of an entity is easily done via the entity API method Entity::createDuplicate(). This is a convenient method if the goal is to clone an entity into a new entity, as all identifiers of the previous entity get unset when using this method.",
+          "link": "https://gbyte.dev/blog/clone-entity-data-into-existing-entities-drupal-8",
+          "publishedOn": "2023-11-19T03:04:01.000Z",
+          "wordCount": 1873,
+          "title": "Gbyte blog: Clone entity data into existing entities in Drupal 8 & 9",
+          "imageUrl": "https://gbyte.dev/sites/default/files/public/styles/og/public/images/blog/drupal-2317836_710_gbyte_0.png?itok=vKt_rKez"
+        },
+        {
+          "id": "https://gbyte.dev/blog/creating-drush-9-commands-and-porting-legacy-commands",
+          "author": null,
+          "description": "Upgrading to Drush 9\nDrush should be installed and updated through composer. There is no stable Drush 9 version yet, so the development version must be used. Updating to the development version of Drush 9 is a simple as typing:\n$ composer require drush/drush:dev-master\nPorting your Drush commands to Drush 9\nPorting the commands is a semi-automatic process: There is a command that will generate the required files and class structure for you. To start the wizard, just type:\n$ drush generate drush-command-file -l dev\nDrush will ask you for the module's machine name and for the optional path to the legacy Drush command file (the one that has your commands, ending with .drush.inc). You will have to provide the absolute path.\ndrush.services.yml\nThis is the file your Drush command definition goes into. Do not use your module's regular services.yml as you might have done in Drush 8 or else you will confuse the legacy Drush which will lead to a PHP error like this:\nFatal error: Class 'Drush\\Commands\\DrushCommands' not found in MyModuleCommands.\nUse the dedicated drush.services.yml file in your module's root directory instead.\nThe file should look like this:",
+          "link": "https://gbyte.dev/blog/creating-drush-9-commands-and-porting-legacy-commands",
+          "publishedOn": "2023-11-19T03:04:01.000Z",
+          "wordCount": 2135,
+          "title": "Gbyte blog: Creating Drush 9 commands and porting legacy commands",
+          "imageUrl": "https://gbyte.dev/sites/default/files/public/styles/og/public/images/blog/drush9.png?itok=gJ4531bv"
+        },
+        {
+          "id": "https://gbyte.dev/blog/image-indexation-new-features-simple-xml-sitemap-2.10",
+          "author": null,
+          "description": "This is a technical description of the 2.x branch of the module. For the newer 3.x branch see this article; for 4.x, see this article.\nNew features of Simple XML sitemap\nVersion 2.10 of Simple XML sitemap is mainly a feature release with only a few minor bugs fixed. The new features are\nthe implementation of the changefreq parameter\nthe ability to set an interval at which to regenerate the sitemap\nthe ability to customize XML output\nthe ability to add arbitrary links to the sitemap\nimage indexation\nSee the 8.x-2.10 release page for details.\nproject page.\nImage indexation\nSimple XML sitemap is now able to create Google image sitemaps through indexing all images attached to entities. This includes images uploaded through the image field as well as inline images uploaded through the WYSIWYG. The inclusion of images can be set at the entity type and bundle level but can be overridden on a per-entity basis giving you all the flexibility.",
+          "link": "https://gbyte.dev/blog/image-indexation-new-features-simple-xml-sitemap-2.10",
+          "publishedOn": "2023-11-19T03:04:01.000Z",
+          "wordCount": 3213,
+          "title": "Gbyte blog: Image indexation and other new features of Simple XML sitemap 2.10",
+          "imageUrl": "https://gbyte.dev/sites/default/files/public/styles/og/public/images/blog/sitemap_8_0_0.png?itok=Rfit2QZ1"
+        },
+        {
+          "id": "https://gbyte.dev/blog/precorenet-plattform-for-artists-and-design-students",
+          "author": null,
+          "description": "Since its relaunch in 2015, the Drupal 7 powered precore.net has been gaining popularity among artists and design students to become their go-to platform. Until today, design students have uploaded over 700 portfolios providing guidance to enrolling candidates. These portfolios are linked to over 500 art faculties of hundreds of universities.\nBefore enrolling in a course, a candidate can research their local university and study other students' portfolios or enroll in their local design course to prepare for the entry tests - all of it on precore.net.\nOn top of that, students provide and collect support on the precore.net forum which boasts over 20000 users who have written nearly 250000 posts. This may be the biggest and most beautiful forum built on top of Drupal core.\nThe most powerful feature however may be the ability for guests to create most of the site's content without having to go through any type of registration process. Visitors can go ahead and correct their school's information just by clicking 'edit'. Likewise, anyone can write a blog post - no account or personal information needed. We think this technology has massively contributed to the quantity and quality of content on precore.net.",
+          "link": "https://gbyte.dev/blog/precorenet-plattform-for-artists-and-design-students",
+          "publishedOn": "2023-11-19T03:04:01.000Z",
+          "wordCount": 1506,
+          "title": "Gbyte blog: precore.net - a platform for artists and design students",
+          "imageUrl": "https://gbyte.dev/sites/default/files/public/styles/og/public/images/blog/precore2_0.png?itok=2sW5S4fi"
+        },
+        {
+          "id": "https://gbyte.dev/blog/session-based-content-access-for-anonymous-users-session-node-access-module-ported-to-drupal-8",
+          "author": null,
+          "description": "Letting users create content without having to register (or going through any other annoying process) is becoming an important customer engagement strategy.\nWhen you allow anonymous users to create content on your website, you want this content to go through a moderation process before it becomes publicly available. To implement this in Drupal, the anonymous user has to be given permission to create content and the content type needs to be unpublished by default.\nThe problem with Drupal 7 and Drupal 8 is that as soon as the anonymous user saves new content, they loose access rights to it and get redirected to an 'Access denied' page which is not very user friendly.\nIn addition to the above, you may want the anonymous user to be able to edit or even delete their own content in case they find an error right after submitting it. Users often find typos or other kinds of mistakes right after content submission.\nGbyte created the Session Node Access module to tackle exactly these issues. The module allows administrators to grant certain user roles (not only anonymous users) specific permissions to content they created. These permissions last only as long as the browsing session lasts; after that, the regular permissions apply again. This way it is possible to allow guests or users of a certain role to keep access to their content, even if it is pending for approval.\nNow Session Node Access has been ported to Drupal 8 - thank you to Gaël Gosset for doing the initial porting.\nRight now this module works only with nodes, we may implement it for other entities in case of demand.",
+          "link": "https://gbyte.dev/blog/session-based-content-access-for-anonymous-users-session-node-access-module-ported-to-drupal-8",
+          "publishedOn": "2023-11-19T03:04:01.000Z",
+          "wordCount": 1407,
+          "title": "Gbyte blog: Session based content access for anonymous users - Session node access module ported to Drupal 8",
+          "imageUrl": "https://gbyte.dev/sites/default/files/public/styles/og/public/images/blog/crowd-307354_1280_2_3_0.png?itok=llN7Ux74"
+        },
+        {
+          "id": "https://gbyte.dev/blog/drupal8-seo-simple_sitemap-vs-xmlsitemap-differences",
+          "author": null,
+          "description": "This is a technical comparison of the older 2.x branch of the Simple XML sitemap module and an older development version of XML sitemap. XML sitemap has just had its first release and for more on the newer 4.x branch of Simple XML sitemap see this article.\nThis comparison may be interesting for XML sitemap users moving to Drupal 8 or for users intending to wait for the port. (Do not wait, help out!) Please also be advised that gbyte made Simple XML sitemap, which makes this comparison intrinsically biased.\nThere are major differences between Simple XML sitemap (simple_sitemap) and XML sitemap (xmlsitemap) and depending on your use case, you might want to choose one or the other.\nWhat sets the modules apart are their complexity, extensibility, performance and feature sets.\nCode base\nHaving been built specifically for D8, simple_sitemap has arguably a cleaner code base adhering to D8 standards i (i.e. use of OOP). In contrast, the xmlsitemap module will have a hard time adjusting to D8 technologies and guidelines, as it carries around a whole lot of legacy code going back as far as Drupal 5.\nPerformance\nWhat is meant here is the impact of the module on a Drupal 8 system, how quick the sitemap generation process is and how long it takes for a visitor to fetch the sitemap.\nSitemap generation performance",
+          "link": "https://gbyte.dev/blog/drupal8-seo-simple_sitemap-vs-xmlsitemap-differences",
+          "publishedOn": "2023-11-19T03:04:01.000Z",
+          "wordCount": 2056,
+          "title": "Gbyte blog: Drupal 8 SEO: Differences between simple_sitemap and xmlsitemap",
+          "imageUrl": "https://gbyte.dev/sites/default/files/public/styles/og/public/images/blog/sitemap_8_0.png?itok=4eUJ9iS9"
+        },
+        {
+          "id": "https://gbyte.dev/blog/prevent-access-denied-anonymous-users-session-node-access-module",
+          "author": null,
+          "description": "Today's users are becoming increasingly spoiled by technologies allowing them to deeply interact with websites without having to create an account first. To keep up with this development and to entice users to use your website without them having to give up any personal information requires a bit of problem solving in Drupal.",
+          "link": "https://gbyte.dev/blog/prevent-access-denied-anonymous-users-session-node-access-module",
+          "publishedOn": "2023-11-19T03:04:01.000Z",
+          "wordCount": 1476,
+          "title": "Gbyte blog: Prevent \"Access Denied\" for anonymous users - Session node access module",
+          "imageUrl": "https://gbyte.dev/sites/default/files/public/styles/og/public/images/blog/crowd-307354_1280_2_3.png?itok=fyDirjuG"
+        },
+        {
+          "id": "https://gbyte.dev/blog/drupal8-seo-simple-xml-sitemap",
+          "author": null,
+          "description": "The Simple XML Sitemap module was originally created by gbyte as a temporary replacement for the non-functioning Drupal 8 XML Sitemamp Module. After putting some more work into it however, we decided to keep using it in our D8 & D9 projects, as it is very lightweight, simple to use and most importandly, adheres to a newer XML sitemap standard.\nThe 2.x branch features most of the functionality of the heavier XML Sitemap module while also featuring hreflang and image XML sitemaps, which is a new Google standard for creating multilingual XML sitemaps that should improve SEO even more.\nThe 3.x branch adds a robust generation process that works with huge sites in limited environments. It also introduces the concept of sitemap variants which are instances of different sitemap types which in turn are made of sitemap and URL generators. This makes it possible to run several different sitemap types on one Drupal instance.\nThe 4.x branch is a rewrite with developers/integrators in mind and makes much greater use of Drupal's entity API dropping some of its very specific chaining API. On top of that, it features many code and UI improvements.\nHere is the description from the module page:",
+          "link": "https://gbyte.dev/blog/drupal8-seo-simple-xml-sitemap",
+          "publishedOn": "2023-11-19T03:04:01.000Z",
+          "wordCount": 3609,
+          "title": "Gbyte blog: Drupal 9 SEO: Simple XML Sitemap module",
+          "imageUrl": "https://gbyte.dev/sites/default/files/public/styles/og/public/images/blog/sitemap_8.png?itok=Wbj2SMEQ"
+        },
+        {
+          "id": "https://gbyte.dev/blog/what-to-keep-in-mind-when-creating-drupal8-projects",
+          "author": null,
+          "description": "Please note the article's publishing date. Some of the information presented below may not be current anymore.\nWith only a few critical issues left in the Drupal 8 queue and D8 being surprisingly usable, many developers already use it in small projects to play with the technology and to challenge themselves.\nWhich projects qualify for Drupal 8 today?\nI would wait a few months before creating bigger D8 projects for my clients. The community has to play some catching up first and port modules, themes and write documentation. On top of that, apart from all the OOP technologies we love, there have been some new drupalisms introduced and not documented yet - this combined with the lack of contributed module solutions makes D8 development much more time consuming for paid projects in comparison to D7.\nSmall projects however are very doable.\nFirst however, it may be necessary to upgrade the server, as D8 introduces relatively high PHP and SQL requirements. See the official requirements page.",
+          "link": "https://gbyte.dev/blog/what-to-keep-in-mind-when-creating-drupal8-projects",
+          "publishedOn": "2023-11-19T03:04:01.000Z",
+          "wordCount": 2842,
+          "title": "Gbyte blog: What to keep in mind when creating Drupal 8 projects - for developers",
+          "imageUrl": "https://gbyte.dev/sites/default/files/public/styles/og/public/images/blog/drupal8_1.png?itok=dGfi7kPt"
+        },
+        {
+          "id": "https://gbyte.dev/blog/when-custom-t-strings-are-missing-from-translate-interface",
+          "author": null,
+          "description": "The Drupal 7 translation system including the internationalization package is a heavy beast and while it mostly gets the job done, it is all but intuitive in use.\nFor high volume translations it is recommended to use the translation template extractor and translate the strings externally. For small corrections however, it is often much more convenient to use the translation interface (admin/config/regional/translate/translate).\nNow that you've created that shiny module/template and made it translatable by passing all strings through the t() function, you may be wondering why your newly created string is not showing up in the translate interface.\nTo save you some trouble, here is a short list of things to check:\n1. Include the project version number within the module/theme .info file.\nversion = 7.x-1.0 into the module/template .info file.\n2. Run the string through the function in a non-standard language mode.\n3. Mind the case sensitive search filter.\nBe accurate when using the translate interface filter - it does not forgive.",
+          "link": "https://gbyte.dev/blog/when-custom-t-strings-are-missing-from-translate-interface",
+          "publishedOn": "2023-11-19T03:04:01.000Z",
+          "wordCount": 1509,
+          "title": "Gbyte blog: When custom t() strings are missing from the translate interface",
+          "imageUrl": "https://gbyte.dev/sites/default/files/public/styles/og/public/images/blog/bubble-160785_1280_2.png?itok=GHNYMwPX"
+        },
+        {
+          "id": "https://gbyte.dev/blog/how-to-use-drupal-8-honeypot-module-efficiently",
+          "author": null,
+          "description": "The Honeypot module is a great captcha alternative, as it keeps spam bots from submitting content while also saving your site visitors from having to type in mundane character combinations.\nWhile being very user friendly, this reversed bot detection system comes at the cost of some bot submissions getting through anyway. This is why I would advise against using this module on large sites, where it is difficult to track every piece of submitted content. It should work well for smaller and medium sites however, it has been working well in many of my projects including this very site.\nHoneypot configuration\nCorrect configuration of the module is extremely important, as wrong settings might make the module inefficient or worse, prevent real users from submitting forms. After configuring the module, make sure to double check it works by submitting a protected form as an anonymous user.\nOnce installed and enabled, go to admin/config/content/honeypot to configure the module.\nFirst of all careful with the \"protect all forms\" option, as caching will be disabled on every page that includes a form. This can be problematic in cases where e.g. a login block is embedded in the sidebar. In addition to ticking what forms to protect, there are two important settings to keep in mind.",
+          "link": "https://gbyte.dev/blog/how-to-use-drupal-8-honeypot-module-efficiently",
+          "publishedOn": "2023-11-19T03:04:01.000Z",
+          "wordCount": 1653,
+          "title": "Gbyte blog: How to use the Drupal 8 & 9 honeypot module efficiently",
+          "imageUrl": "https://gbyte.dev/sites/default/files/public/styles/og/public/images/blog/hexagon-23431_1280.png?itok=wJtfyABB"
+        },
+        {
+          "id": "https://gbyte.dev/blog/simple-views-display-switch",
+          "author": null,
+          "description": "If you need a simple Views display switch to toggle e.g between a list and a grid display of a view, there are a couple of plug & play options already.\nDisplay Suite and Quick Tabs are modules which provide this functionality but they seem to be quite an overkill for a simple display switch. View modes on the other hand seems to be exactly what is needed, however there is no stable version and the development one did not work for me.\nHow it needs to work\nOur use case dictates that while switching a display, the view needs to retain the exposed filter values and page number. The page will be reloaded, no AJAX magic here.\n\nSo let's create our own views display switch. In order to do that you will obviously be needing a view with at least two page displays showing content in different ways. You will also have to put some code into your custom module. If in doubt, refer to the countless other tutorials.\nSet up your view\nIn the view named [view] set the path of [display_1] to e.g [page/grid], the path to [display_2] to e.g [page/list].\nCreate callback function\nCreate a simple callback function which will provide the switch in ready-to-be-displayed HTML.",
+          "link": "https://gbyte.dev/blog/simple-views-display-switch",
+          "publishedOn": "2023-11-19T03:04:01.000Z",
+          "wordCount": 2072,
+          "title": "Gbyte blog: Simple Views display switch",
+          "imageUrl": "https://gbyte.dev/sites/default/files/public/styles/og/public/images/blog/switcher_0.png?itok=JjuDUerN"
+        },
+        {
+          "id": "https://gbyte.dev/blog/why-forking-drupal-into-backdrop-bad-thing",
+          "author": null,
+          "description": "Please note the date of the article - it may not be current nor does it necessarily reflect the author's current opinion on the matter. See this comment.\nThe ability to fork is a wonderful thing.\nIn the open source community, the ability to fork software projects is a wonderful thing, as it allows taking a software snapshot in a completely different direction from what was intended by its current maintainers.\nProjects get forked for reasons that can be categorized in political (changing ownership rights, controversial decisions made by the project maintainers, etc.), technology related (where maintainers disagree about the direction of development and implementation) and personal.\nForking is a bad thing.\nWait... did you not just say forking was wonderful?\nis wonderful, as it gives great power to the community. But forking itself is bad for the project, as it results in two projects with weaker development and support, a weakened potential to grow and a divided and confused user base. It leads not only to separate code bases, but also to a divided developer and user community and should be considered last resort.\nNo matter how much effort is put into collaboration between the fork and the original project, in the end it always ends in lack of compatibility and refusal to provide support to confused users in the different camp. This is why the Backdrop creators' reassuring statements about cross contribution should be taken with a grain of salt.",
+          "link": "https://gbyte.dev/blog/why-forking-drupal-into-backdrop-bad-thing",
+          "publishedOn": "2023-11-19T03:04:01.000Z",
+          "wordCount": 3949,
+          "title": "Gbyte blog: Why forking Drupal into Backdrop is a bad thing",
+          "imageUrl": "https://gbyte.dev/sites/default/files/public/styles/og/public/images/blog/drupal8_0.png?itok=_vDHocl9"
+        },
+        {
+          "id": "https://gbyte.dev/blog/prevent-deletion-taxonomy-term-if-associated-node",
+          "author": null,
+          "description": "Why check if term is associated to a node prior to deletion?\nIn cases where taxonomy terms are used only for categorizing content on a Drupal powered web page, there should be no harm in deleting them. However sometimes taxonomy is used to store terms critical to the content they are referenced from and in this case steps should be taken to prevent an accidental deletion.\nI have encountered such a case on a project I am working on which is soon to become a web platform for university students. When creating a faculty node, its name is being defined by choosing a term from the 'faculties' vocabulary. Deleting a term assigned to such a faculty node would lead to... well undesired effects.\nApproach\nWhen looking for the right hook you will find that there is no hook_taxonomy_pre_delete and using the existing hook_taxonomy_term_delete would be too late (the term would be deleted by then). (By the way, this problem persists across other entity types, like nodes - hoping to see some added hooks in D8.)\nI will describe an easy way of preventing the deletion of a used taxonomy term, but be warned, this will only prevent the deletion of a term in the UI, it will not react to programmatically deleted terms.\nHere is how this is going to look like:\n\nSome code:",
+          "link": "https://gbyte.dev/blog/prevent-deletion-taxonomy-term-if-associated-node",
+          "publishedOn": "2023-11-19T03:04:01.000Z",
+          "wordCount": 2800,
+          "title": "Gbyte blog: Prevent deletion of taxonomy term if associated with a node",
+          "imageUrl": "https://gbyte.dev/sites/default/files/public/styles/og/public/images/blog/snapshot2_trans_1.png?itok=4pjvGzD7"
+        },
+        {
           "id": "https://mark.ie/blog/how-to-use-once-in-drupal",
           "author": null,
           "description": "Once is a Drupal library - available on npm - that ensures your JavaScript only runs once when working on any item.",
@@ -1393,16 +1633,6 @@
           "wordCount": null,
           "title": "DrupalEasy: DrupalEasy Podcast S15E1 - Randy Fay - DDEV project governance and health",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.acquia.com/blog/drupalcon-lille-takeaways",
-          "author": null,
-          "description": "From the Women in Drupal Awards to news of exciting developments in Drupal and inspiring keynotes, there was much to take away from DrupalCon Lille",
-          "link": "https://www.acquia.com/blog/drupalcon-lille-takeaways",
-          "publishedOn": "2023-10-20T15:46:53.000Z",
-          "wordCount": 4378,
-          "title": "Acquia.com - Drupal Blog: Final takeaways from DrupalCon Lille",
-          "imageUrl": "https://www.acquia.com/sites/default/files/media/image/2023-10/Empty%20stage%20at%20DrupalCon%20Lille.jpg"
         }
       ]
     },
@@ -1707,21 +1937,6 @@
             "type": "image/jpg"
           },
           "imageUrl": "http://files.smashing.media/articles/removing-object-properties-javascript/removing-object-properties-javascript.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2023/10/roundup-wcag-explainers/",
-          "author": "hello@smashingmagazine.com (Geoff Graham)",
-          "description": "WCAG 2.2 officially became a “W3C Recommended” web standard on October 5, 2023, and with it, new success criteria and changes to existing guidelines for accessible user experiences. What are the changes, and how can you conform to them? This roundup provides links to WCAG 2.2 explainers that have been published or updated since the release.",
-          "link": "https://smashingmagazine.com/2023/10/roundup-wcag-explainers/",
-          "publishedOn": "2023-10-21T09:00:00.000Z",
-          "wordCount": 3935,
-          "title": "A Roundup Of WCAG 2.2 Explainers",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/roundup-wcag-explainers/roundup-wcag-explainers.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/roundup-wcag-explainers/roundup-wcag-explainers.jpg"
         }
       ]
     },
@@ -1944,7 +2159,18 @@
       "title": "Life of a Developer",
       "feedUrl": "http://www.thelins.se/johan/blog/feed/",
       "siteUrl": "http://www.thelins.se/johan/blog",
-      "articles": []
+      "articles": [
+        {
+          "id": "http://www.thelins.se/johan/blog/?p=1516",
+          "author": "Johan Thelin",
+          "description": "This weekend Sofia and I celebrated her birthday with her family. Lars Winnerbäck, Wicked at the opera and a wonderful dinner at Natur.",
+          "link": "http://www.thelins.se/johan/blog/2023/11/what-a-weekend/",
+          "publishedOn": "2023-11-19T19:29:52.000Z",
+          "wordCount": 667,
+          "title": "What a Weekend",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Troy Hunt's Blog",
@@ -2102,6 +2328,36 @@
       "feedUrl": "https://nyhetersto.se/feed/",
       "siteUrl": "https://nyhetersto.se/",
       "articles": [
+        {
+          "id": "https://nyhetersto.se/?p=6926582",
+          "author": "Redaktionen - NYHETERsto",
+          "description": "En kvinna i 25-årsåldern står vid Uddevalla tingsrätt åtalad för ringa narkotikabrott. Kvinnan togs med för provtagning i mitten av oktober. Den visade att kvinnan brukat narkotika. Kvinnan ska även ah innehavt två narkotikaklassade tabletter. Kvinnan erkänner bruk av narkotika men förnekar innehav.\nInlägget Åtalas för ringa narkotikabrott dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
+          "link": "https://nyhetersto.se/2023/11/19/atalas-for-ringa-narkotikabrott-52/",
+          "publishedOn": "2023-11-19T19:27:17.000Z",
+          "wordCount": 4909,
+          "title": "Åtalas för ringa narkotikabrott",
+          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2017/05/dom.jpg"
+        },
+        {
+          "id": "https://nyhetersto.se/?p=6926547",
+          "author": "Mikael Berglund",
+          "description": "På söndagsförmiddagen, lagom till utcheckning vid klockan 11 genomförde polisen en trafikkontroll med fokus på nykterhet. Förare till en personbil – med minderåriga barn i bilen, blåste positivt. Föraren fick följa med för bevisprovtagning. I detta fall har man kunnat använda sig av snabbare lagföring. Det slutade på ett strafföreläggande baserad på bott och personens...\nInlägget Rattfylleri med barn i bilen utanför Stenungsbaden dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
+          "link": "https://nyhetersto.se/2023/11/19/rattfylleri-med-barn-i-bilen-utanfor-stenungsbaden/",
+          "publishedOn": "2023-11-19T15:20:47.000Z",
+          "wordCount": 5089,
+          "title": "Rattfylleri med barn i bilen utanför Stenungsbaden",
+          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2023/05/polis-alkohol-rattfylleri3.jpg"
+        },
+        {
+          "id": "https://nyhetersto.se/?p=6926514",
+          "author": "Redaktionen - NYHETERsto",
+          "description": "Natten till söndag fick polisen samtal från ett vaktbolag som ansvarar för bevakning av Månsemyr Återvinningscentral utanför Ellös. Tre personer kan man se via kamera som är inne på området och letar runt. Det var vid klockan 00:45 som polisen fick samtal om obehöriga på återvinningscentralen. Väktare åker till platsen tillsammans med polis. Inga personer...\nInlägget Obehöriga på återvinningscentral dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
+          "link": "https://nyhetersto.se/2023/11/19/obehoriga-pa-atervinningscentral/",
+          "publishedOn": "2023-11-19T09:57:46.000Z",
+          "wordCount": 4970,
+          "title": "Obehöriga på återvinningscentral",
+          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2020/05/DJI_0826.jpg"
+        },
         {
           "id": "https://nyhetersto.se/?p=6926377",
           "author": "Mikael Berglund",
@@ -3161,56 +3417,6 @@
           "wordCount": 5354,
           "title": "Oberoende rapport – Ucklumskolan är i bra skick och behöver inte renoveras",
           "imageUrl": "https://nyhetersto.se/wp-content/uploads/2023/10/20231021_ucklum2-1.jpg"
-        },
-        {
-          "id": "https://nyhetersto.se/?p=6918285",
-          "author": "Redaktionen - NYHETERsto",
-          "description": "Kameror med termisk realtidsförmåga har nu utplacerats för övervakning inne i skredområdet Stenungsund. Detta för att enklare kunna bevaka området och upptäcka obehöriga – men också för att se om marken rör på sig. Det är “ett antal” kameror som nu är utplacerade inne på området. Dessa fungerar både i dagsljus och på natten. Kamerorna...\nInlägget OBEHÖRIGA I RASOMRÅDET VID E6:<br>-Kameror som känner av mänsklig värme utplacerade dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
-          "link": "https://nyhetersto.se/2023/10/21/obehoriga-i-rasomradet-vid-e6-kameror-som-kanner-av-mansklig-varme-placerade/",
-          "publishedOn": "2023-10-21T12:21:34.000Z",
-          "wordCount": 5158,
-          "title": "OBEHÖRIGA I RASOMRÅDET VID E6:-Kameror som känner av mänsklig värme utplacerade",
-          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2023/10/20231021_ras1.jpg"
-        },
-        {
-          "id": "https://nyhetersto.se/?p=6918250",
-          "author": "Redaktionen - NYHETERsto",
-          "description": "På lördagsförmiddagen fick räddningstjänsten larm om brand utomhus vid Stora Högamotet. På plats var det kopparkabel som brann. Det var väktare som larmade räddningstjänst då det kom kraftig rök från ett ödehus i närheten av Stora Högamotet. Utanför ödehuset var det en hög med kopparkabel som brann och två personer lämnade området när räddningstjänst kom...\nInlägget Misstänkt stulen kabel brändes vid ödehus dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
-          "link": "https://nyhetersto.se/2023/10/21/misstankt-stulen-kabel-brandes-vid-odehus/",
-          "publishedOn": "2023-10-21T08:53:45.000Z",
-          "wordCount": 4661,
-          "title": "Misstänkt stulen kabel brändes vid ödehus",
-          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2023/10/STO_7473.jpg"
-        },
-        {
-          "id": "https://nyhetersto.se/?p=6918112",
-          "author": "Redaktionen - NYHETERsto",
-          "description": "På fredagseftermiddagen fick polisen samtal från COOP Stenungsund där en person passerat kassan med varor utan att betala. Summan på varorna går över gränsen för stöld. Polisen fick samtal från butiken vid klockan 13:40 på fredagen. En kvinna i 20-årsåldern har passerat kassan och sista betalningsmöjlighet med varor som överstiger ringa stöld (tidigare snatteri), exakt...\nInlägget Stöld på COOP – Polis på plats dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
-          "link": "https://nyhetersto.se/2023/10/20/stold-pa-coop-polis-pa-plats/",
-          "publishedOn": "2023-10-20T20:00:00.000Z",
-          "wordCount": 4496,
-          "title": "Stöld på COOP – Polis på plats",
-          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2020/09/polis-stenungstorg.jpg"
-        },
-        {
-          "id": "https://nyhetersto.se/?p=6918099",
-          "author": "Redaktionen - NYHETERsto",
-          "description": "Ovädret Babet drar in in över vårt området med kulingvindar under helgen. Här följer en stormrapport: VÄDERPROGNOS OCH VARNING TRAFIKHINDER: TRAFIK: E6 Uddevallabron Bron avstängd på grund av hårda vindar. Omledning sker via länsväg 678 och 44 TRAFIKHINDER – ORUST:Länsväg 770 från Hoga till Hårleby båda riktningarna Nedfallet träd · Träd blockerar hela vägbanan. TRAFIKHINDER:...\nInlägget STORMRAPPORT – Baber dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
-          "link": "https://nyhetersto.se/2023/10/20/stormrapport-baber/",
-          "publishedOn": "2023-10-20T19:01:31.000Z",
-          "wordCount": 4835,
-          "title": "STORMRAPPORT – Baber",
-          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2018/09/stormrapport.jpg"
-        },
-        {
-          "id": "https://nyhetersto.se/?p=6917904",
-          "author": "Redaktionen - NYHETERsto",
-          "description": "Efter helgens stormiga väder har oljeskadade fåglar hittats i Orust kommun men även i andra kommuner längs med hela västkusten. På Orust huttades 3-4 fåglar döda och med olja på sig i Hällevik. Kommunen har tagit hand om fåglarna som efter helgen kommer skickas till SVA, Statens veterinärmedicinska anstalt. Det är oklart var oljan kommer...\nInlägget Oljeskadade fåglar hittade vid Orust kust dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
-          "link": "https://nyhetersto.se/2023/10/20/oljeskadade-faglar-hittade-vid-orust-kust/",
-          "publishedOn": "2023-10-20T13:47:14.000Z",
-          "wordCount": 4468,
-          "title": "Oljeskadade fåglar hittade vid Orust kust",
-          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2023/10/20231020_oljafagel.jpg"
         }
       ]
     },
@@ -3219,6 +3425,116 @@
       "feedUrl": "https://api.sr.se/rss/channel?id=104",
       "siteUrl": "https://sverigesradio.se/default.aspx?programid=104",
       "articles": [
+        {
+          "id": "https://sverigesradio.se/artikel/8507054",
+          "author": null,
+          "description": "Pixbos innebandydamer besegrade Mora med 7–3 i söndagens superligamatch.Nu är det speluppehåll för VM.Lagkapten Moa Andersson är redo att ta sig an uppgiften.",
+          "link": "https://sverigesradio.se/artikel/8507054",
+          "publishedOn": "2023-11-19T20:20:00.000Z",
+          "wordCount": 709,
+          "title": "Pixbo vann mot Mora – Moa Andersson är redo för VM",
+          "imageUrl": "https://static-cdn.sr.se/images/104/7b2b495f-3f9e-45de-bb82-72586cf99de3.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8506807",
+          "author": null,
+          "description": "En ny EU-lag första januari gör det olagligt att slänga matavfallet i fel binge.I Göteborg gör bara hälften rätt.Rätt sorterat kan fiskrens och bananskal göra stor nytta.",
+          "link": "https://sverigesradio.se/artikel/8506807",
+          "publishedOn": "2023-11-19T19:04:00.000Z",
+          "wordCount": 723,
+          "title": "Snart olagligt att sopsortera fel – så ska du göra",
+          "imageUrl": "https://static-cdn.sr.se/images/104/506fc736-3731-4828-a36c-305babbd25c0.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8507001",
+          "author": null,
+          "description": "En man i 60-års åldern avled efter en olycka under lördagen.Mannen ska ha träffats av ett skott som han själv avlossat under en jakt i Alingsås.P-A Bäcklund från Alingsås Jägareförbund har under sina 20 år som jägare aldrig upplevt något liknande.",
+          "link": "https://sverigesradio.se/artikel/8507001",
+          "publishedOn": "2023-11-19T18:21:00.000Z",
+          "wordCount": 724,
+          "title": "Jägareförbundet om olyckan: ”Extremt ovanligt”",
+          "imageUrl": "https://static-cdn.sr.se/images/104/f14a7c44-51c4-4c63-9d2a-19e2f97b1fc5.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8506764",
+          "author": null,
+          "description": "Nu ska förekomsten av miljögifterna PFAS kartläggas i marker och vattendrag runt om i Sverige.Syftet är att upptäcka förorenade områden för att sedan bedöma eventuell sanering.”Det finns ju förmodligen i princip överallt. Frågan är väl om det är högt eller lågt”, säger Anneli Kylén, miljöingenjör på Länsstyrelsen i Västra Götaland.",
+          "link": "https://sverigesradio.se/artikel/8506764",
+          "publishedOn": "2023-11-19T16:58:00.000Z",
+          "wordCount": 715,
+          "title": "Mångmiljonsatsningen: Nu ska miljögifterna kartläggas",
+          "imageUrl": "https://static-cdn.sr.se/images/104/37ba7cad-f691-4de3-b200-0781e31eb3eb.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8506932",
+          "author": null,
+          "description": "En man avled i samband med en jaktolycka under lördagen. Händelsen ska ha skett under en jakt i Alingsås, enligt polisen. Anhöriga är underrättade och polisen misstänker inget brott.",
+          "link": "https://sverigesradio.se/artikel/8506932",
+          "publishedOn": "2023-11-19T15:07:00.000Z",
+          "wordCount": 709,
+          "title": "Man död efter jaktolycka i Alingsås – träffades av eget skott",
+          "imageUrl": "https://static-cdn.sr.se/images/104/df441074-4a0b-4756-93b4-8d0e5305fcc3.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8505774",
+          "author": null,
+          "description": "Hemliga handlingar ger en unik inblick i vad som hände innan och efter mordet på polisen Andreas Danman.Det avslöjas i ett nytt avsnitt av P1-programmet Kaliber som släpps på måndag.Där framgår tidigare okända uppgifter om socialförvaltningens agerande vid tiden för mordet på polisen Andreas Danman.",
+          "link": "https://sverigesradio.se/artikel/8505774",
+          "publishedOn": "2023-11-19T15:00:00.000Z",
+          "wordCount": 716,
+          "title": "Misstagen innan polismordet – avslöjas av hemliga handlingar",
+          "imageUrl": "https://static-cdn.sr.se/images/104/f802ddd4-de8e-4385-b73e-37565b1878d0.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8506815",
+          "author": null,
+          "description": "Om ett år ska Västra Götalandsregionen börja använda sitt nya it- och journalsystem Millennium.Ett system som inte är anpassat till svensk sjukvård, säger kritikerna.Men det finns fördelar som väger över, menar regionens ansvarige.",
+          "link": "https://sverigesradio.se/artikel/8506815",
+          "publishedOn": "2023-11-19T13:57:00.000Z",
+          "wordCount": 723,
+          "title": "Regionens nya journalsystem: kritiserat och flera år försenat",
+          "imageUrl": "https://static-cdn.sr.se/images/104/c255dcf8-3875-4401-b12b-9a76fc826f4c.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8506099",
+          "author": null,
+          "description": "Ungdomar skapar en otrygg miljö på Ica i Lindome.Nu har ett brev gått ut till vårdnadshavare.”Kunder vågar sig inte hit”, säger Filippa Lindblom, driftchef på butiken.",
+          "link": "https://sverigesradio.se/artikel/8506099",
+          "publishedOn": "2023-11-19T12:38:00.000Z",
+          "wordCount": 740,
+          "title": "Mataffären har fått nog – stökiga ungdomar skrämmer bort kunder",
+          "imageUrl": "https://static-cdn.sr.se/images/104/48ad265c-009d-4d13-85c9-e4500fbf921a.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8506809",
+          "author": null,
+          "description": "SM i spelet Svenskt bräde gick av stapeln på Vasamuseet i Stockholm på söndagen.Kjell Zackrisson från Göteborg är en av deltagarna som kämpar om guldet.Men han är inte först med att spela spelet, vars historia kan spåras många hundra år tillbaka.",
+          "link": "https://sverigesradio.se/artikel/8506809",
+          "publishedOn": "2023-11-19T10:32:00.000Z",
+          "wordCount": 751,
+          "title": "Kjell kan bli bäst i Sverige – på 800 år gammalt spel",
+          "imageUrl": "https://static-cdn.sr.se/images/104/33cd518b-97fa-4f7c-a6f9-e1f542982a07.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8505856",
+          "author": null,
+          "description": "Samtidigt som allt fler unga missbrukar och skadas av lustgas förs hundratals ton in i Sverige årligen.Tullen kan inte stoppa det, eftersom det är helt lagligt.Tony Magnusson på Tullverket berättar att han vill ha skärpta regler.",
+          "link": "https://sverigesradio.se/artikel/8505856",
+          "publishedOn": "2023-11-19T08:00:00.000Z",
+          "wordCount": 714,
+          "title": "Tullen: Hundratals ton lustgas förs in i landet årligen",
+          "imageUrl": "https://static-cdn.sr.se/images/104/94dbe108-56ec-4f06-b9f8-b1e8a9daadce.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8505428",
+          "author": null,
+          "description": "En 14-åring som var på väg att begå ett mord i Stockholmsområdet kunde inte placeras på ett Sis-hem eftersom det saknades plats. Han kördes istället hem av polisen.Det kan bli fler sådana här fall då det är stor platsbrist på SIS, inte minst efter att en avdelning på hemmet Fagared utanför Göteborg vandaliserats och tvingats stänga.",
+          "link": "https://sverigesradio.se/artikel/8505428",
+          "publishedOn": "2023-11-19T05:00:00.000Z",
+          "wordCount": 749,
+          "title": "Kriminella släpps fria – får inte plats på Sis-hemmen",
+          "imageUrl": "https://static-cdn.sr.se/images/104/8aedd2ed-8c9d-4d2f-a1a2-fc69fbac88f2.jpg"
+        },
         {
           "id": "https://sverigesradio.se/artikel/8506692",
           "author": null,
@@ -5848,146 +6164,6 @@
           "wordCount": 659,
           "title": "Professorns protest: Hoppade av jämställdhetsprojektet",
           "imageUrl": "https://static-cdn.sr.se/images/104/64af6980-09af-4674-a96b-f7925deae94d.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8479648",
-          "author": null,
-          "description": "En i Hunnebostrand i maj och en i Billdal i Göteborg i förra veckan.Vad är det som ligger bakom de döda späckhuggarna som flyter i land på Västkusten?En av orsakerna är den förändrade jakten, säger biologen Magnus Gelang på Göteborgs naturhistoriska museum till Naturmorgon.",
-          "link": "https://sverigesradio.se/artikel/8479648",
-          "publishedOn": "2023-10-21T12:00:00.000Z",
-          "wordCount": 721,
-          "title": "Två döda valar på ett halvår – det kan ligga bakom",
-          "imageUrl": "https://static-cdn.sr.se/images/104/5f3bc4db-9808-470f-96b3-ddb60e1060af.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8479391",
-          "author": null,
-          "description": "BK Häckens absoluta stjärnskott heter Felicia Schröder.16-åringen spelade en minst sagt avgörande roll när Häcken kvalade in till Champions LeagueNu berättar hon om sitt framgångsrecept.",
-          "link": "https://sverigesradio.se/artikel/8479391",
-          "publishedOn": "2023-10-21T09:58:00.000Z",
-          "wordCount": 676,
-          "title": "16-åriga stjärnskottet tog BK Häcken till Champions League",
-          "imageUrl": "https://static-cdn.sr.se/images/104/11594c8a-bd63-4c7e-a082-4948595bfe48.png"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8479356",
-          "author": null,
-          "description": "Plaskis ligger i Kungsladugård – men var skulle fler kunna byggas i Göteborg?Det vill det rödgröna styret kolla närmare på.Därför tycker Karin Pleijel (MP) att det är en bra satsning i dystra ekonomiska tider.",
-          "link": "https://sverigesradio.se/artikel/8479356",
-          "publishedOn": "2023-10-21T07:35:00.000Z",
-          "wordCount": 673,
-          "title": "Rödgröna förslaget: Fler plaskdammar i Göteborg",
-          "imageUrl": "https://static-cdn.sr.se/images/104/af49ce7e-8727-4419-a777-7906eafa7933.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8480257",
-          "author": null,
-          "description": "Tonårspojken som misstänks för mordet på Henrik i Alingsås har tidigare utretts för ett dråpförsök.Tillsammans med en annan misstänks tonårspojken varit inblandad i en knivskärning där en ung person skadades allvarligt.Eftersom båda misstänkta var under 15 år gick ärendet aldrig till åtal.",
-          "link": "https://sverigesradio.se/artikel/8480257",
-          "publishedOn": "2023-10-21T06:50:00.000Z",
-          "wordCount": 698,
-          "title": "Henriks misstänkte mördare – tidigare utredd för dråpförsök",
-          "imageUrl": "https://static-cdn.sr.se/images/104/095ebb64-9ef9-451a-9cdb-7417b31e120e.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8480233",
-          "author": null,
-          "description": "740 passagerare var strandade natten till lördag.Färjetrafiken mellan Göteborg och Fredrikshamn stoppades av säkerhetsskäl.Förseningar på flera timmar.",
-          "link": "https://sverigesradio.se/artikel/8480233",
-          "publishedOn": "2023-10-21T06:09:00.000Z",
-          "wordCount": 641,
-          "title": "Hundratals färjeresenärer strandade efter stormen",
-          "imageUrl": "https://static-cdn.sr.se/images/104/97867e06-6a77-4195-af22-cd3bc322d902.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8479772",
-          "author": null,
-          "description": "Rita Lifshitz före detta svärföräldrar Oded och Ioche Lifshitz är två av de som tros vara gisslan hos Hamas i Gaza.Rita Lifshitz från Göteborg bor sedan 1982 i Nir Oz – en av de kibbutzer nära Gaza som härom veckan anfölls av terrorstämplade Hamas.Nu vädjar Rita Lifshitz om hjälp att få ut dem därifrån.",
-          "link": "https://sverigesradio.se/artikel/8479772",
-          "publishedOn": "2023-10-21T04:00:00.000Z",
-          "wordCount": 705,
-          "title": "Ritas svärföräldrar fast i Gaza – tros vara Hamas gisslan",
-          "imageUrl": "https://static-cdn.sr.se/images/104/830e89ee-ec6d-4204-8913-f61321b29f00.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8480202",
-          "author": null,
-          "description": "Stormen Babet tilltar under fredagskvällen i styrka.I Göteborg har ovädret påverkan på tåg- och spårvagnstrafiken.Nedfallna träd är en av orsakerna.",
-          "link": "https://sverigesradio.se/artikel/8480202",
-          "publishedOn": "2023-10-20T20:55:00.000Z",
-          "wordCount": 654,
-          "title": "Ovädret orsakar störningar för tåg- och spårvagnstrafik",
-          "imageUrl": "https://static-cdn.sr.se/images/104/e7b9d360-c383-475d-a981-9e9f94f1dcd2.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8479789",
-          "author": null,
-          "description": "Just nu sparar skolorna i Göteborg 60 miljoner kronor. Det sker bland annat genom ett rekryteringsstopp.Något som oroar kommunpolisen Daniel Johnsson.",
-          "link": "https://sverigesradio.se/artikel/8479789",
-          "publishedOn": "2023-10-20T19:00:00.000Z",
-          "wordCount": 672,
-          "title": "Polisen Daniel: Vill ha fler lärare än poliser",
-          "imageUrl": "https://static-cdn.sr.se/images/104/090856d8-d843-4b06-b72c-74907df8a12e.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8479871",
-          "author": null,
-          "description": "I över 40 år har Christer Svensson stått på Kungstorget i centrala Göteborg och sålt grönsaker.Något som GP tidigare uppmärksammat.Vad Christer Svensson ska hitta på nu när han stänger sitt grönsaksstånd är inte bestämt. Men han är tydlig med vad han inte ska göra.",
-          "link": "https://sverigesradio.se/artikel/8479871",
-          "publishedOn": "2023-10-20T18:06:00.000Z",
-          "wordCount": 726,
-          "title": "Christer har sålt sista grönsaken – efter 40 år på torget",
-          "imageUrl": "https://static-cdn.sr.se/images/104/92895581-6518-4507-9869-39c0799d0d5b.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8480040",
-          "author": null,
-          "description": "Polisen har gjort en riktad insats på arbetsplatser.Flera inspektioner har gjort.Och flera har personer har blivit omhändertagna.",
-          "link": "https://sverigesradio.se/artikel/8480040",
-          "publishedOn": "2023-10-20T17:03:00.000Z",
-          "wordCount": 646,
-          "title": "Stor polisinsats mot arbetsplatser – flera omhändertagna",
-          "imageUrl": "https://static-cdn.sr.se/images/104/3d246a33-9d8c-44bc-924d-9ba91bae9edf.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8479691",
-          "author": null,
-          "description": "Två tonårspojkar limmade ihop gamla åkband som gick in på Liseberg i Göteborg. De lyckades ta sig in till nöjesparken flera gånger. Men till slut blev de stoppade.",
-          "link": "https://sverigesradio.se/artikel/8479691",
-          "publishedOn": "2023-10-20T16:30:00.000Z",
-          "wordCount": 679,
-          "title": "Tonåringar limmade ihop åkband – döms för bedrägeri",
-          "imageUrl": "https://static-cdn.sr.se/images/104/6be97db5-27c8-4ae0-959a-224d094a655e.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8479875",
-          "author": null,
-          "description": "Yvette Holinger bodde granne med den misstänkte Bryssel-terroristen i Askim i Göteborg.Abdesalem Lassoued tog sin i Sverige med ett falskt rumänskt pass och har bott på flera adresser i Sverige.Yvette berättar om känslan när hon såg bilden på sin före detta granne efter terrordådet i Bryssel.",
-          "link": "https://sverigesradio.se/artikel/8479875",
-          "publishedOn": "2023-10-20T15:30:00.000Z",
-          "wordCount": 686,
-          "title": "Yvette bodde granne med misstänkte Brysselterroristen",
-          "imageUrl": "https://static-cdn.sr.se/images/104/108945ae-de8f-4b82-960f-6cf8bc65fe79.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8479251",
-          "author": null,
-          "description": "Göteborgs hamn vill ha mer pengar för att flytta till Arendal på Hisingen. Det är oklart om det blir så. Men om det blir så, kanske de lyckas flytta till Hisingen 2028 som planerat.",
-          "link": "https://sverigesradio.se/artikel/8479251",
-          "publishedOn": "2023-10-20T14:30:00.000Z",
-          "wordCount": 687,
-          "title": "Hamnen vill ha mer pengar – för att flytta till Arendal",
-          "imageUrl": "https://static-cdn.sr.se/images/104/4a20dc7d-f626-4451-8ef2-be0eeb0660d6.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8479616",
-          "author": null,
-          "description": "Trafikverket har släppt en film inifrån skredet på E6.Filmen finns på P4 Göteborgs sociala medier och via länken här.Den visar förödelsen på platsen.",
-          "link": "https://sverigesradio.se/artikel/8479616",
-          "publishedOn": "2023-10-20T13:00:00.000Z",
-          "wordCount": 677,
-          "title": "Ny film visar förödelsen – inifrån skredet på E6",
-          "imageUrl": "https://static-cdn.sr.se/images/104/ebcf1bcc-3110-46c7-bd89-c6c47c3ba5c7.jpg"
         }
       ]
     },
@@ -5996,6 +6172,206 @@
       "feedUrl": "https://api.sr.se/api/rss/program/83",
       "siteUrl": "https://sverigesradio.se/default.aspx?programid=83",
       "articles": [
+        {
+          "id": "https://sverigesradio.se/artikel/8507092",
+          "author": null,
+          "description": "<p>Musik, tävlingar och samtal. Ett program för dig som är vaken, helt enkelt.</p>",
+          "link": "https://sverigesradio.se/artikel/8507092",
+          "publishedOn": "2023-11-19T23:31:00.000Z",
+          "wordCount": 640,
+          "title": "Vaken med P3 och P4 håller dig sällskap i natten",
+          "imageUrl": "https://static-cdn.sr.se/images/83/8865f063-cc45-489d-99d6-f81d2c175a6a.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8507093",
+          "author": null,
+          "description": "<ul><li><p>Den argentinske ekonomiministern Sergio Massa har erkänt sig besegrad i det Argentinska valet innan valsiffrorna har offentliggjorts.</p></li><li><p>Den ultraliberala kandidaten Javier Milei kommer bli landets nästa president, enligt Massa.</p></li><li><p>Hör Latinamerikakorrespondent Ivan Garcia om vinnaren i valet, som har beskrivits som det viktigaste i Argentina på 40 år.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8507093",
+          "publishedOn": "2023-11-19T23:19:00.000Z",
+          "wordCount": 677,
+          "title": "Kontroversiella Milei blir president – Massa erkänner sig besegrad",
+          "imageUrl": "https://static-cdn.sr.se/images/83/bbdbe543-28d8-4d72-8219-7f0c131bfe7e.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8507086",
+          "author": null,
+          "description": "<ul><li><p>I Argentina hölls under söndagen presidentval, ett val som beskrivs som Argentinas viktigaste sedan landet för 40 år sedan åter demokratiserades efter militärdiktaturen.</p></li><li><p>”Ena kandidaten vill riva upp ett samhällssystem som började byggas i Argentina för 70 år sedan”, säger Ekots Latinamerikakorrespondent Ivan Garcia och syftar på ultraliberalen Javier Milei.</p></li><li><p>Den andre kandidaten är Sergio Massa, som representerar just det samhällssystemet – Peronismen – där det offentliga finansierar välfärden.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8507086",
+          "publishedOn": "2023-11-19T22:16:00.000Z",
+          "wordCount": 708,
+          "title": "Vallokalerna i Argentina har stängt – rysare väntas",
+          "imageUrl": "https://static-cdn.sr.se/images/83/b7fa4bb2-bc4e-437a-ac0c-3ca8a139a706.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8507077",
+          "author": null,
+          "description": "<ul><li><p>Viktigt meddelande till allmänheten i Perstorps tätort i Perstorps kommun, Skåne län.</p></li><li><p>Det brinner i en byggnad centralt i Perstorp.</p></li><li><p>Räddningsledaren uppmanar alla i området att undvika brandröken och vid behov stänga dörrar, fönster och ventilation.</p></li><li><p>För mer information lyssna på Sveriges Radio P4 Kristianstad.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8507077",
+          "publishedOn": "2023-11-19T21:09:00.000Z",
+          "wordCount": 650,
+          "title": "VMA i Perstorp: Brand i byggnad",
+          "imageUrl": "https://static-cdn.sr.se/images/83/94bba82f-d5ae-47ca-850f-e9e5b859d664.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8507073",
+          "author": null,
+          "description": "<ul><li><p>I veckan presenterades vad som förväntas bli årets julklapp: sällskapsspelet. </p></li><li><p>I Karlavagnen med Mona Wahlund ska det handla om våra relationer till julklappar. Vilken är den bästa eller sämsta julklappen du fått? Dela med dig!</p></li><li><p>Ring <strong>020-22 10 30</strong>, mejla <a class=\"external-link\" rel=\"noreferrer noopener nofollow\" target=\"_blank\" href=\"mailto:karlavagnen@sverigesradio.se\"></a><a class=\"internal-link\" target=\"_self\" href=\"mailto:karlavagnen@sverigesradio.se\"></a><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:karlavagnen@sverigesradio.se\">karlavagnen@sverigesradio.se</a> – eller skriv till oss på <a class=\"external-link\" rel=\"noreferrer noopener nofollow\" target=\"_blank\" href=\"https://www.facebook.com/KarlavagnenP4\">Facebook</a> och <a class=\"external-link\" rel=\"noreferrer noopener nofollow\" target=\"_blank\" href=\"https://www.instagram.com/p4karlavagnen/\">Instagram</a>.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8507073",
+          "publishedOn": "2023-11-19T21:06:00.000Z",
+          "wordCount": 666,
+          "title": "Ring in till Karlavagnen – tipsa om julklappar",
+          "imageUrl": "https://static-cdn.sr.se/images/83/026d2819-895d-4df8-a6be-2c5b01ae166a.png"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8506988",
+          "author": null,
+          "description": "<ul><li><p>Över 30 spädbarn evakuerats från al-Shifa-sjukhuset i Gaza stad.</p></li><li><p>Det har varit ett riskfyllt arbete eftersom det varit våldsamma strider under söndagen. Minst 67 personer har bekräftats döda i Gaza.</p></li><li><p>Hör Jan Andersson, Ekots utsände i Tel Aviv, om läget.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8506988",
+          "publishedOn": "2023-11-19T20:41:00.000Z",
+          "wordCount": 679,
+          "title": "Över 30 spädbarn evakuerade från sjukhuset i Gaza",
+          "imageUrl": "https://static-cdn.sr.se/images/83/6d96904c-e89b-4e4e-9bfb-67c7ab637ede.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8507056",
+          "author": null,
+          "description": "<ul><li><p>Den tidigare amerikanske presidenten Jimmy Carters fru Roslaynn Carter har avlidit.</p></li><li><p>Demokraten Jimmy Carter var president mellan 1977 och 1981.</p></li><li><p>Paret var gifta i 77 år och Rosalynn Carter blev 96 år gammal.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8507056",
+          "publishedOn": "2023-11-19T20:27:00.000Z",
+          "wordCount": 651,
+          "title": "Rosalynn Carter är död",
+          "imageUrl": "https://static-cdn.sr.se/images/83/ce48d274-8e9d-43fd-af6d-cc1b2f5779ac.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8507028",
+          "author": null,
+          "description": "<ul><li><p>Ett fraktskepp kopplat till Israel ska under söndagen ha kapats av de Iranstödda Huthierebellerna i Jemen, det uppger den israeliske premiärministern Benjamin Netanyahus kansli.</p></li><li><p>Fartyget ska ha kapats i Röda havet och förts till hamnstaden Salif i Jemen.</p></li><li><p>Enligt Netanyahus kansli finns 25 besättningsmän av olika nationaliteter ombord.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8507028",
+          "publishedOn": "2023-11-19T19:31:00.000Z",
+          "wordCount": 681,
+          "title": "Israelkopplat fraktskepp kapat av rebeller i Röda havet",
+          "imageUrl": "https://static-cdn.sr.se/images/83/519249a3-2cd3-4ea4-b4b0-6919498c6087.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8506994",
+          "author": null,
+          "description": "<ul><li><p>I norra Indien har 41 arbetare nu varit instängda i åtta dagar i en vägtunnel som rasat samman. Efter att man har försökt borra en räddningstunnel in i rasmassorna från sidan, så överväger man en ny strategi för att rädda arbetarna.</p></li><li><p>Ett alternativ är att borra sig in ovanifrån så att arbetarna ska kunna ta sig ut i en 90 cm bred tunnel, men det är en riskfylld affär, uppger de indiska myndigheterna till Reuters och AP.</p></li><li><p>Anonyma anhöriga som kan prata med de instängda via radio säger till AFP att de blir alltmer desperata. Man för in nötter, kikärtor och popcorn samt vatten och syre via smala järnrör genom rasmassorna.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8506994",
+          "publishedOn": "2023-11-19T18:34:00.000Z",
+          "wordCount": 1009,
+          "title": "Indiska tunnelarbetare fast efter olycka – får mat genom rör",
+          "imageUrl": "https://static-cdn.sr.se/images/83/dc4d0d5a-7de5-4743-8a43-48ddafc78ede.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8506976",
+          "author": null,
+          "description": "<ul><li><p>Under söndagen hölls en fredsmarsch i Paris, där man manade till dialog mellan Israel och Hamas.</p></li><li><p>Marschen organiserades på uppmaning av landets artistkår och gästades av Frankrikes kulturminister Rima Abdul-Malak.</p></li><li><p>”Tack vare artisterna är det möjligt att visa ljuset mitt i mörkret. Därför kändes det viktigt att vara här idag”, säger Abdul-Malak till Ekot.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8506976",
+          "publishedOn": "2023-11-19T18:11:00.000Z",
+          "wordCount": 701,
+          "title": "Franska kulturministern på fredsmarsch: Viktigt att vara här",
+          "imageUrl": "https://static-cdn.sr.se/images/83/4360fc3e-f8f2-47c2-9a39-55cf3e06c87b.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8506977",
+          "author": null,
+          "description": "<p>Programledare: Sigge Sanner, Alexander Lundholm och Emil Gustavsson</p>",
+          "link": "https://sverigesradio.se/artikel/8506977",
+          "publishedOn": "2023-11-19T17:03:00.000Z",
+          "wordCount": 619,
+          "title": "Just nu: Seger i Jannes sista landskamp",
+          "imageUrl": "https://static-cdn.sr.se/images/83/ff01bd41-2034-456d-b940-984783db5512.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8506948",
+          "author": null,
+          "description": "<ul><li><p>Liberalerna vill att Systembolaget ska ha öppet till klockan 20 – alla dagar i veckan.</p></li><li><p>L vill också göra det möjligt att köpa kylda drycker på Systembolaget och även utreda om vissa butiker ska få sälja alkohol från Systembolaget, samt att kravet på att servera mat i samband med alkoholförsäljning tas bort.</p></li><li><p>Detta beslutade landsmötet under söndagen, och det gick igenom mot partiledningens vilja.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8506948",
+          "publishedOn": "2023-11-19T16:27:00.000Z",
+          "wordCount": 709,
+          "title": "Liberalerna vill ha söndagsöppet på Systembolaget",
+          "imageUrl": "https://static-cdn.sr.se/images/83/a73deba8-0321-4414-84ed-ab0660bc7eed.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8499782",
+          "author": null,
+          "description": "<ul><li><p>Samtidigt som många länder har fullt upp med att klara EU:s klimatmål till 2030, planerar EU-kommissionen nu för ett nytt klimatmål fram till år 2040, och det talas om att 90 procent av utsläppen måste bort tills dess. </p></li><li><p>Den nytillträdde EU-kommissionären har sagt att han siktar mot ett mål någonstans där, och även EU:s klimatpolitiska råd har pekat i den riktningen. </p></li><li><p>Någon gång före EU-valet i juni nästa år väntas ett skarpt förslag från EU-kommissionen, säger talespersonen Tim McPhie.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8499782",
+          "publishedOn": "2023-11-19T16:16:00.000Z",
+          "wordCount": 752,
+          "title": "EU planerar nytt klimatmål – men allt fler länder är tveksamma till hårdare åtgärder",
+          "imageUrl": "https://static-cdn.sr.se/images/83/8c7f7673-0283-4b0b-b206-a0a087ccbfdc.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8506937",
+          "author": null,
+          "description": "<ul><li><p>SMHI utfärdat en gul varning för plötslig ishalka i ett område kring Eskilstuna, Södertälje, Stockholm och Uppsala.</p></li><li><p>Halkan kan orsaka trafikstörningar även under måndagsmorgonen, enligt Therese Fougman, meteorolog på SMHI.</p></li><li><p>”Var extra uppmärksam”, säger Fougman.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8506937",
+          "publishedOn": "2023-11-19T15:21:00.000Z",
+          "wordCount": 668,
+          "title": "SMHI varnar för plötslig ishalka under söndagskvällen",
+          "imageUrl": "https://static-cdn.sr.se/images/83/37c8de0c-dc6e-4abe-b393-8d6c79ece2dc.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8506912",
+          "author": null,
+          "description": "<ul><li><p>Under söndagen avgörs presidentvalet i Argentina – som väntas bli jämnt – mellan det regerande partiets kandidat Sergio Massa och utmanaren Javier Milei.</p></li><li><p>Javier Milei har beskrivits som en outsider, och han har fått mycket uppmärksamhet på förhand.</p></li><li><p>”Milei är en oprövad politiker, vilket gör att många vet inte vad hans politik är”, säger Sveriges Radios utsände, Love Lyssarides.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8506912",
+          "publishedOn": "2023-11-19T14:57:00.000Z",
+          "wordCount": 702,
+          "title": "Oprövad politiker utmanar i Argentinas presidentval",
+          "imageUrl": "https://static-cdn.sr.se/images/83/8fc212a7-9268-4831-92fe-ce7c02b08923.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8506871",
+          "author": null,
+          "description": "<ul><li><p>Miljöpartiet vill slopa betyget F, alltså underkänd, i grundskolan. Det har ombuden på kongressen beslutat under söndagen – mot ledningens vilja.</p></li><li><p>”Stressen är enorm bland elever, och det här är ett förslag som kan påverka på riktigt”, säger Fabian Lidbaum från Grön Ungdom.</p></li><li><p>Partistyrelsen hade föreslagit att betyget F ska utredas, för att ta reda på hur ett betygssystem utan underkända betyg kan fungera när det gäller antagning till gymnasiet och högskolan.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8506871",
+          "publishedOn": "2023-11-19T14:44:00.000Z",
+          "wordCount": 726,
+          "title": "MP:s ombud går emot ledningen – vill avskaffa betyget F",
+          "imageUrl": "https://static-cdn.sr.se/images/83/3964e25e-2e61-42ff-b626-e5623dc60911.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8506868",
+          "author": null,
+          "description": "<ul><li><p>Miljöpartiets nya språkrör Daniel Helldén har setts som en högerkandidat av många i partiet då han har velat fokusera mest på klimat.</p></li><li><p>”Ingen omställning utan ekonomisk rättvisa” sa Helldén, och den svängningnen var nog en förutsättning för att han skulle bli vald menar Ekots politiska kommentator Helena Gissén.</p></li><li><p>Men en fråga Helldén inte svänger om är frågan om kärnkraft.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8506868",
+          "publishedOn": "2023-11-19T13:33:00.000Z",
+          "wordCount": 695,
+          "title": "Gissén: Omsvängningen krävdes för att Helldén skulle bli vald",
+          "imageUrl": "https://static-cdn.sr.se/images/83/6249d6aa-9ad2-4ae7-a8f5-4bb1949d564b.png"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8506869",
+          "author": null,
+          "description": "<ul><li><p>Det finns stora geografiska skillnader i antibiotikaresistens mellan länder i Europa, där Öst- och Sydeuropa har de största problemen med motståndskraftiga bakterier.</p></li><li><p>Enligt <a class=\"external-link\" rel=\"noreferrer noopener nofollow\" target=\"_blank\" href=\"https://www.tandfonline.com/doi/full/10.1080/13501763.2023.2255223\">forskning</a> från Göteborgs universitet finns ett samband mellan resistensen och vilka administrativa och politiska system som länderna använder.</p></li><li><p>En förklaring kan vara hur politiker och sakkunniga tjänstemän samverkar och hur antibiotikaresistensen prioriteras i olika länder.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8506869",
+          "publishedOn": "2023-11-19T12:57:00.000Z",
+          "wordCount": 686,
+          "title": "Studie: Samband mellan antibiotikaresistens och auktoritär styrning",
+          "imageUrl": "https://static-cdn.sr.se/images/83/017de034-581f-468c-bdc1-7889d8fda9ab.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8506835",
+          "author": null,
+          "description": "<ul><li><p>Qatar, har en central roll som medlare i förhandlingarna mellan Israel och Hamas, bland annat för att förhandlingarna förs i huvudstaden Doha. Det handlar dels om att få ut israeliska gisslan från Gaza, och att få till eldupphör.</p></li><li><p>Men det kommer inte vara Qatar som får slut på kriget menar Bitte Hammargren, journalist och Mellanösternanalytiker.</p></li><li><p>”Det blir naturligtvis USA, men mellanhanden måste finnas där”, säger hon.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8506835",
+          "publishedOn": "2023-11-19T10:31:00.000Z",
+          "wordCount": 691,
+          "title": "Israel och Hamas – så går förhandlingarna till",
+          "imageUrl": "https://static-cdn.sr.se/images/83/8fd6d86f-3ef8-4d3a-9c27-3a556bf242ff.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8506824",
+          "author": null,
+          "description": "<ul><li><p>Miljöpartiet står fast vid sitt nej till ett medlemskap i försvarsalliansen. </p></li></ul><ul><li><p>Däremot respekterar partiet det beslut som har fattats i riksdagen och tänker inte driva frågan om ett utträde ur Nato den dag Sverige blir medlem.</p></li></ul><ul><li><p>Det har ombuden på Miljöpartiets kongress beslutat under söndagsförmiddagen, vilket betyder att partistyrelsen linje fick stöd.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8506824",
+          "publishedOn": "2023-11-19T10:27:00.000Z",
+          "wordCount": 693,
+          "title": "Miljöpartiet står fast vid sitt nej till Nato",
+          "imageUrl": "https://static-cdn.sr.se/images/83/e76c4a9f-b02a-4454-acf0-c78dce475166.jpg"
+        },
         {
           "id": "https://sverigesradio.se/artikel/8506718",
           "author": null,
@@ -9355,236 +9731,6 @@
           "wordCount": 691,
           "title": "Schweiz utreder om Hamas finansieras från landet",
           "imageUrl": "https://static-cdn.sr.se/images/83/85642d50-16df-4d9e-9e4b-b00665ef35e8.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8480357",
-          "author": null,
-          "description": "<ul><li><p>Moderaterna vill avskaffa flerbarnstillägget för att underlätta integrationen av kvinnor som kommer till Sverige.</p></li><li><p>Det sa moderatledaren Ulf Kristersson när han talade inför partiets kongress i Umeå idag.</p></li><li><p>Ulf Kristersson pekade ut ekonomin, yttre och inre säkerhet, klimatomställningen och invandring och integration som de fyra stora samhällsproblem,</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8480357",
-          "publishedOn": "2023-10-21T11:38:00.000Z",
-          "wordCount": 635,
-          "title": "M: Stoppat flerbarnstillägg ska underlätta integrationen",
-          "imageUrl": "https://static-cdn.sr.se/images/83/b4214e19-465f-4db7-8ad6-13fb6be7f545.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8480355",
-          "author": null,
-          "description": "<ul><li><p>Regeringen tillsätter en utredning som får i uppdrag att bland annat se över om det går att införa en generell bestämmelse som gör det möjligt att på ett effektivt sätt lämna uppgifter som omfattas av sekretess mellan myndigheter.</p></li><li><p>Det handlar om att strypa den kriminella ekonomin, enligt statsminister Ulf Kristersson.</p></li><li><p>Nästa sommar ska en första delrapport vara klar.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8480355",
-          "publishedOn": "2023-10-21T11:37:00.000Z",
-          "wordCount": 659,
-          "title": "Regeringen öppnar för att ta bort sekretess mellan alla myndigheter",
-          "imageUrl": "https://static-cdn.sr.se/images/83/2f65ae9f-c332-411b-b19a-e8c85cc66c67.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8480368",
-          "author": null,
-          "description": "<ul><li><p>I Kairo har ledare för flera länder världen över samlats för att diskutera kriget mellan Hamas och Israel.</p></li><li><p>Det är Egyptens president Abdel Fattah al-Sisi som har tagit initiativet till mötet</p></li><li><p>Ekots utsände Edgar Mannheimer är i Egyptens huvudstad.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8480368",
-          "publishedOn": "2023-10-21T11:34:00.000Z",
-          "wordCount": 648,
-          "title": "Ledare möts i Egypten för att prata om krisen i Mellanöstern",
-          "imageUrl": "https://static-cdn.sr.se/images/83/cdf7a229-ea6f-4ff1-ad32-724ea1508fda.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8480365",
-          "author": null,
-          "description": "<ul><li><p>P4 Extra specialsänder och du kan ställa dina frågor om situationen i Israel och de palestinska områdena.</p></li><li><p>Med i programmet är Sveriges Radios Mellanösternkorrespondent Cecilia Uddén och Isabell Schierenbeck som bland annat är gästprofessor vid Hebreiska universitetet i Jerusalem.</p></li><li><p>De är med mellan 13.15-13.45 för att svara på dina frågor. Ring 031-84 70 00 eller mejla din fråga till <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:p4extra@sverigesradio\">p4extra@sverigesradio</a>.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8480365",
-          "publishedOn": "2023-10-21T11:15:00.000Z",
-          "wordCount": 654,
-          "title": "Cecilia Uddén svarar på dina frågor om kriget mellan Israel och Hamas",
-          "imageUrl": "https://static-cdn.sr.se/images/83/1339b723-893f-4a87-9f0f-b03bd6197945.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8480345",
-          "author": null,
-          "description": "<ul><li><p>Nyheten om att två amerikaner, en sjuklig mor och hennes tonårsdotter, nu frigivits av Hamas – vilket är de första av de över 200 som hålls i Gaza - tas emot med blandade känslor i Israel.</p></li><li><p>Sharon, som står vid en minnesplats för gisslan i Tel Aviv, vågar inte hoppas på någonting. </p></li><li><p>I centrala Tel Aviv står en mäktig installation, en jättelik Kaddish, en judisk bönestund vid middagsbordet. Två hundra stolar står längs ett långbord, dukat och klart med vin och börd, men stolarna står tomma, även barnstolarna från Ikea i ena änden, vilket symboliserar de cirka 20 barn och omkring 200 vuxna som sitter som gisslan i Gaza.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8480345",
-          "publishedOn": "2023-10-21T10:57:00.000Z",
-          "wordCount": 721,
-          "title": "Sharon vid minnesplatsen i Tel Aviv: ”De borde släppt alla”",
-          "imageUrl": "https://static-cdn.sr.se/images/83/94c930e4-d2d2-454b-b0cf-10c544d1774b.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8480332",
-          "author": null,
-          "description": "<ul><li><p>Den korruptionsdömde pakistanske politikern och före detta premiärministern, Nawaz Sharif, som levt i exil har återvänt till Pakistan.</p></li><li><p>Hans återkomst kan få stor betydelse för det stundande parlamentsvalet.</p></li><li><p>Nawaz Sharif är politikens grand old man i Pakistan. Han har varit premiärminister tre gånger. 2017 avsattes han, dömdes senare för korruption och lämnade landet för att bosätta sig i Storbritannien.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8480332",
-          "publishedOn": "2023-10-21T09:40:00.000Z",
-          "wordCount": 661,
-          "title": "Sharifs återkomst till Pakistan påverkar valet",
-          "imageUrl": "https://static-cdn.sr.se/images/83/749d6144-d086-4ede-a45d-7ec9e1ce0b1a.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8479538",
-          "author": null,
-          "description": "<ul><li><p>Veckans musikaliska korsord. Fyll i kryssplanen och tävla om äran och fina priser.</p></li><li><p>Varje lördag klockan 10.03 kan du lyssna på Melodikrysset i P4.&nbsp;</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8479538",
-          "publishedOn": "2023-10-21T08:03:00.000Z",
-          "wordCount": 594,
-          "title": "Melodikrysset med Anna Charlotta Gunnarson",
-          "imageUrl": "https://static-cdn.sr.se/images/83/9ed3183b-5db4-4c91-b5f5-cd8dfc6cb7a9.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8480283",
-          "author": null,
-          "description": "<ul><li><p>Det moderata ungdomsförbundet Muf har fått igenom en rad lättnader på alkoholområdet under partiets stämma i Umeå.</p></li><li><p>En förändring är att partiet ska verka för att öl och vin ska kunna säljas av andra aktörer än systembolaget. Enligt Muf innebär detta att Moderaterna nu i praktiken vill slopa systemets alkoholmonopol.</p></li><li><p>Stämman beslutade också att matkravet vid servering av alkohol tas bort, tidsgränserna för serveringstillstånd ska bort, längre öppettider på Systembolaget och att man ska kunna köpa kylda varor på systembolaget.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8480283",
-          "publishedOn": "2023-10-21T07:57:00.000Z",
-          "wordCount": 673,
-          "title": "Moderaterna vill att Systembolaget ska sälja kyld alkohol",
-          "imageUrl": "https://static-cdn.sr.se/images/83/da51e548-6195-4415-8f85-16cd78d228a3.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8480269",
-          "author": null,
-          "description": "<ul><li><p>Gränsövergången Rafah mellan Egypten och Gazaremsan är nu öppen.</p></li><li><p>Lastbilar med humanitär hjälp till Gaza ska ha passerat gränsen rapporterar flera nyhetsbyråer.</p></li><li><p>Rafah är den enda gränsövergången till Gazaremsan som inte kontrolleras av Israel.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8480269",
-          "publishedOn": "2023-10-21T07:35:00.000Z",
-          "wordCount": 638,
-          "title": "Övergången i Rafah har öppnat – lastbilar med nödhjälp rullar in i Gaza",
-          "imageUrl": "https://static-cdn.sr.se/images/83/3aae2d73-e594-42e7-bcf6-37ad1a77e522.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8480205",
-          "author": null,
-          "description": "<ul><li><p>Smittspridningen av covid-19 ökar just nu i landet. I veckan var det 38 procent fler bekräftade fall än veckan innan.</p></li><li><p>Det enligt Folkhälsomyndigheten, som beskriver det som att smittan ändå ligger på en relativt låg nivå.</p></li><li><p>Folkhälsomyndigheten ser bara små förändringar i antalet som behöver intensivvård eller avlider med covid-19</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8480205",
-          "publishedOn": "2023-10-20T21:56:00.000Z",
-          "wordCount": 634,
-          "title": "Spridning av covid-19 ökar i Sverige",
-          "imageUrl": "https://static-cdn.sr.se/images/83/a79d3e69-0813-4919-87c5-acbdaa2a3488.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8480196",
-          "author": null,
-          "description": "<ul><li><p>Stormen Babet har under fredagen dragit in i södra Sverige och SMHI har utfärdat en rad varningar.</p></li><li><p>Babet har orsakat översvämmade vägar, nedfallna träd och strömavbrott på flera håll.</p></li><li><p>Hör <strong>Torbjörn Siman</strong>, meteorolog på SMHI. Hör också <strong>Göran Hornberg</strong>, verksamhetssamordnare på Trafikverket. </p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8480196",
-          "publishedOn": "2023-10-20T20:41:00.000Z",
-          "wordCount": 643,
-          "title": "Översvämningar, strömavbrott och fallna träd i södra Sverige",
-          "imageUrl": "https://static-cdn.sr.se/images/83/0c927793-3099-4bd8-9616-ee211b318799.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8480187",
-          "author": null,
-          "description": "<ul><li><p>Det kinesiska fartyget Newnew Polar Bear är för tillfället i fokus för utredningen av läckan på gasledningen Balticconnector i Finska viken, som uppstod för snart två veckor sedan. Det meddelar finländska Centralkriminalpolisen.</p></li><li><p>Fartyget ska ha rört sig på platsen vid en tid som stämmer överens med när skadan uppstod.</p></li><li><p>Polisen bekräftar att skadan orsakats av en yttre, mekanisk kraft och att det inte finns misstankar om att den ska ha orsakats av en explosion.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8480187",
-          "publishedOn": "2023-10-20T19:57:00.000Z",
-          "wordCount": 680,
-          "title": "Fokus på kinesiskt fartyg i utredning om gasläckan",
-          "imageUrl": "https://static-cdn.sr.se/images/83/4dd95b09-685b-4af7-924c-2d49e624cc33.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8480159",
-          "author": null,
-          "description": "<ul><li><p>Två personer som hållits som gisslan av Hamas inne i Gaza har släppts och är nu på väg ut. Det uppger flera israeliska källor och har även bekräftats av Internationella Röda korset.</p></li><li><p>Enligt källorna är det en mor och dotter med amerikanskt medborgarskap som nu är fria.</p></li><li><p>Hamas skriver att de släpper gisslan av humanitära skäl. Modern ska ha mycket dålig hälsa.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8480159",
-          "publishedOn": "2023-10-20T19:05:00.000Z",
-          "wordCount": 666,
-          "title": "Hamas släpper amerikansk gisslan – mor och dotter fria",
-          "imageUrl": "https://static-cdn.sr.se/images/83/e02e00c7-24f9-4148-a63a-ee418ed488a1.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8480145",
-          "author": null,
-          "description": "<ul><li><p>Det är möjligt att Hamas ser Israels hårda krigföring som något som skulle kunna gynna terrorgruppens egna syften.</p></li><li><p>Det tror Anders Persson, lektor i statsvetenskap vid Linnéuniversitetet. Han tror också att det finns en risk att konflikten sprids till andra delar av Mellanöstern.</p></li><li><p>”Såklart är den grundläggande logiken här att går Israel för hårt fram i Gaza kan det öppna upp och förvärra flera av de andra fronterna”, säger han.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8480145",
-          "publishedOn": "2023-10-20T18:59:00.000Z",
-          "wordCount": 705,
-          "title": "Expert: Stor risk att konflikten mellan Hamas och Israel sprids",
-          "imageUrl": "https://static-cdn.sr.se/images/83/35665e07-096e-40a2-a0d3-a3b3d8db73a3.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8480046",
-          "author": null,
-          "description": "<ul><li><p>Regeringen och Sverigedemokraterna ger i uppdrag till Skatteverket att ta fram en tjänst där personer ska få ett meddelande när någon annan skriver sig där man bor.</p></li><li><p>Felaktiga skrivningar har uppmärksammats i samband med den senaste tidens våldsvåg då det framkommit ett antal fall där kriminella adressändrat precis innan eller under våldsvågen.</p></li><li><p>Finansminister Elisabeth Svantesson (M) säger att det här är en väg framåt men utesluter inte ytterligare åtgärder.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8480046",
-          "publishedOn": "2023-10-20T18:53:00.000Z",
-          "wordCount": 680,
-          "title": "Så ska privatpersoner meddelas att kriminella ”bor” hos dem",
-          "imageUrl": "https://static-cdn.sr.se/images/83/b1c4bf87-b25b-427a-8d2a-6370874fd6b0.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8480126",
-          "author": null,
-          "description": "<ul><li><p>Belgiens justitieminister Vincent van Quickenborne avgår. </p></li><li><p>Det efter terrorattacken i Bryssel i måndags där två svenskar sköts ihjäl, rapporterar belgiska medier.</p></li><li><p>Justitieministern uppger själv att han tar sitt ansvar och avgår sedan det visat sig att belgiska myndigheter känt till attentatsmannen, att han skulle utlämnas till Tunisien i augusti förra året, men att man ändå valt att inte spåra och utvisa honom.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8480126",
-          "publishedOn": "2023-10-20T18:00:00.000Z",
-          "wordCount": 658,
-          "title": "Belgiens justitieminister avgår efter terrorattentatet",
-          "imageUrl": "https://static-cdn.sr.se/images/83/f1b6d0b3-0506-4400-892e-cec959ce55e3.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8479445",
-          "author": null,
-          "description": "<ul><li><p>Nu är det klart att den högt uppsatta militären, och hans fru som jobbar på Försvarets radioanstalt, häktas misstänkta för brott mot Sveriges säkerhet.</p></li><li><p>Bo Torbjörn Ek, programledare för podden Gräns berättar vad fallet handlar om.</p></li><li><p>Misstankarna är allvarliga, men det kommer ta lång tid att reda ut och innan ett åtal kan komma.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8479445",
-          "publishedOn": "2023-10-20T17:36:00.000Z",
-          "wordCount": 672,
-          "title": "Paret som greps av Säpo häktas – det handlar fallet om",
-          "imageUrl": "https://static-cdn.sr.se/images/83/ae05a170-05ab-4d16-b943-86b2f9d86c33.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8479980",
-          "author": null,
-          "description": "<ul><li><p>Många av landets småhustillverkare är nu nere på tredje eller fjärde vågen av varsel om uppsägning av personal. Det här fortsätter även att påverka underleverantörer till branschen.</p></li><li><p>Hos köks- och badrumstillverkaren Ballingslöv i Hässleholms kommun i Skåne har 130 av företagets 500 anställda sagts upp under året. Det säger Henrik Fransson, vd på företaget.</p></li><li><p>Konkurser har inte märkts av ännu, men vd:n David Johnson på Trä- och möbelföretagen säger att de kommer, i första hand bland mindre underleverantörer.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8479980",
-          "publishedOn": "2023-10-20T16:52:00.000Z",
-          "wordCount": 659,
-          "title": "Småhustillverkare fortsätter säga upp personal",
-          "imageUrl": "https://static-cdn.sr.se/images/83/f74fcfa1-b908-4c4a-85ef-d8a449dafe8e.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8480094",
-          "author": null,
-          "description": "<ul><li><p>Kvinnan i paret som misstänks för grov olovlig befattning med hemlig uppgift bestrider häktningen som genomfördes under fredagen, även mannen en högt uppsatt militär, förnekar brott. </p></li><li><p>Kvinnan som arbetar på Försvarets radioanstalt, FRA, en av Sveriges hemligaste myndigheter, kom in under häktningsförhandlingen i kriminalvårdens gröna kläder men en tröja över huvudet då hon, enligt hennes advokat, inte vill bli avbildad under förhandlingarna. </p></li><li><p>Mannens advokat kommer att överklaga rättens beslut att häkta hans klient.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8480094",
-          "publishedOn": "2023-10-20T16:11:00.000Z",
-          "wordCount": 673,
-          "title": "Misstänkte militärens advokat överklagar häktningen",
-          "imageUrl": "https://static-cdn.sr.se/images/83/a74a7871-3a15-42ee-acb1-50aea6dfc603.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8480019",
-          "author": null,
-          "description": "<ul><li><p>Studenter ska kunna ha hur hög inkomst som helst, utan att för den sakens skull förlora sin rätt till studielån, det beslutade Moderaterna att verka för på sin partistämma i Umeå idag.</p></li><li><p>”Att kunna arbeta och studera samtidigt är någonting som är väldigt bra, och låter i mina öron som väldigt moderat politik,” sade Olle Connman Ek, som är distriktsordförande för MUF, Östergötland.</p></li><li><p>Dagens beslut gäller endast lånedelen i studiemedlen, bidragsdelen kommer även fortsättningsvis att bero på hur mycket pengar studenten tjänar.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8480019",
-          "publishedOn": "2023-10-20T15:36:00.000Z",
-          "wordCount": 683,
-          "title": "M:s beslut: Höga inkomster inget hinder för studielån",
-          "imageUrl": "https://static-cdn.sr.se/images/83/5cbd054d-6441-4bf3-92e1-353d9ad0e503.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8479933",
-          "author": null,
-          "description": "<ul><li><p>På fredagen har det varit omfattande demonstrationer i stora delar av arabvärlden – till stöd för Gaza, och mot Israel som blockerat Gaza i 13 dagar. </p></li><li><p>En del av demonstrationerna i regionen har varit våldsamma, men i Ramallah på Västbanken var det relativt lugnt.</p></li><li><p>”Vi är här för att visa vårt stöd för folket i Gaza, vi vill att dödandet och de israeliska flygattackerna stoppas och att Israels blockad av Gaza upphör”, säger Nabila i Ramallah.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8479933",
-          "publishedOn": "2023-10-20T14:34:00.000Z",
-          "wordCount": 685,
-          "title": "Ilska på Västbanken mot Israel: ”Vill att dödandet stoppas”",
-          "imageUrl": "https://static-cdn.sr.se/images/83/c8228279-dab9-4446-bc08-c6532f37eed6.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8479872",
-          "author": null,
-          "description": "<ul><li><p>Salwan Momika planerar kommer att genomföra en ny aktion där han bränner en koran i Stockholm under lördagen. </p></li><li><p>Det trots att allt mer pekar på att koranbränningarna i Sverige är ett av huvudmotiven bakom terrorattacken i Bryssel i måndags. </p></li><li><p>”Om terrorattacken hade något att göra med koranbränningen så är detta inte mitt ansvar”, säger Salwan Momika i en intervju till Ekot.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8479872",
-          "publishedOn": "2023-10-20T14:25:00.000Z",
-          "wordCount": 658,
-          "title": "Salwan Momika planerar ny koranbränning i Stockholm",
-          "imageUrl": "https://static-cdn.sr.se/images/83/70b0d933-e70b-41b3-abfd-e9585a24c5c3.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8479477",
-          "author": null,
-          "description": "<ul><li><p>Den FRA-anställd som greps tillsammans med sin man häktas på sannolika skäl misstänkt för grov obehörig befattning med hemlig uppgift.</p></li><li><p>Häktningsskäl är att hon kan undanröja bevis eller på andra sätt försvåra utredningen.</p></li><li><p>Mannens häktningsförhandling förväntas pågå under eftermiddagen.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8479477",
-          "publishedOn": "2023-10-20T12:41:00.000Z",
-          "wordCount": 629,
-          "title": "FRA-anställd häktas misstänkt för brott mot Sveriges säkerhet",
-          "imageUrl": "https://static-cdn.sr.se/images/83/5df56b20-dad8-4e82-ac02-6f810d5aa89f.jpg"
         }
       ]
     },
@@ -9593,6 +9739,56 @@
       "feedUrl": "https://www.gp.se/nyheter/g%C3%B6teborg?rss",
       "siteUrl": "http://www.gp.se/nyheter/göteborg",
       "articles": [
+        {
+          "id": "http://www.gp.se/nyheter/göteborg/förskollärare-omplaceras-för-att-klara-budgeten-1.115474501",
+          "author": null,
+          "description": "Föräldrar protesterar: ”De rycker barnens trygghet ifrån dem.”",
+          "link": "http://www.gp.se/nyheter/g%C3%B6teborg/f%C3%B6rskoll%C3%A4rare-omplaceras-f%C3%B6r-att-klara-budgeten-1.115474501",
+          "publishedOn": "2023-11-19T16:48:39.000Z",
+          "wordCount": 7050,
+          "title": "Förskollärare ersätts med billigare personal",
+          "imageUrl": "https://www.gp.se/image/policy:1.115474396:1700230835/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a"
+        },
+        {
+          "id": "http://www.gp.se/nyheter/göteborg/hon-fann-40-råttor-i-centrala-göteborg-livs-levande-1.115619908",
+          "author": null,
+          "description": "Se videon – låg i sopkärl i centrala Göteborg: \"Aldrig sett något liknande\".",
+          "link": "http://www.gp.se/nyheter/g%C3%B6teborg/hon-fann-40-r%C3%A5ttor-i-centrala-g%C3%B6teborg-livs-levande-1.115619908",
+          "publishedOn": "2023-11-19T14:57:46.000Z",
+          "wordCount": 7055,
+          "title": "Hon hittade 40 levande råttor – i soptunnan",
+          "imageUrl": "https://www.gp.se/image/policy:1.115619877:1700411608/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a"
+        },
+        {
+          "id": "http://www.gp.se/nyheter/göteborg/larm-i-kålltorp-om-skenande-polishäst-sprang-mot-apslätten-1.115613387",
+          "author": null,
+          "description": "Flera blev vittnen till en löst springande polishäst i Kålltorp på söndagen. \n– Som jag förstår det var det en ny häst som höll på att ridas in, säger Göran Carlbom vid polisen.",
+          "link": "http://www.gp.se/nyheter/g%C3%B6teborg/larm-i-k%C3%A5lltorp-om-skenande-polish%C3%A4st-sprang-mot-apsl%C3%A4tten-1.115613387",
+          "publishedOn": "2023-11-19T12:24:55.000Z",
+          "wordCount": 7326,
+          "title": "Polishäst skenade genom Skatås",
+          "imageUrl": "https://www.gp.se/polopoly_fs/3.200.1693910471!/images/se.gp/fallback-og-image.png"
+        },
+        {
+          "id": "http://www.gp.se/nyheter/göteborg/två-personbilar-i-krock-på-e45-1.115608367",
+          "author": null,
+          "description": "En person förd till sjukhus.",
+          "link": "http://www.gp.se/nyheter/g%C3%B6teborg/tv%C3%A5-personbilar-i-krock-p%C3%A5-e45-1.115608367",
+          "publishedOn": "2023-11-19T11:11:27.000Z",
+          "wordCount": 7241,
+          "title": "Krock i centrala Göteborg",
+          "imageUrl": "https://www.gp.se/polopoly_fs/3.200.1693910471!/images/se.gp/fallback-og-image.png"
+        },
+        {
+          "id": "http://www.gp.se/nyheter/göteborg/8-åring-dog-efter-fall-på-sjumilaskolan-ambulans-dröjde-en-timme-1.115603024",
+          "author": null,
+          "description": "Dokument visar att Sjumilaskolan larmade om berget flera år innan dödsolyckan, skriver Aftonbladet.",
+          "link": "http://www.gp.se/nyheter/g%C3%B6teborg/8-%C3%A5ring-dog-efter-fall-p%C3%A5-sjumilaskolan-ambulans-dr%C3%B6jde-en-timme-1.115603024",
+          "publishedOn": "2023-11-19T09:51:37.000Z",
+          "wordCount": 7065,
+          "title": "Pojke dog på skola – kommun föreslog skylt",
+          "imageUrl": "https://www.gp.se/image/policy:1.18750008:1700399949/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a"
+        },
         {
           "id": "http://www.gp.se/nyheter/göteborg/lisebergs-nya-besked-om-flumeride-blir-kvar-1.115573840",
           "author": null,
@@ -11182,76 +11378,6 @@
           "wordCount": 6813,
           "title": "Fem miljoner till gratis mensskydd på skolorna",
           "imageUrl": "https://www.gp.se/image/policy:1.113290368:1697894243/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a"
-        },
-        {
-          "id": "http://www.gp.se/nyheter/göteborg/bussar-ersatte-spårvagnstrafik-1.113267527",
-          "author": null,
-          "description": "Bussar ersätter.",
-          "link": "http://www.gp.se/nyheter/g%C3%B6teborg/bussar-ersatte-sp%C3%A5rvagnstrafik-1.113267527",
-          "publishedOn": "2023-10-21T08:43:42.000Z",
-          "wordCount": 7006,
-          "title": "Stopp i spårvagnstrafiken",
-          "imageUrl": "https://www.gp.se/polopoly_fs/3.200.1693910471!/images/se.gp/fallback-og-image.png"
-        },
-        {
-          "id": "http://www.gp.se/nyheter/göteborg/tonåringar-döms-för-bedrägeri-efter-fusk-med-åkband-på-liseberg-1.113263893",
-          "author": null,
-          "description": "Blev påkomna två gånger på samma dag.",
-          "link": "http://www.gp.se/nyheter/g%C3%B6teborg/ton%C3%A5ringar-d%C3%B6ms-f%C3%B6r-bedr%C3%A4geri-efter-fusk-med-%C3%A5kband-p%C3%A5-liseberg-1.113263893",
-          "publishedOn": "2023-10-21T08:09:56.000Z",
-          "wordCount": 6854,
-          "title": "Tonåringar fuskade på Liseberg – döms",
-          "imageUrl": "https://www.gp.se/image/policy:1.97709081:1697899551/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a"
-        },
-        {
-          "id": "http://www.gp.se/nyheter/göteborg/har-väntat-sedan-2015-nu-kan-patienterna-få-sina-operationer-1.113185102",
-          "author": null,
-          "description": "Sahlgrenska ser över den 3 000 personer långa kön till ortopedin.",
-          "link": "http://www.gp.se/nyheter/g%C3%B6teborg/har-v%C3%A4ntat-sedan-2015-nu-kan-patienterna-f%C3%A5-sina-operationer-1.113185102",
-          "publishedOn": "2023-10-21T07:50:39.000Z",
-          "wordCount": 6879,
-          "title": "Nu ska patienterna som väntat längst prioriteras",
-          "imageUrl": "https://www.gp.se/image/policy:1.113185068:1697890868/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a"
-        },
-        {
-          "id": "http://www.gp.se/nyheter/göteborg/henriks-misstänkte-mördare-utreddes-för-dråpförsök-1.113261992",
-          "author": null,
-          "description": "Vårdades på SIS-hem efter knivattack i köpcentrum, enligt P4 Göteborg.",
-          "link": "http://www.gp.se/nyheter/g%C3%B6teborg/henriks-misst%C3%A4nkte-m%C3%B6rdare-utreddes-f%C3%B6r-dr%C3%A5pf%C3%B6rs%C3%B6k-1.113261992",
-          "publishedOn": "2023-10-21T07:43:25.000Z",
-          "wordCount": 6826,
-          "title": "Henriks misstänkte mördare utreddes för dråpförsök",
-          "imageUrl": "https://www.gp.se/image/policy:1.113261990:1697875161/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a"
-        },
-        {
-          "id": "http://www.gp.se/nyheter/göteborg/färjetrafiken-till-fredrikshamn-stoppades-1.113231221",
-          "author": null,
-          "description": "Ett fartyg har slitit sig från kajen i Fredrikshamn i Danmark, uppger danska TV2. Färjetrafiken har stoppades av säkerhetsskäl, vilket bland annat påverkade Stena Lines färjor till och från Göteborg.\nUnder natten fick Stena Line klartecken att deras färjor kunde börja gå igen.",
-          "link": "http://www.gp.se/nyheter/g%C3%B6teborg/f%C3%A4rjetrafiken-till-fredrikshamn-stoppades-1.113231221",
-          "publishedOn": "2023-10-20T20:53:03.000Z",
-          "wordCount": 7355,
-          "title": "700 personer var fast på Stenafärjor",
-          "imageUrl": "https://www.gp.se/polopoly_fs/3.200.1693910471!/images/se.gp/fallback-og-image.png"
-        },
-        {
-          "id": "http://www.gp.se/nyheter/göteborg/kretsloppets-uppmaning-riv-fakturorna-1.113223554",
-          "author": null,
-          "description": "Drabbade Göran: ”Jag fick hem en stor hög”.",
-          "link": "http://www.gp.se/nyheter/g%C3%B6teborg/kretsloppets-uppmaning-riv-fakturorna-1.113223554",
-          "publishedOn": "2023-10-20T19:12:03.000Z",
-          "wordCount": 6808,
-          "title": "Kommunens uppmaning: Riv era fakturor",
-          "imageUrl": "https://www.gp.se/polopoly_fs/3.200.1693910471!/images/se.gp/fallback-og-image.png"
-        },
-        {
-          "id": "http://www.gp.se/nyheter/göteborg/försvunnen-man-hittad-välbehållen-i-göteborg-1.113219824",
-          "author": null,
-          "description": "Försvann från korttidsboende under fredagen.",
-          "link": "http://www.gp.se/nyheter/g%C3%B6teborg/f%C3%B6rsvunnen-man-hittad-v%C3%A4lbeh%C3%A5llen-i-g%C3%B6teborg-1.113219824",
-          "publishedOn": "2023-10-20T18:42:39.000Z",
-          "wordCount": 7083,
-          "title": "Försvunnen man hittad välbehållen",
-          "imageUrl": "https://www.gp.se/polopoly_fs/3.200.1693910471!/images/se.gp/fallback-og-image.png"
         }
       ]
     },
@@ -11546,16 +11672,6 @@
           "wordCount": 3639,
           "title": "Mind your business, and don’t be a dick.",
           "imageUrl": "https://wilwheaton.net/wp-content/uploads/2023/11/IMG_20231111_210253_840.jpg"
-        },
-        {
-          "id": "https://wilwheaton.net/?p=9017",
-          "author": "Wil",
-          "description": "Here’s the story of a dork named DonnieAnd every single thing he touches diesLike the steaks the Taj Mahal and the electionHe lost in court sixty times. Here’s the story […]",
-          "link": "https://wilwheaton.net/2023/10/the-shady-bunch/",
-          "publishedOn": "2023-10-20T21:30:49.000Z",
-          "wordCount": 3619,
-          "title": "the shady bunch",
-          "imageUrl": "https://wilwheaton.net/wp-content/uploads/2023/10/TreasonBunch.png"
         }
       ]
     }
