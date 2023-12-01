@@ -35,6 +35,26 @@
       "siteUrl": "https://www.drupal.org/planet",
       "articles": [
         {
+          "id": "https://salsa.digital/insights/salsa-at-drupalcon-europe-2023?utm_source=drupalplanet",
+          "author": null,
+          "description": "Suchi’s Rules as Code presentation Suchi’s presentation provides information about two Rules as Code  implementations, both using OpenFisca and Drupal, including an OpenFisca Drupal module that integrates OpenFisca with a Drupal webform. Akhil’s CivicTheme presentation Akhil’s presentation looks at the benefits of a design system and takes the audience through a Figma to Drupal mapping process with CivicTheme .",
+          "link": "https://salsa.digital/insights/salsa-at-drupalcon-europe-2023?utm_source=drupalplanet",
+          "publishedOn": "2023-11-30T04:04:01.000Z",
+          "wordCount": 7364,
+          "title": "Salsa Digital: Salsa at DrupalCon Europe 2023",
+          "imageUrl": "https://api.salsadigital.com.au/sites/default/files/2023-11/Thumbnail-Salsa-at-DrupalCon-Europe-2023.png"
+        },
+        {
+          "id": "https://www.drupal.org/about/core/blog/coding-standards-proposals-for-final-discussion-on-20-december",
+          "author": null,
+          "description": "The Technical Working Group (TWG) is announcing two coding standards changes for final discussion. Feedback will be reviewed at the meeting scheduled for Wednesday 20 December 2200 UTC.\nIssues for discussion\nNew coding standard: Code style for declare(strict_types=1);\nArgument lists for function declarations may be split across multiple lines\nThe Coding Standards project page outlines the process for changing Drupal coding standards.\nJoin the team working on Coding Standards\nJoin #coding-standards in Drupal Slack to meet and work with others on improving the Drupal coding standards. We work on improving our standards as well as implementing them in the core software.",
+          "link": "https://www.drupal.org/about/core/blog/coding-standards-proposals-for-final-discussion-on-20-december",
+          "publishedOn": "2023-11-29T23:18:59.000Z",
+          "wordCount": 444,
+          "title": "Drupal Core News: Coding standards proposals for final discussion on 20 December",
+          "imageUrl": null
+        },
+        {
           "id": "https://kevinquillen.com/access-apache-solr-admin-over-https-ddev",
           "author": null,
           "description": "I have seen some chatter lately about folks asking how to access the Solr admin interface over HTTPS instead of HTTP connection in DDEV. Enabling this is a simple change to the docker-compose.solr.yaml file in the .ddev directory.In the file, make the following changes under the environment section:",
@@ -1373,256 +1393,6 @@
           "wordCount": 2649,
           "title": "Lullabot: The Toolbar Redesign: Improving Drupal's UI for Site Builders and Content Editors",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.quantcdn.io/blog/articles/brief-history-drupal-7-and-overview-end-life-options",
-          "author": null,
-          "description": "With any technology, there will be doomsday sayers and there will be the normal evolution of growth and decline. Knowing the power of Drupal and the character of the Drupal community, I’m optimistic that Drupal will be a viable CMS for years to come. But, where does that leave Drupal 7? Let's take a look at a brief history of Drupal 7 and beyond, and what D7 end-of-life (EOL) options are available.\nFocus: \n\nArticles\n\nTags:\n\nDrupal Planet\nDrupal\nCMS\nComparison\nMigration\n\nRelated Content:\n\nCreate a static Drupal 7 site with the Quant module\nHow to freeze and take static archive of your old site\nAdd Quant Search to your Drupal 7 static site",
-          "link": "https://www.quantcdn.io/blog/articles/brief-history-drupal-7-and-overview-end-life-options",
-          "publishedOn": "2023-11-01T12:05:32.000Z",
-          "wordCount": 3682,
-          "title": "Quant Drupal Planet Blog Posts: A brief history of Drupal 7 and overview of end-of-life options",
-          "imageUrl": "https://www.quantcdn.io/sites/default/files/styles/blog_thumbnail/public/2023-10/graphic-art-migration-cloud-curvy-path.png"
-        },
-        {
-          "id": "https://www.drupal.org/psa-2023-11-01",
-          "author": null,
-          "description": "Date: \n\n2023-November-01\n\n\nDescription: \n\nDrupal 9 is end of life as of November 1st, 2023\nDrupal 9 relies on several other software projects, including Symfony, CKEditor, and Twig. With Symfony 4's end of life, CKEditor 4's end of life, and Twig 2's end of life all coming up soon, Drupal 9 went end of life on November 1st, 2023. There will be no further releases of Drupal 9.\nTwo changes for Drupal contributed projects will occur before the end of January 2024. One is that the automated testing platform DrupalCI support for Drupal 9 will stop. The other is that release branches of contributed projects that only support Drupal 9 will be marked unsupported (see the tracking issue for details).\nThanks to everyone who helped create and maintain Drupal 9.\nIt is time to update to  Drupal 10 compatible releases\nCheck the documentation on updating a site to Drupal 10.\nIf a contributed project is not yet compatible with Drupal 10, now is a good time to update it. Check for existing Drupal 10 compatibility issues relevant for your projects.\nIf your project is already compatible with Drupal 10 but does not yet have a stable release, please tag a release, once you are confident in your project's stability. Where possible, tag a minor release supporting both Drupal 9 and 10 to ensure users have a smooth upgrade path.",
-          "link": "https://www.drupal.org/psa-2023-11-01",
-          "publishedOn": "2023-11-01T11:46:31.000Z",
-          "wordCount": 649,
-          "title": "Security public service announcements: Drupal 9 is end of life - PSA-2023-11-01",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lnwebworks.com/Insight/drupal-9-end-of-life",
-          "author": null,
-          "description": "Drupal 9 is set to reach its end-of-life on November 1st, 2023. This deadline is sending ripples throughout the Drupal community and has made it crucial for businesses to plan for a seamless Drupal 10 migration. \nRegardless of whether you're currently using Drupal 7, Drupal 8, or Drupal 9, this transition is not just a necessity; it's an opportunity to embrace the latest in web development and secure your digital presence for the future. Let’s have a closer look at the significance of the Drupal 9 end-of-life and explore what you need to know to prepare for a smooth transition to Drupal 10. \nWhy Drupal 9 End-of-Life Matters? \nEnd-of-life for any software version means that the development and security support for that version will cease. \nIn the context of Drupal 9, bug fixes, or security patches are provided for Drupal 9. This poses a critical concern for businesses and website owners who rely on Drupal to power their online presence.",
-          "link": "https://www.lnwebworks.com/Insight/drupal-9-end-of-life",
-          "publishedOn": "2023-11-01T09:51:05.000Z",
-          "wordCount": 1505,
-          "title": "LN Webworks: Drupal 9 End of Life: What to Expect and How to Prepare",
-          "imageUrl": "https://www.lnwebworks.com/sites/default/files/2023-11/Drupal%209%20End%20of%20Life.jpg"
-        },
-        {
-          "id": "https://www.lullabot.com/podcasts/lullabot-podcast/unlocking-power-structured-content-drupal-iowagov",
-          "author": null,
-          "description": "Host Matt Kleve discusses a recent Lullabot Drupal project and its transformative impact on government websites. In this episode, we have an exciting conversation with a representative from the Office of the CIO from the state of Iowa and the Director of Strategy at Lullabot, as we explore the importance of structured content and its role in the groundbreaking work being done on Iowa.gov, powered by Drupal.",
-          "link": "https://www.lullabot.com/podcasts/lullabot-podcast/unlocking-power-structured-content-drupal-iowagov",
-          "publishedOn": "2023-11-01T00:14:01.000Z",
-          "wordCount": 1651,
-          "title": "Lullabot: Lullabot Podcast: Unlocking the Power of Structured Content with Drupal on Iowa.gov",
-          "imageUrl": "https://www.lullabot.com/sites/default/files/styles/max_800/public/shows/lullabot-podcast.jpg.webp?itok=ueRH4s-F"
-        },
-        {
-          "id": "https://www.lullabot.com/articles/improving-drupals-administration-ux",
-          "author": null,
-          "description": "For our first sponsored contribution time, we will be focusing on efforts to improve the usability of Drupal’s administration UI. We chose this because there are some deliverables we beleive we can achieve within six months that will make Drupal better and benefit our existing clients.",
-          "link": "https://www.lullabot.com/articles/improving-drupals-administration-ux",
-          "publishedOn": "2023-11-01T00:14:01.000Z",
-          "wordCount": 2562,
-          "title": "Lullabot: Improving Drupal's Administration UX",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lullabot.com/articles/sponsoring-drupal-contributions-lullabot",
-          "author": null,
-          "description": "There are many good reasons for Drupal-focused organizations to contribute to Drupal, but for Lullabot, it comes down to these:",
-          "link": "https://www.lullabot.com/articles/sponsoring-drupal-contributions-lullabot",
-          "publishedOn": "2023-11-01T00:14:01.000Z",
-          "wordCount": 2765,
-          "title": "Lullabot: Sponsoring Drupal Contributions at Lullabot",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lullabot.com/articles/questions-ask-when-choosing-drupal-hosting-platform",
-          "author": null,
-          "description": "Every website needs a host, and a fantastic website on a mismatched hosting platform can become a terrible website. You've spent a lot of time and money on your website (or websites). Deciding where to host should not be an afterthought. \nComplex websites with content management, media management, and authenticated users have more complex hosting requirements than simple static websites. If your project warrants a CMS like Drupal, you need to ensure your hosting platform matches.",
-          "link": "https://www.lullabot.com/articles/questions-ask-when-choosing-drupal-hosting-platform",
-          "publishedOn": "2023-11-01T00:14:01.000Z",
-          "wordCount": 2825,
-          "title": "Lullabot: Questions to Ask When Choosing a Drupal Hosting Platform",
-          "imageUrl": "https://www.lullabot.com/sites/default/files/styles/max_800/public/2023-05/pexels-photo-4508751.jpeg.webp?itok=XVRAqrDS"
-        },
-        {
-          "id": "https://www.lullabot.com/articles/guardrails-and-content-authoring-flexibility-finding-right-balance",
-          "author": null,
-          "description": "Content teams want the flexibility to publish content creatively. They want landing pages to be dynamic and reflect the vision they have inside their heads. Organizations want to encourage brand and writing-style consistency (sometimes across a whole network of websites). They also want to ensure their content is maintainable and meets web accessibility and security standards.",
-          "link": "https://www.lullabot.com/articles/guardrails-and-content-authoring-flexibility-finding-right-balance",
-          "publishedOn": "2023-11-01T00:14:01.000Z",
-          "wordCount": 3753,
-          "title": "Lullabot: Guardrails and Content Authoring Flexibility: Finding the Right Balance",
-          "imageUrl": "https://www.lullabot.com/sites/default/files/styles/max_800/public/2023-03/joe-gardner-86t4opohlti-unsplash.jpeg.webp?itok=aAwocz0x"
-        },
-        {
-          "id": "https://www.lullabot.com/articles/getting-single-directory-components-drupal-core",
-          "author": null,
-          "description": "Working in the front end of Drupal can be difficult and, at times, confusing. Template files, stylesheets, scripts, assets, and business logic are often scattered throughout big code bases. On top of that, Drupal requires you to know about several drupalisms, like attaching libraries to put CSS and JS on a page. For front-end developers to succeed in a system like this, they need to understand many of Drupal's internals and its render pipeline.",
-          "link": "https://www.lullabot.com/articles/getting-single-directory-components-drupal-core",
-          "publishedOn": "2023-11-01T00:14:01.000Z",
-          "wordCount": 3996,
-          "title": "Lullabot: Single Directory Components in Drupal Core",
-          "imageUrl": "https://www.lullabot.com/sites/default/files/styles/max_800/public/2023-03/nathan-van-de-graaf-lhs9epjxtuq-unsplash.jpeg.webp?itok=3RnRTXjP"
-        },
-        {
-          "id": "https://www.lullabot.com/articles/troubleshooting-slow-mac-when-developing",
-          "author": null,
-          "description": "It happens often. Early in a project, a team member will offhandedly say something like \"the site is slow,\" \"my computer is slow,\" or \"Docker is slow.\" Those all may be true. But it takes specialized knowledge to track down the root cause of performance issues. This article covers the same tips we share with our team to help solve workstation performance problems.",
-          "link": "https://www.lullabot.com/articles/troubleshooting-slow-mac-when-developing",
-          "publishedOn": "2023-11-01T00:14:01.000Z",
-          "wordCount": 2832,
-          "title": "Lullabot: Troubleshooting a Slow Mac",
-          "imageUrl": "https://www.lullabot.com/sites/default/files/styles/max_800/public/2023-02/cedric-fox-1tikmgkpfnq-unsplash.jpeg.webp?itok=_vKCukLL"
-        },
-        {
-          "id": "https://www.lullabot.com/podcasts/lullabot-podcast/drupal-10",
-          "author": null,
-          "description": "Matt Kleve gets three front-end developers together who have been working hard on Drupal core and are excited about the great things newly released in Drupal 10.",
-          "link": "https://www.lullabot.com/podcasts/lullabot-podcast/drupal-10",
-          "publishedOn": "2023-11-01T00:14:01.000Z",
-          "wordCount": 1539,
-          "title": "Lullabot: Lullabot Podcast: Drupal X: Front End and Beyond",
-          "imageUrl": "https://www.lullabot.com/sites/default/files/styles/max_800/public/shows/lullabot-podcast.jpg.webp?itok=ueRH4s-F"
-        },
-        {
-          "id": "https://www.lullabot.com/articles/microsites-drupal",
-          "author": null,
-          "description": "Microsites can be a useful tool. If you need sections of your website to look different from the main theme, or you have an initiative that needs greater emphasis, or you want a content team to have more control over a specific group of content, then implementing microsites can be a good solution. \nWhat's the best way to implement them? And how do you know you need a microsite versus a new website altogether?\nLet's start with a definition.",
-          "link": "https://www.lullabot.com/articles/microsites-drupal",
-          "publishedOn": "2023-11-01T00:14:01.000Z",
-          "wordCount": 3620,
-          "title": "Lullabot: Microsites in Drupal",
-          "imageUrl": "https://www.lullabot.com/sites/default/files/styles/max_800/public/2023-01/martin-reisch-6divtp_wrys-unsplash.jpeg.webp?itok=Sq4AEW6y"
-        },
-        {
-          "id": "https://www.lullabot.com/articles/drupal-10-what-you-need-know",
-          "author": null,
-          "description": "Drupal 10 was released on December 14, 2022, with new features and new possibilities. Here's what you need to know.\nMaking Drupal beautiful with Claro and OIivero\nDrupal 10 has two new default themes, and we are proud to say that we helped push these initiatives forward so that they would be ready and stable for this release.",
-          "link": "https://www.lullabot.com/articles/drupal-10-what-you-need-know",
-          "publishedOn": "2023-11-01T00:14:01.000Z",
-          "wordCount": 2644,
-          "title": "Lullabot: Drupal 10: Everything You Need to Know",
-          "imageUrl": "https://www.lullabot.com/sites/default/files/styles/max_800/public/2020-05/new-project.png.webp?itok=EIkeSesb"
-        },
-        {
-          "id": "https://www.lullabot.com/podcasts/lullabot-podcast/halloween-2022",
-          "author": null,
-          "description": "A group of Lullabots get together to swap scary stories from their professional pasts. Sometimes computers are hard and result in some scary situations.\nWe're pretty sure that ghosts and goblins weren't ever to blame, but we can't be too sure.\nHappy Halloween!",
-          "link": "https://www.lullabot.com/podcasts/lullabot-podcast/halloween-2022",
-          "publishedOn": "2023-11-01T00:14:01.000Z",
-          "wordCount": 1708,
-          "title": "Lullabot: Lullabot Podcast: Scary Web Development Stories to Tell in the Dark",
-          "imageUrl": "https://www.lullabot.com/sites/default/files/styles/max_800/public/shows/lullabot-podcast.jpg.webp?itok=ueRH4s-F"
-        },
-        {
-          "id": "https://www.lullabot.com/podcasts/lullabot-podcast/healthy-minds-lullabot",
-          "author": null,
-          "description": "We’re so excited to share about a program that we've been participating in at Lullabot – Healthy Minds @Work. This is a science-based app and program shown to help strengthen your well-being skills. The Healthy Minds program was built by neuroscientists and is designed to teach and measure skills associated with emotional well-being using meditation and other contemplative practices.\nA group of Bots discusses the program and the 30-Day Challenge that's been going on inside Lullabot.",
-          "link": "https://www.lullabot.com/podcasts/lullabot-podcast/healthy-minds-lullabot",
-          "publishedOn": "2023-11-01T00:14:01.000Z",
-          "wordCount": 1636,
-          "title": "Lullabot: Lullabot Podcast: Healthy Minds @Lullabot",
-          "imageUrl": "https://www.lullabot.com/sites/default/files/styles/max_800/public/shows/lullabot-podcast.jpg.webp?itok=ueRH4s-F"
-        },
-        {
-          "id": "https://www.lullabot.com/articles/css-features-were-thankful-and-css-features-we-need",
-          "author": null,
-          "description": "When Microsoft killed off Internet Explorer in June of 2022, front-end developers breathed a sigh of relief. IE's death meant that the development of lots of exciting features in CSS could now be fully supported across all major browsers (Chrome, Firefox, Safari, Edge) without worrying about IE compatibility.",
-          "link": "https://www.lullabot.com/articles/css-features-were-thankful-and-css-features-we-need",
-          "publishedOn": "2023-11-01T00:14:01.000Z",
-          "wordCount": 4616,
-          "title": "Lullabot: CSS Features We’re Thankful For and CSS Features We Need",
-          "imageUrl": "https://www.lullabot.com/sites/default/files/styles/max_800/public/2022-09/kiran-k-dz_rzimc6s0-unsplash.jpeg.webp?itok=aXuRon2W"
-        },
-        {
-          "id": "https://www.lullabot.com/articles/javascript-and-events-fundamentals",
-          "author": null,
-          "description": "Reacting to browser events in JavaScript is one of the fundamental ways to start building more reactive websites and rich web applications. Get started with this primer.",
-          "link": "https://www.lullabot.com/articles/javascript-and-events-fundamentals",
-          "publishedOn": "2023-11-01T00:14:01.000Z",
-          "wordCount": 3770,
-          "title": "Lullabot: JavaScript and Events - The Fundamentals",
-          "imageUrl": "https://www.lullabot.com/sites/default/files/styles/max_800/public/2022-09/kelly-sikkema-1_rzl8bgbm-unsplash.jpeg.webp?itok=f1xsyl-T"
-        },
-        {
-          "id": "https://www.lullabot.com/podcasts/lullabot-podcast/drupal-automatic-updates-update",
-          "author": null,
-          "description": "Keeping a Drupal site up-to-date can be tricky and time consuming. Host Matt Kleve sits down with three people in the Drupal community who have been working to make that process easier and faster.\nIt's been in progress for awhile, but now you might be able to start using Automatic Updates on your Drupal Site.",
-          "link": "https://www.lullabot.com/podcasts/lullabot-podcast/drupal-automatic-updates-update",
-          "publishedOn": "2023-11-01T00:14:01.000Z",
-          "wordCount": 1631,
-          "title": "Lullabot: Lullabot Podcast: Drupal Automatic Updates—The Update",
-          "imageUrl": "https://www.lullabot.com/sites/default/files/styles/max_800/public/shows/lullabot-podcast.jpg.webp?itok=ueRH4s-F"
-        },
-        {
-          "id": "https://www.lullabot.com/articles/bitmasks-javascript-computer-science-crash-course",
-          "author": null,
-          "description": "One of the nice things about front-end web development as a career choice is that the software and coding languages are available on every modern machine. It doesn’t matter what operating system or how powerful your machine is. HTML, CSS, and JavaScript will run pretty well on it. This lets a lot of us in the industry bypass the need for formal education in computer science.\nUnfortunately, this also has the side effect of leaving little gaps in our knowledge here and there, especially in strategies like bitmasking, which are seldom used in web development.",
-          "link": "https://www.lullabot.com/articles/bitmasks-javascript-computer-science-crash-course",
-          "publishedOn": "2023-11-01T00:14:01.000Z",
-          "wordCount": 1998,
-          "title": "Lullabot: Bitmasks in JavaScript: A Computer Science Crash Course",
-          "imageUrl": "https://www.lullabot.com/sites/default/files/styles/max_800/public/2022-08/justus-menke-uwecr7su3du-unsplash.jpg.webp?itok=eYmXjxpC"
-        },
-        {
-          "id": "https://www.lullabot.com/articles/dangers-inline-editing-structured-content",
-          "author": null,
-          "description": "In our previous article, we went over the basics of how Drupal handles revisions and content moderation. But one of Drupal's strengths is what we call \"structured content\" and its ability to implement complex content models, as opposed to a big blob of HTML in a WYSIWYG field. Entities can have lots of different fields. Those fields can refer to other entities that also have lots of other fields. It is easy to establish content relationships.",
-          "link": "https://www.lullabot.com/articles/dangers-inline-editing-structured-content",
-          "publishedOn": "2023-11-01T00:14:01.000Z",
-          "wordCount": 3241,
-          "title": "Lullabot: The Dangers of Inline Editing Structured Content",
-          "imageUrl": "https://www.lullabot.com/sites/default/files/styles/max_800/public/2022-07/valery-fedotov-cqx6ihvj2ti-unsplash-1.jpg.webp?itok=ixo3miOU"
-        },
-        {
-          "id": "https://www.lullabot.com/articles/basics-drupal-revisions-and-content-moderation",
-          "author": null,
-          "description": "Out of the box, Drupal offers some great tools for content moderation and basic editorial workflows. It is simple and flexible by design because there is no one-size-fits-all solution for every organization and editorial team. Drupal prefers to provide the tools. Your team can figure out how best to use those tools.\nPublishing workflows and strategies are complex subjects, but we'll go over the fundamental concepts of how Drupal handles these concepts.",
-          "link": "https://www.lullabot.com/articles/basics-drupal-revisions-and-content-moderation",
-          "publishedOn": "2023-11-01T00:14:01.000Z",
-          "wordCount": 2764,
-          "title": "Lullabot: The Basics of Drupal Revisions and Content Moderation",
-          "imageUrl": "https://www.lullabot.com/sites/default/files/styles/max_800/public/2021-05/alvaro-reyes-qwwphwip31m-unsplash.jpg.webp?itok=deSuHFxO"
-        },
-        {
-          "id": "https://www.lullabot.com/podcasts/hacking-culture/angie-byron-cultivating-well-being-tech-communities",
-          "author": null,
-          "description": "In this episode Matthew Tift talks with Angie Byron, the Principal Community Manager at MongoDB and a Drupal Core Committer. They discuss a wide range of issues related to cultivating well-being in open-source communities, such as:",
-          "link": "https://www.lullabot.com/podcasts/hacking-culture/angie-byron-cultivating-well-being-tech-communities",
-          "publishedOn": "2023-11-01T00:14:01.000Z",
-          "wordCount": 10382,
-          "title": "Lullabot: Hacking Culture: Angie Byron on Cultivating Well-Being in Tech Communities",
-          "imageUrl": "https://www.lullabot.com/sites/default/files/styles/max_800/public/shows/hacking-culture-itunes.png.webp?itok=8DZxApJO"
-        },
-        {
-          "id": "https://www.lullabot.com/articles/making-most-display-modes-drupal",
-          "author": null,
-          "description": "One of Drupal's biggest strengths is the ability to define structured content, then display and edit it in a variety of ways without duplicating development or design work. \"Display Modes\" have always been a big part of that power. One piece of content can be displayed as a Teaser, as a Full Page, as a Search Result, and so on — each with its own markup and field presentation.",
-          "link": "https://www.lullabot.com/articles/making-most-display-modes-drupal",
-          "publishedOn": "2023-11-01T00:14:01.000Z",
-          "wordCount": 3614,
-          "title": "Lullabot: Making the Most of Display Modes In Drupal",
-          "imageUrl": "https://www.lullabot.com/sites/default/files/styles/max_800/public/2022-06/yan-ots-ff14fkgecym-unsplash.jpg.webp?itok=6NSNvXzU"
-        },
-        {
-          "id": "https://debugacademy.com/article/ddev-pull-pantheon-db-import-fails-windows",
-          "author": null,
-          "description": "\"ddev pull pantheon\" fails on Windows with Unknown command '\\U'.\n\n      \nIn Debug Academy's Drupal 10 training course, we integrate our student projects with Pantheon's hosting environment and we use DDEV for local development.\nIn general, it works smoothly. However, in some instances students who use Windows (and Git Bash) receive an error upon running ddev pull pantheon . This article walks through a quick and easy workaround.\n\n          \nashrafabed\nTue, 10/31/2023",
-          "link": "https://debugacademy.com/article/ddev-pull-pantheon-db-import-fails-windows",
-          "publishedOn": "2023-10-31T15:41:52.000Z",
-          "wordCount": 614,
-          "title": "Debug Academy: \"ddev pull pantheon\" fails on Windows with Unknown command '\\U'.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.tag1consulting.com/blog/scary-drupal-migrations-janez-urevc",
-          "author": null,
-          "description": "In another Halloween-themed episode of Tag1 Team Talks, Janez Urevc shared a challenging migration story from his past. The project involved transitioning a media organization from an in-house proprietary CMS to Drupal, facing resistance from the existing development team attached to their custom system.\nRead more\nmichaelemeyers\n\nTue, 10/31/2023 - 06:30",
-          "link": "https://www.tag1consulting.com/blog/scary-drupal-migrations-janez-urevc",
-          "publishedOn": "2023-10-31T13:30:00.000Z",
-          "wordCount": 599,
-          "title": "Tag1 Consulting: Scary Drupal Migrations - with Janez Urevc",
-          "imageUrl": "https://www.tag1consulting.com/sites/default/files/styles/max_1300x1300/public/background_image/anna-sullivan-wWvBhKE7I5o-unsplash_0.jpg?itok=gC0Ak6JY"
         }
       ]
     },
@@ -1708,6 +1478,21 @@
       "feedUrl": "https://www.smashingmagazine.com/feed/",
       "siteUrl": "https://www.smashingmagazine.com/",
       "articles": [
+        {
+          "id": "https://smashingmagazine.com/2023/11/desktop-wallpaper-calendars-december-2023/",
+          "author": "hello@smashingmagazine.com (Cosima Mielke)",
+          "description": "Could there be a better way to welcome the new month than with a collection of desktop wallpapers? We’ve got some eye-catching designs to sweeten up the last few weeks of the year and, if you’re celebrating, to get you in the holiday mood.",
+          "link": "https://smashingmagazine.com/2023/11/desktop-wallpaper-calendars-december-2023/",
+          "publishedOn": "2023-11-30T09:30:00.000Z",
+          "wordCount": 4990,
+          "title": "Cold Days, Shining Lights (December 2023 Wallpapers Edition)",
+          "enclosure": {
+            "url": "http://files.smashing.media/articles/desktop-wallpaper-calendars-dec-2023/dec-23-sweet-ride-into-the-holidays-preview-opt.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "http://files.smashing.media/articles/desktop-wallpaper-calendars-dec-2023/dec-23-sweet-ride-into-the-holidays-preview-opt.png"
+        },
         {
           "id": "https://smashingmagazine.com/2023/11/crafting-killer-brand-identity-digital-product/",
           "author": "hello@smashingmagazine.com (Sasha Denisova)",
@@ -1887,21 +1672,6 @@
             "type": "image/jpg"
           },
           "imageUrl": "http://files.smashing.media/articles/search-ideal-privacy-icon/search-ideal-privacy-icon.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2023/10/answering-questions-interpreting-page-speed-reports/",
-          "author": "hello@smashingmagazine.com (Geoff Graham)",
-          "description": "Take a closer look at how various performance tools audit and report on performance metrics, such as core web vitals. Geoff Graham answers a set of common questions that pop up during performance audits.",
-          "link": "https://smashingmagazine.com/2023/10/answering-questions-interpreting-page-speed-reports/",
-          "publishedOn": "2023-10-31T16:00:00.000Z",
-          "wordCount": 5490,
-          "title": "Answering Common Questions About Interpreting Page Speed Reports",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/answering-questions-interpreting-page-speed-reports/answering-questions-interpreting-page-speed-reports.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/answering-questions-interpreting-page-speed-reports/answering-questions-interpreting-page-speed-reports.jpg"
         }
       ]
     },
@@ -2278,6 +2048,46 @@
       "feedUrl": "https://nyhetersto.se/feed/",
       "siteUrl": "https://nyhetersto.se/",
       "articles": [
+        {
+          "id": "https://nyhetersto.se/?p=6929168",
+          "author": "Redaktionen - NYHETERsto",
+          "description": "På torsdagskvällen kom larm om en brand i en lastbil på länsväg 2039 mellan Stenungsund och Lilla Edet. Lastbilen var övertänd när räddningstjänsten kom till platsen. Räddningstjänst från Stenungsund, Lilla Edet och Kode samt ambulans larmades till platsen. Vägen fick stängas av under släckningsarbete och senare bärgning. Lastbilen står i diket, men det är oklart...\nInlägget Lastbil i lågor på länsväg 2039 dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
+          "link": "https://nyhetersto.se/2023/11/30/lastbil-i-lagor-pa-lansvag-2039/",
+          "publishedOn": "2023-11-30T21:59:56.000Z",
+          "wordCount": 5160,
+          "title": "Lastbil i lågor på länsväg 2039",
+          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2023/11/20231130_220127.jpg"
+        },
+        {
+          "id": "https://nyhetersto.se/?p=6929008",
+          "author": "Redaktionen - NYHETERsto",
+          "description": "Under torsdagen kommer polisen ha en större övning vid Tjörnbron. Skyltar är uppsatta som talar om att det är en övning. Vad man kommer öva går polisen inte ut med, men det kommer inte att påverka trafiken. Övningen kommer ske i anslutning till Tjörnbro Arena och pågår under dagen fram till klockan 19. Vid övningstillfället...\nInlägget Polisen övar vid Tjörnbron dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
+          "link": "https://nyhetersto.se/2023/11/30/polisen-ovar-vid-tjornbron/",
+          "publishedOn": "2023-11-30T09:00:19.000Z",
+          "wordCount": 5028,
+          "title": "Polisen övar vid Tjörnbron",
+          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2023/11/20231130_104842_resized.jpg"
+        },
+        {
+          "id": "https://nyhetersto.se/?p=6928974",
+          "author": "Redaktionen - NYHETERsto",
+          "description": "Orust kommun har just nu ett akut behov av nya familjehem. Imorgon fredag testar man ett nytt grepp för att hitta passande familjehem – Orust kommun familjehemsgrupp ordnar ett glöggmingel i varuhuset Göksäter. Var träffar man mest Orustbor? På Göksäter såklart! När Orust kommun nu är i akut behov testar familjehemsgruppen att informera om vad...\nInlägget Orust i akut behov av familjehem<br>– Testar glöggmingel i Varuhus dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
+          "link": "https://nyhetersto.se/2023/11/30/orust-i-akut-behov-av-familjehem-testar-gloggmingel-i-varuhus/",
+          "publishedOn": "2023-11-30T06:41:40.000Z",
+          "wordCount": 5042,
+          "title": "Orust i akut behov av familjehem– Testar glöggmingel i Varuhus",
+          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2023/11/g.jpg"
+        },
+        {
+          "id": "https://nyhetersto.se/?p=6928934",
+          "author": "Redaktionen - NYHETERsto",
+          "description": "Natten till torsdag fick räddningstjänsten larm om brand i byggnad – industri på Ringserödsvägen i Varekil – men någon brand var det inte. Det var vid klockan 03:40 som larmet kom till räddningstjänsten om befarad brand i ett sågverk Varekil. -Det var ett brandlarm som aktiverades och i kameror såg man rök, men det visade...\nInlägget Larm om brand i industribyggnad dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
+          "link": "https://nyhetersto.se/2023/11/30/larm-om-brand-i-byggnad-industri/",
+          "publishedOn": "2023-11-30T02:50:28.000Z",
+          "wordCount": 4994,
+          "title": "Larm om brand i industribyggnad",
+          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2022/05/rtj-orust-suddig.jpg"
+        },
         {
           "id": "https://nyhetersto.se/?p=6928875",
           "author": "Redaktionen - NYHETERsto",
@@ -3327,46 +3137,6 @@
           "wordCount": 4495,
           "title": "Larm om olycka på järnvägen genom Stenungsund",
           "imageUrl": "https://nyhetersto.se/wp-content/uploads/2023/11/20231101_t.jpg"
-        },
-        {
-          "id": "https://nyhetersto.se/?p=6921249",
-          "author": "Redaktionen - NYHETERsto",
-          "description": "Länsstyrelsen har beslutat om tillträdesförbud vid skredområdet, men nu ska beslutet ses över. Områdets ska inte vara avspärrat mer än nödvändigt. Instabil mark och risk för fler skred. Det var motivering till länsstyrelsens beslutade om tillträdesförbud vid skredområdet. Nu ser länsstyrelsen över om man kan minska det avspärrade området, det rapporterar Sveriges Radio P4 Göteborg/Väst....\nInlägget Avspärrningar vid skredområdet kan  minska dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
-          "link": "https://nyhetersto.se/2023/11/01/avsparrningar-vid-skredomradet-kan-minska/",
-          "publishedOn": "2023-11-01T08:36:08.000Z",
-          "wordCount": 4486,
-          "title": "Avspärrningar vid skredområdet kan  minska",
-          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2023/09/20230927_1.jpg"
-        },
-        {
-          "id": "https://nyhetersto.se/?p=6921243",
-          "author": "Redaktionen - NYHETERsto",
-          "description": "Nu sänks hastigheten på länsväg 650 före och efter Spekerödskolan. Länsstyrelsen i Västra Götaland beslutade i måndags att sänka hastigheten från 70 till 60 km/h. Sedan tidigare har Länsstyrelsen beslutat att sänka hastigheten precis utanför skolan till 40 km/h. Den sänka hastigheten kommer börja gälla när skyltar är uppsatta.\nInlägget Hastigheten sänks före och efter Spekerödskolan dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
-          "link": "https://nyhetersto.se/2023/11/01/hastigheten-sanks-fore-och-efter-spekerodskolan/",
-          "publishedOn": "2023-11-01T08:23:08.000Z",
-          "wordCount": 4446,
-          "title": "Hastigheten sänks före och efter Spekerödskolan",
-          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2023/09/STO_7140.jpg"
-        },
-        {
-          "id": "https://nyhetersto.se/?p=6921225",
-          "author": "Mikael Berglund",
-          "description": "På onsdagsmorgonen inträffade en viltolycka på länsväg 650 strax norr om Ucklum. Ett fordon kolliderade med ett vildsvin. Olyckan inträffade vid klockan 05 på onsdagsmorgonen vid Huveröd, norr om Ucklum. Inga personskador men fordon uppges ha fått materiella skador. Vildsvinet dog i samband med olyckan och låg på/vid vägen. Trafikverket och trafikradion gick ut med...\nInlägget VILTOLYCKA: Kolliderade med vildsvin dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
-          "link": "https://nyhetersto.se/2023/11/01/viltolycka-kolliderade-med-vildsvin-2/",
-          "publishedOn": "2023-11-01T06:54:56.000Z",
-          "wordCount": 4440,
-          "title": "VILTOLYCKA: Kolliderade med vildsvin",
-          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2020/09/viltolycka-vag.jpg"
-        },
-        {
-          "id": "https://nyhetersto.se/?p=6921061",
-          "author": "Redaktionen - NYHETERsto",
-          "description": "På tisdagseftermiddagen fick räddningstjänsten i Stenungsund larm till Gårdsjön i Ucklum. En äldre man har gått vilse och behöver hjälp tillbaka. Larmet kom klockan 15:20. Det är terräng i området och räddningstjänsten tar hjälp av drönare och fyrhjuling. -Läget är under kontroll. Vi vet ungefär var han är och vi ska bara hjälpa honom tillbaka,...\nInlägget Äldre man gick vilse – Fick hjälp av räddningstjänsten dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
-          "link": "https://nyhetersto.se/2023/10/31/aldre-man-gatt-vilse-fick-hjalp-av-raddningstjansten/",
-          "publishedOn": "2023-10-31T16:08:24.000Z",
-          "wordCount": 4515,
-          "title": "Äldre man gick vilse – Fick hjälp av räddningstjänsten",
-          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2023/10/20231031_161154.jpg"
         }
       ]
     },
@@ -3375,6 +3145,166 @@
       "feedUrl": "https://api.sr.se/rss/channel?id=104",
       "siteUrl": "https://sverigesradio.se/default.aspx?programid=104",
       "articles": [
+        {
+          "id": "https://sverigesradio.se/artikel/8519228",
+          "author": null,
+          "description": "Räddningstjänsten arbetar just nu med att släcka en brinnande lastbil på väg 2039 mellan Lilla Edet och Stenungsund.Vägen är helt avstängd.Ingen person ska ha kommit till skada.",
+          "link": "https://sverigesradio.se/artikel/8519228",
+          "publishedOn": "2023-11-30T21:27:00.000Z",
+          "wordCount": 661,
+          "title": "Brinnande lastbil i diket utanför Lilla Edet",
+          "imageUrl": "https://static-cdn.sr.se/images/104/ded0b87e-b4d2-4df0-9f1a-be3424992148.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8518991",
+          "author": null,
+          "description": "Hyr du ut din lägenhet i andra hand?Då kan det bedrivas sexhandel där. Det varnar polisen.",
+          "link": "https://sverigesradio.se/artikel/8518991",
+          "publishedOn": "2023-11-30T19:57:00.000Z",
+          "wordCount": 691,
+          "title": "Polisen: Sexhandel vanligt i lägenheter uthyrda via nätet",
+          "imageUrl": "https://static-cdn.sr.se/images/104/95b4d9ef-7425-4bc6-af31-e891b6f57e2b.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8519178",
+          "author": null,
+          "description": "En knivbeväpnad, maskerad man ska ha trängt sig in i en lägenhet i Kungsladugård.Ingen misstänkt person är lokaliserad.En anmälan gällande rån har upprättats.",
+          "link": "https://sverigesradio.se/artikel/8519178",
+          "publishedOn": "2023-11-30T19:51:00.000Z",
+          "wordCount": 633,
+          "title": "Lägenhetsrån i Kungsladugård",
+          "imageUrl": "https://static-cdn.sr.se/images/104/3c9f7d4c-9e3b-48ca-af51-62bce44978f3.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8516644",
+          "author": null,
+          "description": "Svante Tafvelin, 84, blev attackerad av en älg på hundpromenaden.Sedan vände älgen och gick till attack en gång till, något som Kungälvs-Posten tidigare berättat.Hör honom berätta om händelsen.",
+          "link": "https://sverigesradio.se/artikel/8516644",
+          "publishedOn": "2023-11-30T18:59:00.000Z",
+          "wordCount": 681,
+          "title": "Svante, 84, blev nedtrampad av älg – två gånger",
+          "imageUrl": "https://static-cdn.sr.se/images/104/e18461d9-8579-4082-8013-211bf7502460.png"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8518927",
+          "author": null,
+          "description": "En ambulans kunde inte ta sig fram under onsdagens snöfall i Göteborg. Bilarna framför flyttade inte på sig, trots att blåljusen var på och sirenerna tutade. Yrkesföraren Markus Göthberg blev vittne till det hela och berättar vad som hände.",
+          "link": "https://sverigesradio.se/artikel/8518927",
+          "publishedOn": "2023-11-30T18:02:00.000Z",
+          "wordCount": 695,
+          "title": "Ambulans tvingades vända – bilar väjde inte i snökaoset",
+          "imageUrl": "https://static-cdn.sr.se/images/104/cfb60dc7-bd65-4390-af92-c06d7f736f95.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8519119",
+          "author": null,
+          "description": "Årets influensasäsong är nu igång.Det meddelar Folkhälsomyndigheten.Antal inrapporterade fall har de senaste veckorna ökat.",
+          "link": "https://sverigesradio.se/artikel/8519119",
+          "publishedOn": "2023-11-30T17:45:00.000Z",
+          "wordCount": 634,
+          "title": "Folkhälsomyndigheten: Influensasäsongen är här",
+          "imageUrl": "https://static-cdn.sr.se/images/104/bedef985-5201-423f-8f2d-0282f9c60165.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8519010",
+          "author": null,
+          "description": "En nära släkting till den så kallade Kurdiske Räven, Rawa Majid, sitter häktad i Haag i Nederländerna, kan P4 Göteborg avslöja.En västsvensk polisutredning om en skottlossning mot en firma i Stora höga i Stenungsund ledde fram till gripandet.Sedan i somras har släktingen suttit häktad misstänkt för grova brott.",
+          "link": "https://sverigesradio.se/artikel/8519010",
+          "publishedOn": "2023-11-30T15:30:00.000Z",
+          "wordCount": 706,
+          "title": "Avslöjar: Nära släkting till Rawa Majid häktad i Nederländerna",
+          "imageUrl": "https://static-cdn.sr.se/images/104/78edfede-c88f-49a2-b49d-90aafd2954c5.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8517862",
+          "author": null,
+          "description": "Snöröjare kan tvingas avbryta plogningen mitt i arbetspasset.Det är den nya lagen om dygnsvila som ställer till det.Nu berättar Lena Jakobsson, verksamhetschef på stadsmiljöförvaltningen i Göteborgs stad.",
+          "link": "https://sverigesradio.se/artikel/8517862",
+          "publishedOn": "2023-11-30T14:06:00.000Z",
+          "wordCount": 688,
+          "title": "Snöröjarna kan tvingas överge plogbilen – mitt i arbetspasset",
+          "imageUrl": "https://static-cdn.sr.se/images/104/4b720258-ce59-4be3-96a8-e8167444db05.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8516815",
+          "author": null,
+          "description": "Varje år är det samma problem.Andreas Mazetti har kört plogbil i flera år och hans mardrömsscenario är varken felparkerade bilar eller cyklar fastkedjade i lyktstolpar.Det är medtrafikanter. Nu berättar han varför.",
+          "link": "https://sverigesradio.se/artikel/8516815",
+          "publishedOn": "2023-11-30T13:38:00.000Z",
+          "wordCount": 675,
+          "title": "Snöplogarens värsta fiende: Stressade bilister",
+          "imageUrl": "https://static-cdn.sr.se/images/104/2f35958b-6d76-408e-a5cb-385e1de35263.png"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8516669",
+          "author": null,
+          "description": "Västtrafiks nya färjelinje skulle börja segla den 11 december. Men så blir det inte. Färjeläget blir inte klart i tid.",
+          "link": "https://sverigesradio.se/artikel/8516669",
+          "publishedOn": "2023-11-30T11:12:00.000Z",
+          "wordCount": 675,
+          "title": "Västtrafiks nya linje försenas – färjeläget inte klart",
+          "imageUrl": "https://static-cdn.sr.se/images/104/33f5799f-cb47-461a-8c79-fc23c91d7293.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8516562",
+          "author": null,
+          "description": "Polisen ska genomföra en övning.Det kommer låta högt.Och allmänheten uppmanas hålla avstånd.",
+          "link": "https://sverigesradio.se/artikel/8516562",
+          "publishedOn": "2023-11-30T10:00:00.000Z",
+          "wordCount": 661,
+          "title": "Polisen vädjar: Håll er borta från våra hemliga övningar",
+          "imageUrl": "https://static-cdn.sr.se/images/104/cfb54900-3d31-4508-8299-748db9be8a2c.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8516493",
+          "author": null,
+          "description": "Visste du att du kan förlora körkortet om du kör en bil som inte har fri sikt?Och det räcker inte att skrapa framrutan.Trafikpolis Håkan Klingborg berättar vad som är viktigt att tänka på.",
+          "link": "https://sverigesradio.se/artikel/8516493",
+          "publishedOn": "2023-11-30T09:22:00.000Z",
+          "wordCount": 707,
+          "title": "Körkortet kan ryka – om du inte skrapar rätt",
+          "imageUrl": "https://static-cdn.sr.se/images/104/12b03f97-a4d9-4bac-be61-33acb80fe51c.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8516470",
+          "author": null,
+          "description": "Ringhals reaktor 4 skulle börja producera el på torsdagskvällen.Men stoppet förlängs – flera dagar.Anna Collin på Ringhals berättar vad som händer.",
+          "link": "https://sverigesradio.se/artikel/8516470",
+          "publishedOn": "2023-11-30T08:57:00.000Z",
+          "wordCount": 648,
+          "title": "Ringhals stopp förlängs – krävs grundlig utredning",
+          "imageUrl": "https://static-cdn.sr.se/images/104/ba418542-6a14-41e7-92dd-afb0310dc394.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8516384",
+          "author": null,
+          "description": "Det finns risk för inställda avgångar och störningar i trafiken på flera linjer under torsdagsmorgonen.Det beror på väglaget.Resenärer uppmanas att hålla koll på Västtrafiks hemsida och i appen.",
+          "link": "https://sverigesradio.se/artikel/8516384",
+          "publishedOn": "2023-11-30T07:04:00.000Z",
+          "wordCount": 669,
+          "title": "Snön stökar för Västtrafik: Avgångar ställs in i blixthalkan",
+          "imageUrl": "https://static-cdn.sr.se/images/104/3f341a36-bf52-4487-b2ba-fd3a05d111fd.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8515880",
+          "author": null,
+          "description": "Fotbollsklubben Häcken har som mål att spela fotboll i Europa varje år.Men deras egen Bravida Arena håller inte måttet för europagruppspel.Nu sätter BK Häckens klubbchef Marcus Jodin press på Göteborgs Stad.",
+          "link": "https://sverigesradio.se/artikel/8515880",
+          "publishedOn": "2023-11-30T05:30:00.000Z",
+          "wordCount": 685,
+          "title": "BK Häcken vill spela i Europa – men arenan är för liten",
+          "imageUrl": "https://static-cdn.sr.se/images/104/fa493c4f-3031-4078-b562-42e7eccea1fc.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8515722",
+          "author": null,
+          "description": "Det är kallt i Göteborg.Då söker sig allt fler hemlösa till kyrkan.Catarina Dunghed är områdeschef vid Göteborg stadsmission och berättar om behoven.",
+          "link": "https://sverigesradio.se/artikel/8515722",
+          "publishedOn": "2023-11-30T04:37:00.000Z",
+          "wordCount": 676,
+          "title": "Fler hemlösa värmer sig i kyrkan – sover i bänkarna",
+          "imageUrl": "https://static-cdn.sr.se/images/104/9c9969ac-03bb-426d-b822-f773b7733e3a.jpg"
+        },
         {
           "id": "https://sverigesradio.se/artikel/8516263",
           "author": null,
@@ -6034,186 +5964,6 @@
           "wordCount": 675,
           "title": "Boende protesterar mot Västtrafiks breda bussar på smal väg",
           "imageUrl": "https://static-cdn.sr.se/images/104/f328779a-a9e6-4b71-82d3-261d06fa3857.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8488981",
-          "author": null,
-          "description": "Striktare skärmtids-rekommendationer för barn är inget problem för småbarnspappan Haris i Göteborg.Han menar att barn blir ”frånvarande” av skärmen. Men vissa tror att skärmen kan vara nyttigt för barnen",
-          "link": "https://sverigesradio.se/artikel/8488981",
-          "publishedOn": "2023-11-01T11:15:00.000Z",
-          "wordCount": 688,
-          "title": "Pappan Haris gillar nya skärm-råden – föredrar klassisk lek",
-          "imageUrl": "https://static-cdn.sr.se/images/104/60b21db1-0803-454e-b0dd-7b04246dfea5.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8489048",
-          "author": null,
-          "description": "Väskor förbjuds på större sportevenemang, konserter och festivaler.Det efter ett beslut från Polisen.Bakgrunden är det förhöjda terrorhotet.",
-          "link": "https://sverigesradio.se/artikel/8489048",
-          "publishedOn": "2023-11-01T10:49:00.000Z",
-          "wordCount": 663,
-          "title": "Totalförbud mot väskor på större evenemang",
-          "imageUrl": "https://static-cdn.sr.se/images/104/87cb7777-b10a-43ee-8cc5-12faaea3952e.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8488903",
-          "author": null,
-          "description": "För mycket skärmtid riskerar att försena språkutvecklingen hos små barn.Det lyfter Svenska barnläkarföreningen i sina nya allmänna rekommendationer.Specialisten Daniel Holmgren förklarar varför.",
-          "link": "https://sverigesradio.se/artikel/8488903",
-          "publishedOn": "2023-11-01T10:33:00.000Z",
-          "wordCount": 674,
-          "title": "Specialisten: Därför ska man begränsa barnens skärmtid",
-          "imageUrl": "https://static-cdn.sr.se/images/104/a350a36f-30d1-4f78-b77d-b51434714317.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8488825",
-          "author": null,
-          "description": "Dör du på akuten ska din njure kunna plockas redan där – direkt.Det ska Sahlgrenska universitetssjukhuset i Göteborg testa framöver, rapporterar Dagens medicin.Och förhoppningarna om vad det kommer innebära är stora.",
-          "link": "https://sverigesradio.se/artikel/8488825",
-          "publishedOn": "2023-11-01T08:36:00.000Z",
-          "wordCount": 681,
-          "title": "Testet: Organ doneras direkt – när någon dör på akuten",
-          "imageUrl": "https://static-cdn.sr.se/images/104/6be97db5-27c8-4ae0-959a-224d094a655e.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8488799",
-          "author": null,
-          "description": "Barn under 15 år erbjuder sig att begå brott för gängen.Enligt Annika Molander, socionom på Drogfri skola i Gävle kommun ser barnen kriminalitet som ett sätt att göra karriär.En 19-åring som varit gängkriminell sedan 12-årsåldern berättar att barn vänder sig till honom.",
-          "link": "https://sverigesradio.se/artikel/8488799",
-          "publishedOn": "2023-11-01T07:36:00.000Z",
-          "wordCount": 701,
-          "title": "Barn vill göra karriär – söker sig till gängen",
-          "imageUrl": "https://static-cdn.sr.se/images/104/4bb0ea69-8aff-4e65-93fc-98e70e27558b.png"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8488714",
-          "author": null,
-          "description": "Porrsajter har hundratals miljoner besökare varje månad. Men porren slipper undan när nya lagar ska få internets jättar som Tiktok, Youtube och Google att skärpa sig vad gäller skadligt innehåll.Detta trots att sajterna själva redovisar besöksantal långt över gränsen för att lyda under regelverket.",
-          "link": "https://sverigesradio.se/artikel/8488714",
-          "publishedOn": "2023-11-01T05:55:00.000Z",
-          "wordCount": 696,
-          "title": "Porr fredas när internet rensas från skadligt innehåll",
-          "imageUrl": "https://static-cdn.sr.se/images/104/c93d111a-4183-4474-ae2d-d92127cc1686.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8488692",
-          "author": null,
-          "description": "En personbil krockade med en älg på E6 vid Kungälvsmotet under onsdagsmorgonen.Olyckan ska inte ha orsakat några personskador, enligt SOS Alarm.Ett körfält har stängts av i södergående riktning.",
-          "link": "https://sverigesradio.se/artikel/8488692",
-          "publishedOn": "2023-11-01T04:51:00.000Z",
-          "wordCount": 683,
-          "title": "Personbil i krock med älg på E6 – körfält avstängt",
-          "imageUrl": "https://static-cdn.sr.se/images/104/29182faf-5cde-4582-ac5c-af730e956e60.png"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8488253",
-          "author": null,
-          "description": "Flera ideella föreningar i Göteborg har hamnat under lupp.Det efter att ett åtal om ekobrott väckts mot en ungdomsförening i Göteborg, där läxhjälpspengar tros ha använts till restaurangbesök.I ett nytt samverkansprojekt mellan Ekobrottsmyndigheten, Göteborgs stad och Skatteverket pågår just nu flera utredningar om misstänkt bidragsfusk.",
-          "link": "https://sverigesradio.se/artikel/8488253",
-          "publishedOn": "2023-11-01T04:29:00.000Z",
-          "wordCount": 683,
-          "title": "Efter läxhjälpsfusket: Fler ideella föreningar utreds",
-          "imageUrl": "https://static-cdn.sr.se/images/104/b5a8e20d-d925-4a54-9c00-129dec97acbe.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8488563",
-          "author": null,
-          "description": "Instabil mark och risk för fler ras. Det var anledningarna till att länsstyrelsen i Västra Götaland beslutade om ett tillträdesförbud vid rasområdet i Stenungsund. Men detta beslut ska ses över.",
-          "link": "https://sverigesradio.se/artikel/8488563",
-          "publishedOn": "2023-10-31T20:08:00.000Z",
-          "wordCount": 676,
-          "title": "Tillträdesförbudet vid rasområdet ska omprövas",
-          "imageUrl": "https://static-cdn.sr.se/images/104/107f812d-0c87-4f5c-9817-f9d15238eefe.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8488616",
-          "author": null,
-          "description": "Barn under 2 år ska inte se på skärmar.Det enligt nya rekommendationer från Svenska Barnläkarföreningen, som Dagen Nyheter har tagit del av.Syftet är bland annat att skärmen tar tid från fysisk aktivitet.",
-          "link": "https://sverigesradio.se/artikel/8488616",
-          "publishedOn": "2023-10-31T19:45:00.000Z",
-          "wordCount": 663,
-          "title": "Nya rekommendationer: Ingen skärmtid för småbarn",
-          "imageUrl": "https://static-cdn.sr.se/images/104/739f3cfb-980f-4fb0-9f56-ac86e10b81b3.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8488464",
-          "author": null,
-          "description": "Hastigheten sänks innan och efter Spekerödsskolan i Spekeröd på väg 650.Det beslutade Länsstyrelsen i Västra Götaland under måndagen Sträckan utanför skolan har sänkts innan.",
-          "link": "https://sverigesradio.se/artikel/8488464",
-          "publishedOn": "2023-10-31T19:01:00.000Z",
-          "wordCount": 648,
-          "title": "Hastigheten sänks på ”nya” motorvägen",
-          "imageUrl": "https://static-cdn.sr.se/images/104/73e0225e-e336-4a24-b68c-84f28f3d9109.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8486941",
-          "author": null,
-          "description": "Två veckor innan den senaste rymningen från Sis-hemmet Fagared skedde ett våldsamt upplopp på samma avdelning.Situationen var hotfull och kunde kontrolleras först när polis kom till platsen.Dörren som tre ungdomar rymde genom gick sönder även under upploppet och lagades, men bara provisoriskt.",
-          "link": "https://sverigesradio.se/artikel/8486941",
-          "publishedOn": "2023-10-31T18:02:00.000Z",
-          "wordCount": 696,
-          "title": "Våldsamt upplopp före Sis-rymningen – dörren lagades provisoriskt",
-          "imageUrl": "https://static-cdn.sr.se/images/104/92db87d3-9449-4a14-9fab-52e72acfdf46.png"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8488385",
-          "author": null,
-          "description": "Under tisdagen presenterade oppositionspartierna M, D, L och KD i Göteborg sin skuggbudget för 2024.Möjlighet till ökat antal timmar i förskolan för fyra- och femåringar till föräldralediga ingår i förslaget.Axel Josefsson (M) oppositionsledare berättar mer.",
-          "link": "https://sverigesradio.se/artikel/8488385",
-          "publishedOn": "2023-10-31T17:34:00.000Z",
-          "wordCount": 682,
-          "title": "Oppositionen: Fler timmar i förskolan – för barn till föräldralediga",
-          "imageUrl": "https://static-cdn.sr.se/images/104/2ea66d72-bf88-46f6-99aa-e40b1afd6fd3.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8488126",
-          "author": null,
-          "description": "På Kortedala bibliotek i Göteborg portas nu högstadieelever.Böcker som kastas på personalen, rökning, och fotbollsspel inomhus har fått biblioteket att agera.Emma Makkonen är enhetschef på Kortedala bibliotek och berättar hur beslutet bemötts.",
-          "link": "https://sverigesradio.se/artikel/8488126",
-          "publishedOn": "2023-10-31T16:32:00.000Z",
-          "wordCount": 688,
-          "title": "Elever rökte och kastade böcker – portas från bibliotek",
-          "imageUrl": "https://static-cdn.sr.se/images/104/ea9b3333-9315-4a73-8590-6bd902655942.png"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8488448",
-          "author": null,
-          "description": "Det kostar miljoner per månad att ha bevakningen av skredsområdet i Stenungsund.Detta skriver ST-tidningen.Väktare bemannar området dygnet runt för att ingen obehörig ska ta sig in – och den kostnaden får kommunen och Trafikverket stå för.",
-          "link": "https://sverigesradio.se/artikel/8488448",
-          "publishedOn": "2023-10-31T15:39:00.000Z",
-          "wordCount": 691,
-          "title": "Prislappen: Miljonbelopp för att ha väktare vid skredet",
-          "imageUrl": "https://static-cdn.sr.se/images/104/b182c0b4-c0ff-4a39-b311-6f1cf59579ce.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8488246",
-          "author": null,
-          "description": "Knack knack knack.P4 Göteborgs reporter Hasse Andersson ville testa bus eller godis - och gav sig ut i Göteborg.Men en påse full med bus knackade han på hos en lyssnare.",
-          "link": "https://sverigesradio.se/artikel/8488246",
-          "publishedOn": "2023-10-31T15:28:00.000Z",
-          "wordCount": 698,
-          "title": "P4-Hasses busplaner: Knackar på med tejp och folie",
-          "imageUrl": "https://static-cdn.sr.se/images/104/8925e03e-6028-49f3-88e8-fbf9a6fd9eea.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8488309",
-          "author": null,
-          "description": "Under sommaren 2021 ägde ett mord rum på en frisörsalong i Högsbo i Göteborg.En man som först pekades ut som skytt och dömdes av tingsrätten men friades senare från alla misstankar i hovrätten.Nu kräver mannen ersättning.",
-          "link": "https://sverigesradio.se/artikel/8488309",
-          "publishedOn": "2023-10-31T14:21:00.000Z",
-          "wordCount": 690,
-          "title": "Friad från dödsskjutning på frisörsalong kräver halv miljon",
-          "imageUrl": "https://static-cdn.sr.se/images/104/35450ce1-3844-4409-ace5-1fdbe0fa3a01.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8488216",
-          "author": null,
-          "description": "Ett av Skandinaviens äldsta skelett visas just nu upp i Göteborg.Det 10 000 tusen år gamla skelettet visas för första, och kanske sista gången.”Det är ganska skört”, säger Else-Britt Filipsson på Göteborgs stadsmuseum.",
-          "link": "https://sverigesradio.se/artikel/8488216",
-          "publishedOn": "2023-10-31T13:28:00.000Z",
-          "wordCount": 687,
-          "title": "Här visas 10 000 år gammalt skelett upp: ”Är ganska skört”",
-          "imageUrl": "https://static-cdn.sr.se/images/104/cd67aafb-6011-43e6-a2f8-59fca11cdd98.jpg"
         }
       ]
     },
@@ -6222,6 +5972,206 @@
       "feedUrl": "https://api.sr.se/api/rss/program/83",
       "siteUrl": "https://sverigesradio.se/default.aspx?programid=83",
       "articles": [
+        {
+          "id": "https://sverigesradio.se/artikel/8519241",
+          "author": null,
+          "description": "<p>Ett program för dig som är vaken, helt enkelt. Leds av Peter Sundberg och Alfred Sjelvgren.</p>",
+          "link": "https://sverigesradio.se/artikel/8519241",
+          "publishedOn": "2023-11-30T23:02:00.000Z",
+          "wordCount": 599,
+          "title": "Tävlingar, musik och samtal hela natten",
+          "imageUrl": "https://static-cdn.sr.se/images/83/cd95f2bf-8d64-4b85-9373-66d1a8c50b25.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8519191",
+          "author": null,
+          "description": "Karlavagnen\nkarlavagnen@sverigesradio.se",
+          "link": "https://sverigesradio.se/artikel/8519191",
+          "publishedOn": "2023-11-30T22:07:00.000Z",
+          "wordCount": 597,
+          "title": "Ring in till Karlavagnen ordet är fritt – ämnet är ditt",
+          "imageUrl": "https://static-cdn.sr.se/images/83/8ebd731f-e517-4924-ac38-6644acaeb0b6.png"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8519245",
+          "author": null,
+          "description": "<ul><li><p>Israels militär uppger att ytterligare sex personer har släppts ur gisslan hos Hamas i Gaza torsdagskvällen. De har förts till Röda Korset och är på väg genom Egypten till Israel.</p></li><li><p>Ytterligare två personer släpptes tidigare under torsdagen.</p></li><li><p>Som en del av överenskommelsen kommer Israel nu släppa 30 fängslade palestinier.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8519245",
+          "publishedOn": "2023-11-30T22:00:00.000Z",
+          "wordCount": 632,
+          "title": "Israel: Ytterligare sex gisslan släppta",
+          "imageUrl": "https://static-cdn.sr.se/images/83/b90cd076-b009-444b-9a89-eb6b2a3d7bd7.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8519218",
+          "author": null,
+          "description": "<ul><li><p>Över två miljoner människor har lämnat sina hem på Afrikas horn, främst i Somalia, på grund av de allvarliga översvämningarna. </p></li><li><p>Nyhetsbyrån AFP har sammanställt siffror från FN och ländernas myndigheter. Dödssiffran är cirka 300 personer.</p></li><li><p>”Regioner som tidigare försökt resa sig efter ekonomiska och miljörelaterade problem från utdragen torka är nu dubbelt drabbade”, skriver organisationen Action Against Hunger i ett uttalande från klimatmötet i Dubai.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8519218",
+          "publishedOn": "2023-11-30T21:05:00.000Z",
+          "wordCount": 674,
+          "title": "Över 2 miljoner på flykt efter kraftiga översvämningar i Afrika",
+          "imageUrl": "https://static-cdn.sr.se/images/83/2bff741a-5060-43dc-9a2a-c9b60048682d.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8519174",
+          "author": null,
+          "description": "<ul><li><p>Användningen av antidepressiva läkemedel ökar i alla åldersgrupper. Allra mest ökar den bland kvinnor över 65, enligt siffror från Socialstyrelsen.</p></li><li><p>För personer över 65 år var ökningen 23 procent under perioden 2006 till 2022 och nära 70 procent högre hos kvinnor jämfört med män. </p></li><li><p>Enligt Johan Fastbom, projektledare för kartläggningen finns det dock mycket som tyder på att det är en underdiagnostisering av depression hos män. </p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8519174",
+          "publishedOn": "2023-11-30T19:40:00.000Z",
+          "wordCount": 668,
+          "title": "Användningen av antidepressiva ökar – i alla åldrar",
+          "imageUrl": "https://static-cdn.sr.se/images/83/418bea3d-cef5-487f-bd75-41353c929a23.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8519122",
+          "author": null,
+          "description": "<p>Tidlösa, mystiska, magiska och legendariska rockorkestern bob hund är finalavsnittet av denna säsongen av Skivhyllan, där sångaren Thomas Öberg och gitarristen Johnny Essing tar med oss på en resa genom en vild blandning genrer och berättar historien om bob hund, soundtrackat med musiken som följt med och satt spår genom liv och karriär.</p>",
+          "link": "https://sverigesradio.se/artikel/8519122",
+          "publishedOn": "2023-11-30T19:03:00.000Z",
+          "wordCount": 634,
+          "title": "Bob hund styr musiken i säsongens sista Skivhyllan",
+          "imageUrl": "https://static-cdn.sr.se/images/83/5be599d1-57ef-4596-9645-8e4cde8773d9.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8519058",
+          "author": null,
+          "description": "<ul><li><p>I Polen rekommenderar den statliga kommission som kartlägger ryskt inflytande i landet att oppositionsledaren Donald Tusk inte bör tillåtas ha politiska poster. </p></li><li><p>Men Tusk väntas tillträda som premiärminister i Polen om två veckor. </p></li><li><p>Bland annat anklagas Tusk för att under sin förra premiärministerperiod ha bidragit till att Polens militära underrättelsetjänst hamande under ryskt inflytande</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8519058",
+          "publishedOn": "2023-11-30T17:33:00.000Z",
+          "wordCount": 650,
+          "title": "Polsk rysskommission: Inga politiska poster för Tusk",
+          "imageUrl": "https://static-cdn.sr.se/images/83/8b57be06-571f-4696-bf9d-68bb5cb8b294.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8519036",
+          "author": null,
+          "description": "<ul><li><p>Under torsdagen har USA:s utrikesminister Antony Blinken besökt den palestinske presidenten Abbas i Ramallah på Västbanken.</p></li><li><p>Abbas bad Blinken att göra sitt yttersta för att permanenta den vapenvila som råder mellan Israel och Hamas. </p></li><li><p>”Man talade också om det eskalerade bosättarvåldet på Västbanken, en fråga som Blinken tidigare tagit upp med Israeliska företrädare”, säger Ekot Mellanösternkorrespondent Johan-Mathias Sommarström. </p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8519036",
+          "publishedOn": "2023-11-30T16:30:00.000Z",
+          "wordCount": 661,
+          "title": "Sommarström: De bad Blinken permanenta vapenvilan",
+          "imageUrl": "https://static-cdn.sr.se/images/83/f8310fe3-fc36-42b8-8302-2d51209b32e3.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8518888",
+          "author": null,
+          "description": "Ekot\nekot@sverigesradio.se",
+          "link": "https://sverigesradio.se/artikel/8518888",
+          "publishedOn": "2023-11-30T15:45:00.000Z",
+          "wordCount": 576,
+          "title": "Lyssna på Ekot kvart i fem",
+          "imageUrl": "https://static-cdn.sr.se/images/83/f20e23d3-79a9-4faa-b517-cd32a56aa459.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8516567",
+          "author": null,
+          "description": "<ul><li><p>Skatteverket har upptäckt många fel när man kontrollerat matbud. Nästan alla utredningar av företag, som erbjuder hemleveranser av restaurangmat, har lett till beslut om skattehöjningar. </p></li><li><p>”De är vanligaste felen är oredovisade intäkter och oredovisade löner. Sedan har det också varit bokföringsbrott och momsfusk”, säger Caroline Wald, på Skatteverket, till Ekot.</p></li><li><p>Hittills har de kontrollerade företagen, och anställda där, totalt fått betala närmare 80 miljoner kronor i ytterligare skatt och avgifter.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8516567",
+          "publishedOn": "2023-11-30T15:21:00.000Z",
+          "wordCount": 661,
+          "title": "Skatteverket: Vanligt med oredovisade löner hos matbudsföretag",
+          "imageUrl": "https://static-cdn.sr.se/images/83/aacf198a-169b-420c-a812-d2728d804960.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8517854",
+          "author": null,
+          "description": "<ul><li><p>Kristdemokraternas Ebba Busch kritiserar Sverigedemokraternas utspel om moskéer under riksdagens frågestund på torsdagen.</p></li><li><p>Det var under SD:s landsdagar som partiledaren Jimmie Åkesson krävde ett omedelbart stopp för etablerande av nya moskéer i Sverige, samtidigt som han gick till angrepp mot moskéer som redan finns i landet. </p></li><li><p>Han vill bland annat att exempelvis minareter och kupoler ska tas bort från stadsbilden.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8517854",
+          "publishedOn": "2023-11-30T14:49:00.000Z",
+          "wordCount": 667,
+          "title": "Busch: Åkessons moskéutspel är ansvarslöst",
+          "imageUrl": "https://static-cdn.sr.se/images/83/d944d3be-002b-43cc-b7ca-aa822f44b6c3.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8517831",
+          "author": null,
+          "description": "<ul><li><p>Polisen och Arbetsmiljöverket ska kunna dela information om gängkriminella med flera baltiska och nordiska länder. Det nya samarbetet inleds av Nordiska ministerrådet och ska pågå fram till 2027.</p></li><li><p>Syftet är att förhindra gränsöverskridande arbetsmarknadskriminalitet. Man vill adressera problemet med kriminella företag som etablerar sig i flera länder och ägnar sig åt allt ifrån bidragsfusk, bedrägerier, pengatvätt och skattebrott.</p></li><li><p>”Det är ett starkare nordiskt-baltiskt samarbete för att pressa tillbaka gängbrottsligheten”, säger arbetsmarknadsminister Johan Pehrson (L). </p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8517831",
+          "publishedOn": "2023-11-30T14:30:00.000Z",
+          "wordCount": 675,
+          "title": "Nytt samarbete ska förhindra gängkriminalitet över gränserna",
+          "imageUrl": "https://static-cdn.sr.se/images/83/c4b16a36-f5e3-4288-8830-a4688323bb46.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8517851",
+          "author": null,
+          "description": "<ul><li><p>I Ryssland har högsta domstolen beslutat att beteckna hbtq-aktivister som extremister.</p></li><li><p>Domslutet kommer efter att Rysslands justitiedepartement begärt ett förbud mot aktiviteter inom hbtq-rörelsen.</p></li><li><p>Peter Sidlund Ponkala, ordförande&nbsp;i RFSL tror att beslutet hotar att undergräva hela den ryska demokratirörelsen.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8517851",
+          "publishedOn": "2023-11-30T14:00:00.000Z",
+          "wordCount": 632,
+          "title": "Hbtq-aktivister i Ryssland klassas nu som extremister",
+          "imageUrl": "https://static-cdn.sr.se/images/83/a1266e70-4568-4400-b3ab-8cf46d02d6fb.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8516705",
+          "author": null,
+          "description": "<ul><li><p>Centerpartiet ligger nu under riksdagsspärren i den senaste opinionsmätningen som Indikator Opinion gjort för Ekot.</p></li><li><p>”Vi befinner oss i ett politiskt landskap där kulturkrig och identitetspolitik på något sätt överskuggar allt annat”, säger partiledare Muharrem Demirok som höll jultal på förmiddagen.</p></li><li><p>C som får 3,8 procent, är ett av flera partier som nu ligger runt riksdagsspärren, där L får 3,2 procent och Kd får 2,7 procent, och Miljöpartiet som får 4,3 procent.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8516705",
+          "publishedOn": "2023-11-30T12:38:00.000Z",
+          "wordCount": 668,
+          "title": "Centerledaren om partiets politik: Behöver omprövas",
+          "imageUrl": "https://static-cdn.sr.se/images/83/e1d1ff63-56a6-49d2-bbe5-616af3bc1761.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8516709",
+          "author": null,
+          "description": "<ul><li><p>Tidigt på torsdagsmorgonen meddelade både Israel och Hamas att vapenvilan som nu har pågått i en vecka förlängs ytterligare ett dygn.</p></li><li><p>Samtidigt drabbades Jerusalem av ett våldsdåd där tre israeler dog.</p></li><li><p>Militäranalytikern Amos Harel skriver i den israeliska tidningen Haaretz att Israel står vid ett vägskäl när det kommer till krigets fortsättning.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8516709",
+          "publishedOn": "2023-11-30T12:35:00.000Z",
+          "wordCount": 675,
+          "title": "Militäranalytiker: Israel kommer att stå vid ett vägskäl",
+          "imageUrl": "https://static-cdn.sr.se/images/83/b98ed914-d483-492f-af94-a560fa5f5842.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8516702",
+          "author": null,
+          "description": "<ul><li><p>15 domar mot 34 personer där totalt 143 fängelseår dömts ut – och 198 års näringsförbud.</p></li><li><p>Det är facit så här långt av rättsprocesserna i mobilhärvan, som beskrivits som Sveriges största bedrägerihärva med fejkade jätteaffärer och miljardförluster för staten.</p></li><li><p>I morgon väntas domen i det största åtalet i härvan.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8516702",
+          "publishedOn": "2023-11-30T12:25:00.000Z",
+          "wordCount": 883,
+          "title": "Över 140 års fängelse hittills – nu avgörs största målet i jättehärvan",
+          "imageUrl": "https://static-cdn.sr.se/images/83/e79fa6ec-6cb5-46bf-9c34-4c61c1aa11dc.png"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8516674",
+          "author": null,
+          "description": "<ul><li><p>Årets skörd blev den sämsta på trettio år på grund av att det har regnat så mycket.</p></li><li><p>Det kommer få negativa konsekvenser även för nästa års skörd. Det har nämligen varit så blött i markerna att många bönder inte kunnat så sina höstgrödor.</p></li><li><p>”Det kommer innebära att vi får en lägre spannmålsskörd nästa år”, säger Johan Karlzén, ordförande för Sveriges spannmålsodlare.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8516674",
+          "publishedOn": "2023-11-30T12:17:00.000Z",
+          "wordCount": 674,
+          "title": "Årets skörd sämsta på 30 år – och låg skörd väntas även 2024",
+          "imageUrl": "https://static-cdn.sr.se/images/83/b285ed4e-59f8-47e5-a284-1baae06d6687.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8516764",
+          "author": null,
+          "description": "<ul><li><p>Shane MacGowan har dött, uppger Sky News.</p></li><li><p>MacGowan var frontman i The Pogues som bland annat ligger bakom julballaden ”Fairytale of New York”.</p></li><li><p>Shane MacGowan blev 65 år gammal.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8516764",
+          "publishedOn": "2023-11-30T11:58:00.000Z",
+          "wordCount": 609,
+          "title": "Sångare i The Pogues död",
+          "imageUrl": "https://static-cdn.sr.se/images/83/e9f4c2ff-f951-4e43-8e5a-d447e2b48f2f.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8516532",
+          "author": null,
+          "description": "<ul><li><p>Än finns ingen lösning i sikte på den infekterade konflikten mellan IF Metall och Tesla.</p></li><li><p>En Tesla-anställd tekniker som Ekot pratat med är kritisk mot fackets kamp för kollektivavtal, och väljer att trots strejken fortsätta arbeta. &nbsp;</p></li><li><p>”Hade jag inte tyckt om mitt jobb, hade det varit så toxiskt som de beskriver, då hade jag bytt jobb”, säger han till Ekot.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8516532",
+          "publishedOn": "2023-11-30T11:30:00.000Z",
+          "wordCount": 862,
+          "title": "Tesla-teknikern jobbar trots strejken: “Besviken på facket”",
+          "imageUrl": "https://static-cdn.sr.se/images/83/cb521710-ac36-45a9-8bd8-922de6ffe724.jpg"
+        },
+        {
+          "id": "https://sverigesradio.se/artikel/8516319",
+          "author": null,
+          "description": "<ul><li><p>Danmark ser nu ut att bli först i världen med att införa en särskild klimatskatt på jordbrukets koldioxidutsläpp.</p></li><li><p>Det finns en politisk majoritet för en skatt, men idén möter motstånd från lantbruket, där många ser en risk för att konkurrenskraften minskar, att jordbruksproduktionen dalar och att danska bönder ska slås ut.</p></li><li><p>”Vi har ett ansvar och det ansvaret tar vi, men det är något märkligt i att beskatta en naturlig biologisk process – en ko är ju en ko”, säger mjölkbonden Kaare Larsen i danska Gilleleje.</p></li></ul>",
+          "link": "https://sverigesradio.se/artikel/8516319",
+          "publishedOn": "2023-11-30T11:17:00.000Z",
+          "wordCount": 707,
+          "title": "Danmark kan bli först i världen med klimatskatt på lantbruk",
+          "imageUrl": "https://static-cdn.sr.se/images/83/9d42bc2d-a120-40ea-be46-1480e228ed4a.jpg"
+        },
         {
           "id": "https://sverigesradio.se/artikel/8516283",
           "author": null,
@@ -9661,186 +9611,6 @@
           "wordCount": 666,
           "title": "Turkiet: Tar upp Sveriges Natoansökan ”när tiden är rätt”",
           "imageUrl": "https://static-cdn.sr.se/images/83/0f987cb6-0cc5-42c4-80d4-5678b5b592ce.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8489195",
-          "author": null,
-          "description": "<ul><li><p>Dominansen av försvars- och säkerhetspolitik på Nordiska Rådet är en stor förändring jämfört med för bara 10 år sedan då frågorna inte alls diskuterades.</p></li><li><p>Ett enat Norden i Nato öppnar för nya samarbetsmöjligheter, men enskilda parlamentariker trycker på att man inte får glömma de viktiga vardagsfrågorna för människor i gränsregionerna.</p></li><li><p>”Bättre infrastruktur öst-väst är en viktig fråga som kanske blir enklare att lösa när vi alla är medlemmar i Nato”, säger Kjell-Arne Ottosson (KD) från Värmland.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8489195",
-          "publishedOn": "2023-11-01T12:33:00.000Z",
-          "wordCount": 675,
-          "title": "Försvars- och säkerhetsfrågor dominerade på toppmöte",
-          "imageUrl": "https://static-cdn.sr.se/images/83/f3881f1b-e53b-4c96-93ca-00112e51bd00.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8488672",
-          "author": null,
-          "description": "<ul><li><p>Det fanns inga militära mål i området där en rysk robot slog ner i orten Hroza i ukrainska Charkiv den 5 oktober, enligt en FN-utredning.</p></li><li><p>59 människor varav ett barn dog när roboten slog ner i en kafébyggnad, samtidigt som en minnesstund för en ukrainsk soldat som stupat i kriget hölls.</p></li><li><p>FN:s människorättsorgan OHCHR skriver i ett uttalande att de har skäl att tro att minnesstunden var målet för attacken, och det ses som att ryska styrkor sannolikt begick attacken med avsikt. Attacken är en av de allra blodigaste som drabbat civila sedan kriget inleddes. </p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8488672",
-          "publishedOn": "2023-10-31T22:56:00.000Z",
-          "wordCount": 710,
-          "title": "FN: Fanns inga militära mål för kaféattacken i Hroza",
-          "imageUrl": "https://static-cdn.sr.se/images/83/7d9a1f03-5109-4e27-81a8-3a293c31fe17.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8488661",
-          "author": null,
-          "description": "<ul><li><p>FN larmar nu om situationen i Kongo-Kinshasa i centrala Afrika där striderna mellan regeringsarmén och rebellgrupper nu tvingat rekordmånga människor, närmare 7 miljoner, på flykt i det egna landet.</p></li><li><p>Maria Bard som jobbar på Läkarmissionen, var nyligen på plats och hon beskriver det som en svår humanitär situation.</p></li><li><p>”Det är brist på förnödenheter, det är svårt att hitta rent vatten och vi ser ett ökat sexuellt våld”, säger Maria Bard.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8488661",
-          "publishedOn": "2023-10-31T21:33:00.000Z",
-          "wordCount": 664,
-          "title": "FN larmar om humanitära situationen i Kongo-Kinshasa",
-          "imageUrl": "https://static-cdn.sr.se/images/83/ce591c46-73b6-438f-992a-106ad3be8f1a.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8488663",
-          "author": null,
-          "description": "<ul><li><p>Sedan Sveriges Radio avbröt samarbetet med komikern Filip Dikmen, som skulle varit programledare för Musikhjälpen, har konspirationsteorier om beslutet tagit fart på sociala medier. Det rapporterar <a class=\"external-link\" rel=\"noreferrer noopener nofollow\" target=\"_blank\" href=\"https://www.etc.se/inrikes/han-sprider-konspirationsteori-om-musikhjaelpen-till-tusentals\">ETC</a>.</p></li><li><p>Som en följd av ryktena som spridits har flera hot riktats mot Sveriges Radio.</p></li><li><p>”En av personerna som är i Musikhjälpen-kretsen har blivit utsatt för en ganska allvarlig hotbild”, säger Anna-Karin Larsson, ansvarig utgivare för programmet.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8488663",
-          "publishedOn": "2023-10-31T21:18:00.000Z",
-          "wordCount": 673,
-          "title": "Flera hot mot Sveriges Radio efter Musikhjälpen-beslut",
-          "imageUrl": "https://static-cdn.sr.se/images/83/5b9827ff-af7f-4287-90f6-185206deae53.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8488641",
-          "author": null,
-          "description": "<ul><li><p>Kraftiga snöoväder har ställt till det på flera håll i landet och under tisdagen utfärdade SMHI en gul och en orange varning för ihållande vind och kraftiga snöfall i södra Norrland.</p></li><li><p>En orange varning gäller för området från nordöstra Hälsingland till nordöstra Medelpad som kan drabbas av hårda vindar och uppemot 20-30 centimeter snö mellan tisdags- och onsdagskvällen.</p></li><li><p>Ovädret medför risker för begränsad framkomlighet i biltrafiken och förseningar och inställda avgångar inom buss-, tåg- och flygtrafik. SMHI uppmanar till försiktighet.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8488641",
-          "publishedOn": "2023-10-31T20:43:00.000Z",
-          "wordCount": 664,
-          "title": "Kraftiga snöfall väntas över södra Norrland",
-          "imageUrl": "https://static-cdn.sr.se/images/83/a77b1dee-eeb5-49e2-bc44-530783a0e8f2.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8488593",
-          "author": null,
-          "description": "<ul><li><p>I Bosniens huvudstad Sarajevo har en svenk man med kopplingar till det kriminella Foxtrot-nätverket skjutits ihjäl, enligt uppgifter till SVT och Expressen. </p></li><li><p>Det var på tisdagseftermiddagen som mannen dödades efter att två maskerade män avlossat flera skott mot honom.</p></li><li><p>Enligt uppgifter till SVT uppges den skjutne ha nära band till gängledaren Rawa Majid. Varken svenska utrikesdepartementet eller polisen i Sarajevo har dock ännu inte bekräftat uppgifterna.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8488593",
-          "publishedOn": "2023-10-31T18:58:00.000Z",
-          "wordCount": 648,
-          "title": "Uppgifter: Svensk man ihjälskjuten i Sarajevo",
-          "imageUrl": "https://static-cdn.sr.se/images/83/3f27986a-81af-4757-8476-6a1b29f699ec.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8488577",
-          "author": null,
-          "description": "<p></p><ul><li><p>En personbil och en tankbil har kolliderat på riksväg 26 utanför Skövde i Skultorpstunneln.</p></li><li><p>När räddningstjänst kom till platsen stängdes tunneln. På grund av ett vägarbete samsades all trafik i ett tunnelrör, som nu är blockerat.</p></li><li><p>Prognos saknas för när tunneln kan öppna för trafik igen.</p></li></ul><p><em>Texten uppdateras</em></p>",
-          "link": "https://sverigesradio.se/artikel/8488577",
-          "publishedOn": "2023-10-31T18:19:00.000Z",
-          "wordCount": 653,
-          "title": "Rv 26 Skultorpstunneln avstängd - olycka med flera fordon",
-          "imageUrl": "https://static-cdn.sr.se/images/83/2196afd4-5b6b-4643-a597-fca20740a650.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8488463",
-          "author": null,
-          "description": "<ul><li><p>Nästa vecka kan det bli strejk på betaltjänstföretaget Klarna, som inte vill sluta kollektivavtal med facket.</p></li><li><p>Stämningen är infekterad, enligt fackförbundet Unionen som inte utesluter att stämma bolaget.</p></li><li><p>Ledningen har bett de anställda som planerar att strejka lämna in sina datorer, enligt fackets representanter.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8488463",
-          "publishedOn": "2023-10-31T17:54:00.000Z",
-          "wordCount": 666,
-          "title": "Uppgifter: Klarna vill att de som planerar att strejka ska lämna in sina datorer",
-          "imageUrl": "https://static-cdn.sr.se/images/83/d42aa5f2-674c-4600-b2f4-4388e48ab044.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8488488",
-          "author": null,
-          "description": "<ul><li><p>Efter att regeringen tillsvidare pausade det långsiktiga utvecklingsbiståndet till de palestinska områdena, befarar&nbsp;svenska hjälporganisationer som Ekot har pratat med, att även det humanitära biståndet, som är avsatt för att lindra nöd i kriser, kommer att stoppas.</p></li><li><p>De hänvisar till UD:s formulering av översynsuppdraget som gavs till biståndsmyndigheten Sida. Där står det bland annat att alla aktörer som tar del av svenskt bistånd ska<br>”förbehållslöst fördöma Hamas”, något som strider mot så kallade de humanitära principerna, enligt Erik Lysén, chef för Act Svenska kyrkan, som är Svenska kyrkans biståndsarbete.</p></li><li><p>Sida bekräftar att UD:s krav på att fördöma Hamas, finns med i översynen som gäller allt bistånd som går till verksamheter i de palestinska områdena.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8488488",
-          "publishedOn": "2023-10-31T17:11:00.000Z",
-          "wordCount": 707,
-          "title": "Sverige kan stoppa humanitärt bistånd till Palestina",
-          "imageUrl": "https://static-cdn.sr.se/images/83/9abeafa7-0123-4b66-b9e6-e528bfb6d078.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8488202",
-          "author": null,
-          "description": "<ul><li><p>Domstolar i Stockholmsområdet riskerar att få mindre pengar nästa år, trots att de har fler grova brottmål än någonsin. När polis och åklagare samtidigt fått mer resurser riskerar tingsrätterna att bli en bromskloss i rättskedjan, uppger flera lagmän till Ekot. </p></li><li><p>Enligt Justitieminister Gunnar Strömmer har även domstolarna fått stora resurstillskott: </p></li><li><p>”Om man sedan blickar framåt kommer naturligtvis trycket på domstolarna fortsätta öka. Och det är min bestämda uppfattning att då måste också resurserna över tid växa till domstolarna”. </p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8488202",
-          "publishedOn": "2023-10-31T16:54:00.000Z",
-          "wordCount": 690,
-          "title": "Strömmer: Resurserna till domstolarna måste växa över tid",
-          "imageUrl": "https://static-cdn.sr.se/images/83/45c10464-d1b6-43d6-80da-d6d1df76f30e.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8488468",
-          "author": null,
-          "description": "<ul><li><p>Israel bekräftar nu att de utfört attacken mot flyktinglägret Jabalia i norra Gazaremsan tidigare under tisdagen där minst 50 personer uppges ha dödats.</p></li><li><p>Israels nationella säkerhetsrådgivare säger under tisdagen att man har gått in i krigets tredje fas.</p></li><li><p>”Det vi kan förvänta oss nu är en ytterligare upptrappning”, säger Mellanösternkorrespondent Johan Mathias Sommarström.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8488468",
-          "publishedOn": "2023-10-31T16:05:00.000Z",
-          "wordCount": 677,
-          "title": "Sommarström: Vi kan vänta oss ytterligare upptrappning av markoffensiven",
-          "imageUrl": "https://static-cdn.sr.se/images/83/bd5c2f44-bc39-499d-8755-f7f0502fe933.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8488128",
-          "author": null,
-          "description": "<ul><li><p>Margret Atladottir och Christopher Garplind intervjuar tidigare stjärnskidåkaren Charlotte Kalla.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8488128",
-          "publishedOn": "2023-10-31T16:00:00.000Z",
-          "wordCount": 611,
-          "title": "Just nu i Eftermiddag i P3: Charlotte Kalla om nya självbiografin",
-          "imageUrl": "https://static-cdn.sr.se/images/83/990bb92a-9dc1-4144-99ef-71e95a1e9454.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8488408",
-          "author": null,
-          "description": "<ul><li><p>Kustbevakningen föreslår nu att färjan Marco Polo som gått på grund i Pukaviksbukten utanför Hörvik den 22 oktober och läckt ut olja ska bärgas under dagtid på onsdag.</p></li><li><p>Men först måste Transportstyrelsen och Kustbevakningen tillsammans gå igenom den nya bärgningsplanen som lämnats in av rederiet under tisdagen.</p></li><li><p>”Kustbevakningen förespråkar att bärgningen påbörjas imorgon bitti i dagsljus och det är för att vi ska kunna upptäcka eventuella oljeutsläpp,” säger Patrik Lindén på kustbevakningen.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8488408",
-          "publishedOn": "2023-10-31T15:40:00.000Z",
-          "wordCount": 685,
-          "title": "Kustbevakningens plan för att bärga Marco Polo",
-          "imageUrl": "https://static-cdn.sr.se/images/83/d6c88382-6fa7-452f-b440-b58b67dd61eb.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8488412",
-          "author": null,
-          "description": "<ul><li><p>Migrationsminister Maria Malmer Stenergard (M) tycker inte att människor från andra sidan jorden behöver komma till Sverige för att ta ett låglöneyrke.&nbsp;</p></li><li><p>Från och med 1 november krävs en lön på 80 procent av medianlönen för den som söker arbetstillstånd i Sverige från ett land utanför EU. Det är en höjning från 13 000 kr till 27 360 kronor.</p></li><li><p>Kritiken från SKR: ”Kommer få allvarliga konsekvenser”.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8488412",
-          "publishedOn": "2023-10-31T15:21:00.000Z",
-          "wordCount": 671,
-          "title": "Ministern: Jobb borde gå till de som redan är i Sverige",
-          "imageUrl": "https://static-cdn.sr.se/images/83/da9c39d1-5961-470e-8f19-21fc0066346a.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8488323",
-          "author": null,
-          "description": "<ul><li><p>Under tisdagen inleddes Nordiska rådets möte i Oslo. På agendan står Nordens nya roll i Nato och generalsekreterare Jens Stoltenberg var inbjuden att tala på invigningen, och han fokuserade på fred.</p></li><li><p>I sitt tal fokuserade Stoltenberg på fred och hyllade Nordiska rådet. Han drog paralleller till Norden där man tidigare varit fiender men nu är vänner. Han beskrev också en mörk bild av världsläget.</p></li><li><p>”Stoltenberg tryckte på att Finlands och Sveriges väg in i Nato är rekordsnabb och att Stoltenberg lägger in mycket tid för att få allt på plats för Sverige, men ville inte ge konkreta besked för tidtabellen,” säger Sveriges Radios utrikeskorrespondent Carina Holmberg. </p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8488323",
-          "publishedOn": "2023-10-31T15:00:00.000Z",
-          "wordCount": 718,
-          "title": "Stoltenberg litar på att turkiska och ungerska parlamenten gör sitt",
-          "imageUrl": "https://static-cdn.sr.se/images/83/7ed6b291-742e-4819-94c4-c242798b075e.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8488312",
-          "author": null,
-          "description": "<ul><li><p>Det ska bli lättare för myndigheter att dela sekretessbelagd information med varandra. Det föreslås i ett utredningsbetänkande som justitieminister Gunnar Strömmer (M) tog emot under tisdagen. </p></li><li><p>Bland annat vill man införa en ny lag som innebär att myndigheter och privata företag blir skyldiga att lämna ut information till brottsbekämpande myndigheter.  </p></li><li><p>”Vi går från ett regelverk idag som handlar om att man inte ska dela information med brottsbekämpande myndigheter till en ny lagstiftning som vänder på det, så att huvudregeln är att man ska dela information,” säger justitieminister Gunnar Strömmer. </p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8488312",
-          "publishedOn": "2023-10-31T14:37:00.000Z",
-          "wordCount": 689,
-          "title": "Så ska ny sekretesslag komma åt kriminella",
-          "imageUrl": "https://static-cdn.sr.se/images/83/9bbfbfcf-a1e1-4f10-b7f4-cb7beea9fefe.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8488139",
-          "author": null,
-          "description": "<ul><li><p>Under ett EU-ministermöte i Luxemburg sa utrikesminister Tobias Billström att han tyckte att Israels svar på Hamas attacker var proportionerligt, något som fått kritik. </p></li><li><p>Inom internationell rätt är principen om proportionalitet en viktig del, och innebär att stridande parter måste göra det dom kan för att undvika civila dödsfall. </p></li><li><p>Efter kritiken understryker Tobias Billström att Israel måste följa internationell rätt, men står fast vid det han sa i Luxemburg. ”Det är proportionerligt i förhållande till Israels rätt att försvara sig, men bedömningen måste sedan också göras från fall till fall”. </p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8488139",
-          "publishedOn": "2023-10-31T13:10:00.000Z",
-          "wordCount": 702,
-          "title": "Billström står fast vid uttalandet: ”Israel har rätt att försvara sig”",
-          "imageUrl": "https://static-cdn.sr.se/images/83/07cf86c5-9585-40a2-9a6c-afbd6e10b1e3.jpg"
-        },
-        {
-          "id": "https://sverigesradio.se/artikel/8488186",
-          "author": null,
-          "description": "<ul><li><p>Nordens nya roll i Nato är en av huvudpunkterna när politiker från hela Norden träffas i Oslo på Nordiska rådets möte.</p></li><li><p>”Det trycktes mycket på gemensamt fokus i Norden”, säger vår korrespondent Carina Holmberg på plats i Oslo. Det gällde till exempel klimatläget, det instabila säkerhetsläget och vikten av att skydda kritisk infrastruktur och Norden som en tung aktör när regionen agerar gemensamt.</p></li><li><p>Sverige som ju vill bli medlem i försvarsalliansen ”är ju lite av en outsider i dessa dagar, enda landet utanför Nato”, säger Carina Holmberg, och det har sagts att det kan bli problem samarbetsmässigt om medlemskapet drar ut på tiden. Men Norges statsminister Jonas Gahr Støre ser Sverige redan som ”en i familjen”.</p></li></ul>",
-          "link": "https://sverigesradio.se/artikel/8488186",
-          "publishedOn": "2023-10-31T12:50:00.000Z",
-          "wordCount": 735,
-          "title": "Nordiskt Natosamarbete: ”Ur Norges perspektiv är Sverige redan med”",
-          "imageUrl": "https://static-cdn.sr.se/images/83/cad7cc91-f725-4e88-a2bd-fedd1f5d9008.jpg"
         }
       ]
     },
@@ -9850,6 +9620,76 @@
       "siteUrl": "https://www.gp.se/nyheter/g%C3%B6teborg",
       "articles": [
         {
+          "id": "45c76d82-cf67-4da3-899c-a7e611a99c9a",
+          "author": null,
+          "description": "Ett misstänkt inbrottsrån inträffade i Kungsladugård i Göteborg under torsdagskvällen. \nPolisen jagar nu en maskerad gärningsperson.",
+          "link": "https://www.gp.se/nyheter/goteborg/ran-i-kungsladugard-knivbevapnad-trangde-sig-in-i-hem.45c76d82-cf67-4da3-899c-a7e611a99c9a",
+          "publishedOn": "2023-11-30T19:01:34.000Z",
+          "wordCount": 16536,
+          "title": "Rån i Kungsladugård – knivbeväpnad trängde sig in i hem",
+          "imageUrl": "/images/gp/fallback-og-image.png"
+        },
+        {
+          "id": "0ba226e6-dac1-4658-861d-6383048feb58",
+          "author": null,
+          "description": "Missbruksvården välkomnar Läkemedelsverkets vändning.",
+          "link": "https://www.gp.se/nyheter/goteborg/missbruksvarden-valkomnar-receptfritt-naloxon.0ba226e6-dac1-4658-861d-6383048feb58",
+          "publishedOn": "2023-11-30T18:06:15.000Z",
+          "wordCount": 15778,
+          "title": "Missbruksvården välkomnar receptfritt Naloxon",
+          "imageUrl": "https://www.gp.se/images/og/0ba226e6-dac1-4658-861d-6383048feb58/images/4z5jXQOpj1esa-hCEguxfFNITWCA-WIDE.jpg?width=1200&quality=75"
+        },
+        {
+          "id": "3d97fdec-1471-4a0a-b39e-4e49627c4ff2",
+          "author": null,
+          "description": "Ett större bråk bröt ut på Friskväderstorget i Biskopsgården under torsdagseftermiddagen. \nEnligt polisen deltog ett tiotal personer i bråket, såväl unga som vuxna.",
+          "link": "https://www.gp.se/nyheter/goteborg/storbrak-i-biskopsgarden.3d97fdec-1471-4a0a-b39e-4e49627c4ff2",
+          "publishedOn": "2023-11-30T14:59:09.000Z",
+          "wordCount": 16485,
+          "title": "Storbråk i Biskopsgården",
+          "imageUrl": "/images/gp/fallback-og-image.png"
+        },
+        {
+          "id": "2a67702e-50fe-42a5-92c1-d5ea61ce69c4",
+          "author": null,
+          "description": "Ska köra i väntan på gång- och cykelbro – men färjan är redan försenad.",
+          "link": "https://www.gp.se/nyheter/goteborg/ny-gratisfarja-i-goteborg-forsenad.2a67702e-50fe-42a5-92c1-d5ea61ce69c4",
+          "publishedOn": "2023-11-30T14:13:05.000Z",
+          "wordCount": 15759,
+          "title": "Ny gratisfärja i Göteborg försenad",
+          "imageUrl": "https://www.gp.se/images/og/2a67702e-50fe-42a5-92c1-d5ea61ce69c4/images/3M7gQ_N8bA7HUYB8oKyHijqah0o0-WIDE.jpg?width=1200&quality=75"
+        },
+        {
+          "id": "b1c4d2e8-d6e0-4805-88a6-e6494f22fc45",
+          "author": null,
+          "description": "Charlie Malmgren avråder från skridskoturer: ”Det fryser inte”.",
+          "link": "https://www.gp.se/nyheter/goteborg/expertens-skarpa-is-varning-det-ar-dramatiskt-lage-nu.b1c4d2e8-d6e0-4805-88a6-e6494f22fc45",
+          "publishedOn": "2023-11-30T11:09:40.000Z",
+          "wordCount": 17706,
+          "title": "Expertens skarpa is-varning: ”Det är dramatiskt läge nu”",
+          "imageUrl": "https://www.gp.se/images/og/b1c4d2e8-d6e0-4805-88a6-e6494f22fc45/images/35ykwFHEW703arERS_ogxmOG3_KQ-WIDE.jpg?width=1200&quality=75"
+        },
+        {
+          "id": "d2523b93-13a7-480d-ac69-33a95fee23c8",
+          "author": null,
+          "description": "Hisingen och Kungälv bland de berörda platserna.",
+          "link": "https://www.gp.se/nyheter/goteborg/polisovning-i-vastsverige-kommer-lata-som-skottlossning.d2523b93-13a7-480d-ac69-33a95fee23c8",
+          "publishedOn": "2023-11-30T10:14:34.000Z",
+          "wordCount": 16869,
+          "title": "Polisövning i Västsverige: ”Kommer låta som skottlossning”",
+          "imageUrl": "https://www.gp.se/images/og/d2523b93-13a7-480d-ac69-33a95fee23c8/images/2vv-Mgr1gxn9hLfJUKPLJWszEBUA-WIDE.jpg?width=1200&quality=75"
+        },
+        {
+          "id": "336c3897-faf8-4304-baec-201a98182119",
+          "author": null,
+          "description": "Privat BB öppnar i Gårda – hyllas av barnmorskor men sågas av VGR.",
+          "link": "https://www.gp.se/nyheter/goteborg/privat-forlossningsenhet-oppnar-i-goteborg-bb-garda-blir-unik-i-sverige.336c3897-faf8-4304-baec-201a98182119",
+          "publishedOn": "2023-11-30T04:28:56.000Z",
+          "wordCount": 15769,
+          "title": "Privat förlossningsenhet öppnar i Göteborg – BB Gårda blir unik i Sverige",
+          "imageUrl": "https://www.gp.se/images/og/336c3897-faf8-4304-baec-201a98182119/images/10rqGuVZH5lJVdqOg-EuNaVfzzDgE-WIDE.jpg?width=1200&quality=75"
+        },
+        {
           "id": "fb183719-40dc-46ee-9fa5-e3945de05e2c",
           "author": null,
           "description": "Mer snö kan falla över Göteborg • Olyckor i halkan",
@@ -9858,6 +9698,16 @@
           "wordCount": 17152,
           "title": "Kylan i Göteborg för att stanna",
           "imageUrl": "https://www.gp.se/images/og/fb183719-40dc-46ee-9fa5-e3945de05e2c/images/1intLoaH_qWz3xIRguAPz0x5jI6Y-REGULAR.jpg"
+        },
+        {
+          "id": "2345f2a4-ed5d-4dee-a16c-4ddf0e6d0a3c",
+          "author": null,
+          "description": "Nu får friskolan i Torslanda ny kritik av Skolinspektionen.",
+          "link": "https://www.gp.se/nyheter/goteborg/algebraskolan-kritiseras-har-for-lite-matte.2345f2a4-ed5d-4dee-a16c-4ddf0e6d0a3c",
+          "publishedOn": "2023-11-29T16:38:46.000Z",
+          "wordCount": 17441,
+          "title": "Algebraskolan kritiseras – har för lite matte",
+          "imageUrl": "https://www.gp.se/images/og/2345f2a4-ed5d-4dee-a16c-4ddf0e6d0a3c/images/3f8PHJsTr0rKnbJXTZN0Y-UjGuwM-WIDE.jpg?width=1200&quality=75"
         },
         {
           "id": "2345f2a4-ed5d-4dee-a16c-4ddf0e6d0a3c",
@@ -12298,26 +12148,6 @@
           "wordCount": 7150,
           "title": "Brand i gatukök",
           "imageUrl": "https://www.gp.se/image/policy:1.114212854:1698860142/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a"
-        },
-        {
-          "id": "http://www.gp.se/nyheter/göteborg/bygeln-klickade-när-august-11-åkte-mechanica-höll-i-mig-för-mitt-liv-1.114097298",
-          "author": null,
-          "description": "Trodde han skulle ramla ur • Lisebergs säkerhetschef: ”Man sitter helt säkert.”",
-          "link": "http://www.gp.se/nyheter/g%C3%B6teborg/bygeln-klickade-n%C3%A4r-august-11-%C3%A5kte-mechanica-h%C3%B6ll-i-mig-f%C3%B6r-mitt-liv-1.114097298",
-          "publishedOn": "2023-11-01T07:49:25.000Z",
-          "wordCount": 6864,
-          "title": "Bygeln klickade när August, 11, åkte Mechanica",
-          "imageUrl": "https://www.gp.se/image/policy:1.114097189:1698864681/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a"
-        },
-        {
-          "id": "http://www.gp.se/nyheter/göteborg/högstadieelever-portades-från-kortedala-bibliotek-1.114096978",
-          "author": null,
-          "description": "Ungdomar spelade fotboll, kastade böcker och vejpade inne på biblioteket.",
-          "link": "http://www.gp.se/nyheter/g%C3%B6teborg/h%C3%B6gstadieelever-portades-fr%C3%A5n-kortedala-bibliotek-1.114096978",
-          "publishedOn": "2023-10-31T14:25:20.000Z",
-          "wordCount": 6880,
-          "title": "Äldre elever portades – biblioteket lugnare",
-          "imageUrl": "https://www.gp.se/image/policy:1.61219863:1698762333/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a"
         }
       ]
     },
@@ -12360,6 +12190,16 @@
       "siteUrl": "https://www.driftbloggen.se",
       "articles": [
         {
+          "id": "https://www.driftbloggen.se/?p=13449",
+          "author": "Loopia",
+          "description": "2023-11-30 20:15: Det går för närvarande inte att logga in till våra tjänster med BankID. 2023-11-30 20:36: Tjänsten återställd. [...]\nLäs mer... from Driftstörning BankID",
+          "link": "https://www.driftbloggen.se/driftstorning-bankid-6/",
+          "publishedOn": "2023-11-30T19:19:26.000Z",
+          "wordCount": 853,
+          "title": "Driftstörning BankID",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.driftbloggen.se/?p=13443",
           "author": "Loopia",
           "description": "2023-11-25 19:45: För närvarande är det en störning på hantering och beställning av .SE/.NU-domäner. Detta påverkar enbart administrering och beställningar. 2023-11-25 22.05: Löst [...]\nLäs mer... from Hantering av SE/NU-domäner",
@@ -12397,6 +12237,26 @@
       "siteUrl": "https://www.esa.int/Science_Exploration/Space_Science",
       "articles": [
         {
+          "id": "82cd4adf781280efd2d0a265f06116a4",
+          "author": null,
+          "description": "An international team of astronomers have used the NASA/ESA/CSA James Webb Space Telescope to provide the first observation of water and other molecules in the inner, rocky-planet-forming regions of a disc in one of the most extreme environments in our galaxy.",
+          "link": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_study_reveals_rocky_planets_can_form_in_extreme_environments",
+          "publishedOn": "2023-11-30T15:00:00.000Z",
+          "wordCount": 957,
+          "title": "Webb study reveals rocky planets can form in extreme environments",
+          "imageUrl": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2023/11/artist_s_impression_of_protoplanetary_disc/25343285-1-eng-GB/Artist_s_impression_of_protoplanetary_disc_pillars.jpg"
+        },
+        {
+          "id": "5f7d1dcd83f07a90a9dd6aeea81e4450",
+          "author": null,
+          "description": "Video: \n\t\t\t00:08:29\n\t\t\t\t\nFocus on Euclid with Laurent Brouard: “I’m going to show you what a telescope that we send into space looks like.”\nLaurent Brouard, Project Manager at Airbus Defence and Space, was responsible for building the Euclid payload module (PLM).\nIn this interview, which took place in a clean room at the Airbus premises in Toulouse, he describes with words, gestures, and the Euclid PLM structural and thermal model how Euclid works.\n\nDid you know that Euclid sees the same part of the sky at the same time in both the infrared and visible wavelengths? Or that in space radiators keep the instruments cold? Have you ever wondered how light “travels” inside Euclid’s telescope? \nListen to Laurent to know more about the technology behind the mission that will map the dark matter and the dark energy of the Universe.\nSpace Team Europe is an ESA space community engagement initiative to gather European space actors under the same umbrella sharing values of leadership, autonomy, and responsibility.\n©  ESA - European Space Agency\nAccess the other Space Team Europe for Euclid videos",
+          "link": "https://www.esa.int/ESA_Multimedia/Videos/2023/11/Space_Team_Europe_for_Euclid_Laurent_Brouard",
+          "publishedOn": "2023-11-30T12:30:00.000Z",
+          "wordCount": 473,
+          "title": "Space Team Europe for Euclid: Laurent Brouard",
+          "imageUrl": "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2023/11/space_team_europe_for_euclid_laurent_brouard/25343056-3-eng-GB/Space_Team_Europe_for_Euclid_Laurent_Brouard_pillars.jpg"
+        },
+        {
           "id": "79fcb7cfeab1a0440bed39615a649cb1",
           "author": null,
           "description": "",
@@ -12405,6 +12265,16 @@
           "wordCount": 774,
           "title": "ESA’s Cheops helps unlock rare six-planet system",
           "imageUrl": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2023/11/orbital_geometry_of_hd110067/25339532-2-eng-GB/Orbital_geometry_of_HD110067_pillars.jpg"
+        },
+        {
+          "id": "66a5e11e0f21d719f0e73175dfe975a7",
+          "author": null,
+          "description": "Video: \n\t\t\t00:03:39\n\t\t\t\t\nFocus on Euclid with Guadalupe Cañas Herrera: “I’m exactly where I’ve always wanted to be.”\nGuadalupe Cañas Herrera, an ESA Internal Research Fellow currently working for ESA’s Euclid mission at ESTEC, the Netherlands, describes in this interview her personal and professional trajectory.\nPassionate about space since her early childhood, she has spent endless nights looking at the stars. Now, this theoretical physicist develops her activities within the Euclid Scientific Consortium to establish the quantity of dark matter and dark energy existing in the Universe.\nListen to Guadalupe for a vivid account from a vocational scientist and an ardent defender of scientific collaboration.\nSpace Team Europe is an ESA space community engagement initiative to gather European space actors under the same umbrella sharing values of leadership, autonomy, and responsibility.\nAccess the other Space Team Europe for Euclid videos",
+          "link": "https://www.esa.int/ESA_Multimedia/Videos/2023/11/Space_Team_Europe_for_Euclid_Guadalupe_Canas_Herrera",
+          "publishedOn": "2023-11-29T12:30:00.000Z",
+          "wordCount": 430,
+          "title": "Space Team Europe for Euclid: Guadalupe Cañas Herrera",
+          "imageUrl": "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2023/11/space_team_europe_for_euclid_guadalupe_canas_herrera/25212157-7-eng-GB/Space_Team_Europe_for_Euclid_Guadalupe_Canas_Herrera_pillars.jpg"
         },
         {
           "id": "4e31c5c2587ea89637c3207297a50b2f",
@@ -12425,6 +12295,16 @@
           "wordCount": 735,
           "title": "A prominent protostar in Perseus",
           "imageUrl": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2023/11/a_prominent_protostar_in_perseus/25334953-1-eng-GB/A_prominent_protostar_in_Perseus_pillars.jpg"
+        },
+        {
+          "id": "5304f17aacaba6de496e05facb5ba77f",
+          "author": null,
+          "description": "Video: \n\t\t\t00:07:54\n\t\t\t\t\nFocus on Euclid with Jean-Charles Cuillandre: “What we see in the first Euclid images is a promise of what will come in the future.”\nJean-Charles Cuillandre, astronomer at CEA Paris-Saclay, explains that he was “blown away” when he saw the first full-colour images captured by ESA’s recently launched Euclid space telescope. \nBeing a specialist of wide-field imaging, Jean-Charles was not only involved in the programme committee that selected the celestial targets for the ESA Euclid’s ‘Early Release Observations’, but he was also in charge of processing the data both for their scientific and their outreach value.\nJean-Charles expected the resulting images to look extremely crispy since they are taken by instruments outside of the Earth’s disturbing atmosphere, but eve…",
+          "link": "https://www.esa.int/ESA_Multimedia/Videos/2023/11/Space_Team_Europe_for_Euclid_Jean-Charles_Cuillandre",
+          "publishedOn": "2023-11-27T12:30:00.000Z",
+          "wordCount": 617,
+          "title": "Space Team Europe for Euclid: Jean-Charles Cuillandre",
+          "imageUrl": "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2023/11/space_team_europe_for_euclid_jean-charles_cuillandre/25211913-2-eng-GB/Space_Team_Europe_for_Euclid_Jean-Charles_Cuillandre_pillars.jpg"
         },
         {
           "id": "8cf7521bf9ce05f2afa2cba584425964",
@@ -12555,16 +12435,6 @@
           "wordCount": 509,
           "title": "Preparing for Euclid’s first images: from puzzling data to dazzling views",
           "imageUrl": "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2023/11/preparing_for_euclid_s_first_images_from_puzzling_data_to_dazzling_views/25166679-5-eng-GB/Preparing_for_Euclid_s_first_images_from_puzzling_data_to_dazzling_views_pillars.png"
-        },
-        {
-          "id": "51e9f1b18abd86c390d253cab932dfd7",
-          "author": null,
-          "description": "Video: \n\t\t\t00:07:40\n\t\t\t\t\nESA’s Euclid mission is on a quest to unveil the nature of two elusive ‘dark’ entities. As the renowned theoretical physicist Stephen Hawking remarked in 2013, “The missing link in cosmology is the nature of dark matter and dark energy”.\nDuring the last 70 years, scientists have made enormous progress in understanding the very initial phases of the Universe and its evolution to the present day. Thanks to advances in observations and theoretical modelling, a clear picture has emerged of how stars form, and how galaxies grow and interact with each other, coming together to form groups and clusters.\nYet, fundamental mysteries remain. 95% of the Universe appears to be made up of unknown 'dark' matter and energy. Dark matter and energy affect the motion and distribution of visible sources but do not emit, reflect or absorb any light. And scientists do not know what these dark entities actually are.\n \nTo address this question, Euclid will create a great map of the large-scale structure of the Universe across space and time by observing with unprecedented accuracy billions of galaxies out to 10 billion light-years. This is not easy, and making sure that Euclid is up to the task has required the expertise and dedication of many people over several years of work.\nThis video captures the journey behind the Euclid mission, from a human and intensely visual perspective. It shows tiny screws, winding cables and shiny surfaces in a whole new light, revealing how each piece comes together to form the space telescope. Be drawn in by awe-inspiring photos of the cosmos, and stay for the seemingly choreographed ballet of teamwork necessary to assemble and test the spacecraft, before being swept away by the emotion of the launch into space.\nEuclid’s adventure has begun. With its observations during the coming years, it will help us uncover the missing link in cosmology and open the gate to the ‘dark’ side of the Universe.",
-          "link": "https://www.esa.int/ESA_Multimedia/Videos/2023/10/Euclid_Gate_to_the_dark",
-          "publishedOn": "2023-10-31T13:00:00.000Z",
-          "wordCount": 605,
-          "title": "Euclid: Gate to the dark",
-          "imageUrl": "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2023/10/euclid_gate_to_the_dark/25148259-2-eng-GB/Euclid_Gate_to_the_dark_pillars.jpg"
         }
       ]
     },
