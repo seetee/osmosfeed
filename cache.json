@@ -7,33 +7,6 @@
       "articles": []
     },
     {
-      "title": "News feed",
-      "feedUrl": "https://inkscape.org/news/feed/",
-      "siteUrl": "https://inkscape.org/news/",
-      "articles": [
-        {
-          "id": "https://inkscape.org/news/2025/06/08/libre-graphics-meeting-2025/",
-          "author": null,
-          "description": "https://libregraphicsmeeting.org/2025/\r\n\r\nRight after Inkscape Summit in Nuremberg, from May 28th to the 31st, the team attended to the Libre Graphics Meeting 2025, also in Nuremberg. It was a great opportunity to learn and share, and a unique experience to see how Inkscape contributes to the Libre Graphics scenario globally.\n\r\n\r\nLGM 2025 featured a series of talks and workshops, covering aspects of creative software development, demoing real use cases for libre graphics, and pushing boundaries of technology as a platform for creative experimentation. From graphic design to embroidery stitching, XML editing to retro video game UI emulation, Inkscape showed up as an important part on the arts, design, and maker communities.\n\r\n\r\n\r\n\r\nInk/Stitch — Talk\n\r\n\r\nhttps://libregraphicsmeeting.org/2025…",
-          "link": "https://inkscape.org/news/2025/06/08/libre-graphics-meeting-2025/",
-          "publishedOn": "2025-06-08T22:53:08.000Z",
-          "wordCount": 828,
-          "title": "Libre Graphics Meeting 2025",
-          "imageUrl": "https://media.inkscape.org/static/images/news-og-image.png"
-        },
-        {
-          "id": "https://inkscape.org/news/2025/06/01/inkscape-summit-nuremberg/",
-          "author": null,
-          "description": "From May 24-28, 2025, we hosted an Inkscape Summit in Nuremberg, Germany, just before this year's Libre Graphics Meeting. With 14 on-site participants, 2 remote participants and 3 external guests (Cedric, Elisa and Tiar), this was Inkscape's largest physical event yet, and a good sign the project is healthy and growing. \n\r\n\r\nWhile we also got a fair amount of code done - 33 merge requests were opened over the course of the summit by its participants - the focus of this summit was on strategic planning and team discussions. \n\r\n\r\nOn Sunday, the team visited the ZAM Erlangen makerspace to observe and try out what Inkscape is used for in the wild. We had fun stitching logos, lasercutting coasters, or drawing on eggs with an EggBot. \n\r\n\r\n\n\r\nInkscape team members observe an egg being decorated b…",
-          "link": "https://inkscape.org/news/2025/06/01/inkscape-summit-nuremberg/",
-          "publishedOn": "2025-06-01T19:34:23.000Z",
-          "wordCount": 1272,
-          "title": "Inkscape Summit in Nuremberg",
-          "imageUrl": "https://media.inkscape.org/static/images/news-og-image.png"
-        }
-      ]
-    },
-    {
       "title": "Scribus",
       "feedUrl": "https://www.scribus.net/feed/",
       "siteUrl": "https://www.scribus.net",
@@ -44,6 +17,21 @@
       "feedUrl": "https://www.smashingmagazine.com/feed/",
       "siteUrl": "https://www.smashingmagazine.com/",
       "articles": [
+        {
+          "id": "https://smashingmagazine.com/2025/06/what-i-wish-someone-told-me-aria/",
+          "author": "hello@smashingmagazine.com (Eric Bailey)",
+          "description": "[Accessible Rich Internet Applications (ARIA)](https://www.w3.org/WAI/standards-guidelines/aria/) is an inevitability when working on web accessibility. That said, it’s everyone’s first time learning about ARIA at some point.",
+          "link": "https://smashingmagazine.com/2025/06/what-i-wish-someone-told-me-aria/",
+          "publishedOn": "2025-06-16T13:00:00.000Z",
+          "wordCount": 9489,
+          "title": "What I Wish Someone Told Me When I Was Getting Into ARIA",
+          "enclosure": {
+            "url": "http://files.smashing.media/articles/what-i-wish-someone-told-me-aria/what-i-wish-someone-told-me-aria.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://files.smashing.media/articles/what-i-wish-someone-told-me-aria/what-i-wish-someone-told-me-aria.jpg"
+        },
         {
           "id": "https://smashingmagazine.com/2025/06/creating-moving-highlight-navigation-bar-javascript-css/",
           "author": "hello@smashingmagazine.com (Blake Lundquist)",
@@ -65,7 +53,7 @@
           "description": "SVG is easy — until you meet `path`. However, it’s not as confusing as it initially looks. In this first installment of a pair of articles, Myriam Frisano aims to teach you the basics of `\n` and its sometimes mystifying commands. With simple examples and visualizations, she’ll help you understand the easy syntax and underlying rules of SVG’s most powerful element so that by the end, you’re fully able to translate SVG semantic tags into a language `path` understands.",
           "link": "https://smashingmagazine.com/2025/06/decoding-svg-path-element-line-commands/",
           "publishedOn": "2025-06-09T08:00:00.000Z",
-          "wordCount": 4865,
+          "wordCount": 4861,
           "title": "Decoding The SVG <code>path</code> Element: Line Commands",
           "enclosure": {
             "url": "http://files.smashing.media/articles/decoding-svg-path-element-line-commands/decoding-svg-path-element-line-commands.jpg",
@@ -80,7 +68,7 @@
           "description": "We often spotlight wireframes, research, or tools like Figma, but none of that moves the needle if we can’t collaborate well. Great UX doesn’t happen in isolation. It takes conversations with engineers, alignment with product, sales, and other stakeholders, and the ability to listen, adapt, and co-create. That’s where design becomes a team sport, and when your ability to capture the outcomes multiplies the UX impact.",
           "link": "https://smashingmagazine.com/2025/06/collaboration-most-underrated-ux-skill/",
           "publishedOn": "2025-06-05T08:00:00.000Z",
-          "wordCount": 4711,
+          "wordCount": 4717,
           "title": "Collaboration: The Most Underrated UX Skill No One Talks About",
           "enclosure": {
             "url": "http://files.smashing.media/articles/collaboration-most-underrated-ux-skill/collaboration-most-underrated-ux-skill.jpg",
@@ -110,7 +98,7 @@
           "description": "Designers love to craft, but polishing pixels before the problem is solved is a time-sink. This article pinpoints the five traps that lure us into premature detail — being afraid to show rough work, fixing symptoms instead of causes, solving the wrong problem, drowning in unactionable feedback, and plain fatigue — then hands you a four-step rescue plan to refocus on goals, ship faster, and keep your craft where it counts.",
           "link": "https://smashingmagazine.com/2025/06/why-designers-get-stuck-in-details/",
           "publishedOn": "2025-06-03T14:00:00.000Z",
-          "wordCount": 4935,
+          "wordCount": 5047,
           "title": "Why Designers Get Stuck In The Details And How To Stop",
           "enclosure": {
             "url": "http://files.smashing.media/articles/why-designers-get-stuck-in-details/why-designers-get-stuck-in-details.jpg",
@@ -140,7 +128,7 @@
           "description": "Let’s kick off June — and the beginning of summer — with some fresh inspiration! Artists and designers from across the globe once again tickled their creativity to welcome the new month with a new collection of desktop wallpapers. Enjoy!",
           "link": "https://smashingmagazine.com/2025/05/desktop-wallpaper-calendars-june-2025/",
           "publishedOn": "2025-05-31T08:00:00.000Z",
-          "wordCount": 5201,
+          "wordCount": 5306,
           "title": "Prelude To Summer (June 2025 Wallpapers Edition)",
           "enclosure": {
             "url": "http://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d57d2cfe-3f0d-48ac-9c26-df7e43cbd76b/june-18-travel-time-preview-opt.png",
@@ -155,7 +143,7 @@
           "description": "The web is mired in a struggle to eliminate third-party cookies, with the World Wide Web Consortium Technical Architecture Group leading the charge. But there are obstacles preventing this from happening, and, as a result, many essential web features continue to rely on cookies to function properly. That’s why detecting third-party cookie blocking isn’t just good technical hygiene but a frontline defense for user experience.",
           "link": "https://smashingmagazine.com/2025/05/reliably-detecting-third-party-cookie-blocking-2025/",
           "publishedOn": "2025-05-28T10:00:00.000Z",
-          "wordCount": 5704,
+          "wordCount": 5700,
           "title": "Reliably Detecting Third-Party Cookie Blocking In 2025",
           "enclosure": {
             "url": "http://files.smashing.media/articles/reliably-detecting-third-party-cookie-blocking-2025/reliably-detecting-third-party-cookie-blocking-2025.jpg",
@@ -185,7 +173,7 @@
           "description": "Road-tripping along the line between engineering and spirituality, Robert M. Pirsig’s musings on the arts, sciences, and Quality ring as true now as they ever have.",
           "link": "https://smashingmagazine.com/2025/05/what-zen-art-motorcycle-maintenance-teach-web-design/",
           "publishedOn": "2025-05-23T11:00:00.000Z",
-          "wordCount": 5695,
+          "wordCount": 5692,
           "title": "What Zen And The Art Of Motorcycle Maintenance Can Teach Us About Web Design",
           "enclosure": {
             "url": "http://files.smashing.media/articles/zen-and-art-of-motorcycle-maintenance-teach-us-about-web-design/what-zen-art-motorcycle-maintenance-teach-web-design.jpg",
@@ -238,12 +226,22 @@
       "siteUrl": "https://arstechnica.com",
       "articles": [
         {
+          "id": "https://arstechnica.com/science/2025/06/founder-of-23andme-buys-back-company-out-of-bankruptcy-auction/",
+          "author": "Sujeet Indap, Financial Times",
+          "description": "Concerns about transfer of genetic data to new company may now be moot.",
+          "link": "https://arstechnica.com/science/2025/06/founder-of-23andme-buys-back-company-out-of-bankruptcy-auction/",
+          "publishedOn": "2025-06-16T13:39:03.000Z",
+          "wordCount": 1998,
+          "title": "Founder of 23andMe buys back company out of bankruptcy auction",
+          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2023/10/23andme-1024x648.jpg"
+        },
+        {
           "id": "https://arstechnica.com/science/2025/06/delightfully-irreverent-underdogs-isnt-your-parents-nature-docuseries/",
           "author": "Jennifer Ouellette",
-          "description": "Ryan Reynolds narrates NatGeo's new series highlighting nature's much less cool and majestic creatures",
+          "description": "Ryan Reynolds narrates NatGeo's new series highlighting nature's much less cool and majestic creatures.",
           "link": "https://arstechnica.com/science/2025/06/delightfully-irreverent-underdogs-isnt-your-parents-nature-docuseries/",
           "publishedOn": "2025-06-15T19:11:24.000Z",
-          "wordCount": 3324,
+          "wordCount": 3317,
           "title": "Delightfully irreverent Underdogs isn’t your parents’ nature docuseries",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/underdogs7-1152x648-1750011497.jpg"
         },
@@ -253,7 +251,7 @@
           "description": "Report: An expansion of biofuels policy under Trump would lead to more greenhouse gas emissions.",
           "link": "https://arstechnica.com/science/2025/06/biofuels-policy-has-been-a-failure-for-the-climate-new-report-claims/",
           "publishedOn": "2025-06-14T11:10:15.000Z",
-          "wordCount": 2556,
+          "wordCount": 2549,
           "title": "Biofuels policy has been a failure for the climate, new report claims",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-2166100083-2560x1440.jpg"
         },
@@ -263,7 +261,7 @@
           "description": "Combining vertical \"strings\" with periodic horizontal wires stops clogging and clumping, boosts efficiency.",
           "link": "https://arstechnica.com/science/2025/06/these-va-tech-scientists-are-building-a-better-fog-harp/",
           "publishedOn": "2025-06-13T19:37:20.000Z",
-          "wordCount": 2659,
+          "wordCount": 2655,
           "title": "These VA Tech scientists are building a better fog harp",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/fogharp2-1152x648-1749835244.jpg"
         },
@@ -283,7 +281,7 @@
           "description": "A light-sensitive wire mesh implanted in the retina helps restore nerve impulses.",
           "link": "https://arstechnica.com/science/2025/06/experimental-retina-implants-give-mice-infrared-vision/",
           "publishedOn": "2025-06-12T11:08:21.000Z",
-          "wordCount": 2571,
+          "wordCount": 2557,
           "title": "Experimental retina implants give mice infrared vision",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-173632114-1152x648.jpg"
         },
@@ -293,7 +291,7 @@
           "description": "A lower-latency visual system might be needed to make the robot more competitive.",
           "link": "https://arstechnica.com/science/2025/06/scientists-built-a-badminton-playing-robot-with-ai-powered-skills/",
           "publishedOn": "2025-06-11T11:15:20.000Z",
-          "wordCount": 2558,
+          "wordCount": 2556,
           "title": "Scientists built a badminton-playing robot with AI-powered skills",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/scirobotics.adu3922-f3-1152x648.jpg"
         },
@@ -303,7 +301,7 @@
           "description": "These are things NASA should be doing if it's going to be reborn as an exploration agency.",
           "link": "https://arstechnica.com/science/2025/06/5-things-in-trumps-budget-that-wont-make-nasa-great-again/",
           "publishedOn": "2025-06-11T11:05:55.000Z",
-          "wordCount": 3671,
+          "wordCount": 3652,
           "title": "5 things in Trump’s budget that won’t make NASA great again",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/52672742797_741c547705_k-1152x648.jpg"
         },
@@ -313,7 +311,7 @@
           "description": "Crisis facing the world's marine ecosystems is getting worse.",
           "link": "https://arstechnica.com/science/2025/06/ocean-acidification-crosses-planetary-boundaries/",
           "publishedOn": "2025-06-10T13:54:32.000Z",
-          "wordCount": 2251,
+          "wordCount": 2255,
           "title": "Ocean acidification crosses “planetary boundaries”",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/ocean-mussels-1152x648.jpg"
         },
@@ -323,7 +321,7 @@
           "description": "Company is moving past focus on qubits, shifting to functional compute units.",
           "link": "https://arstechnica.com/science/2025/06/ibm-is-now-detailing-what-its-first-quantum-compute-system-will-look-like/",
           "publishedOn": "2025-06-10T12:51:03.000Z",
-          "wordCount": 3377,
+          "wordCount": 3369,
           "title": "IBM now describing its first error-resistant quantum compute system",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/IBM-Quantum-Starling-Render-1-2560x1440.jpg"
         },
@@ -333,7 +331,7 @@
           "description": "A mix of autonomous and top-down control manage the octopus's limbs.",
           "link": "https://arstechnica.com/science/2025/06/the-nine-armed-octopus-and-the-oddities-of-the-cephalopod-nervous-system/",
           "publishedOn": "2025-06-07T12:00:55.000Z",
-          "wordCount": 2942,
+          "wordCount": 2945,
           "title": "The nine-armed octopus and the oddities of the cephalopod nervous system",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-1168201315-1152x648.jpg"
         },
@@ -343,7 +341,7 @@
           "description": "Simulations suggest where we might look for the mystery material.",
           "link": "https://arstechnica.com/science/2025/06/simulations-find-ghostly-whirls-of-dark-matter-trailing-galaxy-arms/",
           "publishedOn": "2025-06-06T17:42:16.000Z",
-          "wordCount": 2604,
+          "wordCount": 2594,
           "title": "Simulations find ghostly whirls of dark matter trailing galaxy arms",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/image-1-1152x640.jpeg"
         },
@@ -353,7 +351,7 @@
           "description": "\"It’s not impossible, so how do we overcome our hurdles?\"",
           "link": "https://arstechnica.com/space/2025/06/a-japanese-lander-crashed-on-the-moon-after-losing-track-of-its-location/",
           "publishedOn": "2025-06-06T17:30:15.000Z",
-          "wordCount": 3384,
+          "wordCount": 3373,
           "title": "A Japanese lander crashed on the Moon after losing track of its location",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/ispace_ceo-1152x648.jpeg"
         },
@@ -363,7 +361,7 @@
           "description": "“A tale of shakedowns, sex, and vengeance that expose[s] tensions between the church and England’s elite.\"",
           "link": "https://arstechnica.com/science/2025/06/cold-case-files-the-medieval-murder-of-a-troublesome-priest/",
           "publishedOn": "2025-06-06T16:21:43.000Z",
-          "wordCount": 3122,
+          "wordCount": 3112,
           "title": "Cambridge mapping project solves a medieval murder",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/murder1-1152x648.jpg"
         },
@@ -373,7 +371,7 @@
           "description": "Nord Quantique's plan for error correction involves far less hardware.",
           "link": "https://arstechnica.com/science/2025/06/startup-puts-a-logical-qubit-in-a-single-piece-of-hardware/",
           "publishedOn": "2025-06-06T16:02:55.000Z",
-          "wordCount": 2631,
+          "wordCount": 2626,
           "title": "Startup puts a logical qubit in a single piece of hardware",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/2025-05-26-Nord-Quantique-materiel-stack-2-1152x648.jpg"
         },
@@ -383,7 +381,7 @@
           "description": "Data center operators are turning away from the grid to build their own power plants.",
           "link": "https://arstechnica.com/science/2025/06/what-solar-what-wind-texas-data-centers-build-their-own-gas-power-plants/",
           "publishedOn": "2025-06-05T15:58:49.000Z",
-          "wordCount": 5021,
+          "wordCount": 5014,
           "title": "What solar? What wind? Texas data centers build their own gas power plants",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/no-to-data-center-1152x648.jpg"
         },
@@ -393,7 +391,7 @@
           "description": "Facing an extreme budget, the National Academies hosted an event that ignored it.",
           "link": "https://arstechnica.com/science/2025/06/us-science-is-being-wrecked-and-its-leadership-is-fighting-the-last-war/",
           "publishedOn": "2025-06-04T22:00:16.000Z",
-          "wordCount": 3458,
+          "wordCount": 3446,
           "title": "US science is being wrecked, and its leadership is fighting the last war",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-1249035841-1152x648.jpg"
         },
@@ -403,7 +401,7 @@
           "description": "Combining radiocarbon dating and a new AI program called Enoch yields surprising results.",
           "link": "https://arstechnica.com/science/2025/06/are-dead-sea-scrolls-older-than-we-thought/",
           "publishedOn": "2025-06-04T18:00:14.000Z",
-          "wordCount": 2619,
+          "wordCount": 2609,
           "title": "Are Dead Sea Scrolls older than we thought?",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2019/09/scrollTOP-1152x648.jpg"
         },
@@ -413,7 +411,7 @@
           "description": "Smaller post-grad classes are likely due to research budget cuts.",
           "link": "https://arstechnica.com/science/2025/06/science-phds-face-a-challenging-and-uncertain-future/",
           "publishedOn": "2025-06-04T13:56:21.000Z",
-          "wordCount": 2717,
+          "wordCount": 2707,
           "title": "Science PhDs face a challenging and uncertain future",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/emptylab-1152x648.jpg"
         },
@@ -423,19 +421,9 @@
           "description": "\"That's exactly the kind of thing that NASA should be concentrating its resources on.\"",
           "link": "https://arstechnica.com/space/2025/06/some-parts-of-trumps-proposed-budget-for-nasa-are-literally-draconian/",
           "publishedOn": "2025-06-03T16:25:17.000Z",
-          "wordCount": 4483,
+          "wordCount": 4486,
           "title": "Some parts of Trump’s proposed budget for NASA are literally draconian",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/lm_draco-1152x648-1748962882.jpg"
-        },
-        {
-          "id": "https://arstechnica.com/science/2025/06/milky-way-galaxy-might-not-collide-with-andromeda-after-all/",
-          "author": "Jennifer Ouellette",
-          "description": "Astronomers ran 100,000 computer simulations using combined Hubble/Gaia space telescope data.",
-          "link": "https://arstechnica.com/science/2025/06/milky-way-galaxy-might-not-collide-with-andromeda-after-all/",
-          "publishedOn": "2025-06-03T13:53:38.000Z",
-          "wordCount": 2245,
-          "title": "Milky Way galaxy might not collide with Andromeda after all",
-          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/galaxiesTOP-1152x648-1748890827.jpg"
         }
       ]
     },
@@ -445,12 +433,32 @@
       "siteUrl": "https://arstechnica.com",
       "articles": [
         {
+          "id": "https://arstechnica.com/gadgets/2025/06/reddit-user-surprised-when-1960s-computer-panel-emerged-from-collapsed-family-garage/",
+          "author": "Benj Edwards",
+          "description": "Rare RCA control panel from 1966 may be the only surviving example of its kind.",
+          "link": "https://arstechnica.com/gadgets/2025/06/reddit-user-surprised-when-1960s-computer-panel-emerged-from-collapsed-family-garage/",
+          "publishedOn": "2025-06-16T20:04:19.000Z",
+          "wordCount": 2844,
+          "title": "Reddit user surprised when 1960s computer panel emerged from collapsed family garage",
+          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/spectra_70_panel-1152x648.jpg"
+        },
+        {
+          "id": "https://arstechnica.com/gadgets/2025/06/ads-are-rolling-out-gradually-to-whatsapp/",
+          "author": "Scharon Harding",
+          "description": "The ads will appear under WhatsApp's Updates tab.",
+          "link": "https://arstechnica.com/gadgets/2025/06/ads-are-rolling-out-gradually-to-whatsapp/",
+          "publishedOn": "2025-06-16T18:13:36.000Z",
+          "wordCount": 2504,
+          "title": "Ads are “rolling out gradually” to WhatsApp",
+          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/WhatsApp-1152x648.jpg"
+        },
+        {
           "id": "https://arstechnica.com/google/2025/06/google-begins-testing-ai-powered-audio-overviews-in-search-results/",
           "author": "Ryan Whitwam",
           "description": "Because you wanted this, right?",
           "link": "https://arstechnica.com/google/2025/06/google-begins-testing-ai-powered-audio-overviews-in-search-results/",
           "publishedOn": "2025-06-13T19:19:55.000Z",
-          "wordCount": 2104,
+          "wordCount": 2100,
           "title": "Google can now generate a fake AI podcast of your search results",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/438220d8-2216-427d-b440-b47de107a2e1-1152x648.jpg"
         },
@@ -460,7 +468,7 @@
           "description": "Nonprofits often can't afford ad space on streaming platforms.",
           "link": "https://arstechnica.com/gadgets/2025/06/inside-the-firm-turning-eerie-blank-streaming-ads-into-useful-nonprofit-messages/",
           "publishedOn": "2025-06-13T17:10:45.000Z",
-          "wordCount": 2309,
+          "wordCount": 2291,
           "title": "Inside the firm turning eerie blank streaming ads into useful nonprofit messages",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/image_50370561-1152x648.jpg"
         },
@@ -470,7 +478,7 @@
           "description": "It was a good idea that arrived too late to matter.",
           "link": "https://arstechnica.com/gadgets/2025/06/another-one-for-the-graveyard-google-to-kill-instant-apps-in-december/",
           "publishedOn": "2025-06-13T16:32:16.000Z",
-          "wordCount": 2129,
+          "wordCount": 2136,
           "title": "Another one for the graveyard: Google to kill Instant Apps in December",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/Instant-Apps-1152x648.jpg"
         },
@@ -480,7 +488,7 @@
           "description": "Google's disclaimer says AI \"may include mistakes,\" which is an understatement.",
           "link": "https://arstechnica.com/ai/2025/06/google-ai-mistakenly-says-fatal-air-india-crash-involved-airbus-instead-of-boeing/",
           "publishedOn": "2025-06-12T18:25:24.000Z",
-          "wordCount": 2250,
+          "wordCount": 2243,
           "title": "AI Overviews hallucinates that Airbus, not Boeing, involved in fatal Air India crash",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/marquee-2019-1152x648.jpg"
         },
@@ -490,7 +498,7 @@
           "description": "Despite introducing the bug in March, it may be September before Google fixes it.",
           "link": "https://arstechnica.com/gadgets/2025/06/google-left-months-old-dark-mode-bug-in-android-16-fix-planned-for-next-pixel-drop/",
           "publishedOn": "2025-06-12T16:51:02.000Z",
-          "wordCount": 2195,
+          "wordCount": 2192,
           "title": "Google left months-old dark mode bug in Android 16, fix planned for next Pixel Drop",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/Pixel-dark-mode-1-1152x648.jpg"
         },
@@ -500,7 +508,7 @@
           "description": "AdWeek report claims gradual uptick in ad load, which ad buyers confirm is growing.",
           "link": "https://arstechnica.com/gadgets/2025/06/amazon-prime-video-subscribers-sit-through-up-to-6-minutes-of-ads-per-hour/",
           "publishedOn": "2025-06-12T11:20:31.000Z",
-          "wordCount": 2318,
+          "wordCount": 2319,
           "title": "Amazon Prime Video subscribers sit through up to 6 minutes of ads per hour",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/Screenshot-2025-06-11-165045-1152x648-1749682731.jpg"
         },
@@ -510,7 +518,7 @@
           "description": "Federighi talks to Ars about why the iPad's Mac-style multitasking took so long.",
           "link": "https://arstechnica.com/gadgets/2025/06/apples-craig-federighi-on-the-long-road-to-the-ipads-mac-like-multitasking/",
           "publishedOn": "2025-06-11T22:20:40.000Z",
-          "wordCount": 3173,
+          "wordCount": 3172,
           "title": "Apple’s Craig Federighi on the long road to the iPad’s Mac-like multitasking",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/Apple-WWDC25-iPadOS-26-hero-250609-1152x648.jpg"
         },
@@ -520,7 +528,7 @@
           "description": "The giant 3D video chat system also requires a Google Beam license for cloud processing.",
           "link": "https://arstechnica.com/gadgets/2025/06/hp-reveals-first-google-beam-3d-video-conferencing-setup-priced-at-25000/",
           "publishedOn": "2025-06-11T16:17:32.000Z",
-          "wordCount": 2156,
+          "wordCount": 2145,
           "title": "HP reveals first Google Beam 3D video conferencing setup, priced at $25,000",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/HP-Dimension-with-Google-Beam-1152x648.jpg"
         },
@@ -530,7 +538,7 @@
           "description": "Android 16 arrives with a few new goodies, but the big changes are still cooking.",
           "link": "https://arstechnica.com/gadgets/2025/06/android-16-begins-rolling-out-today-to-pixel-devices/",
           "publishedOn": "2025-06-10T18:00:07.000Z",
-          "wordCount": 2648,
+          "wordCount": 2644,
           "title": "Android 16 is here, but the cool stuff is coming later",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/Android-IO-1152x648.jpg"
         },
@@ -540,7 +548,7 @@
           "description": "The Web Era arrives, the browser wars flare, and a bubble bursts.",
           "link": "https://arstechnica.com/gadgets/2025/06/a-history-of-the-internet-part-2-the-high-tech-gold-rush-begins/",
           "publishedOn": "2025-06-10T11:00:21.000Z",
-          "wordCount": 6585,
+          "wordCount": 6580,
           "title": "A history of the Internet, part 2: The high-tech gold rush begins",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/05/internet-navigator-1152x648.jpg"
         },
@@ -550,7 +558,7 @@
           "description": "Rosetta app translation features for Intel apps won't stay around indefinitely.",
           "link": "https://arstechnica.com/gadgets/2025/06/apple-details-the-end-of-intel-mac-support-and-a-phaseout-for-rosetta-2/",
           "publishedOn": "2025-06-09T22:37:17.000Z",
-          "wordCount": 2064,
+          "wordCount": 2059,
           "title": "Apple details the end of Intel Mac support and a phaseout for Rosetta 2",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2024/06/macos-finder-faces-sequoia-1152x648.jpg"
         },
@@ -560,7 +568,7 @@
           "description": "Not every device stays supported, but it's a fairly light year for casualties.",
           "link": "https://arstechnica.com/gadgets/2025/06/ios-and-ipados-26-will-run-on-most-things-that-support-ios-and-ipados-18/",
           "publishedOn": "2025-06-09T19:42:08.000Z",
-          "wordCount": 1973,
+          "wordCount": 1970,
           "title": "Apple drops support for just three iPhone and iPad models from iOS and iPadOS 26",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/Screenshot-2025-06-09-at-12.40.54 PM-1152x648.jpeg"
         },
@@ -570,7 +578,7 @@
           "description": "All Intel MacBook Airs and Mac minis are gone; just a few other models remain.",
           "link": "https://arstechnica.com/gadgets/2025/06/macos-tahoe-signals-that-the-end-is-near-for-intel-macs-dumping-all-but-four-models/",
           "publishedOn": "2025-06-09T18:58:22.000Z",
-          "wordCount": 1940,
+          "wordCount": 1931,
           "title": "macOS Tahoe signals that the end is near for Intel Macs, dumping all but four models",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/Screenshot-2025-06-09-at-11.40.28 AM-1152x648.jpeg"
         },
@@ -580,7 +588,7 @@
           "description": "New OS also makes big additions to Shortcuts and Spotlight search.",
           "link": "https://arstechnica.com/gadgets/2025/06/apples-macos-26-tahoe-has-new-liquid-glass-look-customizable-folders-and-more/",
           "publishedOn": "2025-06-09T18:34:25.000Z",
-          "wordCount": 2263,
+          "wordCount": 2254,
           "title": "Apple’s macOS 26 Tahoe has new Liquid Glass look, customizable folders, and more",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/Screenshot-2025-06-09-at-12.55.01-1152x648.jpg"
         },
@@ -590,7 +598,7 @@
           "description": "YouTube says it is still committed to preventing harm.",
           "link": "https://arstechnica.com/gadgets/2025/06/youtube-adopts-looser-moderation-policy-for-videos-about-elections-gender-and-more/",
           "publishedOn": "2025-06-09T17:56:56.000Z",
-          "wordCount": 2245,
+          "wordCount": 2240,
           "title": "YouTube will “protect free expression” by pulling back on content moderation",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2024/12/GettyImages-646395580-scaled-1152x648-1734018446.jpg"
         },
@@ -600,7 +608,7 @@
           "description": "Apple also detailed iPadOS 26 with tiling.",
           "link": "https://arstechnica.com/gadgets/2025/06/apple-aims-for-more-personal-and-expressive-ios-26-with-new-liquid-glass-design/",
           "publishedOn": "2025-06-09T17:39:32.000Z",
-          "wordCount": 2723,
+          "wordCount": 2704,
           "title": "Apple targets “more personal and expressive” iOS 26 with new Liquid Glass design",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/Screenshot-2025-06-09-at-12.14.33-2560x1440.jpg"
         },
@@ -610,7 +618,7 @@
           "description": "Agency seeks contractors to modernize decades-old systems within four years.",
           "link": "https://arstechnica.com/information-technology/2025/06/faa-to-retire-floppy-disks-and-windows-95-amid-air-traffic-control-overhaul/",
           "publishedOn": "2025-06-09T15:36:15.000Z",
-          "wordCount": 2399,
+          "wordCount": 2392,
           "title": "US air traffic control still runs on Windows 95 and floppy disks",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2022/10/air-traffic-1000x648.jpg"
         },
@@ -620,29 +628,9 @@
           "description": "Microsoft has been experimenting with \"handheld mode\" for Windows 11 since 2022.",
           "link": "https://arstechnica.com/gaming/2025/06/full-screen-xbox-handheld-ui-is-coming-to-all-windows-pcs-starting-next-year/",
           "publishedOn": "2025-06-09T15:20:12.000Z",
-          "wordCount": 2339,
+          "wordCount": 2345,
           "title": "Full-screen Xbox handheld UI is coming to all Windows PCs “starting next year”",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2023/04/win-handheld-mode-1152x648-1749480696.jpeg"
-        },
-        {
-          "id": "https://arstechnica.com/gadgets/2025/06/warner-bros-discovery-makes-still-more-changes-will-split-streaming-tv-business/",
-          "author": "Daniel Thomas, Financial Times",
-          "description": "Yet another streaming giant chooses to separate television from streaming.",
-          "link": "https://arstechnica.com/gadgets/2025/06/warner-bros-discovery-makes-still-more-changes-will-split-streaming-tv-business/",
-          "publishedOn": "2025-06-09T13:13:23.000Z",
-          "wordCount": 1949,
-          "title": "Warner Bros. Discovery makes still more changes, will split streaming, TV business",
-          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/sinners-1152x648.jpg"
-        },
-        {
-          "id": "https://arstechnica.com/apple/2025/06/bill-atkinson-architect-of-the-macs-graphical-soul-dies-at-74/",
-          "author": "Benj Edwards",
-          "description": "Creator of MacPaint, HyperCard, and pull-down menus shaped modern computing.",
-          "link": "https://arstechnica.com/apple/2025/06/bill-atkinson-architect-of-the-macs-graphical-soul-dies-at-74/",
-          "publishedOn": "2025-06-09T12:30:47.000Z",
-          "wordCount": 2615,
-          "title": "Bill Atkinson, architect of the Mac’s graphical soul, dies at 74",
-          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-956679162-2560x1440.jpg"
         }
       ]
     },
@@ -652,12 +640,22 @@
       "siteUrl": "https://arstechnica.com",
       "articles": [
         {
+          "id": "https://arstechnica.com/security/2025/06/vandals-cut-fiber-optic-lines-causing-outage-for-spectrum-internet-subscribers/",
+          "author": "Dan Goodin",
+          "description": "The soaring price of copper makes networks tempting targets for thieves.",
+          "link": "https://arstechnica.com/security/2025/06/vandals-cut-fiber-optic-lines-causing-outage-for-spectrum-internet-subscribers/",
+          "publishedOn": "2025-06-16T20:15:18.000Z",
+          "wordCount": 2071,
+          "title": "Vandals cut fiber-optic lines, causing outage for Spectrum Internet subscribers",
+          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2022/07/charter-spectrum-van-1152x648.jpg"
+        },
+        {
           "id": "https://arstechnica.com/security/2025/06/apple-previews-new-import-export-feature-to-make-passkeys-more-interoperable/",
           "author": "Dan Goodin",
           "description": "Apple OSes will soon transfer passkeys seamlessly and securely across platforms.",
           "link": "https://arstechnica.com/security/2025/06/apple-previews-new-import-export-feature-to-make-passkeys-more-interoperable/",
           "publishedOn": "2025-06-12T20:26:28.000Z",
-          "wordCount": 2431,
+          "wordCount": 2423,
           "title": "Coming to Apple OSes: A seamless, secure way to import and export passkeys",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2024/12/passkey-1000x648.jpg"
         },
@@ -667,7 +665,7 @@
           "description": "Multiple-studio complaint cites AI image outputs as evidence of \"bottomless pit of plagiarism.\"",
           "link": "https://arstechnica.com/ai/2025/06/in-landmark-suit-disney-and-universal-sue-midjourney-for-ai-character-theft/",
           "publishedOn": "2025-06-11T18:58:22.000Z",
-          "wordCount": 2242,
+          "wordCount": 2235,
           "title": "Hollywood studios target AI image generator in copyright lawsuit",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/disney_statue-1152x648.jpg"
         },
@@ -677,7 +675,7 @@
           "description": "New studies reveal pattern-matching reality behind the AI industry's reasoning claims.",
           "link": "https://arstechnica.com/ai/2025/06/with-the-launch-of-o3-pro-lets-talk-about-what-ai-reasoning-actually-does/",
           "publishedOn": "2025-06-11T16:58:43.000Z",
-          "wordCount": 2910,
+          "wordCount": 2888,
           "title": "With the launch of o3-pro, let’s talk about what AI “reasoning” actually does",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/gear_brain-1152x648.jpg"
         },
@@ -687,7 +685,7 @@
           "description": "The publicly available exploits provide a near-universal way to bypass key protections.",
           "link": "https://arstechnica.com/security/2025/06/unearthed-in-the-wild-2-secure-boot-exploits-microsoft-patches-only-1-of-them/",
           "publishedOn": "2025-06-10T19:00:34.000Z",
-          "wordCount": 2749,
+          "wordCount": 2741,
           "title": "Found in the wild: 2 Secure Boot exploits. Microsoft is patching only 1 of them.",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security.jpg"
         },
@@ -697,7 +695,7 @@
           "description": "Report: Deal marks shift from exclusive Microsoft partnership as AI compute needs soar.",
           "link": "https://arstechnica.com/ai/2025/06/openai-signs-surprise-deal-with-google-cloud-despite-fierce-ai-rivalry/",
           "publishedOn": "2025-06-10T18:27:48.000Z",
-          "wordCount": 2092,
+          "wordCount": 2089,
           "title": "OpenAI signs surprise deal with Google Cloud despite fierce AI rivalry",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2024/10/GettyImages-2164461639-1152x648.jpg"
         },
@@ -707,7 +705,7 @@
           "description": "Zuckerberg seeks new AI direction under sci-fi banner that some experts say is arbitrary.",
           "link": "https://arstechnica.com/information-technology/2025/06/after-ai-setbacks-meta-bets-billions-on-undefined-superintelligence/",
           "publishedOn": "2025-06-10T16:38:56.000Z",
-          "wordCount": 2786,
+          "wordCount": 2774,
           "title": "After AI setbacks, Meta bets billions on undefined “superintelligence”",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2024/04/dangerous_things-1152x648.jpg"
         },
@@ -717,7 +715,7 @@
           "description": "Agency seeks contractors to modernize decades-old systems within four years.",
           "link": "https://arstechnica.com/information-technology/2025/06/faa-to-retire-floppy-disks-and-windows-95-amid-air-traffic-control-overhaul/",
           "publishedOn": "2025-06-09T15:36:15.000Z",
-          "wordCount": 2399,
+          "wordCount": 2392,
           "title": "US air traffic control still runs on Windows 95 and floppy disks",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2022/10/air-traffic-1000x648.jpg"
         },
@@ -727,7 +725,7 @@
           "description": "\"Claude Gov\" is already handling classified information for the US government.",
           "link": "https://arstechnica.com/ai/2025/06/anthropic-releases-custom-ai-chatbot-for-classified-spy-work/",
           "publishedOn": "2025-06-06T21:12:17.000Z",
-          "wordCount": 2039,
+          "wordCount": 2032,
           "title": "Anthropic releases custom AI chatbot for classified spy work",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/claude_gov.jpg"
         },
@@ -737,7 +735,7 @@
           "description": "BadBox malware has been menacing low-cost Android devices for nearly a decade.",
           "link": "https://arstechnica.com/security/2025/06/millions-of-low-cost-android-devices-turn-home-networks-into-crime-platforms/",
           "publishedOn": "2025-06-06T19:15:28.000Z",
-          "wordCount": 2052,
+          "wordCount": 2045,
           "title": "Millions of low-cost Android devices turn home networks into crime platforms",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/infected-tv-1152x648.jpg"
         },
@@ -747,7 +745,7 @@
           "description": "Amodei says AI \"too fast\" for blanket law ban; sees fundamental world change in 2 years.",
           "link": "https://arstechnica.com/ai/2025/06/in-10-years-all-bets-are-off-anthropic-ceo-opposes-decade-long-freeze-on-state-ai-laws/",
           "publishedOn": "2025-06-05T14:35:15.000Z",
-          "wordCount": 2357,
+          "wordCount": 2350,
           "title": "“In 10 years, all bets are off”—Anthropic CEO opposes decadelong freeze on state AI laws",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2024/11/dario_amodei_header-1152x648.jpg"
         },
@@ -757,7 +755,7 @@
           "description": "Chunghwa Telecom and Netlock customers must look elsewhere for new certificates.",
           "link": "https://arstechnica.com/security/2025/06/chrome-boots-2-certificate-authorities-citing-a-lack-of-trust-and-confidence/",
           "publishedOn": "2025-06-04T11:20:37.000Z",
-          "wordCount": 1970,
+          "wordCount": 1963,
           "title": "Two certificate authorities booted from the good graces of Chrome",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/https-1152x648.jpg"
         },
@@ -767,7 +765,7 @@
           "description": "Abuse allows Meta and Yandex to attach persistent identifiers to detailed browsing histories.",
           "link": "https://arstechnica.com/security/2025/06/meta-and-yandex-are-de-anonymizing-android-users-web-browsing-identifiers/",
           "publishedOn": "2025-06-03T12:00:48.000Z",
-          "wordCount": 4056,
+          "wordCount": 4051,
           "title": "Meta and Yandex are de-anonymizing Android users’ web browsing identifiers",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/android-tracking-binoculars-1152x648.jpg"
         },
@@ -777,7 +775,7 @@
           "description": "Broadcom claims many eliminated partners weren't doing any VMware business.",
           "link": "https://arstechnica.com/information-technology/2025/06/broadcom-ends-business-with-vmwares-lowest-tier-channel-partners/",
           "publishedOn": "2025-06-02T21:43:04.000Z",
-          "wordCount": 2691,
+          "wordCount": 2684,
           "title": "Broadcom ends business with VMware’s lowest-tier channel partners",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-114396654-1152x648-1748890824.jpg"
         },
@@ -787,7 +785,7 @@
           "description": "BSA names Vi­ta­ly Ni­ko­lae­vich Kovalev is \"Stern,\" the leader of Trickbot.",
           "link": "https://arstechnica.com/security/2025/05/german-police-say-theyve-identified-trickbot-ransomware-kingpin/",
           "publishedOn": "2025-05-31T13:32:08.000Z",
-          "wordCount": 2754,
+          "wordCount": 2741,
           "title": "Ransomware kingpin “Stern” apparently IDed by German law enforcement",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/05/stern-1152x648.jpg"
         },
@@ -797,7 +795,7 @@
           "description": "Google's Veo 3 delivers AI videos of realistic people with sound and music. We put it to the test.",
           "link": "https://arstechnica.com/ai/2025/05/ai-video-just-took-a-startling-leap-in-realism-are-we-doomed/",
           "publishedOn": "2025-05-29T17:58:09.000Z",
-          "wordCount": 5008,
+          "wordCount": 4986,
           "title": "AI video just took a startling leap in realism. Are we doomed?",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/05/aaA_1980s_fitness_202505221451.mp4_snapshot_00.06_2025.05.27_14.53.04.png"
         },
@@ -807,7 +805,7 @@
           "description": "Backdoor giving full administrative control can survive reboots and firmware updates.",
           "link": "https://arstechnica.com/security/2025/05/thousands-of-asus-routers-are-being-hit-with-stealthy-persistent-backdoors/",
           "publishedOn": "2025-05-28T22:12:07.000Z",
-          "wordCount": 2208,
+          "wordCount": 2186,
           "title": "Thousands of Asus routers are being hit with stealthy, persistent backdoors",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2023/05/asus-router-1024x648.jpg"
         },
@@ -817,7 +815,7 @@
           "description": "Watching memory DIMMs get sorted like Wonka children inside SK TES' facility.",
           "link": "https://arstechnica.com/information-technology/2025/05/where-hyperscale-hardware-goes-to-retire-ars-visits-a-very-big-itad-site/",
           "publishedOn": "2025-05-26T11:30:50.000Z",
-          "wordCount": 3177,
+          "wordCount": 3170,
           "title": "Where hyperscale hardware goes to retire: Ars visits a very big ITAD site",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/05/sktes_splash.jpg"
         },
@@ -827,7 +825,7 @@
           "description": "An example of how a single malware operation can enable both criminal and state-sponsored hacking.",
           "link": "https://arstechnica.com/security/2025/05/feds-charge-16-russians-allegedly-tied-to-botnets-used-in-cyberattacks-and-spying/",
           "publishedOn": "2025-05-23T19:56:45.000Z",
-          "wordCount": 2506,
+          "wordCount": 2498,
           "title": "Feds charge 16 Russians allegedly tied to botnets used in cyberattacks and spying",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2024/01/russia-state-hacking.jpg"
         },
@@ -837,19 +835,9 @@
           "description": "AI assistants can't be trusted to produce safe code.",
           "link": "https://arstechnica.com/security/2025/05/researchers-cause-gitlab-ai-developer-assistant-to-turn-safe-code-malicious/",
           "publishedOn": "2025-05-23T19:06:59.000Z",
-          "wordCount": 2515,
+          "wordCount": 2507,
           "title": "Researchers cause GitLab AI developer assistant to turn safe code malicious",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/05/chatbot-1152x648.jpg"
-        },
-        {
-          "id": "https://arstechnica.com/ai/2025/05/googles-will-smith-double-is-better-at-eating-ai-spaghetti-but-its-crunchy/",
-          "author": "Benj Edwards",
-          "description": "Veo 3 is a major leap in AI video synthesis, but the sound effects need more cooking time.",
-          "link": "https://arstechnica.com/ai/2025/05/googles-will-smith-double-is-better-at-eating-ai-spaghetti-but-its-crunchy/",
-          "publishedOn": "2025-05-23T17:57:13.000Z",
-          "wordCount": 2458,
-          "title": "Google’s Will Smith double is better at eating AI spaghetti … but it’s crunchy?",
-          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/05/spaghetii_2025_veo3_header-1152x648.jpg"
         }
       ]
     },
@@ -864,6 +852,16 @@
       "feedUrl": "https://grumpy.website/feed.xml",
       "siteUrl": "https://grumpy.website/",
       "articles": [
+        {
+          "id": "https://grumpy.website/1669",
+          "author": null,
+          "description": "dmitriid: There are no justifications for forcing the user to use a mobile device when watching the TV. Especially not for something that already exists in your system.",
+          "link": "https://grumpy.website/1669",
+          "publishedOn": "2025-06-16T18:08:26.000Z",
+          "wordCount": 1852,
+          "title": "dmitriid is being grumpy",
+          "imageUrl": null
+        },
         {
           "id": "https://grumpy.website/1668",
           "author": null,
@@ -902,16 +900,6 @@
           "publishedOn": "2025-05-23T12:49:06.000Z",
           "wordCount": 1936,
           "title": "dmitriid is being grumpy",
-          "imageUrl": null
-        },
-        {
-          "id": "https://grumpy.website/1664",
-          "author": null,
-          "description": "nikitonsky: Another victim of minimalism and low contrast. Developers! Give your windows borders!\nThanks Jay Gillibrand for the picture\n#Apple #ImagePlayground #Contrast #Borders #Popup",
-          "link": "https://grumpy.website/1664",
-          "publishedOn": "2025-05-17T15:48:55.000Z",
-          "wordCount": 1845,
-          "title": "nikitonsky is being grumpy",
           "imageUrl": null
         }
       ]
@@ -1000,7 +988,7 @@
           "description": "residenthesitant:\n\n\n\n\n\nIt’s finally here!!! I’m finally able to post my Blackrock Chronicle: Rising Rythian (and bonus Zoeya!!) cosplay for @mcyt-couture-zine. This project is, quite sincerely, over eleven years in the making - one of my very first cosplays ever was S3 Rythian, which I wore Halloween 2013. I am so happy to finally be able to show this off; I’m incredibly proud of it, and it is truly the culmination of my sewing journey.\nThe zine released yesterday! Go check it out!! Everyone’s work is incredible and deserves your attention. A massive thank you to my photographer for indulging me on this shoot, and to @blocky-tides for putting this event together!! More talking, close-ups, and details under the cut.\nKeep reading\n\nAmazing!",
           "link": "https://rythian.tumblr.com/post/785815291005468672",
           "publishedOn": "2025-06-08T19:44:20.000Z",
-          "wordCount": 662,
+          "wordCount": 664,
           "title": "Amazing!",
           "imageUrl": "https://64.media.tumblr.com/d30556caf72f66fcaabe5c33fd27ba60/f1ff055fcaa1996c-ef/s1280x1920/048add60e28d4236252f62e819e75ff98ea631a4.jpg"
         },
@@ -1042,12 +1030,22 @@
       "siteUrl": "https://www.helahisingen.se",
       "articles": [
         {
+          "id": "https://www.helahisingen.se/?p=17918",
+          "author": "Markus Hankins",
+          "description": "DET HÄR ÄR EN ANNONS I 27 års tid har AnnaKarin Svensson drivit den populära...\nThe post Efter 27 år som Tuve Torgs florist vill AnnaKarin sälja populära blomsteraffären: ”Blir känslosamt” first appeared on .",
+          "link": "https://www.helahisingen.se/efter-27-ar-vill-annakarin-salja-populara-blomsteraffaren-blir-kanslosamt/",
+          "publishedOn": "2025-06-16T21:42:50.000Z",
+          "wordCount": 4500,
+          "title": "Efter 27 år som Tuve Torgs florist vill AnnaKarin sälja populära blomsteraffären: ”Blir känslosamt”",
+          "imageUrl": "https://usercontent.one/wp/www.helahisingen.se/wp-content/uploads/2025/06/TuveTorg.jpeg?media=1740577517"
+        },
+        {
           "id": "https://www.helahisingen.se/?p=17892",
           "author": "Markus Hankins",
           "description": "På onsdagen meddelade styrelsen i Life Europe AB, tillsammans med bolagets majoritetsägare Fairford, att de...\nThe post Budskapet efter dramatiska nyheten om nedläggning: Life Backaplan är öppet som vanligt: ”Drabbas inte” first appeared on .",
           "link": "https://www.helahisingen.se/budskapet-efter-dramatiska-nyheten-om-nedlaggning-life-backaplan-ar-oppet-som-vanligt-drabbas-inte/",
           "publishedOn": "2025-06-13T13:20:19.000Z",
-          "wordCount": 3564,
+          "wordCount": 3578,
           "title": "Budskapet efter dramatiska nyheten om nedläggning: Life Backaplan är öppet som vanligt: ”Drabbas inte”",
           "imageUrl": "https://usercontent.one/wp/www.helahisingen.se/wp-content/uploads/2025/06/Skarmavbild-2025-06-13-kl.-15.33.06.png?media=1740577517"
         },
@@ -1057,7 +1055,7 @@
           "description": "Efter drygt 20 års verksamhet överlåts Eklunds Bils rörelse på Ringön på centrala Hisingen i...\nThe post Eklund lämnar Eklunds bil på Hisingen – de är den nya trion som tagit över: ”Lång erfarenhet” first appeared on .",
           "link": "https://www.helahisingen.se/eklund-lamnar-eklunds-bil-pa-hisingen-de-ar-den-nya-trion-som-tagit-over-lang-erfarenhet/",
           "publishedOn": "2025-06-11T12:16:51.000Z",
-          "wordCount": 3797,
+          "wordCount": 3802,
           "title": "Eklund lämnar Eklunds bil på Hisingen – de är den nya trion som tagit över: ”Lång erfarenhet”",
           "imageUrl": "https://usercontent.one/wp/www.helahisingen.se/wp-content/uploads/2025/06/Skarmavbild-2025-06-11-kl.-14.15.20.png?media=1740577517"
         },
@@ -1067,7 +1065,7 @@
           "description": "Göteborgs Hamns containervolymer fortsätter att öka – det i termer av hanterat gods. Däremot har...\nThe post Biltransporterna med USA minskade – men hamnen på Hisingen slog tågrekord: ”All time high” first appeared on .",
           "link": "https://www.helahisingen.se/biltransporterna-med-usa-minskade-men-hamnen-pa-hisingen-slog-tagrekord-all-time-high/",
           "publishedOn": "2025-06-11T11:11:52.000Z",
-          "wordCount": 3698,
+          "wordCount": 3703,
           "title": "Biltransporterna med USA minskade – men hamnen på Hisingen slog tågrekord: ”All time high”",
           "imageUrl": "https://usercontent.one/wp/www.helahisingen.se/wp-content/uploads/2025/06/Skarmavbild-2025-06-11-kl.-13.08.21.png?media=1740577517"
         },
@@ -1077,7 +1075,7 @@
           "description": "På torsdagskvällen spelar Grammy-nominerade Bobby Bare Jr på Hisingen. Men sonen till countrylegendaren Bobby Bare...\nThe post Grammy-nominerade Bobby Bare Jr återvänder till Sverige efter 16 år – är på jakt efter fru från Göteborg first appeared on .",
           "link": "https://www.helahisingen.se/grammy-nominerade-bobby-bare-jr-atervander-till-sverige-efter-16-ar-ar-pa-jakt-efter-fru-fran-goteborg/",
           "publishedOn": "2025-06-11T08:57:32.000Z",
-          "wordCount": 3892,
+          "wordCount": 3903,
           "title": "Grammy-nominerade Bobby Bare Jr återvänder till Sverige efter 16 år – är på jakt efter fru från Göteborg",
           "imageUrl": "https://usercontent.one/wp/www.helahisingen.se/wp-content/uploads/2025/06/Skarmavbild-2025-06-11-kl.-10.51.43.png?media=1740577517"
         },
@@ -1087,7 +1085,7 @@
           "description": "DET HÄR ÄR EN ANNONS Det börjar dra ihop sig för en rejäl hockeyfest, VM...\nThe post Aviciis ”Levels” blir officiell anthem för Ishockey-VM 2025 first appeared on .",
           "link": "https://www.helahisingen.se/aviciis-levels-blir-officiell-anthem-for-ishockey-vm-2025/",
           "publishedOn": "2025-06-11T04:40:00.000Z",
-          "wordCount": 3905,
+          "wordCount": 3916,
           "title": "Aviciis ”Levels” blir officiell anthem för Ishockey-VM 2025",
           "imageUrl": "https://usercontent.one/wp/www.helahisingen.se/wp-content/uploads/2025/06/Skarmavbild-2025-06-11-kl.-09.44.33.png?media=1740577517"
         },
@@ -1097,7 +1095,7 @@
           "description": "I mars samlades Sveriges entreprenörselit i Stockholms stadshus för finalen av EY Entrepreneur Of The...\nThe post Hisingsföretagare utsedd till Sveriges främsta kvinnliga entreprenör: ”Oförglömligt ögonblick” first appeared on .",
           "link": "https://www.helahisingen.se/hisingsforetagare-utsedd-till-sveriges-framsta-kvinnliga-entreprenor-oforglomligt-ogonblick/",
           "publishedOn": "2025-06-03T20:28:40.000Z",
-          "wordCount": 3589,
+          "wordCount": 3603,
           "title": "Hisingsföretagare utsedd till Sveriges främsta kvinnliga entreprenör: ”Oförglömligt ögonblick”",
           "imageUrl": "https://usercontent.one/wp/www.helahisingen.se/wp-content/uploads/2025/06/Skarmavbild-2025-06-03-kl.-15.58.41.png?media=1740577517"
         },
@@ -1107,7 +1105,7 @@
           "description": "Lördagen den 7 juni fylls Kvilletorget med loppis, mat, musik och aktiviteter för stora och...\nThe post ”Kvillefesten”:s premiär på lördag ska bli en härlig, festlig, tradition med mat, loppis, musik och umgänge first appeared on .",
           "link": "https://www.helahisingen.se/kvillefestens-premiar-pa-lordag-ska-bli-en-harlig-festlig-tradition-med-mat-loppis-musik-och-umgange/",
           "publishedOn": "2025-06-03T11:06:54.000Z",
-          "wordCount": 3652,
+          "wordCount": 3657,
           "title": "”Kvillefesten”:s premiär på lördag ska bli en härlig, festlig, tradition med mat, loppis, musik och umgänge",
           "imageUrl": "https://usercontent.one/wp/www.helahisingen.se/wp-content/uploads/2025/06/3.jpeg?media=1740577517"
         },
@@ -1117,7 +1115,7 @@
           "description": "Nu åtalas fyra män för inblandning i mordet på rapartisten C. Gambino i Hisings Backa...\nThe post Rapstjärnan C. Gambino mördades brutalt i en drive-by – nu åtalas fyra för mordet i Hisings Backa first appeared on .",
           "link": "https://www.helahisingen.se/rapstjarnan-c-gambino-mordades-brutalt-i-en-drive-by-nu-atalas-fyra-for-mordet-i-hisings-backa/",
           "publishedOn": "2025-06-03T10:32:18.000Z",
-          "wordCount": 3785,
+          "wordCount": 3796,
           "title": "Rapstjärnan C. Gambino mördades brutalt i en drive-by – nu åtalas fyra för mordet i Hisings Backa",
           "imageUrl": "https://usercontent.one/wp/www.helahisingen.se/wp-content/uploads/2025/06/Skarmavbild-2025-06-03-kl.-12.20.02.png?media=1740577517"
         },
@@ -1127,7 +1125,7 @@
           "description": "Människor från hela stan kommer till samlingslokalen ovanför biblioteket på Kyrkbytorget för att utöva ett...\nThe post Här kan du prova på Squaredance och linedance på Kyrkbytorget: ”Behöver inte vara särskilt dansant” first appeared on .",
           "link": "https://www.helahisingen.se/har-kan-du-prova-pa-squaredance-och-linedance-pa-kyrkbytorget-behover-inte-vara-sarskilt-dansant/",
           "publishedOn": "2025-06-03T09:33:21.000Z",
-          "wordCount": 4346,
+          "wordCount": 4351,
           "title": "Här kan du prova på Squaredance och linedance på Kyrkbytorget: ”Behöver inte vara särskilt dansant”",
           "imageUrl": "https://usercontent.one/wp/www.helahisingen.se/wp-content/uploads/2025/05/Skarmavbild-2025-05-26-kl.-15.57.58.png?media=1740577517"
         },
@@ -1137,7 +1135,7 @@
           "description": "Det går att bygga nytt med låg klimatpåverkan. Det visar den nu invigda Förskolan Hoppet...\nThe post Miljöpartiet hyllar bygget av ”banbrytande” förskolor i Backa: ”Det är så fantastiskt” first appeared on .",
           "link": "https://www.helahisingen.se/miljopartiet-hyllar-bygget-av-banbrytande-forskolor-i-backa-det-ar-sa-fantastiskt/",
           "publishedOn": "2025-06-03T05:28:00.000Z",
-          "wordCount": 3649,
+          "wordCount": 3654,
           "title": "Miljöpartiet hyllar bygget av ”banbrytande” förskolor i Backa: ”Det är så fantastiskt”",
           "imageUrl": "https://usercontent.one/wp/www.helahisingen.se/wp-content/uploads/2025/06/Lucia-27.png?media=1740577517"
         },
@@ -1147,7 +1145,7 @@
           "description": "Hos en ny pizzeria på Herkulesgatan satsar man nu på att sälja pizza per slice...\nThe post Nya restaurangen satsar på billiga street food-stilen från New York: Dagens pizzaslice för 20 kronor styck first appeared on .",
           "link": "https://www.helahisingen.se/nya-restaurangen-satsar-pa-billiga-street-food-stilen-fran-new-york-dagens-pizzaslice-for-20-kronor-styck/",
           "publishedOn": "2025-05-19T14:13:24.000Z",
-          "wordCount": 3798,
+          "wordCount": 3809,
           "title": "Nya restaurangen satsar på billiga street food-stilen från New York: Dagens pizzaslice för 20 kronor styck",
           "imageUrl": "https://usercontent.one/wp/www.helahisingen.se/wp-content/uploads/2025/05/Skarmavbild-2025-05-19-kl.-16.09.04.png?media=1740577517"
         },
@@ -1157,7 +1155,7 @@
           "description": "På 2000-talet har Da Matteo varit okrönt kung av kaffe i Göteborg med sina mest...\nThe post ”Sveriges bästa café” ger upp försöket att etablera sig på Hisingen – stängde plötsligt ner sitt fik first appeared on .",
           "link": "https://www.helahisingen.se/sveriges-basta-fik-ger-upp-forsoket-att-etablera-sig-pa-hisingen-stangde-plotsligt-ner-sitt-fik/",
           "publishedOn": "2025-05-19T13:15:57.000Z",
-          "wordCount": 3748,
+          "wordCount": 3753,
           "title": "”Sveriges bästa café” ger upp försöket att etablera sig på Hisingen – stängde plötsligt ner sitt fik",
           "imageUrl": "https://usercontent.one/wp/www.helahisingen.se/wp-content/uploads/2025/05/Skarmavbild-2025-05-19-kl.-15.11.21.png?media=1740577517"
         }
@@ -1169,13 +1167,63 @@
       "siteUrl": "https://nyhetersto.se/",
       "articles": [
         {
+          "id": "https://nyhetersto.se/?p=6986423",
+          "author": "Redaktionen - NYHETERsto",
+          "description": "Först midsommar men nästa helg är det dags för årets SUNDANATTA. I år med bland annat Rednex och Grannen Måns på programmet. – Vi vill fira sommaren och välkomnar Stenungsundsborna och sommarens alla gäster till ett härliga sommarkalas. Det kommer att bli en riktig folkfest med massor med happenings i och runt vårt centrum. Sundanatta...\nInlägget Rednex, Dani M och Grannen Måns till Sundanatta dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
+          "link": "https://nyhetersto.se/2025/06/16/rednex-dani-m-och-grannen-mans-till-sundanatta/",
+          "publishedOn": "2025-06-16T19:27:21.000Z",
+          "wordCount": 6588,
+          "title": "Rednex, Dani M och Grannen Måns till Sundanatta",
+          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2025/06/sundanatta2025-2.jpg"
+        },
+        {
+          "id": "https://nyhetersto.se/?p=6986402",
+          "author": "Redaktionen - NYHETERsto",
+          "description": "Senaste dagarna har polis – både uniformerad och civila, tillsammans med väktare och ordningsvakter befunnit sig på Käringön och vid färjeläge Tuvesvik, detta efter förra veckans bränder där polisen nu har två häktade ytterligare en person gripen. Polisen uppger att man utreder ett grovt brott och att man är där främst i trygghetsskapande syfte. Käringön...\nInlägget Därför är polisen på Käringön dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
+          "link": "https://nyhetersto.se/2025/06/16/darfor-ar-polisen-pa-karingon/",
+          "publishedOn": "2025-06-16T15:39:51.000Z",
+          "wordCount": 6458,
+          "title": "Därför är polisen på Käringön",
+          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2025/06/20250616_1431390-1.jpg"
+        },
+        {
+          "id": "https://nyhetersto.se/?p=6986389",
+          "author": "Redaktionen - NYHETERsto",
+          "description": "På lördagen har en stöld ur en bil vid Stenungsund Arens skett. Från bilen saknas bland annat sportutrustning och kläder. Stölden ur bilen ska ha skett någon gång mellan klockan 12-13. Bilägare kommer tillbaka till bilen och upptäcker brytmärken på en dörr. Tjuven har tagit sig in och bland annat saknas kläder och sportutrustning, te...\nInlägget Sportutrustning och kläder stals ur bil dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
+          "link": "https://nyhetersto.se/2025/06/16/sportutrustning-och-klader-stals-ur-bil/",
+          "publishedOn": "2025-06-16T10:37:39.000Z",
+          "wordCount": 6146,
+          "title": "Sportutrustning och kläder stals ur bil",
+          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2020/02/stenungsunds-arena.jpg"
+        },
+        {
+          "id": "https://nyhetersto.se/?p=6986387",
+          "author": "Redaktionen - NYHETERsto",
+          "description": "På söndagsförmiddagen fick polisen samtal från en gäst på Stenungsbaden som kommer ut till sin bil och upptäcker att man haft inbrott. Det var strax före klockan 12 som bilägaren upptäcker inbrottet. Sidorutan till bilen är krossad och bilen är länsad på värdesaker. Polisen kommer till och genom spårsäkring kan man konstatera att det inte...\nInlägget Stöld ur bil utanför Stenungsbaden dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
+          "link": "https://nyhetersto.se/2025/06/16/stold-ur-bil-utanfor-stenungsbaden/",
+          "publishedOn": "2025-06-16T10:27:24.000Z",
+          "wordCount": 6154,
+          "title": "Stöld ur bil utanför Stenungsbaden",
+          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2024/09/inbrott-bil-stold.jpg"
+        },
+        {
+          "id": "https://nyhetersto.se/?p=6986368",
+          "author": "Redaktionen - NYHETERsto",
+          "description": "En man i i 30-årsåldern står vid Uddevalla tingsrätt åtalad för grov olovlig körning efter att ha kört personbil med tillkopplat släp – trots att mannens behörighet (körkort) återkallats. Det var i slutet av maj som mannen stoppades för kontroll på på Lv160/lv650 i Spekeröd. Mannen har ett återkallat körkort AM B som är återkallat....\nInlägget Åtalas för grov olovlig körning – Körde bil med tillkopplat släp trots återkallat körkort dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
+          "link": "https://nyhetersto.se/2025/06/16/atalas-for-grov-olovlig-korning-korde-bil-med-tillkopplat-slap-trots-aterkallat-korkort/",
+          "publishedOn": "2025-06-16T03:00:00.000Z",
+          "wordCount": 6203,
+          "title": "Åtalas för grov olovlig körning – Körde bil med tillkopplat släp trots återkallat körkort",
+          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2024/01/uddevallatingsratt-dom-atal.jpg"
+        },
+        {
           "id": "https://nyhetersto.se/?p=6986360",
           "author": "Redaktionen - NYHETERsto",
-          "description": "På söndagseftermiddagen fick polisen samtal om aktivister som stoppade trafiken på Tjörnbron. Ett flertal polispatruller åkte till bron för att konstatera att det inte var några aktivister – utan arbetare i varselvästar. Söndag eftermiddag brukar betyda långa köer och stundtals långa körer mot och över Tjörnbron från öarna, men den som inte brukar passera bron...\nInlägget Larm om aktivister på Tjörnbron – Var arbetare i varselvästar dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
+          "description": "På söndagseftermiddagen fick polisen samtal om aktivister som stoppade trafiken på Tjörnbron. Ett flertal polispatruller åkte till bron för att konstatera att det inte fanns några spår av aktivister – utan man trodde det arbetare i varselvästar som folk sett, men det visade sig att organisationen Greenpeace var på plats men hunnit lämna innan polisen...\nInlägget Larm om aktivister på Tjörnbron dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
           "link": "https://nyhetersto.se/2025/06/15/larm-om-aktivister-pa-tjornbron-var-arbetare-i-varselvastar/",
           "publishedOn": "2025-06-15T16:22:08.000Z",
-          "wordCount": 5978,
-          "title": "Larm om aktivister på Tjörnbron – Var arbetare i varselvästar",
+          "wordCount": 6289,
+          "title": "Larm om aktivister på Tjörnbron",
           "imageUrl": "https://nyhetersto.se/wp-content/uploads/2025/06/20250615_aktivister.jpg"
         },
         {
@@ -1184,7 +1232,7 @@
           "description": "På lördagskvällen larmades polisen till Stenungsunds Arena. På plats ska ungdomar ha eldat upp en av kommunens Prideflaggor som sitter uppe på olika platser runt om i kommunen denna veckan. Det var var klockan 23:12 som polisen larmades till Stenungsund Arena. Ungdomar på platsen ska utanför entrén ha slagit sönder låset till flaggstången, halat ner...\nInlägget Eldade upp Prideflagga utanför Stenungsund Arena dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
           "link": "https://nyhetersto.se/2025/06/15/eldade-upp-prideflagga-utanfor-stenungsund-arena/",
           "publishedOn": "2025-06-15T07:43:00.000Z",
-          "wordCount": 6082,
+          "wordCount": 6361,
           "title": "Eldade upp Prideflagga utanför Stenungsund Arena",
           "imageUrl": "https://nyhetersto.se/wp-content/uploads/2025/06/20250615_prideeldad.jpg"
         },
@@ -1194,7 +1242,7 @@
           "description": "Natten till söndag larmades polis till Stenungsbaden där två män misstänks för grov misshandel och stöld. Det var vid klockan 00:232 som polisen fick samtal från hotellet. -Vi får larm om att ett antal gärningspersoner har misshandlat en man på Stenungsbaden. Två personer grips misstänkta för grov misshandel samt stöld, säger Fredrik Svedemyr, Polisens presstalesperson....\nInlägget Grov misshandel och stöld på Stenungsbaden i natt dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
           "link": "https://nyhetersto.se/2025/06/15/grov-misshandel-och-stold-pa-stenungsbaden-i-natt/",
           "publishedOn": "2025-06-15T05:41:00.000Z",
-          "wordCount": 5880,
+          "wordCount": 6156,
           "title": "Grov misshandel och stöld på Stenungsbaden i natt",
           "imageUrl": "https://nyhetersto.se/wp-content/uploads/2023/03/STO_2047.jpg"
         },
@@ -1204,19 +1252,19 @@
           "description": "På lördagskvällen inträffade en trafikolycka vid utfart från Stenungsön mot länsväg 160. Förare av ett av fordonen valde dock att köra vidare utan att stanna. Det var vid 18-tiden som polisen passerade Stenungsön och blir invinkad. Inga personskador och räddningstjänst behövdes inte till platsen, men ena parten i olyckan har kört vidare utan att stanna...\nInlägget Smitning från trafikolycka dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
           "link": "https://nyhetersto.se/2025/06/14/smitning-fran-trafikolycka-5/",
           "publishedOn": "2025-06-14T20:19:47.000Z",
-          "wordCount": 5855,
+          "wordCount": 6133,
           "title": "Smitning från trafikolycka",
           "imageUrl": "https://nyhetersto.se/wp-content/uploads/2022/04/polisbil1.jpg"
         },
         {
           "id": "https://nyhetersto.se/?p=6986319",
           "author": "Redaktionen - NYHETERsto",
-          "description": "På fredagen häktades två män i 20-årsåldern misstänkta för mordbrand och förberedelse till mordbrand på Käringön i måndags. De båda greps när steg av färjan i Tuvesvik samma kväll. På lördagen greps ytterligare två personer i ärendet. Det var i måndags klockan 11:16 som räddningstjänsten fick larmet om brand i en fastighet på Käringön. Det...\nInlägget UPPGIFTER: Efter misstänkt mordbrand på Käringön – Ytterliga två gripna dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
+          "description": "På fredagen häktades två män i 20-årsåldern misstänkta för mordbrand och förberedelse till mordbrand på Käringön i måndags. De båda greps när steg av färjan i Tuvesvik samma kväll. På lördagen greps ytterligare en person i ärendet. Det var i måndags klockan 11:16 som räddningstjänsten fick larmet om brand i en fastighet på Käringön. Det...\nInlägget UPPGIFTER: Efter misstänkt mordbrand på Käringön – Ytterligare en person gripen dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
           "link": "https://nyhetersto.se/2025/06/14/uppgifter-efter-misstankt-mordbrand-pa-karingon-ytterliga-tva-gripna/",
           "publishedOn": "2025-06-14T17:49:52.000Z",
-          "wordCount": 6046,
-          "title": "UPPGIFTER: Efter misstänkt mordbrand på Käringön – Ytterliga två gripna",
-          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2025/06/20250609_karingson.jpg"
+          "wordCount": 6346,
+          "title": "UPPGIFTER: Efter misstänkt mordbrand på Käringön – Ytterligare en person gripen",
+          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2025/06/20250616_1431390.jpg"
         },
         {
           "id": "https://nyhetersto.se/?p=6986322",
@@ -1224,7 +1272,7 @@
           "description": "På lördagseftermiddagen kom larm om en vattenskoter som höll på att sjunka under färd strax norr om Tjörnbron. Sjöräddningssällskapet och Kustbevakningen larmades. Larmet kom klockan 17:20. -Det är vittnen på land som sett detta och larmade. Personen på vattenskotern ska ha blivit upplockad av andra personer i båt som var i närheten. Sjöräddningssällskapet och Kustbevakningen...\nInlägget Larm om vattenskoter som höll på att sjunka – Sjöräddningssällskapet och Kustbevakning larmades dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
           "link": "https://nyhetersto.se/2025/06/14/just-nu-vattenskoter-sjunker-sjoraddningssallskapet-och-kustbevakning-larmade/",
           "publishedOn": "2025-06-14T15:34:09.000Z",
-          "wordCount": 5937,
+          "wordCount": 6212,
           "title": "Larm om vattenskoter som höll på att sjunka – Sjöräddningssällskapet och Kustbevakning larmades",
           "imageUrl": "https://nyhetersto.se/wp-content/uploads/2025/06/20250614_vs-1.jpg"
         },
@@ -1234,7 +1282,7 @@
           "description": "På lördagseftermiddagen drabbades delar av Bohusbanan av spårfel. För tillfället är det stopp i tågtrafiken mellan Uddevalla och Ljungskile, vilket påverkar resande med tåg norr om Stenungsund. Det var vid klockan 11:30 som ett spårfel inträffade å nämnda sträcka. I nuläget finns ingen prognos när tågen kan börja rulla normalt igen. För mer information om...\nInlägget Stopp i tågtrafiken efter spårfel dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
           "link": "https://nyhetersto.se/2025/06/14/stopp-i-tagtrafiken-efter-sparfel/",
           "publishedOn": "2025-06-14T11:03:52.000Z",
-          "wordCount": 5867,
+          "wordCount": 6141,
           "title": "Stopp i tågtrafiken efter spårfel",
           "imageUrl": "https://nyhetersto.se/wp-content/uploads/2024/05/buss-tag-ersattningstrafik.jpg"
         },
@@ -1244,7 +1292,7 @@
           "description": "På lördagen larmades räddningstjänsten på Orust om ett befarat utsläpp av drivmedel i Ellös hamn. Larmet kom vid klockan 12:20. Omfattningen är låg, omkring 50×30 meter. Räddningstjänsten är på plats. Man har lagt ut länsar för att ringa in dieseln. Även kommun och Kustbevakningen är informerade. Var dieseln kommer ifrån är inte känt.\nInlägget Dieselutsläpp i Ellös hamn dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
           "link": "https://nyhetersto.se/2025/06/14/dieselutslapp-i-ellos-hamn/",
           "publishedOn": "2025-06-14T10:25:24.000Z",
-          "wordCount": 5846,
+          "wordCount": 6123,
           "title": "Dieselutsläpp i Ellös hamn",
           "imageUrl": "https://nyhetersto.se/wp-content/uploads/2025/06/20250624_utsl.jpg"
         },
@@ -1254,7 +1302,7 @@
           "description": "På lördagsmorgonen uppmanade Orust kommun invånare och besökare i Henån, Ellös och Hälleviksstrand att spara på vattnet under dagen efter ett tekniska problem på Ellös och Henåns vattentorn. På lördagskvällen var problemet inte löst och nu uppmanas ALLA Orustbor att spara på vattnet fram till söndag kväll. Orust kommun har under dagen arbetat intensivt med...\nInlägget UPPMANING EFTER PROBLEM MED VATTENTORNEN – Alla Orustbor måste spara på vattnet dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
           "link": "https://nyhetersto.se/2025/06/14/uppmaningen-spara-pa-vattnet/",
           "publishedOn": "2025-06-14T07:41:42.000Z",
-          "wordCount": 5971,
+          "wordCount": 6247,
           "title": "UPPMANING EFTER PROBLEM MED VATTENTORNEN – Alla Orustbor måste spara på vattnet",
           "imageUrl": "https://nyhetersto.se/wp-content/uploads/2024/06/vatten-kran.jpg"
         },
@@ -1264,7 +1312,7 @@
           "description": "På eftermiddagen fick polisen samtal från vårdnadshavare av ett barn i Kållekärr på Tjörn. Barnet har varit ute och cyklat men blivit påkörd av en bil. Föraren av bilen har inte stannat utan lämnat platsen. Samtalet till polisen kom klockan 13:10. -Barnet har kommit hem och berättar att en bil kört på cykeln bakhjul så...\nInlägget Barn på cykel påkörd av bilist – Anmälan om smitning och vårdslöshet i trafik dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
           "link": "https://nyhetersto.se/2025/06/13/barn-pa-cykel-pakord-av-bilist-anmalan-om-smitning-och-vardsloshet-i-trafik/",
           "publishedOn": "2025-06-13T18:13:05.000Z",
-          "wordCount": 5955,
+          "wordCount": 6230,
           "title": "Barn på cykel påkörd av bilist – Anmälan om smitning och vårdslöshet i trafik",
           "imageUrl": "https://nyhetersto.se/wp-content/uploads/2024/05/polis-polisbil-54-4111.jpg"
         },
@@ -1274,7 +1322,7 @@
           "description": "Singel i Sverige firar 25 år och det gör man under midsommarhelgen på Stenungsbaden Yacht Club. Det är många anmälda, men man har ett problem – det saknas män 50+. Singel i Sverige har funnits i 25, det – och midsommar firar man i år Stenungsbaden. -Intresset är rekordstort, särskilt bland kvinnorna. Vi har nu...\nInlägget EFTERLYSNING: Män 50+ sökes till midsommarfirande på Stenungsbaden dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
           "link": "https://nyhetersto.se/2025/06/13/efterlysning-man-50-sokes-till-midsommarfirande-pa-stenungsbaden/",
           "publishedOn": "2025-06-13T17:51:45.000Z",
-          "wordCount": 6035,
+          "wordCount": 6308,
           "title": "EFTERLYSNING: Män 50+ sökes till midsommarfirande på Stenungsbaden",
           "imageUrl": "https://nyhetersto.se/wp-content/uploads/2025/06/midsommarbaden2.jpg"
         },
@@ -1284,7 +1332,7 @@
           "description": "Räddningstjänsten larmades på fredagskvällen om befarad brand i terrängen alternativt skogbrand vid Gäddebräcka utanför Henån. Larmet kom klockan 19:17 Branden uppges vara inne i skogen längs med länsväg 766. -Enligt larmsamtalet ska det brinna under marken med långsam spridning, räddningstjänst åker fram för kontroll och eventuell blötläggning.\nInlägget Larm om brand i terrängen utanför Henån dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
           "link": "https://nyhetersto.se/2025/06/13/larm-om-brand-i-terrangen-utanfor-henan/",
           "publishedOn": "2025-06-13T17:20:43.000Z",
-          "wordCount": 5858,
+          "wordCount": 6133,
           "title": "Larm om brand i terrängen utanför Henån",
           "imageUrl": "https://nyhetersto.se/wp-content/uploads/2022/05/rtj-orust-suddig.jpg"
         },
@@ -1294,7 +1342,7 @@
           "description": "Det var hösten 2024 som mannen enligt åtal ska ha kört bil i centrala Stenungsund påverkad av alkohol som överstiger gränsen för grovt rattfylleri. I samband med färd i påverkat tillstånd och mycket hög hastighet ska mannen ha kolliderat med en annan bil och varit nära att köra på en fotgängare. Mannen ska även ha...\nInlägget Åtalas för grovt rattfylleri – Krockade och ville köpa öl på trafikskola dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
           "link": "https://nyhetersto.se/2025/06/13/atalas-for-grovt-rattfylleri-i-centrala-stenungsund-krockade-och-ville-kopa-ol-pa-trafikskola/",
           "publishedOn": "2025-06-13T12:37:47.000Z",
-          "wordCount": 6083,
+          "wordCount": 6356,
           "title": "Åtalas för grovt rattfylleri – Krockade och ville köpa öl på trafikskola",
           "imageUrl": "https://nyhetersto.se/wp-content/uploads/2024/01/uddevallatingsratt-dom-atal.jpg"
         },
@@ -1304,7 +1352,7 @@
           "description": "Viktor Ejwertz, 34 från Tjörn men numera bosatt i Stockholm släpper idag sitt tredje album – Explodera. Viktor är artist, låtskrivare och producent. Uppvuxen i en musikerfamilj på Tjörn, men numera bosatt i Stockholm. Viktor läste teknik på Nösnäsgymnasiet och sedan till designingenjör i Karlstad, men hade alltid musiken med sig vid sidan av. Musiken...\nInlägget Viktor Ejwertz släpper idag sitt tredje album – Explodera dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
           "link": "https://nyhetersto.se/2025/06/13/viktor-ejwertz-slapper-idag-sitt-tredje-album-explodera/",
           "publishedOn": "2025-06-13T08:00:00.000Z",
-          "wordCount": 6203,
+          "wordCount": 6479,
           "title": "Viktor Ejwertz släpper idag sitt tredje album – Explodera",
           "imageUrl": "https://nyhetersto.se/wp-content/uploads/2025/06/ViktorEjwertz.jpg"
         },
@@ -1314,59 +1362,9 @@
           "description": "Sommarlovet är här och för den som gått ut nian väntar nya utmaningar, nya vänner och ytterligare ett steg in i vuxenlivet. Varje år arrangeras en avslutningsfest med hemligt destination för de som slutar årskurs nio på Häggvalskolan. NYHETERsto var med under början av kvällen. Solen skiner och även om det denna kväll är lite...\nInlägget Avslutningsmiddag för Häggvallskolans nior dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
           "link": "https://nyhetersto.se/2025/06/13/avslutningsmiddag-for-haggvallskolans-nior/",
           "publishedOn": "2025-06-13T03:00:00.000Z",
-          "wordCount": 6183,
+          "wordCount": 6457,
           "title": "Avslutningsmiddag för Häggvallskolans nior",
           "imageUrl": "https://nyhetersto.se/wp-content/uploads/2025/06/20250613_skolavslutning_nior.jpg"
-        },
-        {
-          "id": "https://nyhetersto.se/?p=6986248",
-          "author": "Redaktionen - NYHETERsto",
-          "description": "På torsdagen var det skolavslutning på i Stenungsund och på Tjörn. De äldre ungdomarna brukar samlas på olika platser på kvällen och fira in sommarlovet. Kvällen bjöd på vackert väder och behaglig temperatur. En del ungdomar var ute – men stämningen var god och utan några större händelser. Skolavslutning är inte bara festligt och spännande...\nInlägget Lugn skolavslutningskväll dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
-          "link": "https://nyhetersto.se/2025/06/13/lugn-skolavslutningskvall-3/",
-          "publishedOn": "2025-06-12T22:18:26.000Z",
-          "wordCount": 6359,
-          "title": "Lugn skolavslutningskväll",
-          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2025/06/202250613_skolavslutning.jpg"
-        },
-        {
-          "id": "https://nyhetersto.se/?p=6986218",
-          "author": "Redaktionen - NYHETERsto",
-          "description": "På torsdagseftermiddagen larmades räddningstjänsten på Orust till länsväg 770 utanför Ellös. En traktor ska ha läckt olja mellan Kårehogen till Ellös. Larmet kom klockan 17:02. Räddningstjänsten sanerade vägbanan samtidigt som Trafikverket varnade för halka på sträckan. En varning som ligger kvar ett tag till innan oljan är borta.\nInlägget Traktor läckte olja – Räddningstjänsten sanerade dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
-          "link": "https://nyhetersto.se/2025/06/12/traktor-lackte-olja-raddningstjansten-sanerade/",
-          "publishedOn": "2025-06-12T17:18:45.000Z",
-          "wordCount": 5858,
-          "title": "Traktor läckte olja – Räddningstjänsten sanerade",
-          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2022/05/rtj-orust-suddig.jpg"
-        },
-        {
-          "id": "https://nyhetersto.se/?p=6986196",
-          "author": "Redaktionen - NYHETERsto",
-          "description": "En trafikolycka har inträffat i Ödsmål utanför Stenungsund. Två fordon har frontalkolliderat. Fyra personer förda till sjukhus. Olyckan har inträffat på länsväg 770 i höjd med Ödsmåls kyrka, en trafikerad väg till och från färjan. Fyra personer varav två barn inblandade i kollisionen. Fyra ambulanser är på plats samt ambulanshelikoptern. Samtliga inblandade är förda till...\nInlägget Frontalkollision i Ödsmål – Barn flögs med helikopter dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
-          "link": "https://nyhetersto.se/2025/06/12/just-nu-frontalkollision-i-odsmal-vagen-avstang/",
-          "publishedOn": "2025-06-12T13:45:31.000Z",
-          "wordCount": 6079,
-          "title": "Frontalkollision i Ödsmål – Barn flögs med helikopter",
-          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2025/06/STO_4208.jpg"
-        },
-        {
-          "id": "https://nyhetersto.se/?p=6986185",
-          "author": "Redaktionen - NYHETERsto",
-          "description": "Häktningsframställan mot två män i 18-årsåldern som misstänks för mordbrand och förberedelse till mordbrand på Käringön i måndags. De båda greps när steg av färjan i Tuvesvik på kvällen. Det var vid klockan 11:16 som räddningstjänsten fick larmet om branden. Det ska ha brunnit på altanen och fasaden på en fastighet. Boende och grannar hjälptes...\nInlägget Häktningsframställan gällande mordbrand på Käringön dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
-          "link": "https://nyhetersto.se/2025/06/12/just-nu-haktningsframstallan-gallande-mordbrand-pa-karingon/",
-          "publishedOn": "2025-06-12T12:54:11.000Z",
-          "wordCount": 6093,
-          "title": "Häktningsframställan gällande mordbrand på Käringön",
-          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2025/06/20250609_karingson.jpg"
-        },
-        {
-          "id": "https://nyhetersto.se/?p=6986186",
-          "author": "Redaktionen - NYHETERsto",
-          "description": "Person uppgavs vara fastklämd i ett fordon utanför Svenshögen. Räddningstjänst och ambulans larmades ut – men det visade sig inte vara fullt så dramatiskt. Larmet till räddningstjänsten kom klockan 13:50. -En person uppges vara fastklämd i ett fordon, uppgav SOS Alarm till NYHETERsto. På plats var det inte så dramatiskt som larmet sa initialt. -En...\nInlägget Larm om person fastklämd i fordon – ”Behövde bara lite hjälp” dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust.",
-          "link": "https://nyhetersto.se/2025/06/12/just-nu-person-fastklamd-i-fordon/",
-          "publishedOn": "2025-06-12T12:04:02.000Z",
-          "wordCount": 5914,
-          "title": "Larm om person fastklämd i fordon – ”Behövde bara lite hjälp”",
-          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2025/06/STO_4186.jpg"
         }
       ]
     },
@@ -1376,12 +1374,112 @@
       "siteUrl": "https://www.sverigesradio.se/default.aspx?programid=104",
       "articles": [
         {
+          "id": "https://www.sverigesradio.se/artikel/8982910",
+          "author": null,
+          "description": "Priset på kaffe sjunker – för första gången på länge. Det är jämförelsesajten Matpriskollen som under måndagen noterade en första prissänkning i butik, med en sänkning på mellan tre och nio kronor per paket.Under maj var kaffepriset 39 procent högre än samma månad förra året, visar siffror från Statistiska centralbyrån.",
+          "link": "https://www.sverigesradio.se/artikel/8982910",
+          "publishedOn": "2025-06-16T20:26:00.000Z",
+          "wordCount": 397,
+          "title": "Just nu: Kaffepriset sjunker",
+          "imageUrl": "https://static-cdn.sr.se/images/104/6be97db5-27c8-4ae0-959a-224d094a655e.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/8982506",
+          "author": null,
+          "description": "Han ser sig själv som Trafikredaktionens största fan. I höstas gjorde Erik Strömland Ahlin, 8, studiebesök och fick själv rapportera trafik i P4 Göteborg.När han nu är på återbesök så undrade vi förstås vad han tycker om Trafikredaktionens nya signatur. Som nu är två veckor gammal.Och han och trafikreporter Fredrik Stenberg var rörande överens.",
+          "link": "https://www.sverigesradio.se/artikel/8982506",
+          "publishedOn": "2025-06-16T19:40:00.000Z",
+          "wordCount": 435,
+          "title": "Trafik-Erik, 8, gör tummen upp för nya jingeln: Blir glad",
+          "imageUrl": "https://static-cdn.sr.se/images/104/fdba6ee4-c717-46e5-bbcf-f107cfe7feee.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/8982684",
+          "author": null,
+          "description": "90-årige Börje Bennmo i Lerums kommun tvingades gå en och en halv kilometer med sin soptunna efter att nya arbetsmiljöregler ändrat sophämtningen, vilket SVT Nyheter Väst rapporterat.En ändring i arbetsmiljön gjorde att Renova inte längre körde hela vägen fram till hans hus. Enligt Daniel Holmén, gruppledare på företaget utgick man från grannarnas soptunnor.Efter att P4 Göteborg ställt frågor om fallet har Börje haft besök av Renova.",
+          "link": "https://www.sverigesradio.se/artikel/8982684",
+          "publishedOn": "2025-06-16T18:56:00.000Z",
+          "wordCount": 447,
+          "title": "90-årige Börje fick gå 1,5 kilometer för att tömma soporna",
+          "imageUrl": "https://static-cdn.sr.se/images/104/226b802f-0863-40bb-80d7-aae610d33bfd.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/8954265",
+          "author": null,
+          "description": "Bullret i de kritiserade hundförarbilarna mättes redan för två år sedan av forskarna. Slutsatsen var att de behöver åtgärdas, snarast.P4 Göteborg har tidigare kunnat avslöja att polisen gick vidare med köpet av nya hundförarbilar trots att flera hundförare larmat om bland annat den höga ljudnivån. I en bullerrapport som forskare på KTH har gjort bekräftas bristerna med fordonen.Ändå har bara tre bilar byggts om – men inte enligt rekommendationerna.",
+          "link": "https://www.sverigesradio.se/artikel/8954265",
+          "publishedOn": "2025-06-16T17:52:00.000Z",
+          "wordCount": 455,
+          "title": "Två år efter larmen – bara en procent av bilarna fixade",
+          "imageUrl": "https://static-cdn.sr.se/images/104/ff2b931e-8751-42a8-a520-1bd98dca692d.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/8982124",
+          "author": null,
+          "description": "Under måndagen börjar Västtrafiks sommartidtabell gälla.Flera större förändringar görs i kollektivtrafiken.Bland bland blir det nya körvägar på Hisingen och i Alingsås.",
+          "link": "https://www.sverigesradio.se/artikel/8982124",
+          "publishedOn": "2025-06-16T16:52:00.000Z",
+          "wordCount": 373,
+          "title": "Sommartid: Så blir Västtrafiks nya tidtabell",
+          "imageUrl": "https://static-cdn.sr.se/images/104/59e9ee5d-56d6-42bf-99d0-da0db10c4942.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/8982737",
+          "author": null,
+          "description": "En segelbåt har gått på grund vid Tångudden i Göteborg. Det är oklart om någon kommit till skada.Räddningstjänsten är på plats.Texten uppdateras.",
+          "link": "https://www.sverigesradio.se/artikel/8982737",
+          "publishedOn": "2025-06-16T15:07:00.000Z",
+          "wordCount": 372,
+          "title": "Just nu: Segelbåt på grund vid Tångudden",
+          "imageUrl": "https://static-cdn.sr.se/images/104/16460996-250c-4f04-8ebe-0c329cf2fc37.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/8982405",
+          "author": null,
+          "description": "En internationell polisinsats har stängt ner en av världens största sajter för narkotikahandel på Darknet, som drivits av flera svenska knarkhandlare.På sajten fanns över en halv miljon användare.Vid tillslaget var 73 svenska säljare aktiva och polisen räknar med fler gripanden framöver.",
+          "link": "https://www.sverigesradio.se/artikel/8982405",
+          "publishedOn": "2025-06-16T10:35:00.000Z",
+          "wordCount": 412,
+          "title": "En av världens största narkotikasajter nedstängd – svenskar gripna",
+          "imageUrl": "https://static-cdn.sr.se/images/104/1ea60c28-3b8a-403d-a4c4-93ef8fc18f33.png"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/8976875",
+          "author": null,
+          "description": "Det var i mars förra året som Katarina Bjurström utanför Stenungsund genomgick en bröstcanceroperation. Själva operationen gick bra men såret, som var ihoplimmat, blev inflammerat och öppnade sig.Katarina fick åka till Sahlgrenska igen. Där opererades hon flera gånger men blev ändå allt sämre och till sist stod det klart att hon drabbats av sepsis.Hon berättar om chocken över att se såret och att till slut vara nära döden.",
+          "link": "https://www.sverigesradio.se/artikel/8976875",
+          "publishedOn": "2025-06-16T09:55:00.000Z",
+          "wordCount": 431,
+          "title": "Katarinas bröst exploderade – fick sepsis efter canceroperation",
+          "imageUrl": "https://static-cdn.sr.se/images/104/e29fec7f-b260-4c19-89e1-07927bc5c6d5.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/8981338",
+          "author": null,
+          "description": "Skolminister Lotta Edholm vill begränsa föräldrars inflytande över skolan genom en skärpning av skollagen.I en statlig utredning föreslås det att föräldrar endast ska ha begränsad möjlighet att påverka sina barns utbildning. P4:s granskning visar att kommunala skolor i Stockholm, Göteborg och Malmö infört tillträdesförbud för föräldrar som hotat eller skadat arbetsmiljön. Och till hösten kan föräldrar börja hindras från att komma in i skolor.",
+          "link": "https://www.sverigesradio.se/artikel/8981338",
+          "publishedOn": "2025-06-16T04:59:00.000Z",
+          "wordCount": 425,
+          "title": "Skolministern: Föräldrars inflytande ska begränsas",
+          "imageUrl": "https://static-cdn.sr.se/images/104/fe52baad-4c0c-4adc-bd6b-76c4a31560c6.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/8954257",
+          "author": null,
+          "description": "Redan när polisens kritiserade hundförarbilar testkördes kom varningar från hundförare. P4 Göteborg kan nu avslöja att myndigheten ändå gick vidare med affären på 300 nya pickup-bilar för nästan en kvarts miljard kronor.När sju fordon testkördes i verksamheten under fyra veckor kom en lång rad klagomål in, bland annat på den höga ljudnivån som stressade hundarna. Trots klagomålen under testperioden och fler larm om att bilmodellen inte var ett bra val, står det i beslutet om att fullfölja köpet att: \"Inga synpunkter har inkommit som visar på att fordonet inte är lämpligt för polishundverksamheten.\"När P4 Göteborg frågar polisens pressavdelning om en kommentar kring varför de gick vidare med köpet, trots kritiken, svarar de att de avböjer ytterligare intervjuer.",
+          "link": "https://www.sverigesradio.se/artikel/8954257",
+          "publishedOn": "2025-06-16T03:49:00.000Z",
+          "wordCount": 504,
+          "title": "Hundbilarna ratades från start – köptes ändå in av polisen",
+          "imageUrl": "https://static-cdn.sr.se/images/104/235f40d7-7cc0-4870-9ae7-933ccd977686.jpg"
+        },
+        {
           "id": "https://www.sverigesradio.se/artikel/8977842",
           "author": null,
           "description": "Skådespelaren Ida Johansson från Mölndal, som har Downs syndrom, är i år sommarvärd. I programmet kommer hon prata om hur det var att ha en intel­lektuell funktionsnedsättning förr i tiden.Ida har spelat in flera filmer och är en av skådespelarna i Glada Hudik. Och hon tycker det är ett jätteroligt jobb hon har, att vara superstar, som hon säger.Hennes sommarprat kommer sändas den 30 juni i P1.",
           "link": "https://www.sverigesradio.se/artikel/8977842",
           "publishedOn": "2025-06-15T18:56:00.000Z",
-          "wordCount": 431,
+          "wordCount": 433,
           "title": "Skådespelaren Ida är sommarvärd: ”Roligt att vara superstar”",
           "imageUrl": "https://static-cdn.sr.se/images/104/422681a8-6578-46e5-8fe5-4dd29bffc3c8.jpg"
         },
@@ -1391,7 +1489,7 @@
           "description": "En helt vanlig buske på Vintervädersgatan i Biskopsgården har täckts av ett vitt nät och tagits över av larver, vilket förvandlat den till en så kallad \"spökbuske\".Enligt insektsexperten Charlotte Jonsson tar det ett år för larverna att utvecklas till fjärilar.Larverna spinner nät för att skydda sig mot fiender och har nu spridit sig från busken till gräsmattor, staket – och till och med skor.",
           "link": "https://www.sverigesradio.se/artikel/8980634",
           "publishedOn": "2025-06-15T18:48:00.000Z",
-          "wordCount": 447,
+          "wordCount": 449,
           "title": "Spökbuske skrämmer barn – tusentals larver tar över området",
           "imageUrl": "https://static-cdn.sr.se/images/104/e57703aa-9437-4fc7-a472-d830852883e8.png"
         },
@@ -1401,9 +1499,9 @@
           "description": "Katarina Bjurströms guldringar försvann då hon vårdades för komplikationer efter en bröstcanceroperation på Sahlgrenska sjukhuset. P4 Göteborg har tidigare berättat om flera fall av stölder på Sahlgrenska.I de flesta fall blir de aldrig uppklarade men i det här fallet greps en person som jobbade på sjukhuset efter att ha försökt sälja smyckena i en pantbank. Hon dömdes till 8 månaders fängelse i tingsrätten för den här stölden och för att ha stulit ett kontokort och tagit ut pengar från en annan patient.Så Katarina har fått tillbaka sina ringar: ”Det är obeskrivlig lycka”.",
           "link": "https://www.sverigesradio.se/artikel/8977416",
           "publishedOn": "2025-06-15T17:54:00.000Z",
-          "wordCount": 465,
+          "wordCount": 464,
           "title": "Tjuven på Sahlgrenska åkte fast – Katarinas guldringar tillbaka",
-          "imageUrl": "https://static-cdn.sr.se/images/104/6abdab40-9e59-4c60-94ad-c66e38e75f3f.png"
+          "imageUrl": "https://static-cdn.sr.se/images/104/2482495b-ae47-4190-b1bd-857216586f11.jpg"
         },
         {
           "id": "https://www.sverigesradio.se/artikel/8976556",
@@ -1411,7 +1509,7 @@
           "description": "Filmjölk, grädde eller socker? För jordgubbsodlaren Mats Lekander spelar det ingen roll hur bären äts, bara det är rätt sort han stoppar i munnen.Och för att få till extra söta jordgubbar har han ett tips.Men det finns en specifik sort han aldrig skulle köpa.",
           "link": "https://www.sverigesradio.se/artikel/8976556",
           "publishedOn": "2025-06-15T16:56:00.000Z",
-          "wordCount": 414,
+          "wordCount": 416,
           "title": "Jordgubbarna odlaren aldrig köper: ”Smakar ingenting”",
           "imageUrl": "https://static-cdn.sr.se/images/104/512b16d2-2416-465c-aa9b-9b4920f01af6.png"
         },
@@ -1421,7 +1519,7 @@
           "description": "Det internationella musiklägret Side by Side pågår för fullt i Göteborg med cirka 2000 deltagare från hela världen. Sexårige Sindri Steinsson från Göteborg drömmer om att spela i stora tillställningar.Sindri inspireras av Avicii och vill lära sig spela låten \"Hey Brother\", trots att han med ett leende erkänner att det är lite svårt.",
           "link": "https://www.sverigesradio.se/artikel/8981935",
           "publishedOn": "2025-06-15T12:55:00.000Z",
-          "wordCount": 427,
+          "wordCount": 429,
           "title": "Sindri, 6, från musiklägret – ”vill spela i många band”",
           "imageUrl": "https://static-cdn.sr.se/images/104/7e66fc1e-8056-4112-b0f1-8a0253f83130.jpg"
         },
@@ -1431,7 +1529,7 @@
           "description": "Fler föräldrar portas från sina barns grundskolor efter att ha varit hotfulla eller betett sig olämpligt mot skolans personal, visar Sveriges Radios granskning. Blivande lärare rustas inte för möten med bråkiga föräldrar och det är en brist i utbildningen läraren Tina Lauvall.Maria Svensson vid lärarutbildningen på Göteborgs universitet ger sin bild av hur hon ser på den här kritiken.",
           "link": "https://www.sverigesradio.se/artikel/8978101",
           "publishedOn": "2025-06-15T05:03:00.000Z",
-          "wordCount": 435,
+          "wordCount": 437,
           "title": "Läraren Tina: Lägg mer fokus på bråkiga föräldrar i utbildningen",
           "imageUrl": "https://static-cdn.sr.se/images/104/46d7780c-c428-4609-b2da-64cd02a7a2e8.jpg"
         },
@@ -1441,7 +1539,7 @@
           "description": "Spårvagnstrafiken mellan Gamlestadstorg och Angered i Göteborg stoppas under fyra veckor på grund av sommarens spårarbeten. Linjerna 4, 8 och 9 påverkas, och ersättningsbussar sätts in mellan 16 juni och 14 juli. Sommarens spårarbeten är en återkommande del av stadens underhåll, vilket kan innebära längre restider för resenärerna.",
           "link": "https://www.sverigesradio.se/artikel/8980688",
           "publishedOn": "2025-06-15T04:51:00.000Z",
-          "wordCount": 415,
+          "wordCount": 417,
           "title": "Ingen spårvagn till Angered – försvinner i fyra veckor",
           "imageUrl": "https://static-cdn.sr.se/images/104/7f17eceb-6bcb-4e26-8b6f-144ad520787e.jpg"
         },
@@ -1451,8 +1549,8 @@
           "description": "Britt Ling förlorade sin kusin Elisabeth Bovin i explosionen på Övre Husargatan i Göteborg år 2021. Nu berättar hon om sorgen i P3 Dokumentär.Elisabeth var på besök för att hjälpa Britt efter en knäoperation, men miste livet till följd av sina skador från den kraftiga explosionen.Britt minns sin sista hälsning, där orden om en fågelvinge över sanden fick en särskild betydelse.",
           "link": "https://www.sverigesradio.se/artikel/8977001",
           "publishedOn": "2025-06-15T03:52:00.000Z",
-          "wordCount": 449,
-          "title": "Kusinen var på besök hos Britt – sen kom explosionen",
+          "wordCount": 451,
+          "title": "Kusinen var på besök hos Britt – då kom explosionen",
           "imageUrl": "https://static-cdn.sr.se/images/104/1e4c0d4f-5038-4be6-9aa0-7e92436f1ce8.jpg"
         },
         {
@@ -1474,106 +1572,6 @@
           "wordCount": 415,
           "title": "Historisk komedi vid Gunnebo slott: Blir mer intim",
           "imageUrl": "https://static-cdn.sr.se/images/104/27a4c62f-4e9c-48d0-a38e-04a7338885ad.jpg"
-        },
-        {
-          "id": "https://www.sverigesradio.se/artikel/8974780",
-          "author": null,
-          "description": "Huruvida frukt är godis kan diskuteras, men för tamarin-aporna på Universeum i Göteborg är det en svårsmält sanning.Fruktsockret är nämligen inte bra för dem och gör djuren feta.Nu är dieten bytt till en grönsaksbaserad sådan, för att säkra artens överlevnad, berättar Universeums Daniel Roth.",
-          "link": "https://www.sverigesradio.se/artikel/8974780",
-          "publishedOn": "2025-06-14T13:51:00.000Z",
-          "wordCount": 413,
-          "title": "Universeums apor blir för feta – måste grönsaksbanta",
-          "imageUrl": "https://static-cdn.sr.se/images/104/93848dbf-4d82-4454-b9a3-2e9fa4237f01.jpg"
-        },
-        {
-          "id": "https://www.sverigesradio.se/artikel/8981673",
-          "author": null,
-          "description": "Pride-tåget rullar genom Göteborg, och pappa Claes dansar för sin dotter Liv och hennes vän Harriet. För Liv och Harriet är det bland de första gångerna de går med i tåget, medan Claes ser det som en chans att visa sitt stöd. Claes bjuder på klassiska danssteg, inklusive hans signaturmove: Lådan.",
-          "link": "https://www.sverigesradio.se/artikel/8981673",
-          "publishedOn": "2025-06-14T13:10:00.000Z",
-          "wordCount": 441,
-          "title": "Pappan Claes visar sitt stöd till dottern – dansar i pridetåget",
-          "imageUrl": "https://static-cdn.sr.se/images/104/1661c101-08ca-4e5e-9d13-73dbe3d37c5c.jpg"
-        },
-        {
-          "id": "https://www.sverigesradio.se/artikel/8981590",
-          "author": null,
-          "description": "Inför gästandet på Håkan Hellströms tredje och sista konsert hade Benjamin Ingrosso inte haft de bästa förutsättningarna.De två repade i måndags – men stötte på problem med elförsörjningen.Men hellre brödlös än rådlös brukar man säga, och Benjamin Ingrosso löste problemet medelst bland annat ficklampa.",
-          "link": "https://www.sverigesradio.se/artikel/8981590",
-          "publishedOn": "2025-06-14T08:46:00.000Z",
-          "wordCount": 409,
-          "title": "Elfel drabbade Håkan-repetitioner: ”Fick använda ficklampa”",
-          "imageUrl": "https://static-cdn.sr.se/images/104/26d022b5-9522-4af7-8ee7-a80e2a85fa0e.jpg"
-        },
-        {
-          "id": "https://www.sverigesradio.se/artikel/8981583",
-          "author": null,
-          "description": "Håkan Hellströms tre konserter i Göteborg är över för sommaren 2025.Robert Ros är produktionsansvarig för de tre konserterna med Håkan Hellström och när han berättar om vad som städas upp under lördagsmorgonen finns det en viss överraskning.Till och med P4 Göteborgs reporter blir förvånad över någon som kan vara typiskt för Ullevi.",
-          "link": "https://www.sverigesradio.se/artikel/8981583",
-          "publishedOn": "2025-06-14T07:36:00.000Z",
-          "wordCount": 427,
-          "title": "Udda skräpet efter Håkan-festen: ”Ullevi är tydligen känt för det”",
-          "imageUrl": "https://static-cdn.sr.se/images/104/da40f2ef-df80-4cb0-8b57-639d5fb553e8.jpeg"
-        },
-        {
-          "id": "https://www.sverigesradio.se/artikel/8980725",
-          "author": null,
-          "description": "En aggressiv fiskmås attackerar boende vid Chapmans torg i Göteborg. Det var GP först med att berätta.Roozbeh Behtaji och hans dotter har blivit attackerade av måsen flera gånger. Samtidigt hade torget känts tomt utan attackmåsen.”Den är en del av Chapmans torg”, säger han.",
-          "link": "https://www.sverigesradio.se/artikel/8980725",
-          "publishedOn": "2025-06-14T05:54:00.000Z",
-          "wordCount": 401,
-          "title": "Trots måsattackerna: Roozbeh kan sakna fågeln",
-          "imageUrl": "https://static-cdn.sr.se/images/104/16e81d5e-b9d5-4603-921a-0fe5ac6ee1e0.jpg"
-        },
-        {
-          "id": "https://www.sverigesradio.se/artikel/8981360",
-          "author": null,
-          "description": "En granskning visar att föräldrar i Malmö, Göteborg och Stockholm portats från sina barns skolor efter olämpligt beteende. Barnpsykologen Jenny Klevbom menar att sådana händelser kan skapa rädsla hos barn, även om de inte direkt är inblandade.Hon betonar vikten av att hantera situationen diplomatiskt men varnar för att vissa föräldrar låter konflikter med skolan gå ut över barnens trygghet.",
-          "link": "https://www.sverigesradio.se/artikel/8981360",
-          "publishedOn": "2025-06-14T05:28:00.000Z",
-          "wordCount": 433,
-          "title": "Barnpsykolog: Föräldrars bråk i skolan skadar barn",
-          "imageUrl": "https://static-cdn.sr.se/images/104/8b568283-1b37-4068-911c-52670c8b4a81.jpg"
-        },
-        {
-          "id": "https://www.sverigesradio.se/artikel/8981552",
-          "author": null,
-          "description": "En man tog en taxi hem under fredagsnatten men betalade inte för resan.Istället hämtade han sin hund som han bussade på taxichauffören.Nu misstänks han för bland annat bedrägeri.",
-          "link": "https://www.sverigesradio.se/artikel/8981552",
-          "publishedOn": "2025-06-14T05:12:00.000Z",
-          "wordCount": 393,
-          "title": "Man bussade hund på taxichaufför – vägrade betala",
-          "imageUrl": "https://static-cdn.sr.se/images/104/01001eba-ce1a-4426-b06b-9ef547700617.jpg"
-        },
-        {
-          "id": "https://www.sverigesradio.se/artikel/8976104",
-          "author": null,
-          "description": "Unga har svårt att säga nej till sex. Det visar en ny avhandling från Göteborgs Universitet.Rädsla för att uppfattas som tråkig är en av anledningarna. Forskaren Kristin Blom har lösningar.",
-          "link": "https://www.sverigesradio.se/artikel/8976104",
-          "publishedOn": "2025-06-14T05:00:00.000Z",
-          "wordCount": 413,
-          "title": "Därför säger unga ja till sex – fast de inte vill",
-          "imageUrl": "https://static-cdn.sr.se/images/104/e0b9e1f2-83e7-4e96-9689-0add5d5539e6.jpg"
-        },
-        {
-          "id": "https://www.sverigesradio.se/artikel/8978067",
-          "author": null,
-          "description": "Brudbergsskolan på Hisingen stängde ned sin verksamhet 2016. Trots det är värme och vatten fortfarande på och kostar skattepengar. Skolan har drabbats av skadegörelse och inbrott flera gånger och ska rivas, men det är oklart när. Målet är att en ny, större skola ska byggas på platsen.Det är också oklart varför wifi:t står på och kostar pengar, när ingen förvaltning i stan riktigt vet vad det behövs till.",
-          "link": "https://www.sverigesradio.se/artikel/8978067",
-          "publishedOn": "2025-06-14T03:57:00.000Z",
-          "wordCount": 447,
-          "title": "Skolan stängdes 2016 – kostar två miljoner om året",
-          "imageUrl": "https://static-cdn.sr.se/images/104/4c7cbb97-f916-45b1-8599-eb5290c9d6c3.jpeg"
-        },
-        {
-          "id": "https://www.sverigesradio.se/artikel/8981049",
-          "author": null,
-          "description": "Det varma sommarvädret lockar många till att ta det där efterlängtade doppet. Men det finns saker man ska tänka på när man badar.Helst ska man undvika att bada ensam. Det menar Emelie Emelvik, frivillig sjöräddare hos sjöräddningssällskapet i Göteborg, Om någonting händer när man är i vattnet har Emelie Emelvik tre tips som man ska ha i bakhuvudet.",
-          "link": "https://www.sverigesradio.se/artikel/8981049",
-          "publishedOn": "2025-06-13T19:40:00.000Z",
-          "wordCount": 431,
-          "title": "Sjöräddaren: Så doppar du dig säkert i sommar",
-          "imageUrl": "https://static-cdn.sr.se/images/104/f7bcc70c-be73-422e-9b89-e3d74a3f4b07.jpeg"
         }
       ]
     },
@@ -1583,204 +1581,204 @@
       "siteUrl": "https://www.sverigesradio.se/default.aspx?programid=83",
       "articles": [
         {
-          "id": "https://www.sverigesradio.se/artikel/8982076",
+          "id": "https://www.sverigesradio.se/artikel/8982936",
           "author": null,
-          "description": "<ul><li><p>Situationen i Mellanöstern är mycket allvarlig, konstaterar Sveriges försvarsminister Pål Jonson i <a class=\"external-link\" rel=\"noreferrer noopener nofollow\" target=\"_blank\" href=\"https://www.svtplay.se/video/jqPy475/agenda/storkrig-i-mellanostern?position=259\">SVT:s Agenda</a>.</p></li><li><p>Pål Jonson säger att om Iran skulle angripa amerikanska installationer skulle det kunna leda till en stor hämndauktion.</p></li><li><p>EU:s utrikesministrar träffas på tisdag för att diskutera konflikten mellan Iran och Israel.</p></li></ul>",
-          "link": "https://www.sverigesradio.se/artikel/8982076",
-          "publishedOn": "2025-06-15T22:33:00.000Z",
-          "wordCount": 356,
-          "title": "Pål Jonson (M): Mycket allvarlig situation",
-          "imageUrl": "https://static-cdn.sr.se/images/83/c004629b-8ee3-4d0e-aff4-243690a6422a.jpg"
-        },
-        {
-          "id": "https://www.sverigesradio.se/artikel/8982059",
-          "author": null,
-          "description": "<ul><li><p>”Grönland ska varken säljas eller tas”, det sade Frankrikes president Emmanuel Macron under ett besök i den grönländska huvudstaden Nuuk. &nbsp;</p></li><li><p>Macrons syfte med besöker är att visa franskt och europeiskt stöd efter president Donald Trumps upprepade uttalanden om att USA bör ta över Grönland.</p></li><li><p> Macron träffade Danmarks statsminister Mette Frederiksen och Grönlands regeringschef Jens-Frederik Nielsen. Den franska presidenten pratade om ökat samarbete inom flera områden och avslöjade att Frankrike planerar att öppna ett generalkonsulat i Nuuk.</p></li></ul>",
-          "link": "https://www.sverigesradio.se/artikel/8982059",
-          "publishedOn": "2025-06-15T20:14:00.000Z",
-          "wordCount": 398,
-          "title": "Macron: Grönland ska varken säljas eller tas",
-          "imageUrl": "https://static-cdn.sr.se/images/83/9b92d4ab-247f-4874-9615-584b03662797.jpg"
-        },
-        {
-          "id": "https://www.sverigesradio.se/artikel/8982051",
-          "author": null,
-          "description": "<ul><li><p>Jakten på misstänkte politikermördaren Vance Boelter i Minnesota i USA fortsätter.</p></li><li><p>Efter tips från boende i ett samhälle utanför Minneapolis, ungefär en timme från där gårdagens skjutningar skedde,  har polisen nu hittat en bil som tillhör Boelter och som tros vara flyktbilen. </p></li><li><p>Den 57-årige Vance Boelter misstänks för att ha skjutit ihjäl en demokratisk lokalpolitiker och hennes man i deras hem. Han misstänks också för mordförsök på en annan demokrat och dennes fru. </p></li></ul>",
-          "link": "https://www.sverigesradio.se/artikel/8982051",
-          "publishedOn": "2025-06-15T19:10:00.000Z",
-          "wordCount": 386,
-          "title": "Polis har hittat misstänkte politikermördarens bil",
-          "imageUrl": "https://static-cdn.sr.se/images/83/d4992e31-f402-446d-b998-7717fa27dc22.jpg"
-        },
-        {
-          "id": "https://www.sverigesradio.se/artikel/8982043",
-          "author": null,
-          "description": "<ul><li><p>Trumpadministrationen överväger att införa inreseförbud för medborgare i ytterligare 36 länder, enligt interna dokument som Reuters tagit del av.</p></li><li><p>Bland länderna vars medborgare nu riskerar inreseförbud i USA finns Kambodja, Kongo och Egypten.</p></li><li><p>Tidigare i juni skrev Trump under inreseförbud för medborgare i 12 länder med hänvisning till att skydda USA från vad administrationen kallar för utländska terrorister och andra säkerhetshot.</p></li></ul>",
-          "link": "https://www.sverigesradio.se/artikel/8982043",
-          "publishedOn": "2025-06-15T18:22:00.000Z",
-          "wordCount": 370,
-          "title": "USA uppges överväga inreseförbud för fler länder",
-          "imageUrl": "https://static-cdn.sr.se/images/83/88ac1c5c-e7f1-466a-9beb-e2d06407c1c9.jpg"
-        },
-        {
-          "id": "https://www.sverigesradio.se/artikel/8982033",
-          "author": null,
-          "description": "<ul><li><p>Irans revolutionsgarde bekräftar att flera höga befälhavare dödats i israeliska attacker under söndagen. Bland annat underrättelsechefen Mohammad Kazemi. Något som Israels premiärminister Benjamin Netanyahu tidigare sagt.</p></li><li><p>Samtidigt rapporterar nyhetsbyrån AFP att Iran sagt till medlarna från Qatar och Oman att inga förhandlingar kommer att ske medan attackerna pågår.</p></li><li><p>Och med anledning av den upptrappade konflikten ska EU:s utrikesministrar mötas på tisdag för att diskutera händelseutvecklingen.</p></li></ul>",
-          "link": "https://www.sverigesradio.se/artikel/8982033",
-          "publishedOn": "2025-06-15T17:44:00.000Z",
-          "wordCount": 374,
-          "title": "Netanyahu: Israel har dödat Irans underrättelsechef",
-          "imageUrl": "https://static-cdn.sr.se/images/83/0b30508b-dcde-4fe7-8978-37eaf1afab10.jpg"
-        },
-        {
-          "id": "https://www.sverigesradio.se/artikel/8981817",
-          "author": null,
-          "description": "<ul><li><p>I Ukraina förbereder man sig nu på en ny rysk sommaroffensiv där drönare kan komma att spela en avgörande roll.&nbsp;</p></li><li><p>Sveriges Radios korrespondent Lubna El-Shanti besökte en kommandocentral för drönare i Charkivregionen där man står inför en ny utmaning – ryska fiberoptiska drönare som är nästintill omöjliga att störa ut.&nbsp;</p></li><li><p>”Man kan försöka fånga dem med nät, klippa kabeln eller skjuta ner dem. Men först måste man hitta dem och det är inte enkelt”, säger kompanichefen med krigsnamnet Mamaj.</p></li></ul>",
-          "link": "https://www.sverigesradio.se/artikel/8981817",
-          "publishedOn": "2025-06-15T16:52:00.000Z",
-          "wordCount": 400,
-          "title": "Nya hotet mot Ukraina: Ryska fiberoptiska drönare",
-          "imageUrl": "https://static-cdn.sr.se/images/83/2919a5cf-8083-44d5-97d3-8553e7a018c1.jpg"
-        },
-        {
-          "id": "https://www.sverigesradio.se/artikel/8982000",
-          "author": null,
-          "description": "<ul><li><p>Flygvapnet har flugit över Stockholm under söndagen, det bekräftar Försvarsmakten. </p></li><li><p>Syftet med flygningen kan inte kommuniceras i nuläget, enligt Jonas Bäsk, vakthavande kommunikatör hos Försvarsmakten.</p></li><li><p>”Stridsflygen finns där för att upprätthålla vår säkerhet”, säger han.</p></li></ul>",
-          "link": "https://www.sverigesradio.se/artikel/8982000",
-          "publishedOn": "2025-06-15T16:30:00.000Z",
-          "wordCount": 352,
-          "title": "Stridsflyg har setts över Stockholm",
-          "imageUrl": "https://static-cdn.sr.se/images/83/5d0ddcde-9658-40aa-9487-36d5d3faf9f4.jpg"
-        },
-        {
-          "id": "https://www.sverigesradio.se/artikel/8981999",
-          "author": null,
-          "description": "<ul><li><p>Israel och Iran har fortsatt attackera varandra under söndagskvällen. </p></li><li><p>Israeliska medier rapporterar att Iran har träffat flera olika platser runt om i Israel, medan den israeliska militären säger att de bombat avfyringsramper och andra mål i Iran. </p></li><li><p>Dödssiffrorna fortsätter stiga. Israel säger att minst tio personer har dödats i Israel sedan attackerna inleddes natten till fredagen. Den Washingtonbaserade organisationen Human Rights Activists bedömer att 406 personer har dödats i Iran.</p></li></ul>",
-          "link": "https://www.sverigesradio.se/artikel/8981999",
-          "publishedOn": "2025-06-15T16:22:00.000Z",
-          "wordCount": 408,
-          "title": "Dödssiffran i Iran stiger – rapporter om över 400 döda",
-          "imageUrl": "https://static-cdn.sr.se/images/83/6d9a9494-4457-4c53-af88-4ad8e08d083a.jpg"
-        },
-        {
-          "id": "https://www.sverigesradio.se/artikel/8981979",
-          "author": null,
-          "description": "<ul><li><p>Det har gått drygt ett dygn sedan en delstatspolitiker och hennes man sköts till döds i Minnesota i USA, och en annan delstatspolitiker och hans fru skottskadades i sina hem.</p></li><li><p>Jakten på den misstänkta mördaren pågår fortfarande. Den som pekats ut är den 57-åriga Vance Boelter.</p></li><li><p>Hör USA-korrespondent Roger Wilson om det senaste om polisjakten.</p></li></ul>",
-          "link": "https://www.sverigesradio.se/artikel/8981979",
-          "publishedOn": "2025-06-15T15:59:00.000Z",
-          "wordCount": 375,
-          "title": "Jakten fortsätter efter politikermord i USA",
-          "imageUrl": "https://static-cdn.sr.se/images/83/18f34e40-de8d-40db-8220-946984efe55d.jpg"
-        },
-        {
-          "id": "https://www.sverigesradio.se/artikel/8973960",
-          "author": null,
-          "description": "<ul><li><p>Polisen har kartlagt var i Sverige unga personer begår brott.</p></li><li><p>Kartläggningen kan användas för att identifiera platser där ungdomar riskerar att involveras i kriminalitet, enligt Johanna Kindgren, analytiker vid polisen Nationella operativa avdelningen, Noa.</p></li><li><p>”Av hela Sveriges yta så är det 0,02 procent som står för de mest påtagliga problemen med ungdomsbrott. Då kan vi jobba med de platserna”, säger hon.</p></li></ul>",
-          "link": "https://www.sverigesradio.se/artikel/8973960",
-          "publishedOn": "2025-06-15T15:51:00.000Z",
-          "wordCount": 385,
-          "title": "Polisens kartläggning: Här begår unga brott",
-          "imageUrl": "https://static-cdn.sr.se/images/83/995e9cf4-cf29-43dd-8d90-88df936d716d.jpg"
-        },
-        {
-          "id": "https://www.sverigesradio.se/artikel/8981984",
-          "author": null,
-          "description": "<ul><li><p>Städstrejken inom industrin som skulle ha trätt i kraft på måndag är avblåst. </p></li><li><p>Fastighetsanställdas förbund där Ewa Edström är ansvarig för städavtalet, har fått igenom ett av sina huvudkrav i avtalet med arbetsgivarorganisationen Almega.</p></li><li><p>”Den viktigaste det var frågan om att deltidsanställda ska få samma övertidsersättning som heltidsanställda. När de jobbar utöver sitt fastställda arbetstidsmått.” säger hon. </p></li></ul>",
-          "link": "https://www.sverigesradio.se/artikel/8981984",
-          "publishedOn": "2025-06-15T15:11:00.000Z",
-          "wordCount": 361,
-          "title": "Parterna överens – städstrejken avblåst",
-          "imageUrl": "https://static-cdn.sr.se/images/83/dd6d502c-6c24-4b92-97fe-96d71ac8dd1b.jpg"
-        },
-        {
-          "id": "https://www.sverigesradio.se/artikel/8981971",
-          "author": null,
-          "description": "<ul><li><p>Söndagen har varit den varmaste dagen hittills i år i landet. </p></li><li><p>I Målilla i Hultsfreds kommun uppmättes 29,9 grader, enligt SMHI:s preliminära siffror och det är den högsta temperaturen hittills för i år. Tidigare i dag hade Stockholm den dittills varmaste temperaturen på 29,5 grader.</p></li><li><p>Gatorna i Stockholm, som brukar krylla av folk, är nästintill tomma – i stället har de flesta tagit sig till parker och badplatser. </p></li></ul>",
-          "link": "https://www.sverigesradio.se/artikel/8981971",
-          "publishedOn": "2025-06-15T15:08:00.000Z",
-          "wordCount": 401,
-          "title": "Årets varmaste dag hittills: ”Sitter här och hämtar pust”",
-          "imageUrl": "https://static-cdn.sr.se/images/83/d756c570-bbca-4064-a698-063dd8028c9d.jpg"
-        },
-        {
-          "id": "https://www.sverigesradio.se/artikel/8977586",
-          "author": null,
-          "description": "<ul><li><p>Pressen på unga som tar studenten i år är större än för tidigare generationer, med ekonomisk stress, oro i omvärlden och krav&nbsp;på högre utbildning.</p></li><li><p>Undersökningar visar att det tar längre tid nu att etablera sig på arbetsmarknaden och att kraven på högre utbildning hela tiden ökar.</p></li><li><p>”Nu har väl chocken att man inte har den här bestämda platsen att vara på inte kommit än, men när den väl kommer blir det lite jobbigt”, säger Morgan Björn som nyss tagit studenten.</p></li></ul>",
-          "link": "https://www.sverigesradio.se/artikel/8977586",
-          "publishedOn": "2025-06-15T14:03:00.000Z",
-          "wordCount": 417,
-          "title": "Högre press på gymnasiestudenter – ekonomisk stress och oro i världen",
-          "imageUrl": "https://static-cdn.sr.se/images/83/b8112d2e-111b-4e87-a1d8-11337f3d010e.jpg"
-        },
-        {
-          "id": "https://www.sverigesradio.se/artikel/8981926",
-          "author": null,
-          "description": "<ul><li><p>Den brittiska regeringen ändrar sig och lovar nu att genomföra nu en nationell utredning om de tusentals sexövergrepp som riktats mot unga flickor på flera olika håll i landet.</p></li><li><p>”Vi måste se till att det inte kan hända igen”, säger finansminister Rachel Reeves till nyhetsbolaget ITN.</p></li><li><p>Kritiker, bland annat Elon Musk, kampanjade hårt i vintras för att regeringen skulle genomföra en sådan utredning.</p></li></ul>",
-          "link": "https://www.sverigesradio.se/artikel/8981926",
-          "publishedOn": "2025-06-15T13:57:00.000Z",
-          "wordCount": 382,
-          "title": "Brittiska regeringen säger ja till utredning om övergrepp",
-          "imageUrl": "https://static-cdn.sr.se/images/83/e331e7fc-6d42-47be-b9aa-8d02d8dccaac.jpg"
-        },
-        {
-          "id": "https://www.sverigesradio.se/artikel/8981952",
-          "author": null,
-          "description": "<ul><li><p>Flyglarm hörs över Tel Aviv och Jerusalem, uppger vittnen för Reuters.</p></li><li><p>Enligt nyhetsbyrån uppger både israeliska militären och iranska statliga medier att Iran har avfyrat robotar mot Israel.</p></li><li><p>Tidigare uppmanade israeliska militären civila att söka skydd, något som nu hävts.</p></li></ul>",
-          "link": "https://www.sverigesradio.se/artikel/8981952",
-          "publishedOn": "2025-06-15T13:14:00.000Z",
-          "wordCount": 333,
-          "title": "Iran uppges ha avfyrat robotar",
+          "description": "<ul><li><p>Ukrainas huvudstad Kiev har under natten till mot tisdag utsatts för en stor rysk drönar och robotattack, enligt lokala myndigheter.</p></li><li><p>Bland annat har ett flerfamiljshus träffats och flera personer har skadats.</p></li><li><p>Delar från nedskjutna drönare har också orsakat bränder på flera håll.</p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/8982936",
+          "publishedOn": "2025-06-17T00:00:00.000Z",
+          "wordCount": 351,
+          "title": "Uppgifter: Flera skadade i attacker mot Kiev",
           "imageUrl": "https://static-cdn.sr.se/images/83/c5f7bcaf-c90d-4efb-9f1c-326d5c9f5917.jpg"
         },
         {
-          "id": "https://www.sverigesradio.se/artikel/8981932",
+          "id": "https://www.sverigesradio.se/artikel/8982935",
           "author": null,
-          "description": "<ul><li><p>Vårdföretagarna och Kommunal har accepterat medlarnas bud och vård- och omsorgsstrejken är därmed avblåst, uppger Vårdföretagarna och Kommunal.</p></li><li><p>Antje Dedering, förbundsdirektör på Vårdföretagarna, säger i ett pressmeddelande att det är en lättnad.</p></li><li><p>De nya kollektivavtalen gäller fram till 1 juni 2027.</p></li></ul>",
-          "link": "https://www.sverigesradio.se/artikel/8981932",
-          "publishedOn": "2025-06-15T12:07:00.000Z",
-          "wordCount": 341,
-          "title": "Parterna överens – vårdstrejken avblåst",
-          "imageUrl": "https://static-cdn.sr.se/images/83/59258cef-7cce-4e6e-84fb-3c09c624bb5d.jpg"
+          "description": "<ul><li><p>Vita huset säger att presdent Donald Trump lämnar G7-mötet i Kanada i förtid och redan nu i natt&nbsp;återvända till Washington på grund av händelserna i Mellanöstern.</p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/8982935",
+          "publishedOn": "2025-06-16T23:50:00.000Z",
+          "wordCount": 330,
+          "title": "Trump lämnar G7-mötet i förtid",
+          "imageUrl": "https://static-cdn.sr.se/images/83/0e5e7e02-5578-4559-a4b8-74eba8718857.jpg"
         },
         {
-          "id": "https://www.sverigesradio.se/artikel/8981918",
+          "id": "https://www.sverigesradio.se/artikel/8982934",
           "author": null,
-          "description": "<ul><li><p>Det var meningen att samtalen mellan Iran och USA om att nå en förhandlingslösning på Irans atomenergiprogram skulle ha fortsatt på söndagen, men i stället har människor i både Israel och Iran upplevt ännu en skräckfylld och våldsam natt.</p></li><li><p>”Tanken på förhandlingar har drunknat i ljudet av explosioner, flyglarm och bombade bostadshus i både Israel och Iran”, säger vår Mellanösternkorrespondent Cecilia Uddén i Kairo.</p></li><li><p>Israel har också utfärdat evakueringsordrar till människor i Iran som bor nära atomenergianläggningar.</p></li></ul>",
-          "link": "https://www.sverigesradio.se/artikel/8981918",
-          "publishedOn": "2025-06-15T11:27:00.000Z",
-          "wordCount": 420,
-          "title": "Cecilia Uddén: Tanken på förhandlingar har drunknat i ljudet av explosioner",
-          "imageUrl": "https://static-cdn.sr.se/images/83/5c5edd04-f3ae-40cc-9fe3-9721bc514c2b.jpg"
+          "description": "<ul><li><p>USAs president Trump uppmanar nu alla i Irans huvudstad Teheran att evakuera staden. </p></li><li><p>Han skriver också på sociala medier, med stora bokstäver att Iran inte kan få ha kärnvapen och att landet borde ha gått med på en överenskommelse tidigare. </p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/8982934",
+          "publishedOn": "2025-06-16T23:10:00.000Z",
+          "wordCount": 346,
+          "title": "Trump: Evakuera Teheran omedelbart",
+          "imageUrl": "https://static-cdn.sr.se/images/83/33699c3b-1ffa-4e81-b322-d0bbfa5e620d.jpg"
         },
         {
-          "id": "https://www.sverigesradio.se/artikel/8981916",
+          "id": "https://www.sverigesradio.se/artikel/8982923",
           "author": null,
-          "description": "<ul><li><p>Den misstänkte gärningsmannen har pekats ut som 57-årige Vance Boelter. </p></li><li><p>Två lokalpolitiker i Minnesota har skjutits tillsammans med sina makar igår och det ena paret avled.</p></li><li><p>Den misstänkte ska ha sympatiserat med abortmotståndare, och hade en lång lista på andra personer med sig, som ses som ytterligare möjliga måltavlor. De flesta på listan är demokrater och flera har engagerat sig för fri abort. </p></li></ul>",
-          "link": "https://www.sverigesradio.se/artikel/8981916",
-          "publishedOn": "2025-06-15T11:19:00.000Z",
-          "wordCount": 375,
-          "title": "Intensiv jakt på misstänkt mördare efter politikermord",
-          "imageUrl": "https://static-cdn.sr.se/images/83/217a260b-642c-4fda-9132-1452f85798c8.jpg"
+          "description": "<ul><li><p>Iran ska under måndagskvällen ha svarat på Israels attacker mot Teheran. </p></li><li><p> Iranska drönare har skjutits ner av israeliskt luftvärn i norra delen av landet.</p></li><li><p>”Israelerna uppmanades att hålla sig vid skyddsrummen”, rapporterar vår korrespondent Samar Hadrous i Tel Aviv.</p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/8982923",
+          "publishedOn": "2025-06-16T21:03:00.000Z",
+          "wordCount": 361,
+          "title": "Iran gick till motattack – stoppades av Israels luftvärn",
+          "imageUrl": "https://static-cdn.sr.se/images/83/eb7e9eb8-9306-4123-85b6-e12ecb97ce3a.jpg"
         },
         {
-          "id": "https://www.sverigesradio.se/artikel/8981911",
+          "id": "https://www.sverigesradio.se/artikel/8982178",
           "author": null,
-          "description": "<ul><li><p>En man i 20-årsåldern som är internationellt efterlyst för flera brott i Sverige har gripits i Bergen i Norge, rapporterar NRK. Mannen greps i fredags och häktades på söndagen i väntan på att bli utlämnad.</p></li><li><p>Han är misstänkt för tolv olika brott – bland annat rån, utpressning och sexuella övergrepp, enligt den norske åklagaren.</p></li><li><p>Genom sin försvarare nekar mannen till anklagelserna och uppger att han var i Bergen för att arbeta.</p></li></ul>",
-          "link": "https://www.sverigesradio.se/artikel/8981911",
-          "publishedOn": "2025-06-15T10:39:00.000Z",
+          "description": "<ul><li><p>Konflikten mellan Israel och Iran hindrar hjälpinsatser till hundratusentals afghanska flyktingar som lever i Iran. Detta enligt Ruvendrini Menikdiwela, högsta chefen för internationellt flyktingskydd på FN:s flyktingorgan UNHCR.</p></li><li><p>”Situationen är extremt oroande”, säger hon under ett besök på en internationell migrationskonferens i Malmö.</p></li><li><p>UNHCR:s personal som inte är absolut nödvändig, evakueras nu från Iran, enligt Menikdiwela som beskriver utmaningarna i resten av världen som rekordstora.</p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/8982178",
+          "publishedOn": "2025-06-16T20:53:00.000Z",
+          "wordCount": 402,
+          "title": "UNHCR om konflikten mellan Israel och Iran: ”Extremt oroande”",
+          "imageUrl": "https://static-cdn.sr.se/images/83/fde3d980-9b98-4326-a238-3f3d9a283c20.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/8982907",
+          "author": null,
+          "description": "<ul><li><p>Kaffepriset kan vara på väg att sjunka i flera svenska butiker.</p></li><li><p>Enligt Ulf Mazur, grundare av Matpriskollen, kan vi vänta oss prissänkningar på kaffe i flera butiker den kommande veckan.</p></li><li><p>I fall trenden med sjunkande kaffepriser håller i sig är däremot osäkert, då kaffe blivit populärt i Kina, enligt råvarustrateg Torbjörn Iwarson på fondbolaget Centaur Commodity.</p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/8982907",
+          "publishedOn": "2025-06-16T20:16:00.000Z",
+          "wordCount": 380,
+          "title": "Priset på kaffe på väg ner – flera butiker har sänkt",
+          "imageUrl": "https://static-cdn.sr.se/images/83/de9b5ec4-b056-4ecd-87d7-0de3c57a0cc6.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/8982864",
+          "author": null,
+          "description": "<ul><li><p>Kina bygger ut sin kärnvapenarsenal i snabbare takt än något annat land, visar en ny rapport från Sipri.</p></li><li><p>I grannländerna Sydkorea och Japan har det satt fart på debatten om att skaffa egna kärnvapen och det väcker oro för ett kärnvapenrace i Asien.&nbsp;</p></li><li><p>Kina har lagt till 100 nya kärnvapenladdade stridsspetsar bara det senaste året, enligt Sipri.</p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/8982864",
+          "publishedOn": "2025-06-16T18:19:00.000Z",
+          "wordCount": 362,
+          "title": "Kina bygger ut sin kärnvapenarsenal",
+          "imageUrl": "https://static-cdn.sr.se/images/83/e914c1c6-69c7-4c7f-95e6-c168e1875183.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/8982682",
+          "author": null,
+          "description": "<ul><li><p>Flyg i Mellanöstern har ställts in eller dirigerats om sedan Israel inledde attackerna mot Iran, och som Iran nu har svarat på.</p></li><li><p>”Jag och andra vänner i samma situation, vi försöker hitta en annan lösning för att ta ett returflyg till Sverige”, säger Mohammad Nesrini som bor i Malmö, men just nu är fast i Syriens huvudstad Damaskus.</p></li><li><p>Flera länder har stängt sina luftrum – och det har påverkat flygtrafiken kraftigt i länder som Syrien, Irak och Libanon, rapporterar bland annat CNN.</p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/8982682",
+          "publishedOn": "2025-06-16T18:10:00.000Z",
+          "wordCount": 386,
+          "title": "Svenskar fast i Mellanöstern",
+          "imageUrl": "https://static-cdn.sr.se/images/83/4412cde5-71ba-48a6-9127-7048662787c2.png"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/8982835",
+          "author": null,
+          "description": "<ul><li><p>Fyra personer dödades i den israeliska staden Petah Tikva under söndagen när flera höghus träffades i en iransk robotattack. </p></li><li><p>Vår korrespondent Samar Hadrous besökte staden och träffade Ziva som fick sitt hem förstört.</p></li><li><p>”Det var glasbitar överallt och golvet rasade”, berättar hon.</p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/8982835",
+          "publishedOn": "2025-06-16T17:15:00.000Z",
+          "wordCount": 355,
+          "title": "Ziva överlevde iranska robotattacken: ”Golvet föll samman”",
+          "imageUrl": "https://static-cdn.sr.se/images/83/1cb0b139-9387-43e5-a24d-f2a81c61d8aa.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/8982817",
+          "author": null,
+          "description": "<ul><li><p>Flera personer ska ha dödats och skadats i en israelisk attack mot Irans statliga tv-och radiobolag i huvudstaden Teheran på måndagen, enligt iranska medier.</p></li><li><p>På tv-bilder kunde man se hur nyhetsankaret flydde studion under attacken.</p></li><li><p>Vår Mellanösternkorrespondent Samar Hadrous rapporterar från Tel Aviv i Israel.</p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/8982817",
+          "publishedOn": "2025-06-16T16:47:00.000Z",
+          "wordCount": 377,
+          "title": "Israel slog till mot tv-huset i Iran: ”Liknas vid en statskupp”",
+          "imageUrl": "https://static-cdn.sr.se/images/83/d80c2724-a441-4454-b79f-b917984d0efe.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/8982655",
+          "author": null,
+          "description": "<ul><li><p>De flesta bedömarna tror att Riksbanken sänker styrräntan 0,25 procentenheter på onsdag.</p></li><li><p>Men Andreas Wallström, prognoschef på Swedbank, hoppas på att Riksbanken går längre och gör en så kallad dubbelsänkning.</p></li><li><p>”Ekonomin går svagt och det är svårt att se något inflationshot på horisonten”, säger han.</p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/8982655",
+          "publishedOn": "2025-06-16T16:12:00.000Z",
+          "wordCount": 358,
+          "title": "Ekonomen går mot strömmen: Vill se dubbelsänkning",
+          "imageUrl": "https://static-cdn.sr.se/images/83/1de051b1-47dc-4dd7-8506-6e35bc0e2ffd.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/8982763",
+          "author": null,
+          "description": "<ul><li><p>Med anledning av det försämrade säkerhetsläget i Irak och Mellanöstern har Utrikesdepartementet, UD, beslutat om att skärpa reseavrådan för Irak, uppger UD för Ekot.</p></li><li><p>Tidigare&nbsp;avrådde UD från alla resor till Irak&nbsp;förutom&nbsp;till provinserna Dahuk, Arbil och Sulaymaniyah i den kurdiska regionen i Irak. Men nu omfattas hela landet av avrådan.</p></li><li><p>Enligt UD innebär inte avrådan en uppmaning till svenskar att lämna landet.</p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/8982763",
+          "publishedOn": "2025-06-16T16:02:00.000Z",
+          "wordCount": 372,
+          "title": "UD avråder från resor till Irak",
+          "imageUrl": "https://static-cdn.sr.se/images/83/577171ee-5ae6-49d0-9660-16bed3bea0ab.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/8982747",
+          "author": null,
+          "description": "<ul><li><p>Skatteverket uppskattar att 2-3 procent av befolkningen är felaktigt folkbokförda eller inte folkbokförda alls.</p></li><li><p>Det handlar om över 100 000 personer med fel uppgifter och tiotusentals som vistas i Sverige utan person- eller identitetsnummer, vilket myndigheten presenterade i sin lägesbild över antalet personer som bor och vistas i Sverige.</p></li><li><p>Regeringen vill nu ge myndigheter fler verktyg för att stoppa fusk och skydda välfärden till följd av felaktiga folkbokföringsuppgifter.</p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/8982747",
+          "publishedOn": "2025-06-16T16:02:00.000Z",
+          "wordCount": 386,
+          "title": "Skatteverket: Upp till 3 procent felaktigt folkbokförda",
+          "imageUrl": "https://static-cdn.sr.se/images/83/2af893ca-317c-4c18-bf4e-aaa250a72c3c.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/8982685",
+          "author": null,
+          "description": "<ul><li><p>I en internationell polisoperation med hjälp av svensk polis har hemsidan Archetype, där narkotika sålts och köpts, stängts ned. </p></li><li><p>Sajten var en av de allra äldsta och största marknadsplatserna för att köpa narkotika.</p></li><li><p>I Sverige har flera säljare gripits, berättar Steffen Oxenvad, som är gruppchef för komplexa cyberbrott vid polisens nationella operativa avdelning.</p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/8982685",
+          "publishedOn": "2025-06-16T15:50:00.000Z",
+          "wordCount": 367,
+          "title": "Sajten där 600 000 användare köpt narkotika nedstängd",
+          "imageUrl": "https://static-cdn.sr.se/images/83/e9ce849c-91e8-4138-821f-861eccda36c9.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/8982687",
+          "author": null,
+          "description": "<ul><li><p>Spanska socialistpartiets partisekreterare anklagas för allvarliga korruptionsbrott.</p></li><li><p>Pedro Sanchez som är Spaniens premiärminister och partiets ledare har tillsatt en tillfällig ledning för partiet fram till nästa ordinarie partimöte och säger att han är beredd att själv granskas.</p></li><li><p>Den politiska oppositionen har svängt till deras fördel efter att socialistpartiet ännu en gång synas för korruption bland partiets högsta politiker.</p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/8982687",
+          "publishedOn": "2025-06-16T15:35:00.000Z",
           "wordCount": 382,
-          "title": "Man efterlyst i Sverige gripen i Norge",
-          "imageUrl": "https://static-cdn.sr.se/images/83/5b6e6b06-6865-4561-94e0-da85fba99842.jpg"
+          "title": "Spanska socialistpartiet skakas av nya anklagelser om korruption",
+          "imageUrl": "https://static-cdn.sr.se/images/83/80d003f4-c7e3-4cef-b096-9adc24eef800.jpg"
         },
         {
-          "id": "https://www.sverigesradio.se/artikel/8981885",
+          "id": "https://www.sverigesradio.se/artikel/8982721",
           "author": null,
-          "description": "<ul><li><p>Inför att EU snart måste besluta om att förlänga frysning av den ryska centralbankens tillgångar kommer nya varningar om att Ungern kan lägga in sitt veto.</p></li><li><p>Då skulle 200 miljarder euro kunna gå rätt in i Putins krigskassa.</p></li><li><p>Men det finns ett alternativ för att stoppa överföringen som bland annat omfattar kungen i Belgien och en krigslag från andra världskriget.</p></li></ul>",
-          "link": "https://www.sverigesradio.se/artikel/8981885",
-          "publishedOn": "2025-06-15T10:35:00.000Z",
-          "wordCount": 388,
-          "title": "Putin kan få miljarder euro i frysta tillgångar till sin krigskassa",
-          "imageUrl": "https://static-cdn.sr.se/images/83/f4ce8be6-0ae5-4570-9ea9-0a1991adbb3b.jpg"
+          "description": "<ul><li><p>I USA säger president Donald Trump att han tror på en uppgörelse mellan Iran och Israel. Han säger också att USA inte har varit inblandat i de israeliska attackerna.</p></li><li><p>På hemmaplan märks en växande spricka inom det republikanska partiet där man har olika uppfattning om hur långt Trump ska gå i sitt stöd till Israel.</p></li><li><p>Hör Ginna Lindberg, Sveriges Radios korrespondent i Washington.</p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/8982721",
+          "publishedOn": "2025-06-16T15:23:00.000Z",
+          "wordCount": 382,
+          "title": "Trump: Tror på en deal mellan Iran och Israel",
+          "imageUrl": "https://static-cdn.sr.se/images/83/95ebc95d-52a5-4b35-812d-4c7bf3bd3628.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/8982646",
+          "author": null,
+          "description": "<ul><li><p>Efter Israels attacker mot Iran lämnar många invånare huvudstaden Teheran i jakt på trygghet.</p></li><li><p>Skolor och arbetsplatser har stängts, nätterna präglas av explosioner, men basala resurser som mat och el finns fortfarande kvar, säger en Teheraninvånare som vi kallar Mehdi.</p></li><li><p>Många iranier skyller konflikten på Irans högste ledare, Ali Khamenei, snarare än på Israel eller USA, enligt Mehdi.</p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/8982646",
+          "publishedOn": "2025-06-16T14:38:00.000Z",
+          "wordCount": 389,
+          "title": "Iranier flyr huvudstaden – stor ilska mot högsta styret",
+          "imageUrl": "https://static-cdn.sr.se/images/83/74698636-0d26-45d3-ad81-1c800ebb33ca.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/8982633",
+          "author": null,
+          "description": "<ul><li><p>Banken Nordeas internettjänster var ur funktion på måndagseftermiddagen.</p></li><li><p>Vid 16-tiden fungerade systemen som vanligt igen.</p></li><li><p>Nordea vet inte vad som orsakat störningen men säger att de utreder saken.</p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/8982633",
+          "publishedOn": "2025-06-16T13:44:00.000Z",
+          "wordCount": 331,
+          "title": "Störningarna hos Nordea avhjälpta",
+          "imageUrl": "https://static-cdn.sr.se/images/83/4a12d569-0c01-487c-b562-618c2bf043c3.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/8982542",
+          "author": null,
+          "description": "<ul><li><p>Israels premiärminister Benjamin Netanyahu varnar invånarna i Irans huvudstad Teheran för fortsatta anfall. </p></li><li><p>Enligt Israel planerar man att genomföra flyganfall mot militära mål i området. </p></li><li><p>Israel har specifikt pekat ut distrikt tre i Teheran som mål för attackerna och har uppmanat civilbefolkningen att evakuera området inför stundande attacker.</p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/8982542",
+          "publishedOn": "2025-06-16T12:40:00.000Z",
+          "wordCount": 362,
+          "title": "Netanyahu varnar för nya attacker mot Teheran",
+          "imageUrl": "https://static-cdn.sr.se/images/83/5075afec-a083-4fb0-94d3-846180f6da22.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/8982493",
+          "author": null,
+          "description": "<ul><li><p>34 palestinier uppges ha dödats i samband med matutdelningar i södra Gaza på måndagen, rapporterar flera nyhetsbyråer.</p></li><li><p>Civilförsvaret i Gaza anklagar israeliska styrkor för att ha öppnat eld mot de hjälpsökande, och Israels militär säger att de ska undersöka uppgifterna.</p></li><li><p>Nödhjälpsverksamheten drivs av den hårt kritiserade Israel- och USA-stödda gruppen Gaza humanitarian foundation, GHF.</p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/8982493",
+          "publishedOn": "2025-06-16T12:14:00.000Z",
+          "wordCount": 384,
+          "title": "Över 30 döda vid matutdelningar i Gaza",
+          "imageUrl": "https://static-cdn.sr.se/images/83/c99152c6-2fc0-426e-beb7-a1627c87ea9e.jpg"
         }
       ]
     },
@@ -1790,54 +1788,44 @@
       "siteUrl": "https://www.gp.se/nyheter/g%C3%B6teborg",
       "articles": [
         {
-          "id": "dd253deb-c69e-412a-b96e-71d9e073a1ca",
+          "id": "733607d1-dc0a-4fb4-9e76-58d071000210",
           "author": null,
-          "description": "Göteborg sticker ut i ny undersökning • Fackförbudet: ”Går åt helt fel håll”.",
-          "link": "https://www.gp.se/nyheter/goteborg/hbtqi-personer-oroliga-for-att-vara-oppna-pa-arbetsplatser.dd253deb-c69e-412a-b96e-71d9e073a1ca",
-          "publishedOn": "2025-06-15T16:02:23.000Z",
-          "wordCount": 3498,
-          "title": "Hbtqi-personer oroliga för att vara öppna på jobbet",
-          "imageUrl": "https://www.gp.se/images/og/dd253deb-c69e-412a-b96e-71d9e073a1ca/images/4gR7Ms7dHdjgzmOQEX1eNvQF--X4-WIDE.jpg?width=1200&quality=75"
+          "description": "Ambulanssjuksköterskan: ”Jag är långt ifrån klar med den här striden”.",
+          "link": "https://www.gp.se/nyheter/goteborg/linn-far-tillbaka-korkortet-drogs-in-efter-peth-test.733607d1-dc0a-4fb4-9e76-58d071000210",
+          "publishedOn": "2025-06-16T18:41:54.000Z",
+          "wordCount": 3471,
+          "title": "Linn får tillbaka körkortet – drogs in efter PEth-test",
+          "imageUrl": "https://www.gp.se/images/og/733607d1-dc0a-4fb4-9e76-58d071000210/images/2siRGMPB939mM0ShgahGTjJ-3bnU-WIDE.jpg?width=1200&quality=75"
         },
         {
-          "id": "ee873943-98b0-456b-afcb-4e4716336fc1",
+          "id": "444f60e9-ce01-4908-b2db-4f8f9b4162d0",
           "author": null,
-          "description": "Ett par kommuner har de senaste åren infört rökförbud på badplatser. Nu kan samma sak vara på gång i Göteborg.",
-          "link": "https://www.gp.se/nyheter/goteborg/forslaget-infor-rokforbud-vid-badplatser.ee873943-98b0-456b-afcb-4e4716336fc1",
-          "publishedOn": "2025-06-15T13:25:22.000Z",
-          "wordCount": 3507,
-          "title": "Rökförbud kan införas på badplatser i Göteborg",
-          "imageUrl": "https://www.gp.se/images/og/ee873943-98b0-456b-afcb-4e4716336fc1/images/4uiAiBJmhT0njay-li0yW_0BZfew-WIDE.jpg?width=1200&quality=75"
+          "description": "Taxarna Stickan och Polly – bjöd in sina vänner • Matte: ”Det är fantastiskt”.",
+          "link": "https://www.gp.se/nyheter/goteborg/har-traffas-30-taxar-i-slottsskogen-fantastiskt.444f60e9-ce01-4908-b2db-4f8f9b4162d0",
+          "publishedOn": "2025-06-16T18:02:27.000Z",
+          "wordCount": 5386,
+          "title": "Här går 30 taxar på kalas i Slottsskogen",
+          "imageUrl": "https://www.gp.se/images/og/444f60e9-ce01-4908-b2db-4f8f9b4162d0/images/7y2QTr8sWMinpZHuccTLZ3MoYrcE-WIDE.jpg?width=1200&quality=75"
         },
         {
-          "id": "0dc44fff-cfef-4360-840d-32dcfbd7043c",
+          "id": "d7f120e7-161b-4292-9945-c115350bcecf",
           "author": null,
-          "description": "Ambulans larmad • Flera personer inblandade.",
-          "link": "https://www.gp.se/nyheter/goteborg/slagsmal-pa-hotell-i-ostra-goteborg.0dc44fff-cfef-4360-840d-32dcfbd7043c",
-          "publishedOn": "2025-06-15T06:33:10.000Z",
-          "wordCount": 3977,
-          "title": "Slagsmål på hotell – polisinsats",
-          "imageUrl": "https://www.gp.se/images/slm/gp/fallback-og-image.png"
+          "description": "Hade bokat drömsemestern i Göteborg: ”Folk skrek” • Det tros ligga bakom.",
+          "link": "https://www.gp.se/nyheter/goteborg/melissa-42-pa-sjukhus-efter-sankt-eriks-grundstotning-i-goteborgs-skargard.d7f120e7-161b-4292-9945-c115350bcecf",
+          "publishedOn": "2025-06-16T14:18:42.000Z",
+          "wordCount": 3537,
+          "title": "Melissa, 42, hamnade på sjukhus efter båtolyckan",
+          "imageUrl": "https://www.gp.se/images/og/d7f120e7-161b-4292-9945-c115350bcecf/images/4obfAnpTlvNkH44FGbuCvhq-uvuU-WIDE.jpg?width=1200&quality=75"
         },
         {
-          "id": "5d148e08-a543-4500-b655-9233314f79ca",
+          "id": "b430f447-07dd-429d-8250-810f9200606e",
           "author": null,
-          "description": "Allmänheten hjälpte: ”Ett rådigt ingripande”.",
-          "link": "https://www.gp.se/nyheter/goteborg/kvinna-drogs-in-i-bil-misshandel-och-forsok-till-valdtakt.5d148e08-a543-4500-b655-9233314f79ca",
-          "publishedOn": "2025-06-15T06:29:52.000Z",
-          "wordCount": 3935,
-          "title": "Våldtäktsförsök – män drog in kvinna i bil",
-          "imageUrl": "https://www.gp.se/images/slm/gp/fallback-og-image.png"
-        },
-        {
-          "id": "5f333419-8fb4-4283-863d-9681ce73fbd1",
-          "author": null,
-          "description": "Räddningstjänst larmades under lördagsnatten.",
-          "link": "https://www.gp.se/nyheter/goteborg/rokutveckling-fran-maskinrum-pa-fartyg.5f333419-8fb4-4283-863d-9681ce73fbd1",
-          "publishedOn": "2025-06-15T01:23:48.000Z",
-          "wordCount": 3850,
-          "title": "Rökutveckling i maskinrum på fartyg",
-          "imageUrl": "https://www.gp.se/images/slm/gp/fallback-og-image.png"
+          "description": "Sol och nästan riskfritt för regn.",
+          "link": "https://www.gp.se/nyheter/goteborg/gladjebeskedet-sa-varmt-blir-det-pa-midsommar-.b430f447-07dd-429d-8250-810f9200606e",
+          "publishedOn": "2025-06-16T10:07:36.000Z",
+          "wordCount": 4520,
+          "title": "Glädjebeskedet: Så blir vädret på midsommar",
+          "imageUrl": "https://www.gp.se/images/og/b430f447-07dd-429d-8250-810f9200606e/images/2vuqG1o47byq69MnGg1b_bWfzx9Q-WIDE.jpg?width=1200&quality=75"
         }
       ]
     },
@@ -1846,6 +1834,16 @@
       "feedUrl": "https://noyb.eu/en/rss",
       "siteUrl": "https://noyb.eu/en",
       "articles": [
+        {
+          "id": "1552 at https://noyb.eu",
+          "author": "mickey",
+          "description": "WhatsApp is getting ads using personal data from Instagram and Facebook\n\n\n            Meta is expanding its ads business on WhatsApp using your data from Instagram and Facebook\n      mickey\n16 June 2025",
+          "link": "https://noyb.eu/en/whatsapp-getting-ads-using-personal-data-instagram-and-facebook",
+          "publishedOn": "2025-06-16T09:27:37.000Z",
+          "wordCount": 1147,
+          "title": "WhatsApp is getting ads using personal data from Instagram and Facebook",
+          "imageUrl": "https://noyb.eu/sites/default/files/styles/facebook/public/2025-06/shutterstock_2509483985.png?h=c018f701&itok=ueIDZ8Dw"
+        },
         {
           "id": "1550 at https://noyb.eu",
           "author": "mickey",
@@ -1890,12 +1888,12 @@
       "siteUrl": "https://www.driftbloggen.se",
       "articles": [
         {
-          "id": "https://www.driftbloggen.se/?p=14221",
+          "id": "https://www.driftbloggen.se/?p=14228",
           "author": "Loopia",
-          "description": "Torsdagen den 12 juni utförs ett lagringsunderhåll mellan 01:00-03:00. Inga kundtjänster förväntas bli påverkade av underhållet. On Thursday, June 12th there will be a storage maintenance window between 01:00-03:00. No customer services are expected to have interruptions during the maintenance. 01:00: Underhållet börjar / The maintenance begins 02:10: Underhållet avslutas / The maintenance ends [...]\nLäs mer … from Planerat underhåll, Lagring / Planned maintenance, Storage",
-          "link": "https://www.driftbloggen.se/planerat-underhall-lagring-planned-maintenance-storage-2/",
-          "publishedOn": "2025-06-11T12:22:05.000Z",
-          "wordCount": 865,
+          "description": "Onsdagen den 18 juni utförs ett lagringsunderhåll mellan 01:00-03:00. Inga kundtjänster förväntas bli påverkade av underhållet. On Wednesday, June 18th there will be a storage maintenance window between 01:00-03:00. No customer services are expected to have interruptions during the maintenance. [...]\nLäs mer … from Planerat underhåll, Lagring / Planned maintenance, Storage",
+          "link": "https://www.driftbloggen.se/planerat-underhall-lagring-planned-maintenance-storage-3/",
+          "publishedOn": "2025-06-16T09:39:12.000Z",
+          "wordCount": 851,
           "title": "Planerat underhåll, Lagring / Planned maintenance, Storage",
           "imageUrl": null
         }
@@ -1912,9 +1910,9 @@
           "description": "Thanks to its newly tilted orbit around the Sun, the European Space Agency-led Solar Orbiter spacecraft is the first to image the Sun’s poles from outside the ecliptic plane. Solar Orbiter’s unique viewing angle will change our understanding of the Sun’s magnetic field, the solar cycle and the workings of space weather.",
           "link": "https://www.esa.int/Science_Exploration/Space_Science/Solar_Orbiter/Solar_Orbiter_gets_world-first_views_of_the_Sun_s_poles",
           "publishedOn": "2025-06-11T14:01:00.000Z",
-          "wordCount": 1830,
+          "wordCount": null,
           "title": "Solar Orbiter gets world-first views of the Sun’s poles",
-          "imageUrl": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2025/06/solar_orbiter_s_view_of_the_sun_s_south_pole/26732717-2-eng-GB/Solar_Orbiter_s_view_of_the_Sun_s_south_pole_pillars.png"
+          "imageUrl": null
         },
         {
           "id": "886b3ec2a1d48d0cc095a532f32e125e",
@@ -1997,6 +1995,16 @@
       "siteUrl": "https://xkcd.com/",
       "articles": [
         {
+          "id": "https://xkcd.com/3103/",
+          "author": null,
+          "description": "",
+          "link": "https://xkcd.com/3103/",
+          "publishedOn": "2025-06-16T04:00:00.000Z",
+          "wordCount": 206,
+          "title": "Exoplanet System",
+          "imageUrl": "https://imgs.xkcd.com/comics/exoplanet_system_2x.png"
+        },
+        {
           "id": "https://xkcd.com/3102/",
           "author": null,
           "description": "",
@@ -2025,16 +2033,6 @@
           "wordCount": 206,
           "title": "Alert Sound",
           "imageUrl": "https://imgs.xkcd.com/comics/alert_sound_2x.png"
-        },
-        {
-          "id": "https://xkcd.com/3099/",
-          "author": null,
-          "description": "",
-          "link": "https://xkcd.com/3099/",
-          "publishedOn": "2025-06-06T04:00:00.000Z",
-          "wordCount": 208,
-          "title": "Neighbor-Source Heat Pump",
-          "imageUrl": "https://imgs.xkcd.com/comics/neighbor_source_heat_pump_2x.png"
         }
       ]
     },
