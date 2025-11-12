@@ -5,61 +5,29 @@
 
 cacheUrl: https://seetee.github.io/osmosfeed/cache.json
 sources:
-  # Software 
+  # Software  
   - href: https://github.com/osmoscraft/osmosfeed/releases.atom # Get new feature announcement via this feed
   - href: https://inkscape.org/news/feed/
   - href: https://www.scribus.net/feed/
-  # Web dev and IT
-  - href: https://www.smashingmagazine.com/feed/
-  - href: https://feeds.arstechnica.com/arstechnica/cardboard
-  - href: https://feeds.arstechnica.com/arstechnica/science
-  - href: https://feeds.arstechnica.com/arstechnica/gadgets  
-  - href: https://feeds.arstechnica.com/arstechnica/technology-lab
+  # Web dev, UX and UI  
   - href: https://developer.mozilla.org/en-US/blog/rss.xml 
   - href: https://grumpy.website/feed.xml
-  # - href: https://webplatform.news/feed.xml
-  # Personal blogs
-  - href: https://www.kryogenix.org/days/feed
-  - href: http://www.thelins.se/johan/blog/feed/
-  - href: https://feeds.feedburner.com/TroyHunt
-  - href: https://rythian.tumblr.com/rss
-  # News sources
-  - href: https://www.helahisingen.se/feed/
-  - href: https://nyhetersto.se/feed/
-  - href: https://api.sr.se/rss/channel?id=104 # SR P4 Göteborg
-  - href: https://api.sr.se/api/rss/program/83 # SR Ekot Nyheter 
-  - href: https://www.gp.se/nyheter/g%C3%B6teborg?rss 
-  - href: https://noyb.eu/en/rss
-  # - href: https://www.popularastronomi.se/feed/
-  # Driftsstatus
-  - href: https://status.mangadex.org/history.rss
-  - href: https://www.driftbloggen.se/feed/
-  # Testar
-  - href: https://www.esa.int/rssfeed/Our_Activities/Space_Science
-  - href: https://www.esa.int/rssfeed/Sweden
-#  - href: https://rss.nebula.app/video/channels/lowspecgamer.rss
-#  - href: https://old.reddit.com/r/OpenAccess/top.rss?sort=top&t=all
-#  - href: https://www.commitstrip.com/en/feed/
-  - href: https://what-if.xkcd.com/feed.atom
-  - href: https://xkcd.com/rss.xml
-#  - href: https://axbom.se/rss/
-#  - href: https://medium.com/feed/@doctorow
-#  - href: https://girl-germs.com/?feed=rss2
-#  - href: https://jvns.ca/atom.xml
-#  - href: https://katarinastensson.wordpress.com/feed/
-#  - href: https://mxb.dev/feed.xml
-#  - href: https://moderncss.dev/feed/
-#  - href: https://sarajoy.dev/rss.xml
-#  - href: https://www.spicyweb.dev/feed.xml
-#  - href: https://pointieststick.com/feed/
-#  - href: https://hnrss.org/newest?points=500
-#  - href: https://ordochmeningar.blog/feed/
-  - href: https://wilwheaton.net/feed/
-  - href: https://www.theregister.com/headlines.rss # The Register
-  - href: https://feeds.bbci.co.uk/news/technology/rss.xml # BBC News
+  - href: https://www.smashingmagazine.com/feed/ # Smashing Magazine
+  - href: https://css-tricks.com/feed/ # CSS-tricks
+  - href: https://alistapart.com/main/feed/ # A List Apart
+  - href: https://developer.mozilla.org/en-US/blog/rss.xml # MDN Blog
+  - href: https://web.dev/static/blog/feed.xml # web.dev
+  - href: https://uxdesign.cc/feed # UX Collective - Medium
+  - href: https://www.a11yproject.com/feed/feed.xml # The A11Y Project
+  - href: https://tutsplus.com/posts.atom # Envato Tuts+ Tutorials
+  - href: https://www.drupal.org/rss.xml # Drupal.org
+  - href: https://moderncss.dev/feed/
+  # Tech, Security and Rights  
+  - href: https://feeds.arstechnica.com/arstechnica/cardboard
+  - href: https://feeds.arstechnica.com/arstechnica/gadgets  
+  - href: https://feeds.arstechnica.com/arstechnica/technology-lab
   - href: https://www.zdnet.com/news/rss.xml # ZDNet News
   - href: https://www.wired.com/feed/category/security/latest/rss # Wired Security
-  - href: https://www.wired.com/feed/category/science/latest/rss # Wired Science
   - href: https://www.wired.com/feed/category/gear/latest/rss # Wired Gear 
   - href: https://www.wired.com/feed/tag/ai/latest/rss # Wired AI
   - href: https://techcrunch.com/tag/europe/feed/ # TechCrunch Europe
@@ -70,12 +38,45 @@ sources:
   - href: https://fsfe.org/news/news.en.rss # FSFE News
   - href: https://act.eff.org/action.atom # EFF Action Center
   - href: https://edri.org/rss # European Digital Rights 
-  - href: https://www.smashingmagazine.com/feed/ # Smashing Magazine
-  - href: https://css-tricks.com/feed/ # CSS-tricks
-  - href: https://alistapart.com/main/feed/ # A List Apart
-  - href: https://developer.mozilla.org/en-US/blog/rss.xml # MDN Blog
-  - href: https://web.dev/static/blog/feed.xml # web.dev
-  - href: https://uxdesign.cc/feed # UX Collective - Medium
-  - href: https://www.a11yproject.com/feed/feed.xml # The A11Y Project
-  - href: https://tutsplus.com/posts.atom # Envato Tuts+ Tutorials
-  - href: https://www.drupal.org/rss.xml # Drupal.org
+  # Science  
+  - href: https://feeds.arstechnica.com/arstechnica/science
+  - href: https://www.wired.com/feed/category/science/latest/rss # Wired Science
+  - href: https://www.esa.int/rssfeed/Our_Activities/Space_Science
+  - href: https://www.esa.int/rssfeed/Sweden
+  - href: https://rss.nebula.app/video/channels/lowspecgamer.rss
+  - href: https://old.reddit.com/r/OpenAccess/top.rss?sort=top&t=all
+  # Personal blogs  
+  - href: https://www.kryogenix.org/days/feed
+  - href: http://www.thelins.se/johan/blog/feed/
+  - href: https://feeds.feedburner.com/TroyHunt
+  - href: https://rythian.tumblr.com/rss
+  - href: https://wilwheaton.net/feed/
+  - href: https://axbom.se/rss/
+  - href: https://medium.com/feed/@doctorow
+  # News sources  
+  - href: https://www.helahisingen.se/feed/
+  - href: https://nyhetersto.se/feed/
+  - href: https://api.sr.se/rss/channel?id=104 # SR P4 Göteborg
+  - href: https://api.sr.se/api/rss/program/83 # SR Ekot Nyheter 
+  - href: https://www.gp.se/nyheter/g%C3%B6teborg?rss 
+  - href: https://noyb.eu/en/rss
+  - href: https://www.popularastronomi.se/feed/
+  - href: https://www.theregister.com/headlines.rss # The Register
+  - href: https://feeds.bbci.co.uk/news/technology/rss.xml # BBC News
+  # Driftsstatus  
+  - href: https://status.mangadex.org/history.rss
+  - href: https://www.driftbloggen.se/feed/
+  # Comics  
+  - href: https://www.commitstrip.com/en/feed/
+  - href: https://what-if.xkcd.com/feed.atom
+  - href: https://xkcd.com/rss.xml  
+  # Testar  
+  - href: https://girl-germs.com/?feed=rss2
+  - href: https://jvns.ca/atom.xml
+  - href: https://katarinastensson.wordpress.com/feed/
+  - href: https://mxb.dev/feed.xml
+  - href: https://sarajoy.dev/rss.xml
+  - href: https://www.spicyweb.dev/feed.xml
+  - href: https://pointieststick.com/feed/
+  - href: https://hnrss.org/newest?points=500
+  - href: https://ordochmeningar.blog/feed/
