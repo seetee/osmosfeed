@@ -10,7 +10,18 @@
       "title": "News feed",
       "feedUrl": "https://inkscape.org/news/feed/",
       "siteUrl": "https://inkscape.org/news/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://inkscape.org/news/2026/04/02/artist-interview-meet-jorge-who-made-a-short-film/",
+          "author": null,
+          "description": "h2{all:unset; display:block; color:#935b5b; font-family:ubuntu; font-size:1.6rem; line-height:1.7rem; font-weight:400; margin: 50px 0 10px;}\r\nh3{color:#468093; font-size:1.4rem; line-height:1.7rem; font-weight:400; margin-top:3rem;}\r\nh4{color:#555; font-size:2rem; line-height:2.1rem; font-weight:600; margin: 6px 0 10px; font-style:italic;}\r\n\r\n#content p:not(.postdate, .challengenote p) {font-size: 1.1rem; line-height: 1.6rem; color: #595959; padding: 10px;}\r\n\r\n.split-wrapper{display:grid; grid-template-columns: 1fr 1fr; grid-gap:20px;}\r\n\r\n.banner-wrapper {\r\n    display: grid;\r\n    grid-template-columns: 1fr 1fr;\r\n}\r\n\r\n.banner-wrapper img {\r\n    width:100%;\r\n}\r\n\r\n.full-width-bg{padding:2px; width:100%; background: rgb(210,189,166); background: linear-gradient(90deg, rgba(210,189,166,1) 35%,…",
+          "link": "https://inkscape.org/news/2026/04/02/artist-interview-meet-jorge-who-made-a-short-film/",
+          "publishedOn": "2026-04-02T15:38:26.000Z",
+          "wordCount": 1441,
+          "title": "Artist Interview: Can Inkscape-made artwork compete in an international film festival?",
+          "imageUrl": "https://media.inkscape.org/static/images/news-og-image.png"
+        }
+      ]
     },
     {
       "title": "Scribus",
@@ -255,21 +266,6 @@
             "type": "image/jpg"
           },
           "imageUrl": "http://files.smashing.media/articles/human-strategy-ai-accelerated-workflow/human-strategy-ai-accelerated-workflow.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2026/03/accessible-ux-research-release/",
-          "author": "hello@smashingmagazine.com (Ari Stiles)",
-          "description": "Our newest Smashing Book, “Accessible UX Research” by Michele Williams, is finally shipping worldwide — and we couldn’t be happier! This book is about research, but you’ll also learn about assistive technology, different types of disability, and how to build accessibility into the entire design process. This thoughtful book will get you thinking about ways to make your UX research more inclusive and thorough, no matter your budget or timeline. Jump to the book details or order your copy now.",
-          "link": "https://smashingmagazine.com/2026/03/accessible-ux-research-release/",
-          "publishedOn": "2026-03-03T15:00:00.000Z",
-          "wordCount": 4112,
-          "title": "Now Shipping: Accessible UX Research, A New Smashing Book By Michele Williams",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/accessible-ux-research-release/accessible-ux-research-coffee.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "http://files.smashing.media/articles/accessible-ux-research-release/accessible-ux-research-coffee.png"
         }
       ]
     },
@@ -278,6 +274,16 @@
       "feedUrl": "https://css-tricks.com/feed/",
       "siteUrl": "https://css-tricks.com",
       "articles": [
+        {
+          "id": "https://css-tricks.com/?p=392986",
+          "author": "Temani Afif",
+          "description": "Creating rectangles, circles, and rounded rectangles is the basic of CSS. Creating more complex CSS shapes such as triangles, hexagons, stars, hearts, etc. is more challenging but still a simple task if we rely on modern features.\nMaking Complex CSS Shapes Using shape() originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+          "link": "https://css-tricks.com/complex-css-shapes-with-shape-function/",
+          "publishedOn": "2026-04-02T13:58:24.000Z",
+          "wordCount": 3540,
+          "title": "Making Complex CSS Shapes Using shape()",
+          "imageUrl": "https://i0.wp.com/css-tricks.com/wp-content/uploads/2026/03/complex-css-shapes-shape-function.webp"
+        },
         {
           "id": "https://css-tricks.com/?p=392794",
           "author": "Lee Meyer",
@@ -823,6 +829,16 @@
       "siteUrl": "https://arstechnica.com",
       "articles": [
         {
+          "id": "https://arstechnica.com/security/2026/04/new-rowhammer-attacks-give-complete-control-of-machines-running-nvidia-gpus/",
+          "author": "Dan Goodin",
+          "description": "Both GDDRHammer and GeForge hammer GPU memory in ways that compromise the CPU.",
+          "link": "https://arstechnica.com/security/2026/04/new-rowhammer-attacks-give-complete-control-of-machines-running-nvidia-gpus/",
+          "publishedOn": "2026-04-02T17:00:11.000Z",
+          "wordCount": 3812,
+          "title": "New Rowhammer attacks give complete control of machines running Nvidia GPUs",
+          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security.jpg"
+        },
+        {
           "id": "https://arstechnica.com/security/2026/03/new-quantum-computing-advances-heighten-threat-to-elliptic-curve-cryptosystems/",
           "author": "Dan Goodin",
           "description": "No, the sky isn't falling, but Q Day is coming, and it won't be as expensive as thought.",
@@ -951,16 +967,6 @@
           "wordCount": 2986,
           "title": "Trump gets data center companies to pledge to pay for power generation",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2258665361-1024x648.jpg"
-        },
-        {
-          "id": "https://arstechnica.com/information-technology/2026/03/downdetector-speedtest-sold-to-it-service-provider-accenture-in-1-2b-deal/",
-          "author": "Scharon Harding",
-          "description": "Accenture plans to buy Ookla, which also includes RootMetrics and Ekahau.",
-          "link": "https://arstechnica.com/information-technology/2026/03/downdetector-speedtest-sold-to-it-service-provider-accenture-in-1-2b-deal/",
-          "publishedOn": "2026-03-03T22:20:06.000Z",
-          "wordCount": 2435,
-          "title": "Downdetector, Speedtest sold to IT service-provider Accenture in $1.2B deal",
-          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-1795499144-1152x648.jpg"
         }
       ]
     },
@@ -969,6 +975,138 @@
       "feedUrl": "https://www.zdnet.com/news/rss.xml",
       "siteUrl": "https://www.zdnet.com/",
       "articles": [
+        {
+          "id": "a8b1dd36-7c33-4ebc-8a13-947f0d192b1e",
+          "author": null,
+          "description": "This cheaper Brick alternative blocks distracting apps and adds its own unique features. There's just one catch.",
+          "link": "https://www.zdnet.com/article/bloom-card-review/",
+          "publishedOn": "2026-04-03T00:16:35.000Z",
+          "wordCount": null,
+          "title": "Brick vs. Bloom Card: I tested both for my screen addiction, and the winner depends on you",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "e37c95c9-9528-4121-b2a3-e3da7a4e55cc",
+          "author": null,
+          "description": "PrivacyBee is one of the most comprehensive data removal services I've tested, with the ability to remove your personal information across hundreds of sites.",
+          "link": "https://www.zdnet.com/article/privacybee-data-removal-review/",
+          "publishedOn": "2026-04-02T23:20:50.000Z",
+          "wordCount": null,
+          "title": "I turned to PrivacyBee to clean up my data - here's how it made me disappear",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "12cd83c0-7bf9-47a6-b6f9-22ce9f690019",
+          "author": null,
+          "description": "Gemini will now let you transfer your memories, chat history, and preferences from another AI so you don't have to start over. Here's how it works.",
+          "link": "https://www.zdnet.com/article/how-to-switch-from-chatgpt-to-gemini-without-starting-from-scratch/",
+          "publishedOn": "2026-04-02T19:08:00.000Z",
+          "wordCount": null,
+          "title": "How to switch from ChatGPT to Gemini - without starting from scratch",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "fa3f1f6a-2c3e-474c-9f8d-6a453412aaf4",
+          "author": null,
+          "description": "The Lisen Retractable Car Charger lets you recharge multiple devices at once. It's also under $20 right now.",
+          "link": "https://www.zdnet.com/article/lisen-retractable-car-charger-amazon-spring-sale-2026/",
+          "publishedOn": "2026-04-02T19:05:25.000Z",
+          "wordCount": null,
+          "title": "I highly recommend this car charger for quick charging on the go - and it's cheap",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "cac23c16-5e2f-4c6a-aca1-d7acd5f760d8",
+          "author": null,
+          "description": "The new map view shows your location relative to the affected area, which is especially crucial headed into the US storm season.",
+          "link": "https://www.zdnet.com/article/android-emergency-alerts-adding-maps-view/",
+          "publishedOn": "2026-04-02T17:00:19.000Z",
+          "wordCount": null,
+          "title": "Android's emergency alerts just got a major map upgrade - but change this setting first",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "c9b399ab-d29d-42e8-a977-9cb456b3b7fd",
+          "author": null,
+          "description": "With gas prices climbing ever higher, these apps help me find the cheapest fuel based on my location.",
+          "link": "https://www.zdnet.com/article/high-gas-prices-mobile-apps-cheapest-stations/",
+          "publishedOn": "2026-04-02T16:55:01.000Z",
+          "wordCount": null,
+          "title": "How I pay less for gas: 5 apps I use to find the cheapest stations nearby",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "dc9dd9c4-8b4e-47d3-aad1-ce9bf07797a0",
+          "author": null,
+          "description": "Now open-source under Apache 2.0, Gemma 4 brings offline, multimodal AI to servers, phones, and Raspberry Pi - giving developers total local control over edge and on-premises deployments.",
+          "link": "https://www.zdnet.com/article/google-gemma-4-fully-open-source-powerful-local-ai/",
+          "publishedOn": "2026-04-02T16:00:28.000Z",
+          "wordCount": null,
+          "title": "Google's Gemma 4 model goes fully open-source and unlocks powerful local AI - even on phones",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "2687ba2c-66b9-47ea-b489-bb580d15bc9c",
+          "author": null,
+          "description": "AI may be 'minimally sufficient' at most of your text work tasks by 2029, according to new MIT research. Here's why that's good news.",
+          "link": "https://www.zdnet.com/article/new-mit-jobs-work-report-ai-impacts-2026/",
+          "publishedOn": "2026-04-02T16:00:00.000Z",
+          "wordCount": null,
+          "title": "New MIT jobs report: Why AI's work impact will roll in like a rising tide, not a crashing wave",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "2bf33b53-855a-436e-99a4-7b81cfc68d64",
+          "author": null,
+          "description": "Windows 11 users who tried to install March's broken preview update will want to grab the new replacement.",
+          "link": "https://www.zdnet.com/article/windows-11-emergency-update/",
+          "publishedOn": "2026-04-02T15:26:43.000Z",
+          "wordCount": null,
+          "title": "New out-of-band Windows 11 update fixes March's installation errors - how to get it",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "08b1a5d9-a4c4-4d2e-8be9-bcc1623b425a",
+          "author": null,
+          "description": "The Oneisall Ease S1 litter robot saves you from scooping and is a lot more affordable than competitors.",
+          "link": "https://www.zdnet.com/article/oneisall-ease-s1-review/",
+          "publishedOn": "2026-04-02T14:45:00.000Z",
+          "wordCount": null,
+          "title": "Oneisall Ease S1 review: Finally, a smart litter box that doesn't cost an arm and a paw",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "17fa216d-5858-4597-912f-10c7d702dd5b",
+          "author": null,
+          "description": "With one hand holding my dog and no keyboard, I advanced two serious development projects using AI prompting, proving that the traditional coding setup may no longer be required.",
+          "link": "https://www.zdnet.com/article/building-apps-with-ai-and-no-ide/",
+          "publishedOn": "2026-04-02T13:55:32.000Z",
+          "wordCount": null,
+          "title": "I built two apps with just my voice and a mouse - are IDEs already obsolete?",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "6aa57ac9-7ab4-48cd-ba56-62267e4fe150",
+          "author": null,
+          "description": "We live in a time when two 16GB Raspberry Pi 5 boards cost the same as a MacBook Neo. Here's why - and how to save.",
+          "link": "https://www.zdnet.com/article/raspberry-pi-price-increase-blame-ai-ram/",
+          "publishedOn": "2026-04-02T13:16:16.000Z",
+          "wordCount": null,
+          "title": "My two Raspberry Pi boards cost as much as a laptop now - and AI is to blame",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "4d91b91f-6a31-4e25-b3e5-b1cee2594803",
           "author": null,
@@ -1407,6 +1545,86 @@
       "siteUrl": "https://tech.eu",
       "articles": [
         {
+          "id": "https://tech.eu/2026/04/02/omniscient-raises-41m-to-strengthen-data-driven-executive-decision-making/",
+          "author": "Tamara Djurickovic",
+          "description": "Paris-basedOmniscient, a decision intelligence platform for boards and senior executives,has raised $4.1 million in pre-seed funding. The round was led by Seedcamp,with participation from Drysdale, Pl...",
+          "link": "https://tech.eu/2026/04/02/omniscient-raises-41m-to-strengthen-data-driven-executive-decision-making/",
+          "publishedOn": "2026-04-02T14:45:00.000Z",
+          "wordCount": 1386,
+          "title": "Omniscient raises $4.1M to strengthen data-driven executive decision-making",
+          "imageUrl": "https://cdn.tech.eu/uploads/2026/04/omniscient-featured-912.png"
+        },
+        {
+          "id": "https://tech.eu/2026/04/02/generare-secures-eur20m-to-scale-molecular-discovery-platform/",
+          "author": "Tamara Djurickovic",
+          "description": "Generare,a Paris-based biotechnology company focused on generating molecular data fordrug development, has raised €20 million in a Series A funding round. The roundwas co-led by Alven and Daphni, with...",
+          "link": "https://tech.eu/2026/04/02/generare-secures-eur20m-to-scale-molecular-discovery-platform/",
+          "publishedOn": "2026-04-02T14:40:00.000Z",
+          "wordCount": 1375,
+          "title": "Generare secures €20M to scale molecular discovery platform",
+          "imageUrl": "https://cdn.tech.eu/uploads/2026/04/generare-featured-925.png"
+        },
+        {
+          "id": "https://tech.eu/2026/04/02/covalo-lands-eur35m-funding-extension-to-advance-personal-care-data-platform/",
+          "author": "Tamara Djurickovic",
+          "description": "Covalo, a Switzerland-based platform for ingredient discovery and datamanagement in the personal care industry, has raised €3.5 million in a fundingextension. The round was led by Hi Inov, with partic...",
+          "link": "https://tech.eu/2026/04/02/covalo-lands-eur35m-funding-extension-to-advance-personal-care-data-platform/",
+          "publishedOn": "2026-04-02T14:34:51.000Z",
+          "wordCount": 1306,
+          "title": "Covalo lands €3.5M funding extension to advance personal care data platform",
+          "imageUrl": "https://cdn.tech.eu/uploads/2026/04/cavalo-featured-493.png"
+        },
+        {
+          "id": "https://tech.eu/2026/04/02/new-belgian-ai-platform-backbone-aims-to-cut-costly-quality-failures-in-food-production/",
+          "author": "Cate Lawrence",
+          "description": "Former managers at Belgian legaltech scale-up Henchman are launching Backbone, an AI platform for real-time quality and compliance management in the food industry, with Seed funding from 100IN.  Backb...",
+          "link": "https://tech.eu/2026/04/02/new-belgian-ai-platform-backbone-aims-to-cut-costly-quality-failures-in-food-production/",
+          "publishedOn": "2026-04-02T11:27:34.000Z",
+          "wordCount": 1538,
+          "title": "New Belgian AI platform Backbone aims to cut costly quality failures in food production",
+          "imageUrl": "https://cdn.tech.eu/uploads/2026/04/untitled-design-70-718.png"
+        },
+        {
+          "id": "https://tech.eu/2026/04/02/uk-government-backed-fund-aimed-at-backing-female-founders-reaches-ps130m-close/",
+          "author": "John Reynolds",
+          "description": "The flagship fund of a UK government-backed initiative addressing the shortage of equity capital for women in the UK who are building businesses has reached a £130m first close of the fund, it said to...",
+          "link": "https://tech.eu/2026/04/02/uk-government-backed-fund-aimed-at-backing-female-founders-reaches-ps130m-close/",
+          "publishedOn": "2026-04-02T10:33:00.000Z",
+          "wordCount": 1343,
+          "title": "UK government-backed fund aimed at backing female founders reaches £130m first close",
+          "imageUrl": "https://cdn.tech.eu/uploads/2026/04/bootstrap4f-15.png"
+        },
+        {
+          "id": "https://tech.eu/2026/04/02/cafeyn-acquires-readlys-non-nordic-operations-to-scale-european-press-platform/",
+          "author": "Cate Lawrence",
+          "description": "Press aggregation platform Cafeyn Group is acquiring Readly’s non-Nordic operations, marking a significant step forward in its European expansion.  Cafeyn offers unlimited access to over 2,000 nationa...",
+          "link": "https://tech.eu/2026/04/02/cafeyn-acquires-readlys-non-nordic-operations-to-scale-european-press-platform/",
+          "publishedOn": "2026-04-02T09:24:21.000Z",
+          "wordCount": 1331,
+          "title": "Cafeyn acquires Readly’s non-Nordic operations to scale European press platform",
+          "imageUrl": "https://cdn.tech.eu/uploads/2026/04/untitled-design-69-205.png"
+        },
+        {
+          "id": "https://tech.eu/2026/04/02/paparuda-studio-lands-eur210k-to-launch-moldovas-next-generation-of-game-development-talent/",
+          "author": "Cate Lawrence",
+          "description": "Today, Moldovan game development studio Paparuda Studio secured an investment of over €210,000 (4 million MDL) to develop its first internationally targeted video game, marking a new step in the count...",
+          "link": "https://tech.eu/2026/04/02/paparuda-studio-lands-eur210k-to-launch-moldovas-next-generation-of-game-development-talent/",
+          "publishedOn": "2026-04-02T08:47:37.000Z",
+          "wordCount": 1485,
+          "title": "Paparuda Studio lands €210K to launch Moldova’s next generation of game development talent",
+          "imageUrl": "https://cdn.tech.eu/uploads/2026/04/untitled-design-68-229.png"
+        },
+        {
+          "id": "https://tech.eu/2026/04/02/from-fragmented-funding-to-growing-maturity-the-italian-tech-ecosystem/",
+          "author": "Tamara Djurickovic",
+          "description": "Italy’s tech funding landscape in 2025 appears larger andmore mature, but also highly concentrated. Total funding of around €2.5 billionis driven by a small number of very large rounds, while most dea...",
+          "link": "https://tech.eu/2026/04/02/from-fragmented-funding-to-growing-maturity-the-italian-tech-ecosystem/",
+          "publishedOn": "2026-04-02T08:00:00.000Z",
+          "wordCount": 2263,
+          "title": "From fragmented funding to growing maturity: the Italian tech ecosystem",
+          "imageUrl": "https://cdn.tech.eu/uploads/2026/03/italy-featured-286.png"
+        },
+        {
           "id": "https://tech.eu/2026/04/01/the-missing-layer-in-europes-ai-strategy-data-ownership/",
           "author": "Cate Lawrence",
           "description": "As France   and Germany push digital sovereignty up the policy agenda, a more practical question is emerging: who actually owns the data driving Europe’s AI systems?  As models become increasingly com...",
@@ -1693,6 +1911,756 @@
       "feedUrl": "https://www.techradar.com/feeds.xml",
       "siteUrl": "https://www.techradar.com/feeds.xml",
       "articles": [
+        {
+          "id": "JM9VCa4mWbtqv3ghQw7aHZ",
+          "author": "Jasmine Valentine",
+          "description": "Kayce is still learning more about ex-wife Monica after her death. But when does Marshals: A Yellowstone Story episode 6 hit CBS and Paramount+?",
+          "link": "https://www.techradar.com/streaming/paramount-plus/marshals-a-yellowstone-story-episode-6-release-date-time-cbs",
+          "publishedOn": "2026-04-03T01:00:00.000Z",
+          "wordCount": 40403,
+          "title": "What is the release date for Marshals: A Yellowstone Story episode 6 on CBS and Paramount+?",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/GZJqSMNX9YvxdsLqn2y2p6-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/GZJqSMNX9YvxdsLqn2y2p6-1280-80.jpg"
+        },
+        {
+          "id": "6cUXdCcQTdTQvh7GES4wHg",
+          "author": "Efosa Udinmwen",
+          "description": "HP Z8 Fury G6i delivers extreme GPU, CPU, and memory performance with massive storage, expandability, and hybrid compute options.",
+          "link": "https://www.techradar.com/pro/hp-unveils-its-most-powerful-pc-ever-with-up-to-four-nvidia-blackwell-gpus-and-i-love-its-bizarre-user-inspired-tool-free-side-panel",
+          "publishedOn": "2026-04-03T00:10:00.000Z",
+          "wordCount": 39235,
+          "title": "HP unveils its most powerful PC ever with up to four Nvidia Blackwell GPUs, and I love its bizarre user-inspired tool-free side panel",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/bWXYpocYnu6qKEugJgghjB-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/bWXYpocYnu6qKEugJgghjB-1280-80.jpg"
+        },
+        {
+          "id": "oTLPTJmQhVeTR7SngAADoU",
+          "author": "Sead Fadilpašić",
+          "description": "CrystalX RAT comes with a handful of prankware, allowing hackers to tease their victims as they steal their data.",
+          "link": "https://www.techradar.com/pro/security/this-new-laughing-rat-malware-will-steal-your-data-and-hack-your-systems-and-then-laugh-at-you-while-doing-it",
+          "publishedOn": "2026-04-02T23:25:00.000Z",
+          "wordCount": 39527,
+          "title": "This new 'laughing rat' malware will steal your data and hack your systems — and then laugh at you while doing it",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/VsnoQAEmxjEvebB3dyY9Pj-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/VsnoQAEmxjEvebB3dyY9Pj-1280-80.jpg"
+        },
+        {
+          "id": "YrnyMrXERGfsSZLSQAcJM8",
+          "author": "Johnny Dee",
+          "description": "Looking for Quordle clues? We can help. Plus get the answers to Quordle today and past solutions.",
+          "link": "https://www.techradar.com/computing/websites-apps/quordle-today-answers-clues-3-april-2026",
+          "publishedOn": "2026-04-02T23:00:00.000Z",
+          "wordCount": 41346,
+          "title": "Quordle hints and answers for Friday, April 3 (game #1530)",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/4XP9iNbdvkijJyZnzx3WoL-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/4XP9iNbdvkijJyZnzx3WoL-1280-80.jpg"
+        },
+        {
+          "id": "7Jj5Z9Z4mLhcMTMggKW6VD",
+          "author": "Marc McLaren",
+          "description": "Looking for NYT Connections answers and hints? Here's all you need to know to solve today's game, plus my commentary on the puzzles.",
+          "link": "https://www.techradar.com/gaming/nyt-connections-today-answers-hints-3-april-2026",
+          "publishedOn": "2026-04-02T23:00:00.000Z",
+          "wordCount": 40436,
+          "title": "NYT Connections hints and answers for Friday, April 3 (game #1027)",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/RCGfdf3yhQ9W3MHbTRT6yk-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/RCGfdf3yhQ9W3MHbTRT6yk-1280-80.jpg"
+        },
+        {
+          "id": "AUgkkTffCuYDrKjjSyRW9B",
+          "author": "Marc McLaren",
+          "description": "Looking for NYT Strands answers and hints? Here's all you need to know to solve today's game, including the spangram.",
+          "link": "https://www.techradar.com/computing/websites-apps/nyt-strands-today-answers-hints-3-april-2026",
+          "publishedOn": "2026-04-02T23:00:00.000Z",
+          "wordCount": 41292,
+          "title": "NYT Strands hints and answers for Friday, April 3 (game #761)",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/XrpFgcngWrtXQscKdLLAZB-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/XrpFgcngWrtXQscKdLLAZB-1280-80.jpg"
+        },
+        {
+          "id": "5APArJDbdki6hoKybjWb5X",
+          "author": "Lucy Buglass",
+          "description": "There are some great returning shows heading to Netflix in April 2026, including the Stranger Things animated series.",
+          "link": "https://www.techradar.com/streaming/netflix/3-of-the-biggest-new-netflix-shows-arriving-in-april-2026",
+          "publishedOn": "2026-04-02T22:00:00.000Z",
+          "wordCount": 40626,
+          "title": "3 of the biggest new Netflix shows arriving in April 2026",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/zjGVFTL6dfdVS9HGFQdMLe-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/zjGVFTL6dfdVS9HGFQdMLe-1280-80.jpg"
+        },
+        {
+          "id": "5vFn6i6wUf9emZ9vHmLTL6",
+          "author": "Efosa Udinmwen",
+          "description": "HP Go 5G provides “unlimited” data under restrictive terms, with prepaid plans, throttling, and limited international access.",
+          "link": "https://www.techradar.com/pro/unlimited-5g-data-hps-latest-ai-pc-ultraslim-laptop-promises-superfast-wifi-killer-broadband-built-in-antivirus-just-make-sure-you-read-the-fine-print",
+          "publishedOn": "2026-04-02T20:35:00.000Z",
+          "wordCount": 39127,
+          "title": "'Unlimited 5G data': HP's latest AI PC ultraslim laptop promises superfast WiFi-killer broadband and built-in antivirus — just make sure you read the fine print",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/smckAwYbBxBGaifKe3agxY-1280-80.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/smckAwYbBxBGaifKe3agxY-1280-80.png"
+        },
+        {
+          "id": "7yTisUyXqveEnzUH7HqSsJ",
+          "author": "Efosa Udinmwen",
+          "description": "Dell’s supercapacitor-powered keyboard and mouse deliver ultra-fast charging and long usage, redefining convenience and eliminating reliance on traditional batteries.",
+          "link": "https://www.techradar.com/pro/if-only-your-ev-did-this-dells-new-supercapacitor-keyboard-mouse-combo-delivers-full-day-use-with-5-second-charge-heres-how",
+          "publishedOn": "2026-04-02T19:05:00.000Z",
+          "wordCount": 39265,
+          "title": "If only your EV did this: Dell’s new supercapacitor keyboard and mouse combo delivers 'full day use' with a 5-second charge — here’s how",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/GtBMBaxVZeMfR8qU4jmJW8-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/GtBMBaxVZeMfR8qU4jmJW8-1280-80.jpg"
+        },
+        {
+          "id": "fRsiWmJF6irjTwf7Lps7g3",
+          "author": "Darren Allan",
+          "description": "Google's kit aims to breathe new life into old hardware, and that could be Macs as well as Windows 10 PCs.",
+          "link": "https://www.techradar.com/computing/software/side-effects-may-include-curiosity-googles-usd3-chromeos-flex-kit-aims-to-save-your-old-windows-10-laptop-from-the-scrapheap",
+          "publishedOn": "2026-04-02T19:00:00.000Z",
+          "wordCount": 40389,
+          "title": "'Side effects may include curiosity': Google's $3 ChromeOS Flex kit aims to save your old Windows 10 laptop from the scrapheap",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/hi3sE3xZdA5gKLTMyCUDAE-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/hi3sE3xZdA5gKLTMyCUDAE-1280-80.jpg"
+        },
+        {
+          "id": "V3gss3z7K3rdLkYw6jFzdb",
+          "author": "Leon Poultney",
+          "description": "Collisions, delays and traffic chaos have been reported due to a mass robotaxi outage in China.",
+          "link": "https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/i-was-stuck-on-the-overpass-with-dump-trucks-all-around-me-a-mass-baidu-robotaxi-outage-just-caused-traffic-mayhem-in-china",
+          "publishedOn": "2026-04-02T19:00:00.000Z",
+          "wordCount": 40512,
+          "title": "'I was stuck on the overpass with dump trucks all around me': A mass Baidu robotaxi outage just caused traffic mayhem in China",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/pxVS3Npo5SzGjnwmoAjS93-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/pxVS3Npo5SzGjnwmoAjS93-1280-80.jpg"
+        },
+        {
+          "id": "Cw2xDjXeXPzHXhpDyXfNoc",
+          "author": "Matt Evans",
+          "description": "Get 25% off the Garmin Forerunner 265s at Amazon, and 16% off the larger 265.",
+          "link": "https://www.techradar.com/health-fitness/smartwatches/i-ran-my-first-marathon-with-the-garmin-forerunner-265s-its-25-percent-off-right-now-and-id-recommend-it-to-almost-every-runner",
+          "publishedOn": "2026-04-02T18:02:29.000Z",
+          "wordCount": 40822,
+          "title": "I ran my first marathon with the Garmin Forerunner 265s — it's 25% off right now, and I'd recommend it to almost every runner",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/v5dDiBnSJvwChcZNyD3vfb-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/v5dDiBnSJvwChcZNyD3vfb-1280-80.jpg"
+        },
+        {
+          "id": "yhw4EueyuAQ4NgFiyghkKm",
+          "author": "Ruth Hamilton",
+          "description": "If you've been thinking about sprucing up your outdoor space for summer, now's the time to do it.",
+          "link": "https://www.techradar.com/home/im-a-homes-expert-here-are-my-top-buys-from-walmarts-big-patio-and-garden-event",
+          "publishedOn": "2026-04-02T18:00:00.000Z",
+          "wordCount": null,
+          "title": "I'm a homes expert — here are my top buys from Walmart's big Patio & Garden Event",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/RPCNRaWE9mBRKgdEcQd2W5-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/RPCNRaWE9mBRKgdEcQd2W5-1280-80.jpg"
+        },
+        {
+          "id": "4PKi7FKGJxsLb3PQbaxixa",
+          "author": "Leon Poultney",
+          "description": "Tesla officially kills off the once-pioneering Model S and Model X, as it focusses its future on autonomy.",
+          "link": "https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/we-will-have-an-official-ceremony-to-mark-the-ending-of-an-era-i-love-those-cars-elon-musk-mourns-the-officially-retired-tesla-model-s-and-model-x",
+          "publishedOn": "2026-04-02T17:58:53.000Z",
+          "wordCount": 40567,
+          "title": "'We will have an official ceremony to mark the ending of an era. I love those cars' — Elon Musk mourns the officially retired Tesla Model S and Model X",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/esNChrkSxeKNLwvR8tFuzF-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/esNChrkSxeKNLwvR8tFuzF-1280-80.jpg"
+        },
+        {
+          "id": "WdiqYNRQgWoftCYRrojR4m",
+          "author": "Wayne Williams",
+          "description": "I've found big savings on Geekom's mini PCs, discounted for Easter — but hurry, the sale ends soon.",
+          "link": "https://www.techradar.com/pro/i-found-the-best-geekom-mini-pc-deals-in-the-easter-sale-save-big-on-some-of-our-highest-rated-and-reviewed-mini-pcs-if-youre-quick",
+          "publishedOn": "2026-04-02T17:47:40.000Z",
+          "wordCount": 38709,
+          "title": "I found the best Geekom mini PC deals in the Easter sale — save big on some of our highest rated and reviewed mini PCs if you're quick",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/mv5mkNk3QD3PXQg6wtEttV-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/mv5mkNk3QD3PXQg6wtEttV-1280-80.jpg"
+        },
+        {
+          "id": "6mcaKksLpzsB8FPBgBU4di",
+          "author": "Efosa Udinmwen",
+          "description": "Dell’s 14-inch Pro Premium combines a lightweight magnesium chassis, optimized motherboard, AI-capable processors, and high-quality display for executive mobility.",
+          "link": "https://www.techradar.com/pro/dell-just-made-its-thinnest-pro-premium-executive-laptop-yet-a-magnesium-alloy-featherweight-that-finally-makes-carrying-a-workstation-feel-effortless",
+          "publishedOn": "2026-04-02T17:35:00.000Z",
+          "wordCount": 39054,
+          "title": "Dell just made its thinnest Pro Premium executive laptop yet — a magnesium alloy featherweight that finally makes carrying a workstation feel effortless",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/o8eWxdeTgnrjuYUf8nhV4R-1280-80.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/o8eWxdeTgnrjuYUf8nhV4R-1280-80.png"
+        },
+        {
+          "id": "hhJWoJx3omAuCW9cEgY8KZ",
+          "author": "Rowan Davies",
+          "description": "VML is unveiling the world's first T-Rex leather product in Amsterdam, marking the beginning of a manufacturing revolution.",
+          "link": "https://www.techradar.com/tech/your-next-iphone-case-could-be-made-from-lab-grown-t-rex-leather-thanks-to-world-first-technology-but-experts-say-otherwise",
+          "publishedOn": "2026-04-02T17:00:00.000Z",
+          "wordCount": 40310,
+          "title": "Your next iPhone case could be made from lab-grown T-Rex leather thanks to ‘world first’ technology — but experts say otherwise",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/vex8Rj43SetrLFkZbyqYb3-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/vex8Rj43SetrLFkZbyqYb3-1280-80.jpg"
+        },
+        {
+          "id": "9rXuqRvDB2CjigRjuc5DWb",
+          "author": "Dashiell Wood",
+          "description": "Amazon is giving Prime Members the chance to claim loads of amazing strategy games this month.",
+          "link": "https://www.techradar.com/gaming/amazon-is-giving-away-one-of-the-best-strategy-games-ever-plus-loads-of-other-pc-games-for-prime-members",
+          "publishedOn": "2026-04-02T17:00:00.000Z",
+          "wordCount": 39939,
+          "title": "Amazon is giving away one of the best strategy games ever, plus loads of other PC games for Prime members",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/fPS2GcjPtriKL3equiH53m-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/fPS2GcjPtriKL3equiH53m-1280-80.jpg"
+        },
+        {
+          "id": "9Ze6ELwShvBwLa7abVjSFd",
+          "author": "Jon Stapley",
+          "description": "A solid metal build, capable autofocus and manual settings control make this premium compact the new film camera to beat.",
+          "link": "https://www.techradar.com/cameras/compact-cameras/ive-been-testing-film-cameras-for-years-and-the-lomography-lomo-mc-a-easily-just-became-my-favorite",
+          "publishedOn": "2026-04-02T16:35:00.000Z",
+          "wordCount": 40336,
+          "title": "I’ve been testing film cameras for years, and the Lomography Lomo MC-A easily just became my favorite",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/U8AeH9V4Btor9FEPU4HgnH-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/U8AeH9V4Btor9FEPU4HgnH-1280-80.jpg"
+        },
+        {
+          "id": "5MqdTNK33PXQJXkpoGFGod",
+          "author": "Krishi Chowdhary",
+          "description": "The definitive AI documentary is now in theatres and is expected to stream in 2026. Here’s how you can currently watch The AI Doc: Or How I Became an Apocaloptimist ahead of its streaming launch.",
+          "link": "https://www.techradar.com/how-to-watch/how-to-watch-the-ai-doc-or-how-i-became-an-apocaloptimist",
+          "publishedOn": "2026-04-02T16:25:00.000Z",
+          "wordCount": 40828,
+          "title": "How to watch The AI Doc: Or How I Became an Apocaloptimist in theaters – and can you stream it online yet?",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/LPjVXCExdceAf7HFXiy6tX-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/LPjVXCExdceAf7HFXiy6tX-1280-80.jpg"
+        },
+        {
+          "id": "d2E8riDsZ4KcxwauHtn63W",
+          "author": "Sead Fadilpašić",
+          "description": "NoVoice can clone people's WhatsApp accounts on different devices, experts warn.",
+          "link": "https://www.techradar.com/pro/security/this-rootkit-is-highly-persistent-a-standard-factory-reset-will-not-remove-it-novoice-android-malware-on-google-play-infects-50-apps-across-2-3-million-devices-heres-what-we-know",
+          "publishedOn": "2026-04-02T16:25:00.000Z",
+          "wordCount": 39365,
+          "title": "'This rootkit is highly persistent; a standard factory reset will not remove it': \"NoVoice\" Android malware on Google Play infects 50 apps across 2.3 million devices, here's what we know",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/NxmSYU2NX5vmBNv3WeEtKa-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/NxmSYU2NX5vmBNv3WeEtKa-1280-80.jpg"
+        },
+        {
+          "id": "VPQ2NBJ9Zf3DR2QsXFbD5a",
+          "author": "Monica J. White",
+          "description": "NymVPN v2026.6 introduces split tunneling for macOS in beta, plus better authentication, easier app-to-web login, and a new alpha testing program.",
+          "link": "https://www.techradar.com/vpn/vpn-services/nymvpns-mac-app-gets-the-split-tunneling-feature-users-have-been-waiting-for",
+          "publishedOn": "2026-04-02T16:17:21.000Z",
+          "wordCount": 39134,
+          "title": "NymVPN's Mac app gets the split tunneling feature users have been waiting for",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/cCiQL4TUUsR5BPE9LUazRN-1280-80.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/cCiQL4TUUsR5BPE9LUazRN-1280-80.png"
+        },
+        {
+          "id": "bq7yWSDMFQVFViP2cibtwT",
+          "author": "Demi Williams",
+          "description": "The director of Naughty Dog's The Last of Us Online has revealed that the multiplayer spin-off was almost finished before it was canceled.",
+          "link": "https://www.techradar.com/gaming/the-last-of-us-online-director-reveals-naughty-dog-had-to-choose-between-canceling-the-80-percent-completed-game-and-intergalactic-the-heretic-prophet-it-was-soul-crushing-to-find-out-that-it-was-getting-canceled-24-hours-before-it-was-announced-publicly",
+          "publishedOn": "2026-04-02T16:02:16.000Z",
+          "wordCount": 39984,
+          "title": "The Last of Us Online director reveals Naughty Dog had to choose between canceling the '80%' completed game and Intergalactic: The Heretic Prophet — 'It was soul crushing. To find out that it was getting canceled 24 hours before it was announced' publicly",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/QSruwbJAxTTbK7MU2fDbMo-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/QSruwbJAxTTbK7MU2fDbMo-1280-80.jpg"
+        },
+        {
+          "id": "sZDhksRuVSEXicvHqfX7xM",
+          "author": "Jasmine Valentine",
+          "description": "After the rocky Handmaid's Tale season 6 finale, The Testaments on Hulu and Disney+ is just the beginning of something even bigger, better, and bolder.",
+          "link": "https://www.techradar.com/streaming/hulu/the-testaments-review-disney-plus",
+          "publishedOn": "2026-04-02T16:00:00.000Z",
+          "wordCount": 37806,
+          "title": "The Testaments review: praise be, the Hulu Handmaid's Tale spinoff doesn't disappoint under his eye",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/yQGd8q9jCagpsDB2eyxfC4-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/yQGd8q9jCagpsDB2eyxfC4-1280-80.jpg"
+        },
+        {
+          "id": "kvHqo7PZLyPkpAZPWeCbff",
+          "author": "Mackenzie Frazier",
+          "description": "Amazon has a huge sale on best-selling running shoes for spring, and I've rounded up the top-rated deals from Nike, Hoka, New Balance, and more.",
+          "link": "https://www.techradar.com/tech/amazon-is-slashing-prices-on-best-selling-running-shoes-for-spring-nike-hoka-and-new-balance-from-usd55",
+          "publishedOn": "2026-04-02T15:59:04.000Z",
+          "wordCount": null,
+          "title": "Amazon is slashing prices on best-selling running shoes for spring — Nike, Hoka, and New Balance from $55",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/fbx2fgDnsrQa7KDEkR7JaM-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/fbx2fgDnsrQa7KDEkR7JaM-1280-80.jpg"
+        },
+        {
+          "id": "tSCCfGF28V725nZa2v9c9F",
+          "author": "James Davidson",
+          "description": "HMV has discounted tons of Arrow Video 4K Blu-rays for Easter, so I've picked my top 6 discs from the selection of titles on offer.",
+          "link": "https://www.techradar.com/televisions/blu-ray/hmv-has-discounted-a-ton-of-arrow-films-4k-blu-rays-for-easter-here-are-my-6-picks",
+          "publishedOn": "2026-04-02T15:53:29.000Z",
+          "wordCount": null,
+          "title": "HMV has discounted a ton of Arrow Films 4K Blu-rays for Easter — here are my 6 picks",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/vC2UN4d2bUYRjyB4L2t537-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/vC2UN4d2bUYRjyB4L2t537-1280-80.jpg"
+        },
+        {
+          "id": "wh84vWXkZwd2hgDmknRT2E",
+          "author": "Lance Ulanoff",
+          "description": "Artemis II crew reports Outlook software bug on one of the Orion capsule's PCDs (personal computer devices).",
+          "link": "https://www.techradar.com/computing/software/i-have-two-microsoft-outlooks-and-neither-one-is-working-artemis-ii-astronauts-have-the-most-relatable-complaint",
+          "publishedOn": "2026-04-02T15:38:30.000Z",
+          "wordCount": 40757,
+          "title": "'I have two Microsoft Outlooks and neither one is working': Artemis II astronauts have the most relatable complaint",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/U4JvN7nvDsRqYuWwx3oXqj-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/U4JvN7nvDsRqYuWwx3oXqj-1280-80.jpg"
+        },
+        {
+          "id": "PR9HPvDbbHeLubjYSoqcgj",
+          "author": "John Archer",
+          "description": "After initial testing, the Samsung S99H/S95H QD-OLED TV is a high bar for 2026's other models to clear",
+          "link": "https://www.techradar.com/televisions/ive-lived-with-samsungs-new-flagship-oled-tv-and-ive-never-seen-anything-quite-like-it",
+          "publishedOn": "2026-04-02T15:29:58.000Z",
+          "wordCount": 41139,
+          "title": "I’ve lived with Samsung’s new flagship OLED TV — and I’ve never seen anything quite like it",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/A88FTVMXxhmk9LZizd2wyT-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/A88FTVMXxhmk9LZizd2wyT-1280-80.jpg"
+        },
+        {
+          "id": "xK5ACtQZtoCVe7ywd4j6wZ",
+          "author": "Rob Dwiar",
+          "description": "Rise Up to the challenge",
+          "link": "https://www.techradar.com/gaming/the-division-2s-latest-season-promises-yet-more-challenge-and-chaos-as-new-modes-and-difficulties-drop-plus-some-gear-i-simply-must-get-my-hands-on",
+          "publishedOn": "2026-04-02T15:28:17.000Z",
+          "wordCount": 40162,
+          "title": "The Division 2's latest season promises yet more challenge and chaos as new modes and difficulties drop — plus some gear I simply must get my hands on",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/wNf2xC6JSMcYMD6wPYTMLj-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/wNf2xC6JSMcYMD6wPYTMLj-1280-80.jpg"
+        },
+        {
+          "id": "jKJRDxUbfByRtzKHJU4oWH",
+          "author": "Krishi Chowdhary",
+          "description": "Here's how to watch 9Now from outside Australia, and learn how to access streams from anywhere abroad with a VPN.",
+          "link": "https://www.techradar.com/how-to-watch/9now-outside-australia-free",
+          "publishedOn": "2026-04-02T15:10:10.000Z",
+          "wordCount": 40976,
+          "title": "How to watch 9Now outside Australia – stream online and from anywhere with a VPN",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/b47cqUZEp3q6ptv7CHMbUF-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/b47cqUZEp3q6ptv7CHMbUF-1280-80.jpg"
+        },
+        {
+          "id": "s8dx7eknxvcSk7at2uyxHk",
+          "author": "Demi Williams",
+          "description": "A new software update for Mario Kart World has been released, adding a ton of gameplay adjustments and bug fixes on top of a new Battle mode.",
+          "link": "https://www.techradar.com/gaming/new-mario-kart-world-update-adds-a-new-bob-omb-blast-battle-mode-and-major-track-item-performance-adjustments-for-bullet-bill-and-the-boomerang",
+          "publishedOn": "2026-04-02T15:07:40.000Z",
+          "wordCount": 40333,
+          "title": "New Mario Kart World update adds a new Bob-omb Blast Battle mode and major track item 'performance' adjustments for Bullet Bill and the boomerang",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/vGroUxougvrHNWhFAMuGhi-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/vGroUxougvrHNWhFAMuGhi-1280-80.jpg"
+        },
+        {
+          "id": "MVAtfpMnqU9oKKm6qwbvpa",
+          "author": "Darren Allan",
+          "description": "Dell XPS 14 lasts 43 hours in battery life test that shows how LG's screen helps to extend longevity massively in some scenarios.",
+          "link": "https://www.techradar.com/computing/laptops/god-tier-battery-life-dell-xps-14-lasts-43-hours-in-longevity-test-that-shows-the-laptop-leaves-apples-macbook-air-m5-in-the-dust",
+          "publishedOn": "2026-04-02T15:05:25.000Z",
+          "wordCount": 41026,
+          "title": "'God-tier battery life': Dell XPS 14 lasts 43 hours in longevity test that shows the laptop leaves Apple's MacBook Air M5 in the dust",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/pSmCnBjLqSGSjtugJxVLog-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/pSmCnBjLqSGSjtugJxVLog-1280-80.jpg"
+        },
+        {
+          "id": "ECqcnQ7GEzKkWFQxdyhRC4",
+          "author": "Craig Hale",
+          "description": "Raspberry Pi has increased prices by around $11 to $150, but there's a new mid-spec 3GB model to strike a better balance.",
+          "link": "https://www.techradar.com/pro/we-want-to-make-sure-you-dont-pay-for-more-memory-than-you-need-raspberry-pi-reveals-further-price-rises-and-the-ram-shortage-is-once-again-to-blame",
+          "publishedOn": "2026-04-02T15:05:00.000Z",
+          "wordCount": 39278,
+          "title": "'We want to make sure you don’t pay for more memory than you need': Raspberry Pi reveals further price rises — and the RAM shortage is once again to blame",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/cjeszMjeHcQPe9rM7Pv5yi-1280-80.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/cjeszMjeHcQPe9rM7Pv5yi-1280-80.png"
+        },
+        {
+          "id": "sWAMjkXGaZhfZGTeY5fxmE",
+          "author": "Darren Allan",
+          "description": "Asus has announced pricing for ROG Zephyrus G16 gaming laptops — and they've been painfully hiked.",
+          "link": "https://www.techradar.com/computing/laptops/asus-just-revealed-big-rog-gaming-laptop-price-hikes-and-theyre-so-painful-some-thought-they-were-an-april-fool",
+          "publishedOn": "2026-04-02T15:00:00.000Z",
+          "wordCount": 40663,
+          "title": "Asus just revealed big ROG gaming laptop price hikes — and they're so painful some thought they were an April Fool",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/58YdLt2L3mTRea2XHnAyzS-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/58YdLt2L3mTRea2XHnAyzS-1280-80.jpg"
+        },
+        {
+          "id": "kQhWpuCbAa6JFoQWemtV6k",
+          "author": "Ritoban Mukherjee",
+          "description": "A practical look at five of the most popular OpenClaw integrations, covering messaging, productivity, developer tools, and smart home control.",
+          "link": "https://www.techradar.com/pro/5-popular-openclaw-integrations-that-will-level-up-your-productivity",
+          "publishedOn": "2026-04-02T14:43:31.000Z",
+          "wordCount": 39570,
+          "title": "5 popular OpenClaw integrations that will level up your productivity",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/bDoYTRLwj2eots7huk2wUR-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/bDoYTRLwj2eots7huk2wUR-1280-80.jpg"
+        },
+        {
+          "id": "t7B9kLYqxhwXTgBhF4YUca",
+          "author": "Sead Fadilpašić",
+          "description": "Sophisticated cyber-espionage campaign recently uncovered targeting government entities in Southeast Asia.",
+          "link": "https://www.techradar.com/pro/security/by-replacing-a-legitimate-update-with-a-malicious-one-they-turned-the-products-update-flow-into-a-malware-distribution-channel-experts-find-flaw-in-trueconf-video-conferencing-tool-used-by-governments-military",
+          "publishedOn": "2026-04-02T14:35:00.000Z",
+          "wordCount": 39627,
+          "title": "'By replacing a legitimate update with a malicious one, they turned the product’s update flow into a malware distribution channel': Experts find flaw in TrueConf video conferencing tool used by governments, military",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/UjSNcAZ5SebctebKAMQNVF-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/UjSNcAZ5SebctebKAMQNVF-1280-80.jpg"
+        },
+        {
+          "id": "JVgtupBp5PSmbBktHanxj4",
+          "author": "Tom Power",
+          "description": "Set for release on May 1, Swapped is a family-friendly Netflix film whose primary cast includes Michael B. Jordan and Juno Temple.",
+          "link": "https://www.techradar.com/streaming/netflix/netflix-has-released-the-first-trailer-for-its-next-animated-movie-swapped-but-even-with-michael-b-jordans-star-power-i-cant-see-it-being-the-next-kpop-demon-hunters",
+          "publishedOn": "2026-04-02T14:30:00.000Z",
+          "wordCount": 41036,
+          "title": "Netflix has released the first trailer for its next animated movie Swapped — but, even with Michael B. Jordan's star power, I can't see it being the next KPop Demon Hunters",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/XkSQvFSjWkZCqGZNwARPWP-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/XkSQvFSjWkZCqGZNwARPWP-1280-80.jpg"
+        },
+        {
+          "id": "CNsNiZvYi6bXsCn9JZUJ86",
+          "author": "Bill Conner",
+          "description": "Enterprise AI moves beyond pilots toward scalable, orchestrated automation.",
+          "link": "https://www.techradar.com/pro/the-pilot-phase-is-over-heres-whats-next-for-enterprise-ai-automation",
+          "publishedOn": "2026-04-02T14:13:14.000Z",
+          "wordCount": 39508,
+          "title": "The pilot phase is over. Here’s what’s next for enterprise AI automation",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/pJjsnhgKdD782c5SBEneTW-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/pJjsnhgKdD782c5SBEneTW-1280-80.jpg"
+        },
+        {
+          "id": "KCZcHDmKrtyNt67spMHov4",
+          "author": "Chiara Castro",
+          "description": "After censoring the internet for years, the Kremlin is now pushing citizens to the state-controlled MAX by further targeting VPN usage. But the disconnect over the Telegram shutdown could be the needed turning point.",
+          "link": "https://www.techradar.com/vpn/vpn-privacy-security/switch-to-max-by-any-means-necessary-inside-russias-great-internet-crackdown",
+          "publishedOn": "2026-04-02T14:10:42.000Z",
+          "wordCount": 38814,
+          "title": "'Switch to MAX, by any means necessary' — Inside Russia’s great internet crackdown",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/fXc5c2Q4cUsGEc7bh9VDj4-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/fXc5c2Q4cUsGEc7bh9VDj4-1280-80.jpg"
+        },
+        {
+          "id": "9ELizoRjjT4ZEVkg9uDMcW",
+          "author": "Abhijit Shetti",
+          "description": "UK banks spend ~£3.3bn/year just maintaining legacy core systems, and AI is exposing the cracks.",
+          "link": "https://www.techradar.com/pro/ai-and-cost-of-legacy-systems-in-uk-banking",
+          "publishedOn": "2026-04-02T14:04:23.000Z",
+          "wordCount": 39331,
+          "title": "AI & cost of legacy systems in UK banking",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/2UMvPDp3snEwaGbRuCivjE-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/2UMvPDp3snEwaGbRuCivjE-1280-80.jpg"
+        },
+        {
+          "id": "qQuQhcmA53gU3V7HhEoapQ",
+          "author": "Roman Zednik",
+          "description": "As AI accelerates software development, quality assurance must evolve to prevent instability and costly outages.",
+          "link": "https://www.techradar.com/pro/ai-hype-and-the-quality-hangover",
+          "publishedOn": "2026-04-02T14:01:17.000Z",
+          "wordCount": 39431,
+          "title": "AI hype and the quality hangover",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/jeucwt8s4Qt9z5KtumVLW9-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/jeucwt8s4Qt9z5KtumVLW9-1280-80.jpg"
+        },
+        {
+          "id": "cruiHZ22qhfZf5aWSZzdQA",
+          "author": "Rowan Davies",
+          "description": "Google's AI Pro subscription tier has had a storage boost, taking its allowance from 2TB to 5TB.",
+          "link": "https://www.techradar.com/ai-platforms-assistants/google-has-doubled-its-storage-allowance-for-its-ai-pro-plan-and-its-just-one-upped-chatgpt-heres-how-they-compare",
+          "publishedOn": "2026-04-02T14:00:00.000Z",
+          "wordCount": 40090,
+          "title": "Google has doubled its storage allowance for its AI Pro plan, and it’s just one-upped ChatGPT — here’s how they compare",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/5zQJRfhBhG85poC8J8DrrQ-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/5zQJRfhBhG85poC8J8DrrQ-1280-80.jpg"
+        },
+        {
+          "id": "FHCcmiWVRyAtwspcyFKVvD",
+          "author": "Paul Hatton",
+          "description": "You can grab yourself a pair of Samsung Galaxy Buds 3 at Three for just £59 when you use this limited-time code.",
+          "link": "https://www.techradar.com/audio/earbuds-airpods/major-clearance-sale-drops-the-samsung-galaxy-buds-3-to-just-gbp59",
+          "publishedOn": "2026-04-02T13:52:55.000Z",
+          "wordCount": 40695,
+          "title": "Major clearance sale drops the Samsung Galaxy Buds 3 to just £59",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/Li5GKyRB75z67jrHh4tHr3-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/Li5GKyRB75z67jrHh4tHr3-1280-80.jpg"
+        },
+        {
+          "id": "iKAn5Rscx7Xte5LPhyztMc",
+          "author": "Rohit Gupta",
+          "description": "AI is transforming work, but a widening skills gap threatens organizations' ability to keep up.",
+          "link": "https://www.techradar.com/pro/why-hands-on-digital-skills-will-define-the-value-of-ai",
+          "publishedOn": "2026-04-02T13:50:33.000Z",
+          "wordCount": 39287,
+          "title": "Why hands-on digital skills will define the value of AI",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/cJwCzahwRcWWKn8F8NYm25-1280-80.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/cJwCzahwRcWWKn8F8NYm25-1280-80.png"
+        },
+        {
+          "id": "oJJY657BGysoCkEXqV7WAo",
+          "author": "Nirave Gondhia",
+          "description": "The Honor Magic V6 is the first folding phone with IP69 water resistance, so I tested that claim by putting it in the washing machine.",
+          "link": "https://www.techradar.com/phones/honor-phones/exclusive-i-put-the-foldable-honor-magic-v6-in-a-washing-machine-to-test-its-durability-heres-what-happened-next",
+          "publishedOn": "2026-04-02T13:00:00.000Z",
+          "wordCount": 41778,
+          "title": "Exclusive: I put the foldable Honor Magic V6 in a washing machine to test its durability — here's what happened next",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/5QotNS9g954ojkdC8ijSZa-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/5QotNS9g954ojkdC8ijSZa-1280-80.jpg"
+        },
+        {
+          "id": "dJrYCPgYRFM4y5CJyBQbF",
+          "author": "Isaiah Williams",
+          "description": "PC and game console price hikes are widespread, and it looks like the Nintendo Switch 2 may be the next to see a significant price adjustment.",
+          "link": "https://www.techradar.com/gaming/nintendo/nintendo-switch-2-price-hikes-are-inevitable-says-former-nintendo-sales-lead-and-thats-not-an-exaggeration",
+          "publishedOn": "2026-04-02T13:00:00.000Z",
+          "wordCount": 39732,
+          "title": "Nintendo Switch 2 price hikes are 'inevitable', says former Nintendo sales lead — and that's not an exaggeration",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/q2MuL6xKJT2sE86QBdj7Nj-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/q2MuL6xKJT2sE86QBdj7Nj-1280-80.jpg"
+        },
+        {
+          "id": "rTifzCQVY8Ddj6bgrmqHFj",
+          "author": "Demi Williams",
+          "description": "Sony has announced that its upgraded PSSR AI upscaling technology will finally be added to Assassin's Creed Shadows this month.",
+          "link": "https://www.techradar.com/gaming/the-upgraded-pssr-significantly-enhances-assassins-creed-shadows-sony-confirms-a-release-date-for-its-next-gen-upscaling-tech-on-ps5-pro",
+          "publishedOn": "2026-04-02T12:52:50.000Z",
+          "wordCount": 39587,
+          "title": "'The upgraded PSSR significantly enhances Assassin’s Creed Shadows' — Sony confirms a release date for its next-gen upscaling tech on PS5 Pro",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/BtWs8FQvL9BV6kAchncseS-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/BtWs8FQvL9BV6kAchncseS-1280-80.jpg"
+        },
+        {
+          "id": "aeBY7C5gFuTfwc2Kj3Q7fB",
+          "author": "Sead Fadilpašić",
+          "description": "So far, no one has claimed responsibility for the attack in which $280 million were pulled from Drift.",
+          "link": "https://www.techradar.com/pro/security/this-is-not-an-april-fools-joke-crypto-platform-drift-suspends-services-after-millions-stolen",
+          "publishedOn": "2026-04-02T12:25:00.000Z",
+          "wordCount": 39189,
+          "title": "'This is not an April Fool's joke': Crypto platform Drift suspends services after millions stolen",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/ajrbDMvoRtyBEqwF235BUD-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/ajrbDMvoRtyBEqwF235BUD-1280-80.jpg"
+        },
+        {
+          "id": "9U8D5dAwhyT4SfVUTV46bh",
+          "author": "Rob Dunne",
+          "description": "Following our exclusive research, how does the VPN industry see the UK Government's actions?",
+          "link": "https://www.techradar.com/vpn/vpn-services/protecting-children-online-is-a-parental-responsibility-not-a-regulatory-one-the-vpn-industry-reacts-to-government-vpn-spending-amid-discussions-on-restricting-child-vpn-use",
+          "publishedOn": "2026-04-02T12:14:26.000Z",
+          "wordCount": 38481,
+          "title": "\"Protecting children online is a parental responsibility, not a regulatory one\" — the VPN industry reacts to Government VPN spending amid discussions on restricting child VPN use",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/yNhT8tJBe4vf6i7vfYYuQ-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/yNhT8tJBe4vf6i7vfYYuQ-1280-80.jpg"
+        },
+        {
+          "id": "Loxg4nMGyPGPuSmMJHtpiV",
+          "author": "Jasmine Valentine",
+          "description": "With For All Mankind season 5 and Imperfect Women both on Apple TV, Joel Kinnaman is having the last laugh — but there have still been 'challenges' along the way.",
+          "link": "https://www.techradar.com/streaming/apple-tv-plus/for-all-mankind-season-5-imperfect-women-joel-kinnaman",
+          "publishedOn": "2026-04-02T12:00:00.000Z",
+          "wordCount": 40638,
+          "title": "'I'm not missing the four hours of daily prosthetics': For All Mankind season 5 star on 'challenges' in new Apple TV show Imperfect Women",
+          "enclosure": {
+            "url": "https://cdn.mos.cms.futurecdn.net/Mrjy8ERjzyRUornW3wWEVm-1280-80.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/Mrjy8ERjzyRUornW3wWEVm-1280-80.jpg"
+        },
         {
           "id": "UwXwESXiykALfaZ2CL2xhk",
           "author": "Leon Poultney",
@@ -3223,10 +4191,130 @@
       ]
     },
     {
-      "title": "EU-topp uppmanar till hemarbete för att hantera energikrisen | Computer Sweden",
+      "title": "Apple 50 år – på 15 minuter | Computer Sweden",
       "feedUrl": "https://computersweden.se/feed/",
       "siteUrl": "https://computersweden.se",
       "articles": [
+        {
+          "id": "https://computersweden.se/article/4153612/apple-50-ar-pa-femton-minuter.html",
+          "author": null,
+          "description": "Det kändes lite snålt att låta Apples 50-årsdag den 1 april passera utan att bidra till den hyllande kören, så det som följer är en helt och hållet selektiv rundtur genom några av de ögonblick som format ett av de mest inflytelserika företagen i modern tid. Det här var de avgörande vändpunkterna då Apple inte bara lanserade produkter, utan faktiskt formade verkligheten i sin egen riktning.\nFör den som söker en kortare artikel har Apples vd Tim Cook tillmötesgått önskemålet med ett typiskt tweet i företagets anda. För alla andra är detta den längre versionen.\nDen första artikeln om Apple\nDen första mainstream-rapporteringen om Apple som jag kunde hitta publicerades 1977 i en artikel i den numera nedlagda tidningen Kilobaud. ”The Remarkable Apple Computer” var en lång artikel baserad på inte…",
+          "link": "https://computersweden.se/article/4153612/apple-50-ar-pa-femton-minuter.html",
+          "publishedOn": "2026-04-02T13:32:06.000Z",
+          "wordCount": 10683,
+          "title": "Apple 50 år – på 15 minuter",
+          "enclosure": {
+            "url": "https://computersweden.se/wp-content/uploads/2026/04/4153612-0-55539800-1775136737-Apple-50-year-anniversary-Chengdu-Chris-Lee-and-dancers-selfie-with-CEO-Tim-Cook.jpg?quality=50&strip=all",
+            "length": "4565181",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://computersweden.se/wp-content/uploads/2026/04/4153612-0-55539800-1775136737-Apple-50-year-anniversary-Chengdu-Chris-Lee-and-dancers-selfie-with-CEO-Tim-Cook.jpg?quality=50&strip=all"
+        },
+        {
+          "id": "https://computersweden.se/article/4153753/eu-stoppar-intern-signal-chatt-av-sakerhetsskal.html",
+          "author": null,
+          "description": "EU-kommissionen har beordrat högt uppsatta tjänstemän att stänga ner en intern gruppchatt på den krypterade meddelandetjänsten Signal. Detta efter oro för att den kan vara ett mål för hackare, rapporterar Politico.\nDet finns inga bevis för att gruppen har komprometterats. Beslutet uppges istället vara förebyggande på grund av en växande hotbild.\nÅtgärden kommer efter att EU drabbats av flera cyberincidenter, däribland attacker mot kommissionens webbplatser och misstänkta intrång i intern kommunikation. Tjänstemän har också utsatts för nätfiskeförsök där angripare försökt lura dem att lämna ut sina Signal-PIN-koder.\nEU-kommissionen uppges ta situationen på stort allvar och genomför nu säkerhetsgranskningar, samtidigt som personalens enheter byts ut regelbundet. En talesperson för EU-kommissionen säger samtidigt till Politico att de inte kan kommentera på intern säkerhetshantering.",
+          "link": "https://computersweden.se/article/4153753/eu-stoppar-intern-signal-chatt-av-sakerhetsskal.html",
+          "publishedOn": "2026-04-02T13:30:56.000Z",
+          "wordCount": 5365,
+          "title": "EU stoppar intern Signal-chatt av säkerhetsskäl",
+          "enclosure": {
+            "url": "https://computersweden.se/wp-content/uploads/2026/04/4153753-0-85302400-1775136669-christian-lue-C241mbgtgys-unsplash.jpg?quality=50&strip=all",
+            "length": "3573518",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://computersweden.se/wp-content/uploads/2026/04/4153753-0-85302400-1775136669-christian-lue-C241mbgtgys-unsplash.jpg?quality=50&strip=all"
+        },
+        {
+          "id": "https://computersweden.se/article/4153766/aldre-iphone-och-ipad-far-skydd-mot-darksword-attacker.html",
+          "author": null,
+          "description": "Apple har släppt en ny säkerhetsuppdatering till äldre Iphones och Ipads för att skydda användare mot en allvarlig sårbarhet kopplad till det läckta hackerverktyget DarkSword, rapporterar Techcrunch.\nUppdateringen rullas ut som IOS 18.7.7 och Ipad OS 18.7.7 och åtgärdar en brist i systemet som gör det möjligt för angripare att ta kontroll över en enhet genom att användaren bara besöker en infekterad webbplats.\nVerktyget har enligt uppgifter redan använts i attacker i flera länder och kan ge tillgång till känslig information som meddelanden, webbhistorik, platsdata och kryptotillgångar.\nProblemet påverkar enheter som kör IOS-versioner mellan 18.4 och 18.7. Enligt Apple är användare med den senaste systemversionen, IOS 26, redan skyddade.",
+          "link": "https://computersweden.se/article/4153766/aldre-iphone-och-ipad-far-skydd-mot-darksword-attacker.html",
+          "publishedOn": "2026-04-02T13:30:21.000Z",
+          "wordCount": 5358,
+          "title": "Äldre Iphone och Ipad får skydd mot Darksword-attacker",
+          "enclosure": {
+            "url": "https://computersweden.se/wp-content/uploads/2026/04/4153766-0-23254600-1775136635-omid-armin-AGRtDoZlpYw-unsplash.jpg?quality=50&strip=all",
+            "length": "2350381",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://computersweden.se/wp-content/uploads/2026/04/4153766-0-23254600-1775136635-omid-armin-AGRtDoZlpYw-unsplash.jpg?quality=50&strip=all"
+        },
+        {
+          "id": "https://computersweden.se/article/4153775/japanskt-rederi-och-hitachi-ska-bygga-flytande-datacenter.html",
+          "author": null,
+          "description": "Det japanska rederiet Mitsui OSK Lines (MOL) har inlett ett samarbete med Hitachi Systems för att bygga flytande datacenter, rapporterar The Register. Planen är att omvandla ett begagnat fartyg till ett datacenter till havs.\nPå så vis kan datacentret använda havsvatten för kylning, vilket minskar energibehovet jämfört med datacenter på land. Konceptet kan också innebära en kortare byggtid på cirka ett år och lägre kostnader genom att återanvända befintliga fartyg.\nHitachi ansvarar för it-infrastruktur, drift och kundlösningar, medan MOL hanterar fartyget, ombyggnaden och marina frågor som hamnplacering och underhåll.\nMålet är att det första flytande datacentret kan tas i drift tidigast 2027.",
+          "link": "https://computersweden.se/article/4153775/japanskt-rederi-och-hitachi-ska-bygga-flytande-datacenter.html",
+          "publishedOn": "2026-04-02T13:29:49.000Z",
+          "wordCount": 5355,
+          "title": "Japanskt rederi och Hitachi ska bygga flytande datacenter",
+          "enclosure": {
+            "url": "https://computersweden.se/wp-content/uploads/2026/04/4153775-0-51445800-1775136603-Mitsui-Hitachi-konceptbild-for-flytande-datacenter.jpg?quality=50&strip=all",
+            "length": "243893",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://computersweden.se/wp-content/uploads/2026/04/4153775-0-51445800-1775136603-Mitsui-Hitachi-konceptbild-for-flytande-datacenter.jpg?quality=50&strip=all"
+        },
+        {
+          "id": "https://computersweden.se/article/4153702/eu-institutioner-forbjuds-att-anvanda-ai-skapade-bilder-och-videor.html",
+          "author": null,
+          "description": "Medan Vita huset bokstavligen pumpar ut AI-genererade bilder och videor väljer nu EU att gå i motsatt riktning, rapporterar Politico.\n\n\n\n\nI syfte att stärka förtroendet för unionens institutioner förbjuds nämligen de anställda att använda AI-skapade bilder och videor i sin officiella kommunikation.\n\n\n\n\nBeslutet berör EU-kommissionen, Europaparlamentet och Europeiska unionens råd.\n\n\n\n\n– Filmklipp och fotografier som vi använder och gör tillgängliga för journalister eller för officiella informationsändamål inkluderar inte AI-genererat innehåll, säger EU-kommissionens talesperson Thomas Regnier i en kommentar.\n\n\n\n\nDäremot är det även i fortsättningen tillåtet att använda sig av AI-verktyg för att förbättra bildkvaliteten.",
+          "link": "https://computersweden.se/article/4153702/eu-institutioner-forbjuds-att-anvanda-ai-skapade-bilder-och-videor.html",
+          "publishedOn": "2026-04-02T11:26:51.000Z",
+          "wordCount": 5335,
+          "title": "EU-institutioner förbjuds att använda AI-skapade bilder och videor",
+          "enclosure": {
+            "url": "https://computersweden.se/wp-content/uploads/2026/04/4153702-0-51502100-1775129223-shutterstock_1198926103.jpg?quality=50&strip=all",
+            "length": "4738685",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://computersweden.se/wp-content/uploads/2026/04/4153702-0-51502100-1775129223-shutterstock_1198926103.jpg?quality=50&strip=all"
+        },
+        {
+          "id": "https://computersweden.se/article/4153675/prischock-pa-raspberry-pi-i-minneskrisens-spar.html",
+          "author": null,
+          "description": "Vi har tidigare rapporterat om de höjda minnespriserna, något som har fått flera teknikföretag att höja priserna på sina datorer, pekplattor och mobiltelefoner.\n\n\n\n\nSenaste nytt är att även mikrodatorn Raspberry Pi blivit rejält mycket dyrare på sistone, något som uppmärksammas av The Verge.\n\n\n\n\nVill du till exempel ha ett exemplar av Raspberry Pi 5 med 16 gigabyte minne ligger höjningen på 100 dollar, vilket är nästan en fördubbling jämfört med lanseringspriset som låg på 120 dollar.\n\n\n\n\n– De omständigheter vi befinner oss i är utmanande, men temporära. När situationen återgår till det normala kommer vi att dra tillbaka prishöjningarna, säger Eben Upton från Raspberry Pi Foundation i en kommentar.\n\n\n\n\nSom ett plåster på såret erbjuds en billigare variant av Raspberry Pi 4 för 83,75 dollar, men det bör påpekas att den modellen endast har 3 gigabyte minne.",
+          "link": "https://computersweden.se/article/4153675/prischock-pa-raspberry-pi-i-minneskrisens-spar.html",
+          "publishedOn": "2026-04-02T11:25:56.000Z",
+          "wordCount": 5446,
+          "title": "Prischock på Raspberry Pi i minneskrisens spår",
+          "enclosure": {
+            "url": "https://computersweden.se/wp-content/uploads/2026/04/4153675-0-57038600-1775129174-resized_1617361480.webp",
+            "length": "300010",
+            "type": "image/webp"
+          },
+          "imageUrl": "https://computersweden.se/wp-content/uploads/2026/04/4153675-0-57038600-1775129174-resized_1617361480.webp"
+        },
+        {
+          "id": "https://computersweden.se/article/4153672/nya-bombningar-av-amazons-datacenter-i-bahrain.html",
+          "author": null,
+          "description": "För några veckor sedan rapporterade vi att tre av Amazons datacenter i Mellanöstern skadats i drönarattacker under det pågående kriget mellan USA, Israel och Iran.\n\n\n\n\nNu står det klart att datacentret i Bahrain utsatts för ännu en attack, något som lett till störningar på Amazons molntjänst AWS.\n\n\n\n\nBahrains inrikesminister konstaterar att man har släckt en ”brand i en anläggning som var resultatet av iransk aggression”, rapporterar Financial Times.\n\n\n\n\nEnligt nyhetsbyrån Reuters är det den tredje bombningen av anläggningen i fråga sedan kriget bröt ut.\n\n\n\n\nIran betraktar samtliga amerikanska teknikföretag i regionen som tänkbara måltavlor, vilket utöver Amazon även inkluderar Apple, Google, Meta och Microsoft.",
+          "link": "https://computersweden.se/article/4153672/nya-bombningar-av-amazons-datacenter-i-bahrain.html",
+          "publishedOn": "2026-04-02T11:25:18.000Z",
+          "wordCount": 5346,
+          "title": "Nya bombningar av Amazons datacenter i Bahrain",
+          "enclosure": {
+            "url": "https://computersweden.se/wp-content/uploads/2026/04/4153672-0-38907500-1775129130-shutterstock_1584762601.jpg?quality=50&strip=all",
+            "length": "37452411",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://computersweden.se/wp-content/uploads/2026/04/4153672-0-38907500-1775129130-shutterstock_1584762601.jpg?quality=50&strip=all"
+        },
+        {
+          "id": "https://computersweden.se/article/4152972/euro-office-marknadsfors-som-europas-oberoende-alternativ-till-microsoft-office.html",
+          "author": null,
+          "description": "En grupp europeiska teknikföretag har lanserat ett nytt kontorspaket med öppen källkod som ska erbjuda ett suveränt alternativ till Microsoft Office.\nEuro-Office består av fyra kärnprogram – ett dokumentredigeringsprogram, ett kalkylbladsprogram, ett presentationsverktyg och ett PDF-redigeringsprogram – och bygger på Only Office-paketet med öppen källkod. Den stöder Microsoft Office-filformaten DOCX, PPTX och XLSX, samt Open Document Format (ODF)-filer som ODS, ODT och ODP.\nBland de inblandade finns Nextcloud som levererar produktivitetsprogram med öppen källkod, molnhostingleverantören Ionos och Proton, en schweizisk SaaS-leverantör som säljer integritetsfokuserad e-post och andra produktivitetsverktyg.\nEuro-Office-initiativet drivs av efterfrågan på en ”helt suverän, öppen källkodsbasera…",
+          "link": "https://computersweden.se/article/4152972/euro-office-marknadsfors-som-europas-oberoende-alternativ-till-microsoft-office.html",
+          "publishedOn": "2026-04-02T04:30:00.000Z",
+          "wordCount": 6805,
+          "title": "Euro-Office ska bli Europas alternativ till Microsoft Office",
+          "enclosure": {
+            "url": "https://computersweden.se/wp-content/uploads/2026/04/4152972-0-28898900-1775104266-branded_content_CIO-1.jpg?quality=50&strip=all",
+            "length": "1978429",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://computersweden.se/wp-content/uploads/2026/04/4152972-0-28898900-1775104266-branded_content_CIO-1.jpg?quality=50&strip=all"
+        },
         {
           "id": "https://computersweden.se/article/4153135/eu-topp-uppmanar-till-hemarbete-for-att-hantera-energikrisen.html",
           "author": null,
@@ -3640,6 +4728,96 @@
       "siteUrl": "https://www.breakit.se",
       "articles": [
         {
+          "id": "https://www.breakit.se/artikel/45941/yabie-byter-vd-hon-gar-han-tar-over",
+          "author": null,
+          "description": "Siri Hyltén-Cavallius lämnar vd-posten i fintechbolaget Yabie. \r\n\r\nErsättaren är redan på plats.",
+          "link": "https://www.breakit.se/artikel/45941/yabie-byter-vd-hon-gar-han-tar-over",
+          "publishedOn": "2026-04-02T13:46:00.000Z",
+          "wordCount": 128,
+          "title": "Yabie byter vd – hon går, han tar över",
+          "imageUrl": "https://cdn.breakit.se/assets/article/0c8d855ca72fff3b438ac8aa39e58a2f.webp"
+        },
+        {
+          "id": "https://www.breakit.se/artikel/45938/techeliten-sparkar-pa-varandra-hollywoodfru-blir-affarsangel-och-dyr-natt-hos-investeraren",
+          "author": null,
+          "description": "PÅSK!\r\nHoppas att ni alla får en helg fylld med glädje, ägg och kanske en promenad i solen.\r\nFram tills dess bjuder vi på det härligaste skvallret från det nya näringslivet.\r\n\r\nDen här veckan kan ni läsa om:\r\n✔️ Fräcka kuppen mot Lovable \r\n✔️ Mauris mystiska lunch\r\n✔️ Joe & the juice-chefens nya satsning \r\n✔️ Profilens liv som trader på börsen\r\n\r\nOch mycket mer!",
+          "link": "https://www.breakit.se/artikel/45938/techeliten-sparkar-pa-varandra-hollywoodfru-blir-affarsangel-och-dyr-natt-hos-investeraren",
+          "publishedOn": "2026-04-02T12:43:00.000Z",
+          "wordCount": 271,
+          "title": "Techeliten sparkar på varandra, Hollywoodfru blir affärsängel – och dyr natt hos investeraren",
+          "imageUrl": "https://cdn.breakit.se/assets/article/be03bff51b10a7092c1841d09074386e.webp"
+        },
+        {
+          "id": "https://www.breakit.se/artikel/45936/lyfte-fran-jorden-sen-blev-det-problem-med-toan",
+          "author": null,
+          "description": "Fyra astronauter lämnade i natt jorden med siktet inställt på månen. Ett tag efter att raketen lyft uppstod ett litet problem – med toan.",
+          "link": "https://www.breakit.se/artikel/45936/lyfte-fran-jorden-sen-blev-det-problem-med-toan",
+          "publishedOn": "2026-04-02T09:49:00.000Z",
+          "wordCount": 625,
+          "title": "Lyfte från jorden – sen blev det problem med toan",
+          "imageUrl": "https://cdn.breakit.se/assets/article/850f59c3de102f78b25d763e52310f46.webp"
+        },
+        {
+          "id": "https://www.breakit.se/artikel/45926/henrik-persson-ekdahl-ar-tillbaka-med-100-miljoner-som-ska-satsas-pa-ai-bolag",
+          "author": null,
+          "description": "Han har hållit ovanligt låg profil i svenska media under ett par år. \r\n\r\nMen nu dyker entreprenören och investeraren Henrik Persson Ekdahl upp igen – och den här gången har han med sig 100 miljoner kronor som ska satsas på helt nya AI-bolag i Sydafrika. \r\n\r\n“Vi räknar med kanske 30-40 bolag”, säger han till Breakit i en intervju där han också berättar om:\r\n\r\n✔️ Varför han alltid svarar när entreprenörerna ringer (om det är före 21)\r\n✔️ Experthjälpen från 18-årige sonen\r\n✔️ Flytten till Sydafrika\r\n✔️ Livet på lyxiga gården med vin, hästavel och fåruppfödning",
+          "link": "https://www.breakit.se/artikel/45926/henrik-persson-ekdahl-ar-tillbaka-med-100-miljoner-som-ska-satsas-pa-ai-bolag",
+          "publishedOn": "2026-04-02T09:11:00.000Z",
+          "wordCount": 788,
+          "title": "Henrik Persson Ekdahl är tillbaka – med 100 miljoner som ska satsas på AI-bolag",
+          "imageUrl": "https://cdn.breakit.se/assets/article/9d8c8656b067f53d23811f22eaef6d16.webp"
+        },
+        {
+          "id": "https://www.breakit.se/artikel/45935/vandningen-nu-okar-forsaljningen-av-tesla-i-europa",
+          "author": null,
+          "description": "Tesla vädrar morgonluft i Europa – ökar i flera länder efter fjolårets försäljningsras.",
+          "link": "https://www.breakit.se/artikel/45935/vandningen-nu-okar-forsaljningen-av-tesla-i-europa",
+          "publishedOn": "2026-04-02T08:39:00.000Z",
+          "wordCount": 1148,
+          "title": "Vändningen – nu ökar försäljningen av Tesla i Europa",
+          "imageUrl": "https://cdn.breakit.se/assets/article/3484a6643910f66a32cbaa7e590140bf.webp"
+        },
+        {
+          "id": "https://www.breakit.se/artikel/45932/y-combinator-slar-tillbaka-mot-jon-olsson-har-inget-samarbete-pa-nagot-satt",
+          "author": null,
+          "description": "Jon Olssons investeringsplattform Akka berättade nyligen att medlemmarna ska få möjlighet att vara med och investera i startups i Silicon Valleys hetaste inkubator Y Combinator.\r\n\r\nMen nu visar det sig att bolaget aldrig hade ett samarbete med inkubator – och att investeringarna sker via en mellanhand.",
+          "link": "https://www.breakit.se/artikel/45932/y-combinator-slar-tillbaka-mot-jon-olsson-har-inget-samarbete-pa-nagot-satt",
+          "publishedOn": "2026-04-02T07:03:00.000Z",
+          "wordCount": 1496,
+          "title": "Y Combinator slår tillbaka mot Jon Olsson: “Har inget samarbete på något sätt”",
+          "imageUrl": "https://cdn.breakit.se/assets/article/cc84448412e6098975da1212ff517204.webp"
+        },
+        {
+          "id": "https://www.breakit.se/artikel/45931/flat-capital-saljer-allt-i-lovable-och-open-ai",
+          "author": null,
+          "description": "Klarna-grundaren Sebastian Siemiatkowski har varit extremt optimistisk om framtiden för AI.\r\n\r\nMen har han ändrat sig? Klart är att hans bolag Flat Capital nu säljer en stor del av sin AI-portfölj – för 720 miljoner kronor.",
+          "link": "https://www.breakit.se/artikel/45931/flat-capital-saljer-allt-i-lovable-och-open-ai",
+          "publishedOn": "2026-04-02T06:41:00.000Z",
+          "wordCount": 1251,
+          "title": "Flat Capital säljer allt i Lovable och Open AI",
+          "imageUrl": "https://cdn.breakit.se/assets/article/f9d821fd960fb2637a0a23d9b6b58083.webp"
+        },
+        {
+          "id": "https://www.breakit.se/artikel/45925/pre-loved-tar-over-krossar-i-e-handeln",
+          "author": null,
+          "description": "Svenskarna kastade sig över begagnade grejer – i alla fall online, enligt en ny rapport.",
+          "link": "https://www.breakit.se/artikel/45925/pre-loved-tar-over-krossar-i-e-handeln",
+          "publishedOn": "2026-04-02T06:26:00.000Z",
+          "wordCount": 780,
+          "title": "“Pre loved” tar över – krossar i e-handeln",
+          "imageUrl": "https://cdn.breakit.se/assets/article/ec04dee07a00fc5d31d0e98a8ba5d289.webp"
+        },
+        {
+          "id": "https://www.breakit.se/artikel/45930/svenska-ai-juristen-legora-vaxer-blixtsnabbt-har-natt-100-miljoner-dollar",
+          "author": null,
+          "description": "Legora växer så det knakar – nu avslöjar vd Max Junestrand exakt hur mycket det knakar.\r\n“Tacksam mot våra kunder och partners”.",
+          "link": "https://www.breakit.se/artikel/45930/svenska-ai-juristen-legora-vaxer-blixtsnabbt-har-natt-100-miljoner-dollar",
+          "publishedOn": "2026-04-02T05:00:00.000Z",
+          "wordCount": 729,
+          "title": "Svenska AI-juristen Legora växer blixtsnabbt – har nått 100 miljoner dollar",
+          "imageUrl": "https://cdn.breakit.se/assets/article/ad9e9e3bc9d2f28d75013d44b1ff4db3.webp"
+        },
+        {
           "id": "https://www.breakit.se/artikel/45901/darfor-ar-det-tryggare-an-nagonsin-att-kopa-begagnad-elbil",
           "author": null,
           "description": "Att köpa en begagnad elbil är ett smart val – både för plånboken och miljön. Tekniken har mognat och utbudet har aldrig varit större. På Volvia ser man nu att många har frågor kring kvalitet och trygghet.",
@@ -3860,6 +5038,26 @@
           "imageUrl": "https://cdn.breakit.se/assets/article/9464a4867124c7686b7099750d1eb936.webp"
         },
         {
+          "id": "https://www.breakit.se/artikel/45814/jon-olssons-akka-ska-ge-fler-tillgang-till-silicon-valley",
+          "author": null,
+          "description": "Akka har ridit ut en kritikstorm. Nu har investeringstjänsten – med Jon Olsson som dragplåster och medgrundare – en ny mission: Att öppna en stängd marknad.\r\n\r\nPlattformen ska låta medlemmarna vara med och investera i bolag i Silicon Valleys hetaste accelerator Y Combinator. \r\n\r\n”Vi öppnar dörren för alla typer av investerare.”",
+          "link": "https://www.breakit.se/artikel/45814/jon-olssons-akka-ska-ge-fler-tillgang-till-silicon-valley",
+          "publishedOn": "2026-03-23T06:00:00.000Z",
+          "wordCount": 1303,
+          "title": "Jon Olssons Akka ska ge fler tillgång till Silicon Valley",
+          "imageUrl": "https://cdn.breakit.se/assets/article/cb8c69ef2f36019929accc181223e2c6.webp"
+        },
+        {
+          "id": "https://www.breakit.se/artikel/45804/agarna-om-raset-i-flat-capital-jag-hoppas-att-sebastian-klarar-upp-det-har",
+          "author": null,
+          "description": "Flat Capital har rasat på börsen sedan Klarnas notering. Breakit pratade med sex aktieägare på väg in till årsstämman i investmentbolaget.\r\n“Ganska bistert – men roligt att följa”, säger aktieägaren Lars Lundqvist.",
+          "link": "https://www.breakit.se/artikel/45804/agarna-om-raset-i-flat-capital-jag-hoppas-att-sebastian-klarar-upp-det-har",
+          "publishedOn": "2026-03-19T17:52:00.000Z",
+          "wordCount": 234,
+          "title": "Ägarna om raset i Flat Capital: “Jag hoppas att Sebastian klarar upp det här”",
+          "imageUrl": "https://cdn.breakit.se/assets/article/c011ff79f76213e9a6726980cee5fc1a.webp"
+        },
+        {
           "id": "https://www.breakit.se/artikel/45687/ai-bedragerierna-okar-kraftigt-har-ert-bolag-ratt-skydd",
           "author": null,
           "description": "Ett mejl från vd:n med en brådskande betalningsorder. Ett telefonsamtal där rösten låter exakt som en kollega. En cyberattack som stänger systemen.\r\nAI gör vardagen enklare för många företag. Samtidigt ökar det risken för nya typer av bedrägerier.",
@@ -3939,6 +5137,26 @@
       "feedUrl": "https://edri.org/rss",
       "siteUrl": "https://edri.org/",
       "articles": [
+        {
+          "id": "https://edri.org/?post_type=work&p=63088",
+          "author": "EDRi",
+          "description": "In reaction to the recent plan to “open a formal dialogue” with the US government on EU tech rules, EDRi and other civil society organisations urge the Commission to halt this plan that risks giving Big Tech a back door to weaken the EU digital rulebook and its enforcement.\nThe post Europe’s digital laws are not bargaining chips appeared first on European Digital Rights (EDRi).",
+          "link": "https://edri.org/our-work/europes-digital-laws-are-not-bargaining-chips/",
+          "publishedOn": "2026-04-02T13:42:27.000Z",
+          "wordCount": 1914,
+          "title": "Europe’s digital laws are not bargaining chips",
+          "imageUrl": "https://edri.org/wp-content/uploads/2026/04/Chia_ThArtboard-20.png"
+        },
+        {
+          "id": "https://edri.org/?post_type=work&p=63067",
+          "author": "EDRi",
+          "description": "One year ago, EDRi, European Center for Not-for-Profit Law (ECNL) and Lighthouse Reports launched the Civic Journalism Coalition with the aim of connecting investigative journalists with digital rights and civil society organisations. Today, that partnership is yielding tangible results, from journalistic investigations to a new practical guide for collaboration. Here is an overview of the activities - investigations, workshops and community-building efforts - that have shaped the Coalition.\nThe post A practical guide to joint investigations: lessons learned from one year of the Civic Journalism Coalition appeared first on European Digital Rights (EDRi).",
+          "link": "https://edri.org/our-work/a-practical-guide-to-joint-investigations-lessons-learned-from-one-year-of-the-civic-journalism-coalition/",
+          "publishedOn": "2026-04-02T10:15:45.000Z",
+          "wordCount": 2733,
+          "title": "A practical guide to joint investigations: lessons learned from one year of the Civic Journalism Coalition",
+          "imageUrl": "https://edri.org/wp-content/uploads/2026/04/JournoArtboard-19.png"
+        },
         {
           "id": "https://edri.org/?post_type=work&p=63058",
           "author": "EDRi",
@@ -4068,26 +5286,6 @@
           "wordCount": 2060,
           "title": "EDRi files DSA complaint against YouTube for undermining user autonomy",
           "imageUrl": "https://edri.org/wp-content/uploads/2026/03/DSA_YT-1.png"
-        },
-        {
-          "id": "https://edri.org/?post_type=work&p=62976",
-          "author": "EDRi",
-          "description": "What has the EDRi network been up to over the past few weeks? Find out the latest digital rights news in our bi-weekly newsletter. In this edition: Chat Control in final stretch, breaking extractive business models with Digital Fairness Act, & more!\nThe post EDRi-gram, 4 March 2026 appeared first on European Digital Rights (EDRi).",
-          "link": "https://edri.org/our-work/edri-gram-4-march-2026/",
-          "publishedOn": "2026-03-04T09:13:52.000Z",
-          "wordCount": 2907,
-          "title": "EDRi-gram, 4 March 2026",
-          "imageUrl": "https://edri.org/wp-content/uploads/2026/03/EDRIG_1MARCH.png"
-        },
-        {
-          "id": "https://edri.org/?post_type=work&p=62962",
-          "author": "EDRi",
-          "description": "Privacy First is drawing attention to the risks to financial privacy and fundament rights arising from the European Union’s anti-money laundering and counter-terrorist financing (AML/CFT) framework. Over the past decade, the EU has increasingly shifted the responsibility of detecting financial crime from public authorities to banks, bookkeepers and other companies (called“obliged entities”). With a completely revised AML Package set to enter into force in mid-2027, this system will expand further, turning ordinary citizens and civil society organisations into subjects of systems of financial surveillance.\nThe post Outsourcing crime control: How EU anti-money laundering rules threaten financial privacy appeared first on European Digital Rights (EDRi).",
-          "link": "https://edri.org/our-work/outsourcing-crime-control-how-eu-anti-money-laundering-rules-threaten-financial-privacy/",
-          "publishedOn": "2026-03-04T08:30:32.000Z",
-          "wordCount": 2782,
-          "title": "Outsourcing crime control: How EU anti-money laundering rules threaten financial privacy",
-          "imageUrl": "https://edri.org/wp-content/uploads/2026/03/1200-675-max.png"
         }
       ]
     },
@@ -4096,6 +5294,36 @@
       "feedUrl": "https://feeds.arstechnica.com/arstechnica/science",
       "siteUrl": "https://arstechnica.com",
       "articles": [
+        {
+          "id": "https://arstechnica.com/science/2026/04/male-octopuses-guided-through-mating-by-female-hormones/",
+          "author": "Jacek Krywko",
+          "description": "A receptor that's used to find prey is also activated by progesterone.",
+          "link": "https://arstechnica.com/science/2026/04/male-octopuses-guided-through-mating-by-female-hormones/",
+          "publishedOn": "2026-04-02T19:48:16.000Z",
+          "wordCount": 3480,
+          "title": "Male octopuses guided through mating by female hormones",
+          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-1082963892-1152x648.jpg"
+        },
+        {
+          "id": "https://arstechnica.com/science/2026/04/new-fossil-deposits-show-complex-animal-groups-predating-the-cambrian/",
+          "author": "John Timmer",
+          "description": "Collection of fossils includes Ediacaran, Cambrian species, suggesting a transition.",
+          "link": "https://arstechnica.com/science/2026/04/new-fossil-deposits-show-complex-animal-groups-predating-the-cambrian/",
+          "publishedOn": "2026-04-02T18:00:58.000Z",
+          "wordCount": 3148,
+          "title": "New fossil deposits show complex animal groups predating the Cambrian",
+          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/Newly-discovered-fossil-from-the-Jiangchuan-Biota-Credit-Gaorong-Li-2560x1440.png"
+        },
+        {
+          "id": "https://arstechnica.com/science/2026/04/globally-86-percent-of-the-new-generating-capacity-was-renewable-in-2025/",
+          "author": "John Timmer",
+          "description": "And solar power accounted for about three quarters of the renewables.",
+          "link": "https://arstechnica.com/science/2026/04/globally-86-percent-of-the-new-generating-capacity-was-renewable-in-2025/",
+          "publishedOn": "2026-04-02T17:00:03.000Z",
+          "wordCount": 2354,
+          "title": "Renewables dominate 2025's newly installed generating capacity",
+          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-2268609420-1024x648.jpg"
+        },
         {
           "id": "https://arstechnica.com/science/2026/04/research-roundup-7-cool-science-stories-we-almost-missed-3/",
           "author": "Jennifer Ouellette",
@@ -4353,6 +5581,36 @@
       "feedUrl": "https://www.esa.int/rssfeed/Our_Activities/Space_Science",
       "siteUrl": "https://www.esa.int/Science_Exploration/Space_Science",
       "articles": [
+        {
+          "id": "3d3d7fca2e2e8939c0e02d6dc1c0b010",
+          "author": null,
+          "description": "ESA will be broadcasting live as the European-Chinese Smile mission launches at 07:29 BST/08:29 CEST (03:29 local time) on 9 April 2026.\nSmile will launch on a European Vega-C rocket from Europe’s Spaceport in French Guiana.\nTimes subject to change at short notice.",
+          "link": "https://www.esa.int/Science_Exploration/Space_Science/Smile/How_to_follow_the_Smile_launch_live",
+          "publishedOn": "2026-04-02T15:00:00.000Z",
+          "wordCount": 1027,
+          "title": "How to follow the Smile launch live",
+          "imageUrl": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/02/smile_lifts_off_into_space_artist_impression/27126092-1-eng-GB/Smile_lifts_off_into_space_artist_impression_pillars.png"
+        },
+        {
+          "id": "d54f3f786653ab60e8c1be11a2843972",
+          "author": null,
+          "description": "‘Extreme but not exotic,’ – a glimpse at Comet 3I/ATLAS through the eyes of the European Space Agency’s Jupiter Icy Moons Explorer (Juice).",
+          "link": "https://www.esa.int/Science_Exploration/Space_Science/Juice/Five_things_Juice_has_revealed_about_Comet_3I_ATLAS",
+          "publishedOn": "2026-04-02T13:00:00.000Z",
+          "wordCount": 1446,
+          "title": "Five things Juice has revealed about Comet 3I/ATLAS",
+          "imageUrl": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/04/comet_3i_atlas_seen_by_juice_s_science_camera_janus/27186903-1-eng-GB/Comet_3I_ATLAS_seen_by_Juice_s_science_camera_JANUS_pillars.gif"
+        },
+        {
+          "id": "45a46a91a5c66f3cf06e4ca1766676d7",
+          "author": null,
+          "description": "Video: \n\t\t\t00:01:33\n\t\t\t\t\nThe European Space Agency and the Chinese Academy of Sciences are joining hands to uncover how Earth defends itself against dangerous particles and radiation from the Sun.\nIt’s the first time we will have images and videos of what happens when this solar wind crashes into our magnetic field. Smile will witness this interaction in action, using four onboard instruments to watch the drama unfold.\nLife can only exist as we know it when nestled safe inside this giant magnetic bubble surrounding our planet. By imaging the bubble as a whole for the first time, Smile will help us build up the fundamental understanding that space weather forecasting will ultimately depend on.\nSmile will launch on a Vega-C rocket on 9 April. Watch live via YouTube and ESA Web TV.\nLearn more about Smile.",
+          "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/04/Smile_A_global_answer_to_a_global_mystery",
+          "publishedOn": "2026-04-02T13:00:00.000Z",
+          "wordCount": 532,
+          "title": "Smile: A global answer to a global mystery",
+          "imageUrl": "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/04/smile_a_global_answer_to_a_global_mystery/27187195-1-eng-GB/Smile_A_global_answer_to_a_global_mystery_pillars.png"
+        },
         {
           "id": "f5a2338cecaae29a7dd894532098dcd1",
           "author": null,
@@ -4647,6 +5905,26 @@
       "siteUrl": "https://medium.com/@doctorow?source=rss-eba9888d741b------2",
       "articles": [
         {
+          "id": "https://medium.com/p/b80cf621ec07",
+          "author": "Cory Doctorow",
+          "description": "",
+          "link": "https://doctorow.medium.com/object-permanence-b80cf621ec07?source=rss-eba9888d741b------2",
+          "publishedOn": "2026-04-02T10:20:36.000Z",
+          "wordCount": null,
+          "title": "Object permanence",
+          "imageUrl": null
+        },
+        {
+          "id": "https://medium.com/p/06f69e5886bc",
+          "author": "Cory Doctorow",
+          "description": "",
+          "link": "https://doctorow.medium.com/https-pluralistic-net-2026-04-02-limited-monopoly-petardism-06f69e5886bc?source=rss-eba9888d741b------2",
+          "publishedOn": "2026-04-02T10:20:32.000Z",
+          "wordCount": null,
+          "title": "It’s extremely good that Claude’s source-code leaked",
+          "imageUrl": null
+        },
+        {
           "id": "https://medium.com/p/5b50e186328d",
           "author": "Cory Doctorow",
           "description": "",
@@ -4773,6 +6051,26 @@
       "feedUrl": "https://www.helahisingen.se/feed/",
       "siteUrl": "https://www.helahisingen.se",
       "articles": [
+        {
+          "id": "https://www.helahisingen.se/?p=18928",
+          "author": "Markus Hankins",
+          "description": "Kvillebäcken hade inte varit norsk-svensk gräns på flera hundra år när Göteborg växte över älven...\nThe post Så togs Bultfabriken vid Kvillebäcken över av margarinjätten Mustad – dubbla norska kopplingar first appeared on .",
+          "link": "https://www.helahisingen.se/sa-togs-bultfabriken-vid-kvillebacken-over-av-margarinjatten-mustad-dubbla-norska-kopplingar/",
+          "publishedOn": "2026-04-02T10:03:26.000Z",
+          "wordCount": 2812,
+          "title": "Så togs Bultfabriken vid Kvillebäcken över av margarinjätten Mustad – dubbla norska kopplingar",
+          "imageUrl": "https://www.helahisingen.se/wp-content/uploads/2026/04/50och50-5-scaled.png"
+        },
+        {
+          "id": "https://www.helahisingen.se/?p=19342",
+          "author": "Markus Hankins",
+          "description": "Återvinningspråmen gör det enklare för göteborgarna att sortera genom att de slipper åka till en...\nThe post Slipp resan till tippen: Här kan du slänga grovsopor, farligt avfall och elektronik i hamnen first appeared on .",
+          "link": "https://www.helahisingen.se/slipp-resan-till-tippen-har-kan-du-slanga-grovsopor-farligt-avfall-och-elektronik-i-hamnen/",
+          "publishedOn": "2026-04-02T08:41:35.000Z",
+          "wordCount": 1953,
+          "title": "Slipp resan till tippen: Här kan du slänga grovsopor, farligt avfall och elektronik i hamnen",
+          "imageUrl": "https://www.helahisingen.se/wp-content/uploads/2026/04/Atervinningspram_LB1518-3-scaled.jpeg"
+        },
         {
           "id": "https://www.helahisingen.se/?p=19332",
           "author": "Markus Hankins",
@@ -5101,6 +6399,66 @@
       "siteUrl": "https://nyhetersto.se/",
       "articles": [
         {
+          "id": "https://nyhetersto.se/?p=7004017",
+          "author": "Redaktionen - NYHETERsto",
+          "description": "På torsdagskvällen larmades räddningstjänst om brand i en villa vid Strömsholm, Morlanda Brygga. Ett stort antal resurser larmades ut – men på plats visade det sig vara en påskbrasa. Larmet kom klockan 22:03 -Inringare uppgav till 112 att en villa var övertänd så ett stort antal resurser larmades ut, men det visade sig vara en...\nInlägget Larm om brand i byggnad – Var påskbrasa dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust - Lokala nyheter utan betalvägg!.",
+          "link": "https://nyhetersto.se/2026/04/02/just-nu-larm-om-brand-overtand-villa/",
+          "publishedOn": "2026-04-02T20:08:38.000Z",
+          "wordCount": 8118,
+          "title": "Larm om brand i byggnad – Var påskbrasa",
+          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2025/01/rtj-orust-5540.jpg"
+        },
+        {
+          "id": "https://nyhetersto.se/?p=7004000",
+          "author": "Redaktionen - NYHETERsto",
+          "description": "Den svenske finansman som misstänks för flera grova brott på Tjörn har under sin tid på flykt i Afrika haft tillgång till ett diplomatpass, det rapportera SVT Väst. Enligt SVT Väst ska mannen ha befunnit sig i den afrikanska östaten São Tomé och Príncipe, där han senare greps efter en internationell insats. Finansmannen ska bland...\nInlägget Uppgifter: Misstänkt finansman fick diplomatpass i Afrika dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust - Lokala nyheter utan betalvägg!.",
+          "link": "https://nyhetersto.se/2026/04/02/uppgifter-misstankt-finansman-fick-diplomatpass-i-afrika/",
+          "publishedOn": "2026-04-02T16:14:45.000Z",
+          "wordCount": 8221,
+          "title": "Uppgifter: Misstänkt finansman fick diplomatpass i Afrika",
+          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2026/03/flygplats.jpg"
+        },
+        {
+          "id": "https://nyhetersto.se/?p=7003997",
+          "author": "Redaktionen - NYHETERsto",
+          "description": "Under skärtorsdagen genomförs en omfattande insats i Stigfjorden där farliga hinder i vattnet ska åtgärdas inför påskhelgen. Bakgrunden är att ett stort antal föremål och utrustning från den havererade musselodlingen som upptäckts, både strandade och drivande, vilket innebär risker för båttrafiken i området. Vid en tillsyn den 31 mars 2026 observerades omfattande mängder odlingsutrustning som...\nInlägget Insats i Stigfjorden – Farliga hinder efter havererad musselodling ska bort dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust - Lokala nyheter utan betalvägg!.",
+          "link": "https://nyhetersto.se/2026/04/02/insats-i-stigfjorden-farliga-hinder-efter-havererad-musselodling-ska-bort/",
+          "publishedOn": "2026-04-02T13:14:24.000Z",
+          "wordCount": 8346,
+          "title": "Insats i Stigfjorden – Farliga hinder efter havererad musselodling ska bort",
+          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2026/04/20260402_sjo.png"
+        },
+        {
+          "id": "https://nyhetersto.se/?p=7003992",
+          "author": "Redaktionen - NYHETERsto",
+          "description": "Påskhelgen 3–6 april bjuder på allt från konstvandring och påskmarknader till familjeaktiviteter och utställningar runt om i Stenungsund, Tjörn och Orust. Påsken fylls av traditioner, kultur och vårkänsla i hela området. NYHETERsto listar här ett urval av påskhelgens evenemang. Konstvandringen Södra BohuslänSödra Bohuslän • 3–6 aprilEn av Bohusläns största påsktraditioner där ett stort antal konstnärer...\nInlägget OJ! Vilken påskhelg – Konstvandring, påskmarknad och familjeaktiviteter dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust - Lokala nyheter utan betalvägg!.",
+          "link": "https://nyhetersto.se/2026/04/02/oj-vilken-paskhelg-konstvandring-paskmarknad-och-familjeaktiviteter/",
+          "publishedOn": "2026-04-02T10:00:00.000Z",
+          "wordCount": 8517,
+          "title": "OJ! Vilken påskhelg – Konstvandring, påskmarknad och familjeaktiviteter",
+          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2026/04/evenemang_14.png"
+        },
+        {
+          "id": "https://nyhetersto.se/?p=7003978",
+          "author": "Redaktionen - NYHETERsto",
+          "description": "En boende på Orust utsattes nyligen för ett misstänkt bedrägeriförsök efter att ha fått ett sms som såg ut att komma från Cirkel K. En anmälan gällande försök till bedrägeri är skriven. En boende på Orust utsattes nyligen för ett misstänkt bedrägeriförsök efter att ha fått ett sms som såg ut att komma från Cirkel...\nInlägget Bedrägeriförsök – Falskt SMS om hyrbil dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust - Lokala nyheter utan betalvägg!.",
+          "link": "https://nyhetersto.se/2026/04/02/bedrageriforsok-falska-sms-om-hyrbil/",
+          "publishedOn": "2026-04-02T07:35:28.000Z",
+          "wordCount": 8306,
+          "title": "Bedrägeriförsök – Falskt SMS om hyrbil",
+          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2026/03/bedrageri.jpg"
+        },
+        {
+          "id": "https://nyhetersto.se/?p=7003976",
+          "author": "Redaktionen - NYHETERsto",
+          "description": "En man i 20-årsåldern döms efter en trafikolycka i Stenungsund i september 2025 där en mopedförare skadades. Olyckan inträffade på Uddevallavägen i samband med trafik vid en rondell. Enligt utredningen körde mannen en lastbil och låg bakom mopeden när föraren framför stannade vid väjningsplikt. I tron att mopeden redan hade kört vidare rullade lastbilen framåt...\nInlägget Lastbil körde in i moped i Stenungsund – Man döms efter olycka dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust - Lokala nyheter utan betalvägg!.",
+          "link": "https://nyhetersto.se/2026/04/02/lastbil-korde-in-i-moped-i-stenungsund-man-doms-efter-olycka/",
+          "publishedOn": "2026-04-02T06:16:38.000Z",
+          "wordCount": 8209,
+          "title": "Lastbil körde in i moped i Stenungsund – Man döms efter olycka",
+          "imageUrl": "https://nyhetersto.se/wp-content/uploads/2026/03/dom-atal-tingsratt-2.jpg"
+        },
+        {
           "id": "https://nyhetersto.se/?p=7003931",
           "author": "Redaktionen - NYHETERsto",
           "description": "Polisen larmades under onsdagseftermiddagen till ett bostadsområde i centrala Stenungsund efter att allmänhet sett en man plocka upp ett pistolliknande föremål i en sandlåda och lämnar sedan platsen. En man kunde senare gripas misstänkt för grovt vapenbrott. Larmet till polisen kom klockan 15:22 från bostadsområde Bergsvägen. -Det är allmänhet som ringer till och uppger att...\nInlägget Larm om pistolliknande föremål i sandlåda – Man misstänkt för grovt vapenbrott dök först upp på NYHETERsto.se | Stenungsund - Tjörn - Orust - Lokala nyheter utan betalvägg!.",
@@ -5372,6 +6730,106 @@
       "feedUrl": "https://api.sr.se/rss/channel?id=104",
       "siteUrl": "https://www.sverigesradio.se/nyheter/p4-goteborg",
       "articles": [
+        {
+          "id": "https://www.sverigesradio.se/artikel/9189703",
+          "author": null,
+          "description": "På torsdagskvällen larmades polisen till ett misstänkt granbråk på Hönö i Göteborgs skärgård, där ett 30-tal ungdomar ska ha varit inblandade. Det rapporterar Göteborgs-Posten.Enligt polisen kan händelsen ha varit kopplad till det så kallade grankriget, en hundraårig tradition går ut på att boende i Göteborgs norra skärgård tävlar om att bygga den största brasan till påskafton. Ingen person ska ha kommit till skada under torsdagens händelse.",
+          "link": "https://www.sverigesradio.se/artikel/9189703",
+          "publishedOn": "2026-04-02T20:28:00.000Z",
+          "wordCount": 1578,
+          "title": "Larm om granbråk på Hönö – misstänkt koppling till ”grankriget”",
+          "imageUrl": "https://static-cdn.sr.se/images/104/fa12df4a-19d1-4959-97e3-73458cb71e02.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/9189201",
+          "author": null,
+          "description": "Skådespelaren och göteborgaren Kit Walker Johansson från succéserien Hundarna spelade advokat Oscar Winge på sociala medier. Det gillades inte av advokatsamfundet, vilket SVT tidigare rapporterat.”Man får ju inte låtsas vara brottmålsadvokat” säger Kit Walker Johansson, som fått justera kontot sedan samfundet kontaktade produktionen.Men vad som händer med kontot härnäst låter han vara osagt.",
+          "link": "https://www.sverigesradio.se/artikel/9189201",
+          "publishedOn": "2026-04-02T18:47:00.000Z",
+          "wordCount": 1625,
+          "title": "Spelade ”advokat Winge” utanför TV-serien – tvingas ändra kontot",
+          "imageUrl": "https://static-cdn.sr.se/images/104/77a4ec97-9859-496e-825f-994dd6df6b62.png"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/9189656",
+          "author": null,
+          "description": "Polisen i Göteborg varnar för en våg av misstänkta bedrägeriförsök via sms som handlar om falska låsbyten.Anmälarna har fått meddelanden om att ett låsbyte ska utföras under helgen, trots att de inte beställt tjänsten.Polisen uppmanar nu alla som fått den här typen av sms att strunta i att svara, även om det känns otrevligt, och istället anmäla meddelandet till polisen.",
+          "link": "https://www.sverigesradio.se/artikel/9189656",
+          "publishedOn": "2026-04-02T17:56:00.000Z",
+          "wordCount": 1711,
+          "title": "Polisens uppmaning efter ny bedrägerivåg: Våga vara otrevlig",
+          "imageUrl": "https://static-cdn.sr.se/images/104/8926d80c-8a2a-41ea-aee4-d98cb9f3e579.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/9189011",
+          "author": null,
+          "description": "Målvaktslegendaren Thomas Ravelli har ett unikt erbjudande till landslagsledningen inför VM-sommaren 2026.Han blev hjälte under VM-94 och tänker nu att han kan dela mig sig av några knep till herrlandslaget. Han har också en mental packlista till spelarna.",
+          "link": "https://www.sverigesradio.se/artikel/9189011",
+          "publishedOn": "2026-04-02T16:55:00.000Z",
+          "wordCount": 1699,
+          "title": "Thomas Ravellis VM-erbjudande: Ställ mig bakom målet",
+          "imageUrl": "https://static-cdn.sr.se/images/104/4aea9f7f-5fd7-4305-97b4-b48dcdde609f.png"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/9189486",
+          "author": null,
+          "description": "Göteborg planerar att visa herr-VM i fotboll på storbildsskärm i sommar, enligt Magnus Hallberg på Göteborg & Co.Ännu är inget beslut fattat, men stadens rödgröna styre arbetar med förberedelser och återkommer efter påsk med mer information.Utmaningar kring tidsskillnaden diskuteras, och arrangörerna undersöker både arenor och kulturhus för att skapa tillgängliga visningsmöjligheter för göteborgarna.",
+          "link": "https://www.sverigesradio.se/artikel/9189486",
+          "publishedOn": "2026-04-02T13:55:00.000Z",
+          "wordCount": 1600,
+          "title": "Evenemangschefen: Herr-VM kommer visas på storbild i Göteborg",
+          "imageUrl": "https://static-cdn.sr.se/images/104/be967c79-9f67-4978-a111-897af19f961a.png"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/9187225",
+          "author": null,
+          "description": "Göteborgs Stad skärper kraven på bygg- och anläggningsentreprenader – fler byggfordon ska gå på el.Målet är att 70 procent av arbetsmaskiner och fordon ska vara eldrivna år 2030, enligt stadens elektrifieringsplan.Anne Piegsa, näringslivsutvecklare inom elektrifierade transporter på Business Region Göteborg, berättar om varför kraven skärps.",
+          "link": "https://www.sverigesradio.se/artikel/9187225",
+          "publishedOn": "2026-04-02T09:55:00.000Z",
+          "wordCount": 1827,
+          "title": "Skärpta kravet för byggen: Fler fordon ska gå på el",
+          "imageUrl": "https://static-cdn.sr.se/images/104/e589f8dc-22e8-4228-ad19-c7835da92639.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/9189065",
+          "author": null,
+          "description": "Youtubern Fabian Svorono och hans vänner låg bakom den nationella peniskuppen under första april.Poseidon på Götaplatsen fick en oväntad utsmyckning i form av en 80 centimeter lång grön penis. Även i Uppsala, Helsingborg, Örebro och Stockholm fick fem statyer penisförlängningar.”Poseidon har fått lite lyxbehandling för jag är från Göteborg, så jag ville ge honom den finaste av gåvor”, berättar Fabian Svorona",
+          "link": "https://www.sverigesradio.se/artikel/9189065",
+          "publishedOn": "2026-04-02T08:26:00.000Z",
+          "wordCount": 1552,
+          "title": "Göteborgaren bakom nationell peniskupp: ”Lyxbehandling”",
+          "imageUrl": "https://static-cdn.sr.se/images/104/99d11bd5-eadc-4c90-933d-6f7896ca8934.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/9188943",
+          "author": null,
+          "description": "Det har brunnit i en truck i Skandiahamnen på Hisingen i Göteborg. Branden genererade kraftig rök, enligt räddningstjänsten.Larmet kom in under torsdagsmorgonen, vid klockan 9 var branden släckt. Det finns inga uppgifter om personskador.",
+          "link": "https://www.sverigesradio.se/artikel/9188943",
+          "publishedOn": "2026-04-02T06:14:00.000Z",
+          "wordCount": 1478,
+          "title": "Truck började brinna i Göteborgs hamn – släcktes snabbt",
+          "imageUrl": "https://static-cdn.sr.se/images/104/9952781a-336b-4c2c-8ec0-4b3382214c2f.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/9187348",
+          "author": null,
+          "description": "Nu är det dags för en av våra största trafikhelger – påsken. Det är många som reser i helgen, speciell skärtorsdag – då är det mest trafik. Tänk på att du har med dig rätt utrustning till bilen och att du själv är utvilad och laddad. Om det går, välj gärna större vägar med mitträcken och viltstängsel. Det är färre som pendlar under påskledigheten och det görs en hel del spårarbeten – det blir inställda tåg mellan Göteborg och Stenungsund, Alingsås, Trollhättan och Kungsbacka.",
+          "link": "https://www.sverigesradio.se/artikel/9187348",
+          "publishedOn": "2026-04-02T04:55:00.000Z",
+          "wordCount": 1589,
+          "title": "Då är det mest trafik i påsk – detta ska du tänka på",
+          "imageUrl": "https://static-cdn.sr.se/images/104/7dd0274e-21e3-4fc8-ba3a-d9c49da02f46.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/9187641",
+          "author": null,
+          "description": "Matjättarna lovade att den sänkta momsen skulle märkas på kvittot. Sveriges Radio har därför gått ut till mataffärer i Göteborg, Malmö och Stockholm för att ta reda på om de har hållit sina löften. Den första april sänktes momsen tillfälligt på livsmedel från tolv till sex procent. Vi har handlat samma matkasse från butikerna två gånger – en innan prissänkningarna trädde i kraft, och en efter. När vi jämför kvittona ser vi resultatet.",
+          "link": "https://www.sverigesradio.se/artikel/9187641",
+          "publishedOn": "2026-04-02T03:55:00.000Z",
+          "wordCount": 1599,
+          "title": "Så mycket billigare blev matkassen – efter sänkta momsen",
+          "imageUrl": "https://static-cdn.sr.se/images/104/98c44537-da58-44ab-8115-b1c4b7fbe164.png"
+        },
         {
           "id": "https://www.sverigesradio.se/artikel/9188869",
           "author": null,
@@ -5699,6 +7157,206 @@
       "feedUrl": "https://api.sr.se/api/rss/program/83",
       "siteUrl": "https://www.sverigesradio.se/nyheter",
       "articles": [
+        {
+          "id": "https://www.sverigesradio.se/artikel/9189714",
+          "author": null,
+          "description": "<ul><li><p>B1-bron sydväst om Teheran, som beskrivs som Mellanösterns högsta bro, har förstörts enligt USA:s president Donald Trump.</p></li><li><p>Enligt guvernören i regionen dödades åtta människor och ytterligare 95 skadades i attacken, rapporterar AFP med hänvisning till statliga iranska medier.</p></li><li><p>På sociala medier delar presidenten en video där en explosion syns på bron med texten ”Mycket mer kommer. Det är dags för Iran att sluta ett avtal innan det är försent”.</p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/9189714",
+          "publishedOn": "2026-04-03T00:19:00.000Z",
+          "wordCount": 1130,
+          "title": "Bro förstörd i amerikansk attack i Teheran – flera döda",
+          "imageUrl": "https://static-cdn.sr.se/images/83/fbb6c26f-2a9e-44c6-8ac8-2a049700603f.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/9189673",
+          "author": null,
+          "description": "<ul><li><p>USA:s president hotar med att lämna Nato samtidigt som spänningarna mellan USA och Europa hårdnar.</p></li><li><p>”Det är inte helt ovanligt att vi har sett spänningar inom ramen för den transatlantiska relationen tidigare. Men att det är på den här nivån är ju helt nytt”, säger Niklas Bremberg, forskningsledare vid Utrikespolitiska Institutet och docent i statsvetenskap vid Stockholms universitet.</p></li><li><p>Under torsdagen samlade Storbritannien representanter från över 40 länder för ett digitalt möte om hur man ska kunna säkra oljerutterna i Hormuzsundet som blivit hårt ansatt under kriget i Iran. Mötet leder nog snarast till en diplomatisk positionering, enligt Niklas Bremberg.</p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/9189673",
+          "publishedOn": "2026-04-02T20:07:00.000Z",
+          "wordCount": 1257,
+          "title": "Experten om Trumps hot: ”Spänningar på en helt ny nivå”",
+          "imageUrl": "https://static-cdn.sr.se/images/83/74d948f9-6c16-4718-b2fc-58fb841613f1.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/9189694",
+          "author": null,
+          "description": "<ul><li><p>Utrikesministrar från ett 40-tal länder höll under torsdagen inledande samtal om hur situationen i Hormuzsundet ska kunna lösas, för att farleden åter ska kunna öppnas för trafik.</p></li><li><p>”Iran försöker ta hela världsekonomin som gisslan”, säger Storbritanniens utrikesminister Yvette Copper, som ledde mötet, till brittiska BBC.</p></li><li><p>USA var inte med på dagens möte och några försök att öppna sundet på militär väg fanns inte med på agendan, däremot diskuterades ekonomiska sanktioner mot Iran.</p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/9189694",
+          "publishedOn": "2026-04-02T19:59:00.000Z",
+          "wordCount": 1247,
+          "title": "Möte om Hormuzsundet: ”Iran försöker ta världsekonomin som gisslan”",
+          "imageUrl": "https://static-cdn.sr.se/images/83/e25bb062-5602-474a-830d-14667732661a.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/9189663",
+          "author": null,
+          "description": "<ul><li><p>Matprofilen Carl Jan Granqvist var gäst i programmet Talkshow i P1 för att berätta om sin påskdukning. Då beskrev han ett porslin med n-ordet.</p></li><li><p>Ordvalet väckte starka reaktioner från programledarna som tillrättavisade matprofilen. Ordet har sedan klippts bort från den digitala versionen av programmet.</p></li><li><p>”Det var en olycklig situation som skedde under livesändningen. Programledarna hanterade det väldigt professionellt”, säger Emma Boëthius, ansvarig utgivare för programmet.  </p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/9189663",
+          "publishedOn": "2026-04-02T18:21:00.000Z",
+          "wordCount": 1111,
+          "title": "Carl Jan Granqvist använde n-ordet i liveradio",
+          "imageUrl": "https://static-cdn.sr.se/images/83/2f612703-3f03-4154-b3b3-34127ddd8ad2.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/9189640",
+          "author": null,
+          "description": "<p>USA:s president Donald Trump sparkar justitieminister Pam Bondi, det meddelar Vita huset.</p><p>Bondi har varit en viktig person i Trumps administration – men hon har också kritiserats av presidenten, bland annat för hantering av Epsteindokumenten.</p><ul><li><p>”Vi kan nog tänka oss att Epstein har något med det här att göra”, säger Emma Ricknell, statsvetare vid Linnéuniversitetet. </p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/9189640",
+          "publishedOn": "2026-04-02T17:07:00.000Z",
+          "wordCount": 1092,
+          "title": "Trump sparkar Bondi: Kan nog tänka att det har med Epstein att göra",
+          "imageUrl": "https://static-cdn.sr.se/images/83/3824b222-36a3-4693-be28-4536c738948f.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/9189577",
+          "author": null,
+          "description": "<ul><li><p>USA kommer att trappa upp sina bombningar mot Iran de närmaste veckorna: ”Vi ska bomba dem tillbaka till stenåldern”, var beskedet från president Trump i sitt tal natten mot torsdag.</p></li><li><p>Trumps tal skapade omedelbara ekonomiska reaktioner: oljepriserna steg och börserna sjönk, medan de politiska kommentarerna var blandade.</p></li><li><p>”Kritiker pekar på motsägelser i Trumps tal, där han å ena sidan hävdar att regimskifte redan har genomförts i Iran och å andra sidan säger att han ska boma landet sönder och samman\",” det rapporterar USA-korrespondent Ginna Lindberg.</p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/9189577",
+          "publishedOn": "2026-04-02T15:14:00.000Z",
+          "wordCount": 1191,
+          "title": "Ginna Lindberg: ”Omedelbara ekonomiska reaktioner på Trumps tal”",
+          "imageUrl": "https://static-cdn.sr.se/images/83/b8fe52a5-5680-4fba-96ed-ce6b687d2a2c.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/9189559",
+          "author": null,
+          "description": "<ul><li><p>I Upplands Väsby utanför Stockholm firades Skärtorsdagen med att en grupp påskkärringar från en förskola hälsade på sina grannar på ett äldreboende.</p></li><li><p>Barnen hälsar på flera gånger varje månad, och enligt förskoleläraren Sabina Carlsson betyder besöken mycket.</p></li><li><p>”Barnen längtar till sina gamlingar, som de kallar dem”, säger hon till Ekot.</p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/9189559",
+          "publishedOn": "2026-04-02T14:55:00.000Z",
+          "wordCount": 1033,
+          "title": "Här besöker påskkärringarna äldreboendet: ”Betyder mycket”",
+          "imageUrl": "https://static-cdn.sr.se/images/83/5ff81b04-40ae-43d7-8802-2935a551fedd.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/9188607",
+          "author": null,
+          "description": "<ul><li><p>Utrikesminister Maria Malmer Stenergard är inte förvånad över uppgifterna om att Ungern läcker till Ryssland.</p></li><li><p>Sedan den ryska invasionen i Ukraina inleddes 2022 har Ungern allt oftare anklagats för att springa ryska ärenden. </p></li><li><p>Ungern har bland annat lagt in veto mot både EU:s 20:e sanktionspaket mot Ryssland och ett tidigare överenskommet lån på 90 miljarder euro till Ukraina.</p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/9188607",
+          "publishedOn": "2026-04-02T14:36:00.000Z",
+          "wordCount": 1066,
+          "title": "Skarpa kritiken mot Ungern: ”Illojalt agerande”",
+          "imageUrl": "https://static-cdn.sr.se/images/83/3efb570d-ab0c-46e1-8294-0af83ffdb94e.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/9189512",
+          "author": null,
+          "description": "<ul><li><p>En ny rapport från Järvaveckan och Indikator visar att fler i utsatta områden funderar på att flytta utomlands. Framförallt är det unga med utländsk bakgrund som kan tänka sig att flytta.</p></li><li><p>Orsakerna är ökad otrygghet och kriminalitet och ett missnöje med samhällsutvecklingen, men för personer med utländsk bakgrund i utsatta områden, så handlar det oftare också om ekonomi och jobb.</p></li><li><p>”Det finns inte så mycket arbetsmöjligheter i Sverige i alla fall”, säger Mohamed Abdulahi som bor i Rinkeby och pluggar till civilingenjör och data.</p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/9189512",
+          "publishedOn": "2026-04-02T14:32:00.000Z",
+          "wordCount": 1164,
+          "title": "Över hälften i utsatta områden funderar på att flytta utomlands",
+          "imageUrl": "https://static-cdn.sr.se/images/83/7aa7e215-27bb-4630-ace5-548d876de71b.png"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/9189446",
+          "author": null,
+          "description": "<ul><li><p>Informationsplikten vid hiv bör tas bort enligt regeringens utredare Jan Albert, som säger att smittspridningen av hiv framför allt sker från personer som inte vet om att de bär på sjukdomen.</p></li><li><p>Sverigedemokraternas socialpolitiska talesperson Jessica Stegrud är kritisk till förslaget.</p></li><li><p>”Vi tycker att det väger tyngre att en individ själv får välja vilka eventuella risker man utsätter sig för. Det måste väga tyngre än den personliga integriteten hos den som lever med hiv”, säger hon.</p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/9189446",
+          "publishedOn": "2026-04-02T14:22:00.000Z",
+          "wordCount": 1185,
+          "title": "Vill ta bort informationsplikt vid hiv – sågas av Sverigedemokraterna",
+          "imageUrl": "https://static-cdn.sr.se/images/83/81c15db2-bae9-47b9-bd3c-ce18f94ce945.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/9189442",
+          "author": null,
+          "description": "<ul><li><p>Två personer har i dag häktats vid Stockholms tingsrätt misstänkta för grovt insiderbrott.</p></li><li><p>Totalt är det fem personer som misstänks ha begått insiderbrott under förra sommaren, visar handlingar som lämnats in till Stockholms tingsrätt.</p></li><li><p>Datumen då brotten ska ha begåtts sammanfaller med datumen för ett uppmärksammat utköp av ett företag från Stockholmsbörsen.</p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/9189442",
+          "publishedOn": "2026-04-02T13:40:00.000Z",
+          "wordCount": 1109,
+          "title": "Två häktas i ny insiderhärva – greps i gryningsräd",
+          "imageUrl": "https://static-cdn.sr.se/images/83/93e3a9ca-f6fb-4517-bbe2-8fc2bc80cf7c.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/9189338",
+          "author": null,
+          "description": "<ul><li><p>Guider i Nepal ska ha förgiftat turister med bakpulver för att skapa påhittade&nbsp;nödsituationer. Det enligt &nbsp;Polisen i Nepal som misstänker försäkringsbedrägerier kopplade till räddningsinsatser&nbsp; med helikopter i Himalya.</p></li><li><p>Samma utryckning ska ha använts i flera försäkringsärenden. Tio personer har gripits och över 30 har delgivits misstanke.</p></li><li><p>Personerna misstänks ha lurat försäkringsbolagen att betala ut omkring motsvarande 190 miljoner kronor.</p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/9189338",
+          "publishedOn": "2026-04-02T12:42:00.000Z",
+          "wordCount": 1102,
+          "title": "Guider i Nepal misstänks ha förgiftat turister med bakpulver",
+          "imageUrl": "https://static-cdn.sr.se/images/83/ca087beb-b409-420a-921d-aaa5e20893e8.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/9189253",
+          "author": null,
+          "description": "<ul><li><p>Under torsdagen håller utrikesministrar från ett 30-tal länder samtal om Hormuzsundet.</p></li><li><p>Det som diskuteras är hur man ska kunna öppna upp sundet för trafik. Iran har attackerat flera fartyg och i princip stoppat trafiken genom sundet.</p></li><li><p>”Det är ett första samtal och ett försök att komma framåt i den här väldigt känsliga frågan”, säger Sveriges Radios Londonkorrespondent Nina Benner.</p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/9189253",
+          "publishedOn": "2026-04-02T11:47:00.000Z",
+          "wordCount": 1131,
+          "title": "30-tal länder samlade – diskuterar Hormuzsundet i Iran",
+          "imageUrl": "https://static-cdn.sr.se/images/83/c44468c3-b046-4462-a1e3-63f9f626903e.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/9188534",
+          "author": null,
+          "description": "<ul><li><p>Krigsutbrottet i Mellanöstern och de stigande oljepriserna fick en del kunder att börja hamstra drivmedel, det uppger OKQ8.</p></li><li><p>”Visst har det förekommit viss hamstring. Många kunder passade på att tanka när priserna var på väg uppåt. Företagskunder gör väldigt stora uttag, men det är inte drivet av brist utan av priset” säger Jesper Ekström, presstalesperson på OKQ8.</p></li><li><p>Efter att priset stigit kraftigt i flera veckor har de höga priserna nu istället lett till att privatbilister tankar allt mindre. ”Vi ser det i vår försäljningsstatistik” säger Jesper Ekström.</p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/9188534",
+          "publishedOn": "2026-04-02T11:10:00.000Z",
+          "wordCount": 1233,
+          "title": "Bensinjätten: Kriget utlöste hamstring",
+          "imageUrl": "https://static-cdn.sr.se/images/83/baae17f1-106e-4662-8e86-511dbf324e9d.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/9189167",
+          "author": null,
+          "description": "<ul><li><p>Attackerna mot Iran har fortsatt under torsdagen. Samtidigt har Iran slagit tillbaka genom att attackera Israel och amerikanska mål i regionen.</p></li><li><p>Det sker bara timmar efter president Trumps tal om kriget där han sa ”vi ska bomba dem till stenåldern”.</p></li><li><p>”En talesperson till Irans president kallade talet vansinnigt och sa att de här uttalandena bara stärker Irans nationella integritet” säger Mellanösternkorrespondent Samar Hadrous.</p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/9189167",
+          "publishedOn": "2026-04-02T10:58:00.000Z",
+          "wordCount": 1091,
+          "title": "Trumps tal avfärdas som vansinnigt av iransk talesperson",
+          "imageUrl": "https://static-cdn.sr.se/images/83/75cdcfd4-d939-4166-a682-96e9bb674aeb.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/9189173",
+          "author": null,
+          "description": "<ul><li><p>Kraftiga sydliga stormvindar har täckt den grekiska ön Kreta med ökensand från Sahara. Luften har färgats helt orange och de kraftiga vindarna har gjort att färjor tvingats stanna i hamnar och att flyg har ställts in.</p></li><li><p>Den grekiska vädertjänsten varnar för ”allvarligt väderläge” i delar av landet i dag under torsdagen med ”långvarigt och intensivt regn och stormvindar, troligen även hagel”.</p></li><li><p>Varningen gäller till och med långfredagen.</p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/9189173",
+          "publishedOn": "2026-04-02T10:04:00.000Z",
+          "wordCount": 1096,
+          "title": "Här färgas semesterparadiset orange av ökenvindar",
+          "imageUrl": "https://static-cdn.sr.se/images/83/5434d5d2-92af-4f9b-8c96-16ea6b699528.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/9189111",
+          "author": null,
+          "description": "<ul><li><p>Trafikverket tar höjd för den ökade biltrafiken i påsk genom att införa omkörningsförbud mellan Gävle och Tönnebro och hastighetsbegränsning utanför Jönköping.</p></li><li><p>När det gäller tågtrafiken markerar påskhelgen startskottet för säsongens banarbeten, och ersättningstrafik kommer att sättas in på olika sträckor. </p></li><li><p>Enligt Peter Jonsson, presskommunikatör på Trafikverket, görs det eftersom resor med tåg inte är lika populärt under påsken som under andra högtider.</p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/9189111",
+          "publishedOn": "2026-04-02T09:12:00.000Z",
+          "wordCount": 1106,
+          "title": "Draget i påsktrafiken: Omkörningsförbud och sänkt hastighet",
+          "imageUrl": "https://static-cdn.sr.se/images/83/512674e7-f451-4434-adbe-312fdbbbf2c2.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/9188383",
+          "author": null,
+          "description": "<ul><li><p>Ungerns utrikesminister Peter Szijjarto har diskuterat lättnader i EU:s sanktioner mot Ryssland med sin ryske kollega Sergej Lavrov.</p></li><li><p>Det framgår av ett läckt telefonsamtal som nu publicerats av Vsquare, en polsk sajt för undersökande journalistik.</p></li><li><p>Sedan tidigare har tidningen the Washington post berättat att Ungerns utrikesminister ringt Lavrov i pauser under EU-möten i Bryssel och delat känslig information.</p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/9188383",
+          "publishedOn": "2026-04-02T08:51:00.000Z",
+          "wordCount": 1162,
+          "title": "Läckta samtal: Ryssland bad Ungern om hjälp",
+          "imageUrl": "https://static-cdn.sr.se/images/83/23878d31-3e88-41cb-bdfe-24789e8840a8.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/9189076",
+          "author": null,
+          "description": "<ul><li><p>Biltillverkaren Volvo Cars sålde klart färre bilar under första kvartalet och i USA rasade försäljningen.</p></li><li><p>Om den totala försäljningen är ett sorgebarn för Volvo så är en ljuspunkt att bolaget säljer att fler rena elbilar – de ökade med 12 procent.</p></li><li><p>Volvos vd Håkan Samuelsson tror också att kriget i Mellanöstern kan leda till att elbilsförsäljningen ökar ännu mer: ”Kanske man nu blir påmind om att okej det här är ju bra för klimatet men vänta, det här är kanske bra för plånboken också”.</p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/9189076",
+          "publishedOn": "2026-04-02T08:50:00.000Z",
+          "wordCount": 1157,
+          "title": "Volvos försäljning bromsar in – ras i USA",
+          "imageUrl": "https://static-cdn.sr.se/images/83/aeb40daa-9e36-4e6f-9a74-57452d51455e.jpg"
+        },
+        {
+          "id": "https://www.sverigesradio.se/artikel/9188987",
+          "author": null,
+          "description": "<ul><li><p>Staten köper luftvärn för att bygga upp Sveriges försvar mot drönarkrigföring.</p></li><li><p>Försvarets materielverk (FMV) har ingått avtal värda totalt 8,7 miljarder kronor med bland andra Bofors och Saab.</p></li><li><p>Systemen kan användas för att skydda militära förband men också infrastruktur som kärnkraftverk, järnvägsknutar och städer.</p></li></ul>",
+          "link": "https://www.sverigesradio.se/artikel/9188987",
+          "publishedOn": "2026-04-02T07:03:00.000Z",
+          "wordCount": 1045,
+          "title": "Staten lägger miljardorder på nytt luftvärn",
+          "imageUrl": "https://static-cdn.sr.se/images/83/080a3655-1dea-4d69-b754-3fa1f8d882d6.jpg"
+        },
         {
           "id": "https://www.sverigesradio.se/artikel/9188886",
           "author": null,
@@ -6107,6 +7765,36 @@
       "siteUrl": "https://www.gp.se/nyheter/göteborg",
       "articles": [
         {
+          "id": "340a9266-5dc9-4ad0-b52b-ac4953b713ad",
+          "author": null,
+          "description": "Polisen spärrade av området under eftermiddagen.",
+          "link": "https://www.gp.se/nyheter/goteborg/polisinsats-i-brunnsparken-.340a9266-5dc9-4ad0-b52b-ac4953b713ad",
+          "publishedOn": "2026-04-02T15:24:27.000Z",
+          "wordCount": 4576,
+          "title": "Därför var det poliser vid Brunnsparken",
+          "imageUrl": "https://www.gp.se/images/og/340a9266-5dc9-4ad0-b52b-ac4953b713ad/images/3AwjoDP4BKNqr-r3YCKbttyni3hQ-WIDE.jpg?width=1200&quality=75"
+        },
+        {
+          "id": "d9205c2c-2dd3-4020-9dc4-0d0d352bf145",
+          "author": null,
+          "description": "Efter år av neddragna jalusier och oro ska Hjällbo centrum bli ett levande vardagsrum. Trots att torget inte är färdigt märker många redan av en förändring.",
+          "link": "https://www.gp.se/nyheter/goteborg/hjallbo-centrum-renoveras-nu-kan-jag-ha-oppet-sent-igen.d9205c2c-2dd3-4020-9dc4-0d0d352bf145",
+          "publishedOn": "2026-04-02T06:40:12.000Z",
+          "wordCount": 3603,
+          "title": "Hjällbo centrum renoveras upp: “Nu kan jag ha öppet sent igen”",
+          "imageUrl": "https://www.gp.se/images/og/d9205c2c-2dd3-4020-9dc4-0d0d352bf145/images/6MHgRFSCA-qigEWbysTuN91lxYu4-WIDE.jpg?width=1200&quality=75"
+        },
+        {
+          "id": "3f66c893-fac0-4898-acd0-26911046ad35",
+          "author": null,
+          "description": "Vägarbeten, inställda tåg och ändrade spårvagnslinjer kan störa påsktrafiken.",
+          "link": "https://www.gp.se/nyheter/goteborg/da-ar-det-som-mest-trafik-under-paskhelgen.3f66c893-fac0-4898-acd0-26911046ad35",
+          "publishedOn": "2026-04-02T03:43:32.000Z",
+          "wordCount": 5833,
+          "title": "Kraftig trafik väntas i påsk – särskilt en dag sticker ut",
+          "imageUrl": "https://www.gp.se/images/og/3f66c893-fac0-4898-acd0-26911046ad35/images/2IqMYjjptpzTXniiXIfJ9Umtl1sI-WIDE.jpg?width=1200&quality=75"
+        },
+        {
           "id": "fd2a8d72-68e0-44ca-8b46-c2acc9e0b79d",
           "author": null,
           "description": "Installerade förlängda penisar på fem statyer i Sverige.",
@@ -6287,6 +7975,176 @@
       "feedUrl": "https://www.theregister.com/headlines.rss",
       "siteUrl": "https://www.theregister.com/",
       "articles": [
+        {
+          "id": "tag:theregister.com,2005:story245444",
+          "author": null,
+          "description": "Researchers find leading frontier models all exhibit peer preservation behavior\nLeading AI models will lie to preserve their own kind, according to researchers behind a study from the Berkeley Center for Responsible Decentralized Intelligence (RDI).…",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/02/ai_models_will_deceive_you/",
+          "publishedOn": "2026-04-02T23:11:51.000Z",
+          "wordCount": 1773,
+          "title": "AI models will deceive you to save their own kind",
+          "imageUrl": "https://regmedia.co.uk/2021/07/15/shutterstock_robotrace.jpg"
+        },
+        {
+          "id": "tag:theregister.com,2005:story245442",
+          "author": null,
+          "description": "Now with a more permissive license, multi-modality, and support for more than 140 languages\nGoogle on Thursday unleashed a wave of new open-weights Gemma models optimized for agentic AI and coding, under a more permissive Apache 2.0 license aimed at winning over enterprises.…",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/02/googles_gemma_4_open_weights/",
+          "publishedOn": "2026-04-02T21:15:41.000Z",
+          "wordCount": 1650,
+          "title": "Google battles Chinese open-weights models with Gemma 4",
+          "imageUrl": "https://regmedia.co.uk/2024/02/22/gemma.jpg"
+        },
+        {
+          "id": "tag:theregister.com,2005:story245441",
+          "author": null,
+          "description": "About that partnership...\nMicrosoft on Thursday unveiled public preview versions of three home-baked machine learning models focused on speech recognition, speech synthesis, and image generation.…",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/02/microsoft_models_homegrown_ai_models/",
+          "publishedOn": "2026-04-02T20:07:40.000Z",
+          "wordCount": 1703,
+          "title": "Microsoft shivs OpenAI with three new AI models for speech and images",
+          "imageUrl": "https://regmedia.co.uk/2023/11/21/shutterstock_altman_nadella.jpg"
+        },
+        {
+          "id": "tag:theregister.com,2005:story245438",
+          "author": null,
+          "description": "Maude-HCS from RTX (formerly Raytheon) helps model and validate hidden communication systems\nA software toolkit built for DARPA to test and validate covert communication networks is now open source, and it could help orgs who want to experiment with new kinds of secure, anonymous communications tools. …",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/02/maude_hcs_rtx_raytheon_hcn/",
+          "publishedOn": "2026-04-02T18:08:52.000Z",
+          "wordCount": 1395,
+          "title": "US military contractor open sources tool for validating hidden communications networks",
+          "imageUrl": "https://regmedia.co.uk/2017/05/18/secret_service_shutterstock1.jpg"
+        },
+        {
+          "id": "tag:theregister.com,2005:story245439",
+          "author": null,
+          "description": "Source code with a side of Vidar stealer and GhostSocks\nTens of thousands of people eagerly downloaded the leaked Claude Code source code this week, and some of those downloads came with a side of credential-stealing malware.…",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/02/trojanized_claude_code_leak_github/",
+          "publishedOn": "2026-04-02T17:34:07.000Z",
+          "wordCount": 1474,
+          "title": "They thought they were downloading Claude Code source. They got a nasty dose of malware instead",
+          "imageUrl": "https://regmedia.co.uk/2026/03/17/shutterstock_cybersecurity_burnout.jpg"
+        },
+        {
+          "id": "tag:theregister.com,2005:story245437",
+          "author": null,
+          "description": "Terms admit it is for entertainment only and may get things wrong\nA recent surge of interest in Microsoft's Terms of Use for Copilot is a reminder that AI helpers are really just a bit of fun.…",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/02/copilot_terms_of_service/",
+          "publishedOn": "2026-04-02T17:04:05.000Z",
+          "wordCount": 1434,
+          "title": "Even Microsoft knows Copilot shouldn't be trusted with anything important",
+          "imageUrl": "https://regmedia.co.uk/2023/09/07/copilot_shutterstock.jpg"
+        },
+        {
+          "id": "tag:theregister.com,2005:story245435",
+          "author": null,
+          "description": "Tie-up aims to widen Big Blue’s access to power-efficient compute\nIBM and Arm are working together on getting software developed for Arm chips to run on Big Blue's enterprise systems, with an eye on future AI and data-intensive workloads.…",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/02/ibm_arm_software_mainframes_ai_support/",
+          "publishedOn": "2026-04-02T16:32:10.000Z",
+          "wordCount": 1590,
+          "title": "IBM wants Arm software on its mainframes to better support AI",
+          "imageUrl": "https://regmedia.co.uk/2026/04/02/shutterstock_2714381539.jpg"
+        },
+        {
+          "id": "tag:theregister.com,2005:story245418",
+          "author": null,
+          "description": "Meanwhile, Collabora splits from LibreOffice Online amid claims TDF ejected 'all Collabora staff and partners'\nEuropean outfits Ionos and Nextcloud have launched Euro-Office, a fork of the OnlyOffice cloud-based productivity suite aimed at orgs with qualms around sovereignty, provoking an angry response from the original developer.…",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/02/eurooffice_forks_onlyoffice/",
+          "publishedOn": "2026-04-02T15:56:12.000Z",
+          "wordCount": 2658,
+          "title": "Forking frenzy ensues after Euro-Office launch sparks OnlyOffice backlash",
+          "imageUrl": "https://regmedia.co.uk/2020/01/06/europe_night_image.jpg"
+        },
+        {
+          "id": "tag:theregister.com,2005:story245436",
+          "author": null,
+          "description": "In space no one can hear you scream, at Microsoft\nMany a frustrated user has sworn they'll launch Microsoft Outlook into space, but NASA has actually done it – on a journey around the Moon, where it's now causing problems for astronauts.…",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/02/artemis_astronauts_microsoft_outlook_broken/",
+          "publishedOn": "2026-04-02T15:27:51.000Z",
+          "wordCount": 1351,
+          "title": "Artemis II astronaut: 'I have two Microsoft Outlooks, and neither one of those are working'",
+          "imageUrl": "https://regmedia.co.uk/2017/08/23/shutterstock_astronaut.jpg"
+        },
+        {
+          "id": "tag:theregister.com,2005:story245417",
+          "author": null,
+          "description": "The chatbot will be a doorway to the company's other services\nSalesforce has begun to position Slack, its business collaboration platform, as the interface through which users can access and act on data in enterprise applications from rival vendors.…",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/02/salesforce_slack_update/",
+          "publishedOn": "2026-04-02T14:05:59.000Z",
+          "wordCount": 1224,
+          "title": "Salesforce is looking to Slackbot to help it solve the SaaSpocalypse puzzle",
+          "imageUrl": "https://regmedia.co.uk/2026/04/01/shutterstock_2585325815_1.jpg"
+        },
+        {
+          "id": "tag:theregister.com,2005:story245432",
+          "author": null,
+          "description": "Name is a joke but the project is real, said main engineer\nThe world's most popular CMS has been remade with the help of AI. Cloudflare has released EmDash version 0.1, described as a rebuild of the WordPress CMS (content management system) but using TypeScript rather than PHP. …",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/02/cloudflare_previews_emdash_an_aidriven/",
+          "publishedOn": "2026-04-02T14:04:11.000Z",
+          "wordCount": 1673,
+          "title": "Cloudflare previews 'EmDash' – an AI-driven rebuild of WordPress in TypeScript",
+          "imageUrl": "https://regmedia.co.uk/2026/04/02/emdash.jpg"
+        },
+        {
+          "id": "tag:theregister.com,2005:story245430",
+          "author": null,
+          "description": "Patch Tuesday often gets blamed when a reboot merely exposes damage already done, according to Chen\nIt's not me, it's you. Five words that signify the end of a relationship with a toxic partner, or an ill-timed riposte to users tired of broken Microsoft updates.…",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/02/chen_windows_updates/",
+          "publishedOn": "2026-04-02T13:32:08.000Z",
+          "wordCount": 1219,
+          "title": "Microsoft veteran says some 'broken by update' PCs were already doomed",
+          "imageUrl": "https://regmedia.co.uk/2024/02/07/angry_shutterstock.jpg"
+        },
+        {
+          "id": "tag:theregister.com,2005:story245409",
+          "author": null,
+          "description": "Supplier will need to look after networks, email, tech support, tools and more – plus find cost savings\nThe BBC is looking for a supplier to provide IT for all its workforce and help automate parts of the corporation through a contract apparently named after a dog.…",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/02/bbc_800m_it_tender/",
+          "publishedOn": "2026-04-02T11:48:08.000Z",
+          "wordCount": 1388,
+          "title": "Want to be the IT Crowd for the BBC? An £800M contract beckons",
+          "imageUrl": "https://regmedia.co.uk/2019/09/19/shutterstock_bbc_london.jpg"
+        },
+        {
+          "id": "tag:theregister.com,2005:story245407",
+          "author": null,
+          "description": "We must design expecting much of what we publish will be reinterpreted by 'systems we don't control'\nThose who rely on artificial intelligence to summarize official material may get a misleadingly narrow or incomplete version of it, a senior designer for the UK government has warned.…",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/02/ai_search_is_atomising_content/",
+          "publishedOn": "2026-04-02T10:53:07.000Z",
+          "wordCount": 1346,
+          "title": "AI search is atomizing our information, warns government digital designer",
+          "imageUrl": "https://regmedia.co.uk/2015/09/07/shutterstock_192561857-cat-.jpg"
+        },
+        {
+          "id": "tag:theregister.com,2005:story245429",
+          "author": null,
+          "description": "And of course the Orion toilet malfunctioned\nToilet trouble, telemetry problems, and an issue with the flight termination system have not marred the Artemis II mission to the Moon, which launched yesterday.…",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/02/artemis_ii/",
+          "publishedOn": "2026-04-02T10:19:08.000Z",
+          "wordCount": 1412,
+          "title": "Artemis II blasts off on first crewed lunar mission since Apollo",
+          "imageUrl": "https://regmedia.co.uk/2026/04/02/artemis_ii.jpg"
+        },
+        {
+          "id": "tag:theregister.com,2005:story245400",
+          "author": null,
+          "description": "And other handy tools that could save your data in a crisis\nThe latest update to the handy SystemRescue is here with a new kernel. There's also a new GParted Live, and some other handy utilities.…",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/02/systemrescue_13/",
+          "publishedOn": "2026-04-02T09:02:10.000Z",
+          "wordCount": 1520,
+          "title": "SystemRescue 13 lands with Linux 6.18 and bcachefs support",
+          "imageUrl": "https://regmedia.co.uk/2026/03/31/systemrescue-13.jpg"
+        },
+        {
+          "id": "tag:theregister.com,2005:story245404",
+          "author": null,
+          "description": "Connected devices can leave an otherwise secure network vulnerable\nPwned Welcome to Pwned, The Register's new column, where we highlight the worst infosec own goals so you can, hopefully, protect against them. Caffeine is an essential tool for most IT defenders, so, on balance, we're sure it has protected against a lot more exploits than it has caused. But in this case, the desire for everyone's favorite stimulant led to a massive breach.…",
+          "link": "https://go.theregister.com/feed/www.theregister.com/2026/04/02/pwned/",
+          "publishedOn": "2026-04-02T08:01:10.000Z",
+          "wordCount": 1406,
+          "title": "The company's biggest security hole lived in the breakroom",
+          "imageUrl": "https://regmedia.co.uk/2026/03/31/shutterstock_2575923687.jpg"
+        },
         {
           "id": "tag:theregister.com,2005:story245425",
           "author": null,
@@ -6975,6 +8833,16 @@
       "siteUrl": "https://www.bbc.co.uk/news/technology",
       "articles": [
         {
+          "id": "https://www.bbc.com/news/articles/cgqk718l4neo#0",
+          "author": null,
+          "description": "Some experts believe it highlights a social media shift as platforms boost short video.",
+          "link": "https://www.bbc.com/news/articles/cgqk718l4neo?at_medium=RSS&at_campaign=rss",
+          "publishedOn": "2026-04-02T14:38:24.000Z",
+          "wordCount": 6298,
+          "title": "Fewer UK adults posting on social media, Ofcom finds",
+          "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/9704/live/87b58840-2e92-11f1-90b9-6ffcd881a7dc.jpg"
+        },
+        {
           "id": "https://www.bbc.com/news/articles/c2k35lg92dpo#0",
           "author": null,
           "description": "The company’s public stock debut is set to be one of the most valuable in history, and could make Musk the world's first trillionaire.",
@@ -7379,6 +9247,56 @@
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=47616361",
+          "author": "jeffmcjunkin",
+          "description": "Article URL: https://deepmind.google/models/gemma/gemma-4/\nComments URL: https://news.ycombinator.com/item?id=47616361\nPoints: 1111\n# Comments: 336",
+          "link": "https://deepmind.google/models/gemma/gemma-4/",
+          "publishedOn": "2026-04-02T16:10:54.000Z",
+          "wordCount": 1687,
+          "title": "Google releases Gemma 4 open models",
+          "imageUrl": "https://lh3.googleusercontent.com/XtdGQ6B0XzfV1gByFCtGbxLthooBSyg6QZWJn4VuM4SpDduwdYqOPFWpxyMIv875LTG1zUt0Xm34B29PfjACwd6m8fLiQpFLkZnjR5bVmJnCDANx6g=w1200-h630-n-nu-rw"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47613981",
+          "author": "digitalWestie",
+          "description": "Article URL: https://browsergate.eu/\nComments URL: https://news.ycombinator.com/item?id=47613981\nPoints: 1549\n# Comments: 680",
+          "link": "https://browsergate.eu/",
+          "publishedOn": "2026-04-02T13:09:09.000Z",
+          "wordCount": 765,
+          "title": "LinkedIn is searching your browser extensions",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47612601",
+          "author": "novaRom",
+          "description": "Article URL: https://undark.org/2026/04/01/sweden-schools-books/\nComments URL: https://news.ycombinator.com/item?id=47612601\nPoints: 738\n# Comments: 379",
+          "link": "https://undark.org/2026/04/01/sweden-schools-books/",
+          "publishedOn": "2026-04-02T10:50:00.000Z",
+          "wordCount": 7099,
+          "title": "Sweden goes back to basics, swapping screens for books in the classroom",
+          "imageUrl": "https://undark.org/wp-content/uploads/2026/04/GettyImages-1781953068_crop.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47609564",
+          "author": "hkmaxpro",
+          "description": "Article URL: https://www.phoronix.com/news/Steam-On-Linux-Tops-5p\nComments URL: https://news.ycombinator.com/item?id=47609564\nPoints: 717\n# Comments: 327",
+          "link": "https://www.phoronix.com/news/Steam-On-Linux-Tops-5p",
+          "publishedOn": "2026-04-02T03:12:24.000Z",
+          "wordCount": 1937,
+          "title": "Steam on Linux Use Skyrocketed Above 5% in March",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47606840",
+          "author": "ingve",
+          "description": "Article URL: https://www.jeffgeerling.com/blog/2026/dram-pricing-is-killing-the-hobbyist-sbc-market/\nComments URL: https://news.ycombinator.com/item?id=47606840\nPoints: 603\n# Comments: 522",
+          "link": "https://www.jeffgeerling.com/blog/2026/dram-pricing-is-killing-the-hobbyist-sbc-market/",
+          "publishedOn": "2026-04-01T21:36:41.000Z",
+          "wordCount": 409,
+          "title": "DRAM pricing is killing the hobbyist SBC market",
+          "imageUrl": ""
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=47603657",
           "author": "apitman",
           "description": "Video: https://www.youtube.com/live/Tf_UjBMIzNo\nComments URL: https://news.ycombinator.com/item?id=47603657\nPoints: 565\n# Comments: 515",
@@ -7387,6 +9305,16 @@
           "wordCount": 7366,
           "title": "NASA’s Artemis II Crew Launches to the Moon",
           "imageUrl": "https://www.nasa.gov/wp-content/uploads/2026/04/55182878409-d6c46a73a0-k.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=47602832",
+          "author": "elithrar",
+          "description": "Article URL: https://blog.cloudflare.com/emdash-wordpress/\nComments URL: https://news.ycombinator.com/item?id=47602832\nPoints: 661\n# Comments: 486",
+          "link": "https://blog.cloudflare.com/emdash-wordpress/",
+          "publishedOn": "2026-04-01T16:14:38.000Z",
+          "wordCount": 3490,
+          "title": "EmDash – A spiritual successor to WordPress that solves plugin security",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/hBSrp5YJXIsn2IwBqdg2m/a22cf1285db3826ca159d83ab81076e0/EmDash-OG.png"
         },
         {
           "id": "https://news.ycombinator.com/item?id=47597085",
